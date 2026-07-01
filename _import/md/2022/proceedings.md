@@ -1,0 +1,284 @@
+<div class="row">
+
+<div class="h1_row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="header-title">
+
+# 2022 Proceedings
+
+</div>
+
+</div>
+
+</div>
+
+<div class="region region-content">
+
+<div id="block-system-main" class="block block-system clearfix">
+
+<div class="panelizer-view-mode node node-full node-oxdrupal-basic-page node-2674866">
+
+<div class="bootstrap-twocol-stacked">
+
+<div class="row">
+
+<div class="panel-panel top col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="panel-pane pane-entity-field pane-node-field-region-1">
+
+<div class="pane-content">
+
+<div class="paragraphs-items paragraphs-items-field-region-1 paragraphs-items-field-region-1-full paragraphs-items-full">
+
+<div class="field field-name-field-region-1 field-type-paragraphs field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-wysiwyg-content-area margin-bottom widget-width-12-columns widget-style-main paragraphs-item-3670636">
+
+<div id="widget-id-3670636">
+
+</div>
+
+<div class="content">
+
+<div class="field field-name-field-content field-type-text-with-summary field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div id="DLtoc">
+
+<div id="DLheader">
+
+# DLfM2022: 9th International Conference on Digital Libraries for Musicology
+
+<a href="https://dl.acm.org/doi/proceedings/10.1145/3543882" class="DLcitLink" referrerpolicy="no-referrer-when-downgrade" title="Go to the ACM Digital Library for additional information about this proceeding"><img src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png" class="DLlogo" height="30" alt="Digital Library logo" /> Full Citation in the ACM Digital Library</a>
+
+</div>
+
+<div id="DLcontent">
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543883" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">Segmentation, Transcription, Analysis and Visualisation of the Norwegian Folk Music Archive</a>
+
+- Olivier Lartillot
+- Anders Elowsson
+- Mats Johansson
+- Hans-Hinrich Thedens
+- Lars Monstad
+- Lars Monstad
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We present an ongoing project dedicated to the transmutation of a collection of field recordings of Norwegian folk music established in the 1960s into an easily accessible online catalogue augmented with advanced music technology and computer musicology tools. We focus in particular on a major highlight of this collection: Hardanger fiddle music. The studied corpus was available as a series of 600 tape recordings, each tape containing up to 2 hours of recordings, associated with metadata indicating approximate positions of pieces of music. We first need to retrieve the individual recording associated with each tune, through the combination of an automated pre-segmentation based on sound classification and audio analysis, and a subsequent manual verification and fine-tuning of the temporal positions, using a home-made user interface.
+
+Note detection is carried out by a deep learning method. To adapt the model to Hardanger fiddle music, musicians were asked to record themselves and annotate all played note, using a dedicated interface. Data augmentation techniques have been designed to accelerate the process, in particular using alignment of varied performances of same tunes. The transcription also requires the reconstruction of the metrical structure, which is particularly challenging in this style of music. We have also collected ground-truth data, and are conceiving a computational model.
+
+The next step consists in carrying out detailed music analysis of the transcriptions, in order to reveal in particular intertextuality within the corpus. A last direction of research is aimed at designing tools to visualise each tune and the whole catalogue, both for musicologists and general public.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543891" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">A model for annotating musical versions and arrangements across multiple documents and media</a>
+
+- David Lewis
+- Elisabete Shibata
+- Mark Saccomano
+- Lisa Rosendahl
+- Johannes Kepper
+- Andrew Hankinson
+- Christine Siegert
+- Kevin Page
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We present a model for the annotation of musical works, where the annotations are created with respect to a conceptual abstraction of the music instead of directly to concrete encodings. This supports musicologists in constructing arguments about musical elements that occur in multiple digital library sources (or other web resources), that recur across a work, or that appear in different forms in different arrangements. It provides a way of discussing musical content without tying that discourse to the location, notation or medium of the content, allowing evidence from multiple libraries and in different formats to be brought together to support musicological assertions.
+
+This model is implemented in Linked Data and illustrated in a prototype application in which musicologists annotate vocal arrangements of the Allegretto from Beethoven’s Seventh Symphony from multiple sources.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543885" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">Digitization of Choirbooks in Guatemala</a>
+
+- Martha E. Thomae
+- Julie E. Cumming
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+This paper presents the details about the digitization of a Guatemalan polyphonic choirbook, part of a larger collection held at the Archivo Histórico Arquidiocesano de Guatemala (AHAG). The digitization of this music book is the first step in a larger project that will result in images and symbolic scores semi-automatically retrieved from those images using music-encoding technologies, with the goal of preserving and increasing access to this repertoire. The AHAG does not have the resources to digitize this choirbook collection, as it does not have its own digitization and conservation departments. Moreover, given the books’ large size and status in a special collection, there was no digitization equipment in Guatemala suitable for the task. In this paper, we present the details of outsourcing the conservation task, the design of a do-it-yourself book scanner, the digitization workflow, and other recommendations for similar projects where the resources to conduct the digitization are not readily available within the archive.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543884" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">A Corpus Describing Orchestral Texture in First Movements of Classical and Early-Romantic Symphonies</a>
+
+- Dinh-Viet-Toan Le
+- Mathieu Giraud
+- Florence Levé
+- Francesco Maccarini
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Orchestration is the art of writing music for a possibly large ensemble of instruments, by blending or opposing their sounds and grouping them into an orchestral texture. We aim here at providing a deeper understanding of orchestration in classical and early-romantic symphonies by analyzing, at the bar level, how the instruments of the orchestra organize into melodic, rhythmic, harmonic, and mixed layers. We formalize the description of such layers and release an open corpus with more than 7900 annotations in 24 first movements of Haydn, Mozart, and Beethoven symphonies. Initial analyses of this corpus confirm specific roles of the instruments and their families (woodwinds, brass, and strings), some evolution between composers, as well as the contribution of orchestral texture to form. The model and the corpus offer perspectives for empirical and computational studies on orchestral music.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543892" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">The Vienna Philharmonic Orchestra’s New Year’s Concerts: Building a FAIR Data Corpus for Musicology</a>
+
+- David M. Weigl
+- Chanda VanderHart
+- Matthäus Pescoller
+- Delilah Rammler
+- Markus Grassl
+- Fritz Trümpi
+- Werner Goebl
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+The Vienna Philharmonic Orchestra’s New Year’s Concert is an annual, live-broadcast New Year’s Day staple for a vast international audience, with an alternating line-up of star conductors and an ever-changing repertoire that incorporates the same favourites – most notably, the Blue Danube Waltz and the Radetzky March – year after year. We are gathering, digitizing, and aligning the concert recordings of this series with audio features, score encodings, records of historical discourse, and other ephemera, interconnecting this multimodal music information and making it available as a digital corpus of linked open data following the principles of Findable, Accessible, Interoperable, and Reusable (FAIR) research data management. Here, we raise musicological research questions motivating our work; describe the approach to assembling our corpus and developing associated editorial and analytical tooling, building on and extending recently established semantic music information workflows; and, provide insight into ongoing digital musicology research incorporating this data. Our work is motivated both by the pursuit of our own research interests in musicology and performance science, but also by a desire to provide a useful and reusable dataset for the wider digital music research community, bringing publication practices between these fields into further dialogue.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543887" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">FAIR but Flexible: Designing for Dynamic User Contributions in Digital Musicology Resources</a>
+
+- Alan Dix
+- Charlotte Armstrong
+- Rachel Cowgill
+- Michael Twidale
+- Christina Bashford
+- Stephen Downie
+- Rupert Ridgewell
+- Maureen Reagan
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+The FAIR principles (Findable, Accessible, Interoperable, Reusable) have become an established paradigm for scholarly data management, but effectively assume an established dataset to share, collected or curated by a professional scholar or archivist. In contrast, the InterMusE project is working with amateur-led concert societies whose members will not be conversant with standardised ontologies or data standards. Furthermore, their archives are valuable both to them and for a range of scholarly study (e.g. musicology, history, sociology), but will inevitably be digitised in a piecemeal fashion with incremental additions and annotations by academics as well as community members. Community and scholarly reuse is a central aim for the data produced, but the FAIR principles need to be re-imagined in order to create a digital resource that is both FAIR and flexible. Based upon the real-world experiences of InterMusE, this paper highlights the FAIR issues at play, and presents its approaches to addressing these issues designed to improve the sustainability and impact of smaller, dynamic digital musicology resources.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543889" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">The Alignment of Open Access with FAIR Principles in Musicological Publishing and Teaching</a>
+
+- Anne Shelley
+- Rachel E. Scott
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Open Access (OA) publishing and FAIR Principles both present opportunities to make music and music scholarship available to broader audiences and for innovative uses. This paper leverages findings from interviews conducted with music scholars about their perception of the opportunities, benefits, and disadvantages of OA publishing to explore how they might embrace FAIR Principles. While musicologists’ engagement of OA is generally passive, their perception of it is positive enough that OA could be used as a starting point for a deeper understanding of FAIR Principles.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543888" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">MeRIT: An interactive annotation tool for mensural rhythms</a>
+
+- Anna Plaksin
+- David Lewis
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We introduce MeRIT, the Mensural Rhythm Interpretation Tool, a client-side JavaScript tool that interprets the rhythmic notation of pre-modern polyphonic music using rules derived from contemporary theory. The interpretation derived from the tool is written in standards-compliant MEI, including details of the rules being applied at each point and a fine-grained metrical analysis.
+
+We discuss the importance of system modularity and different levels of evaluation and describe a user feedback system that we have implemented, supporting corrections, detailed introspection and evaluation and also pedagogical use, training musicians to read the notation. This user interaction is facilitated by a system architecture that provides an API encapsulation of the MEI interaction, giving annotations provided by the user and interpreter a common interface.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543886" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">Phantom Curves: Scientific Discovery through Interactive Music Visualization</a>
+
+- Fabian C. Moss
+- Giovanni Affatato
+- Daniel Harasim
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We introduce phantom curves, a novel music-theoretical concept based on the discrete Fourier transform (DFT), and document the creative process that led to their discovery. In particular, we emphasize the importance of interactive web applications for music visualization and analysis. This is demonstrated using the example of the application midiVERTO which affords interactions with the pitch-class content of musical pieces encoded in MIDI format without requiring in-depth understanding of the underlying mathematics. We illustrate the analytical value of studying families of phantom curves by applying the concept to music from a Broadway musical, a video game, and a Hollywood movie. This process of discovery thus testifies to the fact that digital tools can bridge disciplinary boundaries between music theory and mathematics, and this interaction can generate new scientific knowledge.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3543882.3543890" class="DLtitleLink" referrerpolicy="no-referrer-when-downgrade" title="Full Citation in the ACM Digital Library">Polyrhythm Analysis Using the composite Tool</a>
+
+- Ève Poudrier
+- Craig Stuart Sapp
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We introduce a computational tool that allows comparison and classification of polyrhythms in notated music. By reducing different musical textures into unpitched rhythmic strands, the composite tool enables visualization of the rhythmic reductions and computation of features related to polyrhythmic design, such as event density, nestedness, and polarity. The visualizations and extracted data can then be used to compare polyrhythms within a specific repertoire or between music in contrasting styles. The composite tool is available for online or offline use and is incorporated into the Polyrhythm Project website for exploration of polyrhythmic examples from the Suter (1980) Corpus.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

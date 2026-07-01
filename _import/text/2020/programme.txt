@@ -1,0 +1,52 @@
+2020 Programme
+
+DLfM 2020 Programme
+
+The conference will be held between 9am and 3pm EDT, on Friday 16 October 2020, hosted by the Schulich School of Music, McGill University, Montréal.
+
+The conference will take place on Zoom, with supported discussion activities on Slack. Registered participants will receive an e-mail with links and more details by the end of Wednesday 14 October.
+
+Times below are all EDT.
+
+  ------- ---------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------
+  9:00    Welcome                                                                                                                            
+  9:15    Paper session: Working with images, working with notation | Chair: Claire Arthur                                                   
+          Jason Stoessel, Denis Collins and Scott Bolland                                                                                    Using Optical Music Recognition to Encode 17th-Century Music Prints: The Canonic Works of Paolo Agostini (c.1583–1629) as a Test Case
+          Antonio Ríos-Vila, Jorge Calvo-Zaragoza and David Rizo                                                                             Evaluating Simultaneous Recognition and Encoding for Optical Music Recognition
+          Néstor Nápoles López, Laurent Feisthauer, Florence Leve and Ichiro Fujinaga                                                        On Local Keys, Modulations, and Tonicizations: A Dataset and Methodology for Evaluating Changes of Key
+          Yaolong Ju, Sylvain Margot, Cory McKay and Ichiro Fujinaga                                                                         Automatic Chord Labelling: A Figured Bass Approach
+                                                                                                                                              
+  10:15   Break with demos and discussion                                                                                                    
+                                                                                                                                              
+  11:15   Panel discussion | Chair: Audrey Laplante; Panellists: Rachel Cowgill, Julie Cumming, Cynthia Liem, Houman Behzadi                 
+          Rachel Cowgill, Alan Dix, Christina Bashford, Maureen Reagan, J. Stephen Downie, Mike Twidale, Simon McVeigh and Rupert Ridgwell   Democratising Digitisation: Making History with Community Music Societies in Digitally Enabled Collaborations
+          Peter Shirts                                                                                                                       The Case for Open Access Scholarly Reference in Music
+                                                                                                                                              
+  12:00   Break with demos and discussion                                                                                                    
+                                                                                                                                              
+  13:30   Paper session: Working with music collections | Chair: Francesca Giannetti                                                         
+          Laurent Pugin and Claudio Bacciagaluppi                                                                                            An Analysis of Musical Work Datasets and Their Current Level of Linkage
+          Bas Cornelissen, Willem Zuidema and John A. Burgoyne                                                                               Studying Large Plainchant Corpora Using chant21
+          Jeremy Sawruk and Jacob Walls                                                                                                      Personalized Sheet Music Search
+          David M. Weigl, Tim Crawford, Werner Goebl, Alex Hofmann, Cynthia C. S. Liem, Alastair Porter and Federico Zubani                  Read/Write Digital Libraries for Musicology
+                                                                                                                                              
+  14:35   Conclusions and continuing discussions over Zoom and Slack                                                                         
+  ------- ---------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+[ICPS]
+
+Supported by:
+
+[ismir2020]
+
+[trompa]
+
+[mcgill]
+
+[simssa]
+
+[sshrc]
+
+[ualicante]

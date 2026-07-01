@@ -1,0 +1,45 @@
+2022 Programme
+
+The conference will be held on Thursday 28 July 2022 in Prague association with IAML 2022
+
+All sessions (papers and posters) will be at the Municipal Library. Paper presentations will be given in Congress room B.
+
+Preliminary programme:
+
+Oral presentations
+
+  ------------- ---------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------
+  9:00–10:30    Joint IAML - DLfM Session — Chair: Laurent Pugin                                                           
+                Segmentation, Transcription, Analysis and Visualisation of the Norwegian Folk Music Archive                Olivier Lartillot, Anders Elowsson, Mats Johansson and Hans-Hinrich Thedens
+                Summary Features as the Basis for Content-Based Queries of Symbolic Music Repositories [IAML Submission]   Cory McKay and Julie E. Cumming
+                Full-Text Searching of Music Online: An update on progress in F-TEMPO [IAML Submission]                    Tim Crawford and Alastair Porter
+                                                                                                                           
+  10:30–11.00   Coffee break and poster session (see below)                                                                
+                                                                                                                           
+  11:00–12.30   Session 1 – Data and models — Chair: Claire Arthur                                                         
+                A model for annotating musical versions and arrangements across multiple documents and media               David Lewis, Elisabete Shibata, Mark Saccomano, Lisa Rosendahl, Johannes Kepper, Christine Siegert and Kevin Page.
+                Digitization of Choirbooks in Guatemala                                                                    Martha E. Thomae, Julie E. Cumming and Ichiro Fujinaga
+                A Corpus Describing Orchestral Texture in First Movements of Classical and Early-Romantic Symphonies       Dinh-Viet-Toan Le, Mathieu Giraud, Florence Levé and Francesco Maccarini
+                                                                                                                           
+  14:00–15.30   Session 2 - FAIR principles in Digital Libraries for Musicology — Chair: Desiree Mayer                     
+                The Vienna Philharmonic Orchestra's New Year's Concerts: Building a FAIR Data Corpus for Musicology        David M. Weigl, Chanda Vanderhart, Matthäus Pescoller, Delilah Rammler, Markus Grassl, Fritz Trümpi and Werner Goebl
+                FAIR but Flexible: Designing for Dynamic User Contributions in Digital Musicology Resources                Alan Dix, Stephen Downie, Rachel Cowgill, Charlotte Armstrong, Rupert Ridgewell, Michael Twidale, Maureen Reagan and Kathleen McGowan
+                The Alignment of Open Access with FAIR Principles in Musicological Publishing and Teaching                 Anne Shelley and Rachel Scott
+                                                                                                                           
+  15:30–16:00   Coffee break and poster session (see below)                                                                
+                                                                                                                           
+  16:00–17:30   Session 3 - Tools and visualisation — Chair: Martha E. Thomae                                              
+                MeRIT: An interactive annotation tool for mensural rhythms                                                 Anna Plaksin and David Lewis
+                Phantom Curves: Scientific Discovery through Interactive Music Visualization                               Fabian C. Moss, Giovanni Affatato and Daniel Harasim
+                Polyrhythm Analysis Using the composite Tool                                                               Ève Poudrier and Craig Stuart Sapp
+  ------------- ---------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------
+
+Poster presentations (10:30-11:00 and 15:30-16:00)
+
+  ----------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------
+  Preserving Intangible Cultural Heritage: Can Digital Resources of Folk Music and Dance Groups be FAIR?                        Magdalena Chudy, Ewa Łukasik, Ewa Kuśmierek, and Tomasz Parkoła
+  Automatic Transcription of MIDI Drum Performances                                                                             Martin Digard, Florent Jacquemard, and Lydia Rodriguez-de la Nava
+  Introducing the Music Instruction & Pedagogy Repository (MIPR): An Accessible, Sustainable, and Collaborative OER for Music   Sylvia Yang, Angela Pratesi, Allison McClanahan, and Andrea Morris
+  AI-Assisted Annotation and Analysis of Music Performance Through Audio-to-Score Alignment                                     Yucong Jiang
+  Creating a Search Engine for Uniform Titles of Musical Works                                                                  Jaska Järvilehto
+  ----------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------

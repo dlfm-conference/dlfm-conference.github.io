@@ -1,0 +1,106 @@
+2021 Programme
+
+DLfM 2021 Programme
+
+The conference will be held between Wednesday 28 and Friday 30 July  2021, in association with IAML 2021 and affiliated with the Royal Musical Association.
+
+The conference presentations will take place on Zoom, with poster sessions and social events using Gather.town. Registered participants will receive an e-mail with links and more details by July 21st.
+
+-   Wednesday, July 28 – Joint IAML/DLfM poster session
+-   Thursday, July 29 – DLfM main conference
+-   Friday, July 30 – Joint IAML/DLfM paper session
+
+Wednesday, July 28th
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Atlanta     London      Prague      UTC 0                                                                             
+  UTC-5       UTC+1       UTC+2                                                                                         
+  ----------- ----------- ----------- ----------- --------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------
+  13:00       18:00       19:00       17:00       DLfM / IAML Joint poster session (90 minutes)                         
+
+                                                  Henry Drummond and Nicholas Bleisch                                   1. Low countries plainchant of the early modern era: Recovering ‘The Sound of Music’ at the KU Leuven, the Alamire Foundation, and McGill University
+
+                                                  Evangelia Kopsalidou                                                  2. An online catalogue of French viola da gamba music
+
+                                                  Tim Crawford, Federico Zubani, Alastair Porter and David Weigl        3. TROMPA and F-TEMPO projects work together: Content-based searching from within a score
+
+                                                  Antonio Madueño, Antonio Ríos and David Rizo                          4. Automatized incipit encoding at the Andalusian Music Documentation Center
+
+                                                  Julia Jaklin and Peter Provaznik                                      5. Telling Sounds LAMA: Annotating and connecting audio(visual) sources for musicological research and media analysis
+
+                                                  Laney Light                                                           6. Score visualizations: A visual exploration tool for sheet music
+
+                                                  Yiting Xia, Yiwei Jiang, Tianran Li and Tao Ye                        7. Chronological classification of Beethoven’s piano sonatas using deep learning networks
+
+                                                  Kevin Robb                                                            8. A database of representativity in Canadian orchestra repertories
+
+                                                  Joshua Stutter                                                        9. To Your Rude Health! The artefact is the database using static site generators
+
+                                                  Huan Zhang, Ran Zhang, Kun Zhang, Xiao-Rui Wang and Zhong-Yuan Wang   10. Key and function aware melody triad harmonization based on transformer model
+
+                                                  Marc Stoeckle                                                         11. An interactive music exhibition: how to virtually promote music library collections, resources & services
+
+                                                  Seokjin Kim                                                           12. Composition analysis of artificial intelligence (AI) based music software
+
+                                                  Zeljka Radovinovic                                                    13. The record industry in Croatia from 1927 to the end of the 1950s
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Thursday, July 29th
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Atlanta     London      Prague      UTC 0                                                                                                                             
+  UTC-5       UTC+1       UTC+2                                                                                                                                         
+  ----------- ----------- ----------- ----------- --------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+  07:45       12:45       13:45       11:45       Welcome                                                                                                               
+
+                                                  Paper Session 1: novel appoaches to audio analysis for classification, comparison, or query  |  Chair: Kahyun Choi    
+
+  08:00       13:00       14:00       12:00       Mary Emmett, Zongyu Yin and Tom Collins                                                                               An archive-exploration system for the Hunting Songs of the Lakeland Fell Packs
+
+  08:30       13:30       14:30       12:30       Nicolas D'Aleman Arango                                                                                               Archiving the ephemeral. Towards a classification of sound installation documentation through spatial acoustic features.
+
+  09:00       14:00       15:00       13:00       Jeff Miller, Vincenzo Nicosia and Mark Sandler                                                                        Discovering Common Practice: Using Graph Theory to Compare Harmonic Sequences in Musical Audio Collections
+
+  09:30       14:30       15:30       13:30       Break (45 minutes)                                                                                                    
+
+                                                  Paper Session 2: Corpora and computational analysis of non-Common-Practice-Era music  |  Chair: Rafael Caro Repetto   
+
+  10:15       15:15       16:15       14:15       Andrew Brinkman and David Huron                                                                                       Cross-Cultural Corpus Creation and Statistical Tendencies in Music
+
+  10:45       15:45       16:45       14:45       Nádia Carvalho, Sara Gonzalez-Gutierrez, Javier Merchan Sanchez-Jara, Gilberto Bernardes and Maria Navarro-Cáceres    Encoding, Analysing and Modeling I-Folk: A New Database of Iberian Folk Music
+
+  11:15       16:15       17:15       15:15       Jules Cournut, Louis Bigo, Mathieu Giraud, David Régnier and Nicolas Martin                                           What are the most used guitar positions?
+
+  11:45       16:45       17:45       15:45       Break (45 minutes)                                                                                                    
+
+                                                  Paper Session 3: Representing chords, intervals, rows, and sets  |  Chair: Leigh VanHandel                            
+
+  12:30       17:30       18:30       16:30       Konstantinos Giannos and Emilios Cambouropoulos                                                                       Symbolic Encoding of Simultaneities: Re-designing the General Chord Type Representation
+
+  13:00       18:00       19:00       17:00       Mark Gotham and Jason Yust                                                                                            Serial Analysis: A digital library of rows in the repertoire and their properties, with applications for teaching and research
+
+  13:30       18:30       19:30       17:30       Joshua Ballance                                                                                                       The Path to the New Note: Interval Distributions in the Music of Anton Webern
+
+  14:00       19:00       20:00       18:00       Closing remarks followed by optional social hour on Gather.town                                                       
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Friday, July 30th
+
+*please note times have changed
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Atlanta     London      Prague      UTC 0                                                                                                                                                                          
+  UTC-5       UTC+1       UTC+2                                                                                                                                                                                      
+  ----------- ----------- ----------- ----------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------
+                                                  IAML / DLfM Joint paper session: Bridging the gap |  Chair: Laurent Pugin                                                                                          
+
+  11:00       16:00       17:00       15:00       Charlotte Armstrong, Rachel Cowgill, Alan Dix, Christina Bashford, J. Stephen Downie, Mike Twidale, Maureen Reagan and Rupert Ridgewell                            Towards a Foundation for Collaborative Digital Archiving with Local Concert-Giving Organisations
+
+  11:30       16:30       17:30       15:30       David Lewis, Kevin Page and Laurence Dreyfus                                                                                                                       Narratives and exploration in a musicology app: Supporting scholarly argument with the Lohengrin TimeMachine
+
+  12:00       17:00       18:00       16:00       David M. Weigl, Werner Goebl, David J. Baker, Tim Crawford, Federico Zubani, Aggelos Gkiokas, Nicolás Felipe Gutierrez Paez, Alastair Porter and Patricia Santos   Notes on the Music: A social data infrastructure for music annotation
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

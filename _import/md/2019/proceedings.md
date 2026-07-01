@@ -1,0 +1,363 @@
+<div class="row">
+
+<div class="h1_row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="header-title">
+
+# DLfM 2019 Proceedings
+
+</div>
+
+</div>
+
+</div>
+
+<div class="region region-content">
+
+<div id="block-system-main" class="block block-system clearfix">
+
+<div class="panelizer-view-mode node node-full node-oxdrupal-basic-page node-800471">
+
+<div class="bootstrap-twocol-stacked">
+
+<div class="row">
+
+<div class="panel-panel left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+<div class="panel-pane pane-entity-field pane-node-field-region-2">
+
+<div class="pane-content">
+
+<div class="paragraphs-items paragraphs-items-field-region-2 paragraphs-items-field-region-2-full paragraphs-items-full">
+
+<div class="field field-name-field-region-2 field-type-paragraphs field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-wysiwyg-content-area margin-bottom widget-width-12-columns widget-style-main paragraphs-item-1662336">
+
+<div id="widget-id-1662336">
+
+</div>
+
+<div class="content">
+
+<div class="field field-name-field-content field-type-text-with-summary field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+  
+
+<div id="DLtoc">
+
+<div id="DLheader">
+
+# DLfM '19- 6th International Conference on Digital Libraries for Musicology
+
+<a href="https://dl.acm.org/citation.cfm?id=3358664" class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding"><img src="https://dl.acm.org/img/dllogo.png" class="DLlogo" width="30" height="30" alt="Digital Library logo" />Full Citation in the ACM Digital Library</a>
+
+</div>
+
+<div id="DLcontent">
+
+### <a href="https://dl.acm.org/authorize?N697027" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Musicological Observations During Rehearsal and Performance: a Linked Data Digital Library for Annotations</a>
+
+- David Lewis
+- David Weigl
+- Kevin Page
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+In this paper, we present a toolkit built on a reusable Linked Data framework supporting the creation of bespoke user interfaces for live events in which a scholar’s observations can be recorded. These observations are published as Linked Data annotations and, where the observations and media are accessible in a digital library, they can be subsequently played back in a synchronised, navigable interface.
+
+Since requirements for such interfaces vary widely depending on the events and the interests of the scholars involved, each interface is also likely to be different, and so we propose a toolkit rather than a single tool.
+
+Annotating scores during live events supports private analysis and the communication of musicological observations, and offers useful opportunities for indexing recorded media, so enhancing access in larger digital libraries. Although audio-visual recordings preserve high levels of detail, they can be hard to search or summarise; annotations with musical and musicological insights add structure that improves user navigation. Such annotations require carefully defined semantics and consideration of the balance between expressive sophistication and complexity of data and authoring interfaces (alongside the differing requirements of scholars).
+
+We describe our toolkit and its use in developing a tablet-based app for musicologists during a masterclass of Delius’s String Quartet. We further show adaptations made to the app to respond to its shortcomings.
+
+For scholarship in the arts and humanities, it is vital to have tools that are tailored to the specific requirements of the scholars involved and the events being annotated. We compare the highly-prescribed nature of the annotations in the Delius case with prior work involving a musicologist recording observations digitally on a score and pad during a live opera performance. This comparison leads us into a discussion of the balance between freedom and expressive power on the one hand and semantic precision on the other, finding a balance that still presents an interface that does not overly encumber a user annotating in real time is an important design consideration.
+
+We conclude that a musically-aware but generic toolkit such as ours can provide valuable support for musicological research, provided care is given to planning and design and when this balance between expression and complexity of annotations is taken into account.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697028" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">The Mensural Scoring-up Tool</a>
+
+- Martha E. Thomae
+- Julie E. Cumming
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Vocal polyphonic music from 1280 to 1600 is written in mensural notation and it is typically presented in a layout with separate parts. In this paper, we introduce the Mensural Scoring-up Tool, a set of scripts designed to automatically transform the separate-parts representation of the music into a score by dealing with the context-dependent nature of the notation through the implementation of the principles of imperfection and alteration, outlined by Franco of Cologne (ca. 1280). This tool exhibits 97% accuracy in a corpus of fourteenth- and fifteenth-century pieces, including both black and white mensural notation. The new encoding generated by the Scoring-up Tool could be useful for digital libraries that have digitized their collections of mensural music documents since the symbolic score could accompany the digital images providing a representation that makes the music accessible to a larger audience—since these symbolic scores can easily allow for a conversion into modern values and for playback—and that facilitates music analysis for the experts.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697029" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">On the Adoption of Standard Encoding Formats to Ensure Interoperability of Music Digital Archives: The IEEE 1599 Format</a>
+
+- Luca Andrea Ludovico
+- Adriano Baratè
+- Federico Simonetta
+- Davide Andrea Mauro
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+With this paper, we want to stimulate the discussion about technologies for inter-operation between various music datasets and collections. Among the many standards for music representation, IEEE 1599 is the only one which was born with the exact purpose of representing the heterogeneous structures of music documents, granting full synchronization of all the different aspects of music (audio recordings, sheet music images, symbolic representations, musicological analysis, etc). We propose the adoption of IEEE 1599 as an interoperability framework between different collections for advanced music experience, musicological applications, and Music Information Retrieval (MIR). In the years to come, the format will undergo a review process aimed at providing an updated/improved version. It is now the perfect time, for all the stakeholders, to come together and discuss how the format can evolve to better support their requirements, enhancing its descriptive strength and available tools. Moreover, this standard can be profitably applied to any field that requires multi-layer and synchronized descriptions.
+
+</div>
+
+</div>
+
+## SESSION: Analysis
+
+<div class="DLabstract">
+
+ 
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697020" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Don’t hide in the frames: Note- and pattern-based evaluation of automated melody extraction algorithms</a>
+
+- Klaus Frieler
+- Dogac Basaran
+- Frank Höger
+- Helene-Camille Crayencour
+- Geoffroy Peeters
+- Simon Dixon
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+In this paper, we address how to evaluate and improve the performance of automatic dominant melody extraction systems from a pattern mining perspective with a focus on jazz improvisations. Traditionally, dominant melody extraction systems estimate the melody on the frame-level, but for real-world musicological applications note-level representations are needed. For the evaluation of estimated note tracks, the current frame-wise metrics are not fully suitable and provide at most a first approximation. Furthermore, mining melodic patterns (n-grams) poses another challenge because note-wise errors propagate geometrically with increasing length of the pattern. On the other hand, for certain derived metrics such as pattern commonalities between performers, extraction errors might be less critical if at least qualitative rankings can be reproduced. Finally, while searching for similar patterns in a melody database the number of irrelevant patterns in the result set increases with lower similarity thresholds. For reasons of usability, it would be interesting to know the behavior using imperfect automated melody extractions. We propose three novel evaluation strategies for estimated note-tracks based on three application scenarios: Pattern mining, pattern commonalities, and fuzzy pattern search. We apply the proposed metrics to one general state-of-the-art melody estimation method (Melodia) and to two variants of an algorithm that was optimized for the extraction of jazz solos melodies. A subset of the Weimar Jazz Database with 91 solos was used for evaluation. Results show that the optimized algorithm clearly outperforms the reference algorithm, which quickly degrades and eventually breaks down for longer n-grams. Frame-wise metrics provide indeed an estimate for note-wise metrics, but only for sufficiently good extractions, whereas F1 scores for longer n-grams cannot be predicted from frame-wise F1 scores at all. The ranking of pattern commonalities between performers can be reproduced with the optimized algorithms but not with the reference algorithm. Finally, the size of result sets of pattern similarity searches decreases for automated note extraction and for larger similarity thresholds but the difference levels out for smaller thresholds.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697021" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Key-Finding Based on a Hidden Markov Model and Key Profiles</a>
+
+- Néstor Nápoles López
+- Claire Arthur
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Musicologists and musicians often would like to search by keys in a digital music library. In this paper, we introduce a new key-finding algorithm that can be applied to music in both symbolic and audio formats. The algorithm, which is based on a Hidden Markov Model (HMM), provides two stages of key-finding output; the first one referring to local keys and the second one to the global key.
+
+We describe the input, the two output stages, and the parameters of the model. In particular, we describe two configurable parameters, the transition probability distributions, which are based on a matrix of neighbouring keys, and the emission probability distributions, which make use of established key profiles.
+
+We discuss the local key-finding capabilities of the algorithm, presenting an example analysis of the Prelude Op. 28 No. 20 in C minor by Chopin, showing the local key regions obtained using different key profiles. We evaluate the global key-finding capabilities of the model, using an existing dataset and six well-known key profiles as different model parameters.
+
+Since different key profiles will tend to err or misclassify in different ways and across different pieces, we train an ensemble method with the predictions from all the key profiles (6) through our model. We show that the ensemble method achieves state-of-the-art performance for major and overall keys, however, it still underperforms the state-of-the-art for minor keys.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697022" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Transposition and time-warp invariant algorithm for detecting repeated patterns in polyphonic music</a>
+
+- Antti Laaksonen
+- Kjell Lemström
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Finding repetitions in music is a fundamental music information retrieval problem that has several scientific and engineering applications. A popular algorithm for the problem is , the structure induction algorithm developed by Meredith et. al. \[10\]. is transposition invariant, allows gaps between the notes, and can process both monophonic and polyphonic music. However, the algorithm does not allow any distortion in the time dimension.
+
+In this paper, we introduce a new algorithm that has all ’s capabilities, but also respects time-warp invariance. Such invariance is highly needed, for instance, when there are rhythmic variations in the music, or the input data stems from a live performance. Like SIA, our algorithm works in O(n2log n) time, where n denotes the number of notes, and can efficiently process inputs of thousands of notes using current computers.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697023" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">A Trend Analysis on Concreteness of Popular Song Lyrics</a>
+
+- Kahyun Choi
+- J. Stephen Downie
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Recently, music complexity has drawn attention from researchers in Music Digital Libraries area. In particular, computational methods to measure music complexity have been studied to provide better music services in large-scale music digital libraries. However, the majority of music complexity research has focused on audio-related facets of music, while song lyrics have been rarely considered. Based on the observation that most popular songs contain lyrics, whose different levels of complexity contribute to the overall music complexity, this paper investigates song lyric complexity and how it might be measured computationally. In particular, this paper examines the concreteness of song lyrics using trend analysis. Our analysis on the popular songs indicates that concreteness of popular song lyrics fell from the middle of the 1960s until the 1990s and rose after that. The advent of Hip-Hop/Rap and the number of words in song lyrics are highly correlated with the rise in concreteness after the early 1990s.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697024" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Dastgàh Recognition in Iranian Music: Different Features and Optimized Parameters</a>
+
+- Peyman Heydarian
+- David Bainbridge
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+In this paper we report on the results of utilizing computational analysis to determine the dastgàh, the mode of music in the Iranian classical art music, using spectrogram and chroma features. We contrast the effectiveness of classifying music using the Manhattan distance and Gaussian Mixture Models (GMM). For our database of Iranian instrumental music played on a santur, using spectrogram and chroma features , we achieved accuracy rates of 90.11% and 80.2% when using Manhattan distance respectively. When using GMM with chroma, the accuracy rate was 89.0%. The effects of altering key parameters were also investigated, varying the amount of the training data and silence, as well as high frequency suppression on the results. The results from this phase of experimentation indicated that a 24 equal temperament was the best tone resolution. While experiments focused on dastgàh, with only minor adjustments the described techniques are applicable to traditional Persian, Kurdish, Turkish, Arabic and Greek music, and therefore suitable to use as a basis for a musicological tool that provides a broader form of cross-cultural audio search.
+
+</div>
+
+</div>
+
+## SESSION: Applications
+
+<div class="DLabstract">
+
+ 
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697035" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">A diff procedure for music score files</a>
+
+- Francesco Foscarin
+- Florent Jacquemard
+- Raphaël Fournier-S’niehotta
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Comparing music score files is an important task for many activities such as collaborative score editing, version control and evaluation of optical music recognition (OMR) or music transcription. Following the Unix diff model for text files, we propose an original procedure for computing the differences between two score files, typically in XML format. It performs a comparison of scores at the notation (graphical) level, based on a new intermediate tree representation of the music notation content of a score and a combination of sequence- and tree-edit distances. We also propose a tool to visualize the differences between two scores side-by-side, using the music notation engraving library Verovio, and we employ it to test the procedure on an OMR dataset.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697036" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">MIRELA - Music Information Research Environment with dLibrA</a>
+
+- Tomasz Parkoła
+- Magdalena Chudy
+- Ewa Łukasik
+- Jacek Jackowski
+- Ewa Kuśmierek
+- Ewa Dahlig-Turek
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+MIRELA is a virtual environment for researchers interested in exploring various aspects of traditional music. The environment has been designed by DARIAH-PL Music Information Retrieval Working Group with the objective to offer researchers extended support in storage and management of traditional music data collections, their processing, analysis and visualisation as well as publishing of the corresponding results. The paper describes a prototype content repository that has been set up with dLibra, a multimedia digital library software developed by Poznan Supercomputing and Networking Center (PSNC), adapted for musical content and the metadata schema provided by the Institute of Art of the Polish Academy of Sciences (IAPAS). As a proof of concept, the repository was tested with a set of musical samples and related multimodal data from the IAPAS’ digitized phonographic archives of Polish traditional music. The paper also describes new content-based music processing modules: WebEsAC and SoundScribe. WebEsAC has been developed for processing melodies encoded in symbolic music representation defined by the EsAC format. SoundScribe implements the pYIN algorithm for extracting the predominant melody from a monophonic recording and converting it into MIDI and symbolic music notation.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697037" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Moments Musicaux</a>
+
+- Mark Gotham
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+One form of musical library that is a mainstay of traditional musicology and which stands to benefit from digital attention is the ‘anthology’. These collections, often paired with a textbook, are tasked with bringing together a set of ‘representative’ examples for musical devices such as particular chords.
+
+This paper provides lists of such examples, both manually curated and automatically retrieved, bringing computational methods to complement and extend the traditional concept and preparation of a musical anthology. The lists and code are available at <https://github.com/MarkGotham/Moments>.
+
+Discussion centres on the motivations for and issues with preparing such lists, including the design of retrieval algorithms. A final section discusses the special case of examples for teaching musicianship which can face additional difficulties in finding suitable repertoire examples. Again, this culminates in datasets of repertoire examples, but for specifications such as ‘diatonic, stepwise melodies in quarter and eight notes’.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697038" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">A notation-based query language for searching in symbolic music</a>
+
+- Matan Gover
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Existing systems for searching in symbolic music corpora generally suffer from either of two limitations: they are either limited in power because they accept only simple search patterns, or they are hard for musicologists and musicians to use because they require knowledge of programming and text processing tools. In this paper, we propose a new music query language that combines the best of both worlds: it is powerful enough to express a wide variety of complex search patterns, while at the same time being easy to use for musicologists and musicians because it is entirely based on standard music notation.
+
+Our query system consists of several components. First, we define extensions of standard music notation that constitute the primitives of our musicological query language, such as pitch-only matching, rhythm-only matching, note grouping, and so on. Users may arbitrarily combine these primitives to create complex queries. Second, we define an XML-based encoding scheme that is an extension of Music Encoding Initiative in order to represent and store queries digitally. We then present an execution engine that runs XML-encoded queries against a corpus of music and produces search results. Finally, we describe a graphical interface that allows users to input queries and examine their results.
+
+The main use case of our system is searching in corpora of monophonic music such as song melodies, folk tunes, musical themes, and solo instrumental music. In comparison with existing symbolic music search tools, our query language makes advanced searching more accessible to a wide audience of musicologists and musicians.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/authorize?N697039" class="DLtitleLink" title="Get the Full Text from the ACM Digital Library">Interweaving and Enriching Digital Music Collections for Scholarship, Performance, and Enjoyment</a>
+
+- David M. Weigl
+- Werner Goebl
+- Tim Crawford
+- Aggelos Gkiokas
+- Nicolas F. Gutierrez
+- Alastair Porter
+- Patricia Santos
+- Casper Karreman
+- Ingmar Vroomen
+- Cynthia C. S. Liem
+- Álvaro Sarasúa
+- Marcel van Tilburg
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+The turn toward the digital has opened up previously difficult to access musical materials to wider musicological scholarship. Digital repositories provide access to publicly licensed score images, score encodings, textual resources, audiovisual recordings, and music metadata. While each repository reveals rich information for scholarly investigation, the unified exploration and analysis of separate digital collections remains a challenge. TROMPA—Towards Richer Online Music Public-domain Archives—addresses this through a knowledge graph interweaving composers, performers, and works described in established digital music libraries, facilitating discovery and combined access of complementary materials across collections. TROMPA provides for contribution of expert insights as citable, provenanced annotations, supporting analytical workflows and scholarly communication. Beyond scholars, the project targets four further user types: instrumental players; choir singers; orchestras; and music enthusiasts; with corresponding web applications providing specialised views of the same underlying knowledge graph. Thus, scholars’ annotations provide contextual information to other types of users; while performers’ rehearsal recordings and performative annotations, conductors’ marked up scores, and enthusiasts’ social discussions and listening behaviours, become available to scholarly analysis (per user consent). The knowledge graph is exposed as Linked Data, adhering to the FAIR principles of making data Findable, Accessible, Interoperable, and Re-usable, and supporting further interlinking, re-interpretation and re-use beyond the immediate scope of the project.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

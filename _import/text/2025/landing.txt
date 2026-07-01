@@ -1,0 +1,244 @@
+12th International Conference on Digital Libraries for Musicology
+
+Sogang University, Seoul, South Korea, 26 September 2025 In association with the International Society for Music Information Retrieval (ISMIR) Conference.
+
+Programme | Proceedings | Venue | Accommodation and Transportation | Registration
+
+Note for ISMIR attendees: It is still possible to register for DLfM during the ISMIR conference!
+
+The Digital Libraries for Musicology (DLfM) conference is the premiere venue for scholars engaging with digital libraries in the domain of music and musicology. It provides a forum for musicians, musicologists, librarians, and technologists to share findings and expertise.
+
+Please note that DLfM’s review process for submissions to proceedings operates on full and short papers, not on abstracts. See ‘Submissions’ below for further details on format.
+
+Paper sessions will take place in Room G109 of Gabriel Hall at Sogang University.
+
+Poster sessions will take place in TV Studio B (B117) of the same building.
+
+LOCATION, COLLABORATION
+
+Following up the successful conferences held in 2020 and 2023 as satellite events of the ISMIR conference, the 2025 conference Digital Libraries for Musicology is associated with the 26th conference of the International Society for Music Information Retrieval (ISMIR). Similarly to ISMIR, DLfM is organized in a hybrid format, accepting both in-person and online participation. However, in-person attendance is highly encouraged and recommended. To support this, the organizing team is committed to assisting presenters who wish to attend in person, providing help with visa arrangements and other logistical needs.
+
+ISMIR is taking place immediately prior to DLfM, Sept 21-25, and will be held in Daejeon. The connection from Daejeon to Sogang University (Seoul) can be accomplished by high-speed train in approximately 60-70 minutes. Guidance on transportation will be made available on the conference website.
+
+CALL FOR PAPERS AND POSTERS
+
+DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations, computational musicology, or music information retrieval (MIR).
+
+Given DLfM’s return this year as a satellite event of the ISMIR conference, we welcome papers that apply MIR technologies to “music documents” with a focus on cultural heritage preservation. Scores and music documents have been digitized by libraries and archives worldwide for preservation and access. At this DLfM congress, we aim to stimulate discussions around the use of MIR technologies and their implications for cultural heritage preservation. The organizing committee strongly encourages papers and posters that address this theme, however, we welcome all papers addressing all traditional topics that fall under the scope of DLfM. Specific examples of topics traditionally covered at DLfM can be found below.
+
+DLfM 2025 proceedings of full and short papers will be published as Open Access publications in the ACM Digital Library through ICPS. Details on the publication process will be provided on acceptance of your submission to the proceedings. Please contact us at dlfm2025@easychair.org for further information.
+
+In addition to the regular paper and poster submissions, this year we have a new challenge submission track focused on "space for music libraries", the details of which are provided below.
+
+IMPORTANT DATES
+All deadlines are at 23:59 AoE.
+
+-   Provisional title, abstract, author list submission deadline: ~~May 9th, 2025~~
+-   Paper (full paper and short paper) submission deadline: ~~EXTENDED TO May 16th, 2025~~
+    -   Further extended to ~~May 19th, 2025~~, in light of a recent significant Overleaf service outage
+-   Notification of paper acceptance: ~~June 27, 2025~~
+-   Poster submission deadline: ~~July 12th, 2025~~
+-   Space for Music Libraries Challenge submission deadline: ~~July 12th, 2025~~
+-   Camera-ready submission deadline (full and short papers)*: ~~July 16th, 2025~~
+-   Conference registration deadline: September 19th, 2025
+-   Conference: September 26th, 2025, Seoul, South Korea
+
+* At least one author must be registered by the camera-ready submission deadline in order for accepted submissions to be included in the conference programme.
+
+REGISTRATION
+
+Registration is now open!
+
+There are two categories for registration:
+
+-   Early bird registration ~~(until 25th August 2025)*~~: €140 
+-   Regular rate (after 25th August 2025): ~~€200~~ Reduced to €140! 
+
+* Important note: At least one author per paper (short and full papers) must be registered by the camera-ready submission deadline, ~~16th July 2025~~ (using the early bird rate at €140) for accepted submissions to be included in the conference programme and proceedings.
+
+SUBMISSIONS
+Paper submissions
+
+-   Paper length: We invite full papers (up to 8 pages excluding references) or short papers (up to 4 pages excluding references).
+-   Submissions: Work is submitted to DLfM via EasyChair (https://easychair.org/conferences/?conf=dlfm2025).
+-   Format: Submissions must be in English, formatted according to the appropriate ACM template for two-column papers (see template below), in PDF format, and A4 size. Authors will need to follow ACM's instructions for formatting carefully. Assistance will be provided from the proceedings chair.
+-   Templates: Authors must use either the LaTeX template (https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip, use the 'sigconf', 'authordraft', and 'anonymous' settings for initial submission), the LaTeX + Overleaf template (https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty, use the 'sigconf', 'authordraft', and 'anonymous' settings for initial submission), or the MS Word template (https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout.docx). Historically, LaTeX versions have been easier to process into camera-ready versions. Therefore, we encourage all authors to use the LaTeX (or LaTeX + Overleaf) template if possible.
+-   Note: The settings of the LaTeX template guarantee a two-column paper ('sigconf') with the lines numbered ('authordraft') and an anonymous submission ('anonymous').
+-   Page limits for submitted papers apply to all text, excluding the bibliography (i.e., references can be included on pages over the specified limits).
+
+For accepted papers, the final camera-ready submission will be done via TAPS and ICPS. Corresponding authors of the accepted works will receive an email from ACM to sign their rights contract and upload the final version (please check your inbox and spam folders).
+
+Poster submissions
+
+-   Submission: The initial poster submission consists of an abstract which outlines both the scholarly content and broad details of the proposed layout in 500 words, or fewer. This is to be sent to dlfm2025@easychair.org.
+-   Information on printed poster formats will be provided on acceptance of the poster abstract. All accepted posters will also be required to submit a digital copy before the conference date to be shared publicly on the conference web page.
+
+Space for Music Libraries Challenge submissions
+
+We aim to explore the relationship between digital and physical space in music libraries, examining how these spaces interact, change, and influence music discovery and scholarship. A key focus could be multicentric music libraries—those with homogeneous collections that are geographically or virtually dispersed across multiple locations. Another possible topic could be the cultural blending of diverse musical traditions that converge within a digital music library. How is access to knowledge shaped in these contexts? What cataloguing and research challenges do these collections present to librarians, researchers and, ultimately, users?
+
+By addressing these questions, we seek to better understand the dynamic interplay between space, technology and the organization of musical knowledge in an increasingly interconnected world—one where, often, digital surrogates are the only means of accessing historical music documents and scores.
+
+The Space for Music Libraries Challenge solicits short position papers, articulating problems, requirements, and solutions on the proposed topic. We welcome speculative work, and submissions that explore particular problems, as well as those that suggest solutions.
+
+Submissions: Space for Music Libraries Challenge submission should be no more than 2-pages long, and use the ACM sigconf template (for more details, see the main conference Call For Papers). They will be peer reviewed, and accepted submissions will be presented at the conference as either part of a panel or lightning talk and/or within a poster session (as determined by the Programme Chair). Challenge submissions will not be included in the main DLfM proceedings, but will be published on the conference website.
+
+Challenge contributions must be submitted via the DLfM 2025 EasyChair page by Saturday 12th July.
+
+Review and Ethics
+
+Papers (long and short) will be double-blind peer-reviewed by at least 3 members of the programme committee. For accepted paper submissions, at least one author must register for the conference (as a presenter) by the camera-ready submission deadline (~~July 16th, 2025~~).
+
+DLfM conforms to the usual conventions for publication ethics. For instance, we endeavour to provide an effective double-blind reviewing process that is fair to all submissions, with reviews from experts in the subject area. In turn, we expect authors to ensure anonymity in the original submission as far as practically possible (for instance, by not uploading the submission to a public website and/or removing any currently public unpublished preprints while it is under review) and that submissions to DLfM are not under active consideration by another conference or journal.
+
+Submission link and contact email
+
+Conference website: https://dlfm.web.ox.ac.uk/
+Submission link: https://easychair.org/my/conference?conf=dlfm2025
+Contact email: dlfm2025@easychair.org 
+
+BACKGROUND
+
+While Digital Libraries have long offered facilities to provide multimedia content, the requirements of systems for library music are complex. The many forms taken by musical data, the needs for connections between these, and the importance of scholarly and historical contextual information all require special care to support meaningful engagement with the materials.
+
+The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. This includes Music Digital Library systems, their application and use in musicology, technologies for enhanced access and organisation of musics in Digital Libraries, bibliographic and metadata for music, intersections with music Linked Data, and the challenges of working with the multiple representations of music across large-scale digital collections such as the Internet Archive and HathiTrust.
+
+DLfM focuses on the implications of music for Digital Libraries and Digital Libraries research, especially when pushing the boundaries of contemporary musicology through the application of techniques from more technology-oriented fora such as ISMIR and ICMC. This instalment of DLfM conference follows previous conferences in Stellenbosch, Milan, Prague, Montreal, The Hague, Paris, New York, Shanghai, Knoxville and London.
+
+DLfM partners with IAML, ISMIR, and other conferences to encourage new collaborations and discussions surrounding prominent issues in our shared field.
+
+CONFERENCE OBJECTIVES
+
+-   to act as a forum for reporting, presenting, evaluating and disseminating work combining technology with musicology through Digital Library systems;
+-   to critically evaluate the operation of Music Digital Libraries and the applications and findings that flow from them;
+-   to re-evaluate existing Music Digital Libraries, particularly in light of the transformative methods and applications emerging from musicology, large collections of both audio and music-related data, ‘big data’ methods, and MIR;
+-   to explore how digital libraries and digital musicology can combine to offer richer online access to online music collections;
+-   to set the agenda for work in the field to address these new challenges and opportunities.
+
+TOPICS
+
+Topics of interest include, but are not limited to:
+
+-   Building and managing digital music collections
+    -   Optical music recognition
+    -   Information literacies for Music Digital Libraries
+    -   Data quality assessment
+-   Access, interfaces, and ergonomics
+    -   Interfaces and access mechanisms for digital music content
+    -   Identification/location of music (in all forms) in generic Digital Libraries
+    -   Techniques for locating and accessing music in very large Digital Libraries (e.g. HathiTrust, Internet Archive)
+    -   Mechanisms for combining multi-form music content within and between Digital Libraries and other digital resources
+    -   User information needs and behaviour for Music Digital Libraries
+-   Musicological knowledge
+    -   Music data representations, including manuscripts/scores and audio
+    -   Applied MIR techniques for digital music content or analysis
+    -   Computational and systematic approaches to musicological analysis
+    -   Extraction of musical concepts from symbolic notation and/or audio data
+    -   Metadata and metadata schemas for music
+    -   Application of Linked Data and Semantic Web techniques to Music Digital Library content, access, or organisation
+    -   Ontologies and categorisation of musics and music artefacts
+-   Improving data for musicology
+    -   Musical corpus-building at scale
+    -   Enriching public access to music, music-cultural, and music-ephemera material online
+    -   Digital Libraries showcasing need or support of musicology and/or other scholarly domain
+    -   Digital Libraries combining resources for musicology (e.g. combining audio, scores, bibliographic, geographic, ethnomusicology, performance, etc.)
+
+USE OF GENERATIVE AI IN SUBMISSIONS
+
+We recognize that authors of academic works use a variety of tools in the research on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting academic works.
+
+In the view of this, we
+
+1.  require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
+2.  remind all colleagues that by signing their name as an author of a contribution, they each individually take full responsibility for all its contents, irrespective of how the contents were generated. If generative AI language tools generate inappropriate language, plagiarized content, errors, mistakes, incorrect references, or misleading content, and that output is included in academic works, it is the responsibility of the author(s).
+3.  generative AI language tools should not be listed as an author; instead authors should refer to (1).
+
+This statement mirrors the Music Encoding Conference 2025’s policy, itself adapted from the arXiv policy for authors’ use of generative AI language tools. We reserve the right to amend this statement as discussions continue and evolve.
+
+CONFERENCE ORGANIZATION
+
+Programme Chair
+
+Elsa De Luca, CESEM-IN2PAST, NOVA University Lisbon
+
+General Chair
+
+David M. Weigl, mdw – University of Music and Performing Arts Vienna
+
+Proceedings Chair
+
+Juan Carlos Martínez-Sevilla, Universidad de Alicante
+
+Local Chair
+
+Dasaem Jeong, Sogang University
+
+Programme Committee
+
+Claire Arthur, Georgia Institute of Technology
+David Bainbridge, University of Waikato
+Gilberto Bernardes, University of Porto
+Barış Bozkurt, Zayed University
+Rafael Caro Repetto, Institute for Ethnomusicology, Kunstuniversität Graz
+Nádia Carvalho, Faculdade de Engenharia Universidade do Porto
+Kahyun Choi, Indiana University Bloomington
+Rachel Cowgill, University of York
+Tim Crawford, Goldsmiths College
+Raphaël Fournier-S'Niehotta, Sorbonne Center for Artificial Intelligence
+Ichiro Fujinaga, McGill University
+Francesca Giannetti, Libraries - Rutgers University
+Mathieu Giraud, CNRS, CRIStAL, Université Lille
+Werner Goebl, University of Music and Performing Arts Vienna
+Clemens Gubsch, Österreichischen Akademie der Wissenschaften Wien
+Carlos Guedes, New York University
+Paul Gulewycz, Austrian Academy of Sciences
+Jan Hajič Jr., Masaryk Institute and Archives, Czech Academy of Sciences
+Zeynep Helvaci, Münster University
+Olja Janjuš, Ludwig-Maximilians-Universität München
+Yaolong Ju, McGill University
+Audrey Laplante, EBSI, Université de Montréal
+Kjell Lemström, University of Helsinki
+Florence Leve, Université de Picardie Jules Verne
+Cynthia C. S. Liem, Delft University of Technology
+Ewa Lukasik, Poznan University of Technology, Institute of Computing Science
+Anna Matuszewska, Polish Academy of Sciences
+Davide Andrea Mauro, KreativInstitut.OWL, Paderborn University
+Cory Mckay, Marianopolis College
+Fabian C. Moss, Julius-Maximilians-Universität Würzburg
+Joshua Neumann, Akademie der Wissenschaft und der Literatur Mainz
+Terhi Nurmikko-Fuller, Australian National University
+Salome Obert, Universität Paderborn
+Kevin Page, University of Oxford
+Frankie Perry, University of Oxford
+Anna Plaksin, Universität Paderborn
+Alastair Porter, Universitat Pompeu Fabra
+Klaus Rettinghaus, Independent Researcher
+Dennis Ried, Martin-Luther-University Halle-Wittenberg
+David Rizo, University of Alicante
+Perry Roland, University of Virginia
+Mark Saccomano, Universität Paderborn
+Margrethe Støkken Bue, National Library of Norway
+Reinier de Valk, University of Vienna
+Chanda VanderHart, Donau-Universität Krems
+David M. Weigl, University of Music and Performing Arts Vienna
+Frans Wiering, Utrecht University
+
+Host Institution
+
+[Sogang University logo]
+
+[Sogang Future Lab logo]
+
+Sponsors
+
+[in2past]
+
+[CESEM]
+
+[2022 fct logo]
+
+[logo nova fcsh]
+
+[ICPS]
+
+ 

@@ -1,0 +1,239 @@
+<div class="row">
+
+<div class="h1_row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="header-title">
+
+# 2020 Proceedings
+
+</div>
+
+</div>
+
+</div>
+
+<div class="region region-content">
+
+<div id="block-system-main" class="block block-system clearfix">
+
+<div class="panelizer-view-mode node node-full node-oxdrupal-basic-page node-1299546">
+
+<div class="bootstrap-twocol-stacked">
+
+<div class="row">
+
+<div class="panel-panel left col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+<div class="panel-pane pane-entity-field pane-node-field-region-2">
+
+<div class="pane-content">
+
+<div class="paragraphs-items paragraphs-items-field-region-2 paragraphs-items-field-region-2-full paragraphs-items-full">
+
+<div class="field field-name-field-region-2 field-type-paragraphs field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-wysiwyg-content-area margin-bottom full-width widget-style-main paragraphs-item-2344921">
+
+<div id="widget-id-2344921">
+
+</div>
+
+<div class="content">
+
+<div class="field field-name-field-content field-type-text-with-summary field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div id="DLtoc">
+
+<div id="DLheader">
+
+# DLfM 2020: 7th International Conference on Digital Libraries for Musicology
+
+<a href="https://dl.acm.org/doi/proceedings/10.1145/3424911" class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding"><img src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png" class="DLlogo" height="30" alt="Digital Library logo" /> Full Citation in the ACM Digital Library</a>
+
+</div>
+
+<div id="DLcontent">
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425517" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Using Optical Music Recognition to Encode 17th-Century Music Prints: The Canonic Works of Paolo Agostini (c.1583–1629) as a Test Case</a>
+
+- Jason Stoessel
+- Denis Collins
+- Scott Bolland
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+There have been several attempts to improve the retrieval of symbolic music information by Optical Music Recognition (OMR) to increase the “searchability” of digital music libraries of early music prints and to facilitate the collection of data for musicological research. Their success has varied. This report describes a new online OMR system based upon industry-standard platforms to automate the encoding of early 17th-century music prints. Due to our research on composers of canons in early 17th-century Rome, we have used as a test case the early music prints of Paolo Agostini. Agostini was maestro di cappella at St Peter’s Basilica and the most active exponent of advanced contrapuntal techniques, especially canon, in Rome in the 1620s. We developed a digital tool to process images of Agostini’s printed music and to classify 7,092 automatically selected objects according to 38 music symbols using supervised learning with convolutional neural networks (CNN). The resulting system, IntelliOMR, exhibits up to an average of 99% accuracy for classifying unseen items after 50 training epochs. It has proven effective for rapidly encoding all of Agostini’s works in the Music Encoding Initiative’s XML format for a critical edition and computer-assisted musical analysis. The approach and design of this digital tool offer significant opportunities for enhancing digital library systems and for future research projects investigating digital corpora of early printed music.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425512" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Evaluating Simultaneous Recognition and Encoding for Optical Music Recognition</a>
+
+- Antonio Ríos-Vila
+- Jorge Calvo-Zaragoza
+- David Rizo
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Most Optical Music Recognition workflows include several steps to retrieve the content from music score images. These steps typically comprise preprocessing, recognition, notation reconstruction and encoding. Currently, state-of-the-art models allow performing graphic recognition in an almost end-to-end fashion, performing the steps from preprocessing to recognition simultaneously. However, this graphic recognition has to be further processed to obtain a standard digital music representation. In this paper, we study the simultaneous recognition and encoding for a state-of-the-art OMR approach, based on neural networks, which receives a single staff-region image as input and directly obtains a sequence of characters that encodes the content in a standard music format. Our results confirm that performing OMR this way is feasible and brings additional benefits such as directly obtaining a version of the score readily available to be further processed or edited by standard tools.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425515" class="DLtitleLink" title="Full Citation in the ACM Digital Library">On Local Keys, Modulations, and Tonicizations: A Dataset and Methodology for Evaluating Changes of Key</a>
+
+- Néstor Nápoles López
+- Laurent Feisthauer
+- Florence Levé
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Throughout the common-practice period (1650–1900), it is customary to find changes of musical key within a piece of music. In current music theory terminology, the concepts of modulation and tonicization are helpful to explain many of these changes of key. Conversely, in computational musicology and music information retrieval, the preferred way to denote changes of key are local key features, which are oftentimes predicted by computational models. Therefore, the three concepts, local keys, modulations, and tonicizations describe changes of key. What is, however, the relationship between the local keys, modulations, and tonicizations of the same musical fragment?
+
+In this paper, we contribute to this research question by 1) reviewing the current methods of local-key estimation, 2) providing a new dataset with annotated modulations and tonicizations, and 3) applying all the annotations (i.e., local keys, modulations, and tonicizations) in an experiment that connects the three concepts together. In our experiment, instead of assuming the music-theoretical meaning of the local keys predicted by an algorithm, we evaluate whether these coincide better with the modulation or tonicization annotations of the same musical fragment. Three existing models of symbolic local-key estimation, together with the annotated modulations and tonicizations of five music theory textbooks are considered during our evaluation.
+
+We provide the methodology of our experiment and our dataset (available at <https://github.com/DDMAL/key_modulation_dataset>) to motivate future research in the relationship between local keys, modulations, and tonicizations.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425513" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Automatic Chord Labelling: A Figured Bass Approach</a>
+
+- Yaolong Ju
+- Sylvain Margot
+- Cory McKay
+- Ichiro Fujinaga
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Automatic chord labelling is challenging, largely because the identification of chords directly from the musical surface can be ambiguous. Figured bass can potentially offer indications of harmonic rhythm and non-chord tones, thereby reducing this ambiguity. This paper proposes a series of four rule-based algorithms that automatically generate chord labels for homorhythmic Baroque chorales based on both figured bass annotations and the musical surface. These are applied to the existing Bach Chorales Figured Bass dataset, which consists of 139 chorales composed by Johann Sebastian Bach, and includes both the original music and figured bass annotations. Analysis of the chord labels produced by our algorithms reveals occasional discrepancies between the chords implied by the figured bass and the scored voices, something that provides a useful basis for exploring different chord interpretations. The chord annotations produced by our system are presented as the new Bach Chorales Multiple Chord Labels (BCMCL) dataset, which provides a choice of four parallel chord labels for each chorale. These range from one set of labels based only on the figured bass, which do not assume any music theoretical ideas proposed after the time the chorales were written, to a set of labels based on both the figured bass annotations and the full musical surface that considers the music from the perspective of modern tonal music theory. It is hoped that this dataset and the algorithms used to label it will be of interest for both future musicological research and research on automatic chord labelling systems.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425518" class="DLtitleLink" title="Full Citation in the ACM Digital Library">An Analysis of Musical Work Datasets and their Current Level of Linkage</a>
+
+- Laurent Pugin
+- Claudio Bacciagaluppi
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+Music works are key concepts that present a powerful linkage potential fully acknowledged in the fields of digital music libraries and digital musicology. They form an abstract connecting point for the entities referring to them, and large work datasets act as authority data that offer a promising analysis and search potential. These days, digital music libraries and digital musicology research rely primarily on datasets that have been created over the last decade, mostly from previously existing datasets, such as bibliographic records. In this paper, we try to provide a better understanding of the content of some of the most important datasets available and to evaluate their level of linking. We analyse two leading library datasets, namely those of the Bibliothèque nationale de France (BnF) and the Deutsche Nationalbibliothek (DNB), both available in RDF format, and look at how many works they contain, how these are distributed over time, and their distribution by composer. We compare the results with two other datasets that have completely different backgrounds, namely the Petrucci Music Library (known as IMLSP) and MusicBrainz datasets, two crowd-sourced projects. We evaluate the level of linking the two library datasets currently have with each other through the Virtual International Authority File (VIAF), and their current linking status with other libraries contributing to VIAF. We also evaluate the linking status the IMSLP and the MusicBrainz projects currently have with each other and with other datasets.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425514" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Studying Large Plainchant Corpora Using chant21</a>
+
+- Bas Cornelissen
+- Willem Zuidema
+- John Ashley Burgoyne
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+We present chant21, a Python package to support the plainchant formats gabc and Volpiano in music21, and two large corpora of plainchant. The CantusCorpus contains over 60,000 medieval melodies collected from the Cantus database, encoded in the Volpiano typeface. The GregoBaseCorpus contains over 9,000 transcriptions from more recent chant books in the gabc format. Chant21 converts both formats to music21, while retaining the textual structure of the chant: its division in sections, words, syllables and neumes. We present two case studies. First, we report evidence for the melodic arch hypothesis from the GregoBaseCorpus. Second, we analyze connections between differentiæ and antiphon openings in the CantusCorpus, and show that the systematicity of the connection can be quantified using an entropy-based measure.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425516" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Personalized Sheet Music Search</a>
+
+- Jeremy Sawruk
+- Jacob Walls
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+This paper discusses a novel system for querying digital sheet music using musical metadata. Users select instruments and playable ranges for an ensemble using a custom note entry tool. From this ensemble profile, the system generates SQL queries to find matching compositions based on ranges rather than motifs. The system extracts metadata such as instrument ranges, keys, and meters from MusicXML and vectorized PDF documents. Metadata is extracted by a proprietary algorithm without recourse to optical music recognition (OMR), in concert with music21.
+
+</div>
+
+</div>
+
+### <a href="https://dl.acm.org/doi/10.1145/3424911.3425519" class="DLtitleLink" title="Full Citation in the ACM Digital Library">Read/Write Digital Libraries for Musicology</a>
+
+- David M. Weigl
+- Werner Goebl
+- Alex Hofmann
+- Tim Crawford
+- Federico Zubani
+- Cynthia C. S. Liem
+- Alastair Porter
+
+<div class="DLabstract">
+
+<div style="display:inline">
+
+The Web and other digital technologies have democratised music creation, reception, and analysis, putting music in the hands, ears, and minds of billions of users. Music digital libraries typically focus on an essential subset of this deluge—commercial and academic publications, and historical materials—but neglect to incorporate contributions by scholars, performers, and enthusiasts, such as annotations or performed interpretations of these artifacts, despite their potential utility for many types of users.
+
+In this paper we consider means by which digital libraries for musicology may incorporate such contributions into their collections, adhering to principles of FAIR data management and respecting contributor rights as outlined in the EU’s General Data Protection Regulation. We present an overview of centralised and decentralised approaches to this problem, and propose hybrid solutions in which contributions reside in a) user-controlled personal online datastores, b) decentralised file storage, and c) are published and aggregated into digital library collections. We outline the implementation of these ideas using Solid, a Web decentralisation project building on W3C standard technologies to facilitate publication and control over Linked Data. We demonstrate the feasibility of this approach by implementing prototypes supporting two types of contribution: Web Annotations describing or analysing musical elements in score encodings and music recordings; and, music performances and associated metadata supporting performance analyses across many renditions of a given piece. Finally, we situate these ideas within a wider conception of enriched, decentralised, and interconnected online music repositories.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

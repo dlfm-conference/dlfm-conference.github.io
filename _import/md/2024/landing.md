@@ -1,0 +1,348 @@
+<div class="row">
+
+<div class="h1_row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="header-title">
+
+# 11th International Conference on Digital Libraries for Musicology
+
+</div>
+
+</div>
+
+</div>
+
+<div class="region region-content">
+
+<div id="block-system-main" class="block block-system clearfix">
+
+<div class="panelizer-view-mode node node-full node-oxdrupal-basic-page node-4166621">
+
+<div class="bootstrap-twocol-stacked">
+
+<div class="row">
+
+<div class="panel-panel left col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+<div class="panel-pane pane-entity-field pane-node-field-region-2">
+
+<div class="pane-content">
+
+<div class="paragraphs-items paragraphs-items-field-region-2 paragraphs-items-field-region-2-full paragraphs-items-full">
+
+<div class="field field-name-field-region-2 field-type-paragraphs field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-wysiwyg-content-area margin-bottom widget-width-12-columns widget-style-main paragraphs-item-5044726">
+
+<div id="widget-id-5044726">
+
+</div>
+
+<div class="content">
+
+<div class="field field-name-field-content field-type-text-with-summary field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+#### In association with the annual conference of the International Association of Music Libraries, Archives, and Documentation Centres (IAML), June 27, 2024
+
+**[The full programme for DLfM 2024 is now available](https://dlfm.web.ox.ac.uk/2024-programme)**
+
+The Digital Libraries for Musicology (DLfM) conference is the premiere venue for scholars engaging with digital libraries in the domain of music and musicology. It provides a forum for musicians, musicologists, librarians, and technologists to share findings and expertise.
+
+#### LOCATION, COLLABORATION
+
+In 2021 and 2022, we had a successful and productive collaboration with the International Association of Music Libraries, Archives, and Documentation Centres (IAML). We are thus delighted to come back to IAML in 2024.
+
+DLfM 2024 will take place on June 27, at the Stellenbosch University Konservatorium in South Africa, within the wider IAML conference running from 23-28 June 2024.
+
+#### CALL FOR PAPERS AND POSTERS
+
+DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations, computational musicology, or music information retrieval (MIR).
+
+As this will be the first iteration of DLfM taking place on the African continent, we strongly encourage proposals from individuals working on music in Africa within various disciplines and from a range of perspectives, particularly addressing this year's theme:
+
+**Musicology of the Global South: The Role of Digital Libraries**
+
+The conference especially encourages submissions of papers and posters that address this year's theme, however, we welcome all papers addressing all traditional topics that fall under the scope of DLfM. Specific examples of topics traditionally covered at DLfM can be found below.
+
+DLfM 2024 proceedings of full and short papers will be published in the ACM Digital Library through ICPS. We are aware of a growing number of institutional and funder requirements for Open Access publication, and recognise that authors will need to comply with any policies which apply to them. Further advice is available from the ACM at <a href="https://www.acm.org/publications/openaccess#h-green-open-access" class="moz-txt-link-freetext">https://www.acm.org/publications/openaccess#h-green-open-access</a>
+
+#### IMPORTANT DATES (AoE)
+
+- Abstract submission deadline with provisional title and author list: February 12th, 2024
+- ~~Paper (full paper and short paper) submission deadline: February 12th, 2024~~
+- **EXTENDED** paper (full paper and short paper) submission deadline: February 22nd, 2024
+- Notification of paper acceptance: April 8th, 2024
+- Poster submission deadline: April 22nd, 2024
+- Camera-ready submission deadline (full and short papers)\*: May 13th, 2024
+- Conference registration deadline: June 17th, 2024 (Go to [Registration Page](https://dlfm.web.ox.ac.uk/2024-registration))
+- Conference: June 27th, 2024, Stellenbosch, South Africa
+
+\* At least one author must be registered by the camera-ready submission deadline in order for accepted submissions to be included in the conference programme (Go to [Registration Page](https://dlfm.web.ox.ac.uk/2024-registration)).
+
+#### SUBMISSIONS
+
+##### Paper submissions
+
+- Paper length: We invite full papers (up to 8 pages excluding references) or short papers (up to 4 pages excluding references).
+- Submissions: Work is submitted to DLfM via EasyChair (<a href="https://easychair.org/conferences/?conf=dlfm2024" target="_blank">https://easychair.org/conferences/?conf=dlfm2024</a>).
+- Format: Submissions must be in English, formatted according to the appropriate ACM template for **two-column** papers (see template below), in PDF format, and A4 size. Authors will need to follow ACM's instructions for formatting carefully. Assistance will be provided from the proceedings chair.
+- Templates: Authors must use either the LaTeX template (<https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip>, use the 'sigconf', 'authordraft', and 'anonymous' settings for initial submission), the LaTeX + Overleaf template (<https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty>, use the 'sigconf', 'authordraft', and 'anonymous' settings for initial submission), or the MS Word template (<a href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout.docx" target="_blank">https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout.docx</a>). Historically, LaTeX versions have been easier to process into camera-ready versions. Therefore, we encourage all authors to use the LaTeX (or LaTeX + Overleaf) template if possible.  
+  ***Note:** The settings of the LaTeX template guarantee a two-column paper ('sigconf') with the lines numbered ('authordraft') and an anonymous submission ('anonymous').*
+- Page limits for submitted papers apply to all text, excluding the bibliography (i.e., references can be included on pages over the specified limits).
+
+##### Poster submissions
+
+- Submission: The initial poster submission consists of an abstract which outlines both the scholarly content and broad details of the proposed layout in 500 words or fewer. This is to be sent to <dlfm2024@easychair.org>.
+- Information on printed poster formats will be provided on acceptance of the poster abstract. All accepted posters will also be required to submit a digital copy before the conference date to be shared publicly on the conference web page.
+
+##### Review and Ethics
+
+Papers (long and short) will be double-blind peer-reviewed by at least 3 members of the programme committee. For accepted paper submissions, at least one author must register for the conference (as a presenter) by the camera-ready submission deadline (May 13th, 2024).
+
+DLfM conforms to the usual conventions for publication ethics. For instance, we endeavour to provide an effective double-blind reviewing process that is fair to all submissions, with reviews from experts in the subject area. In turn, we expect authors to ensure anonymity in the original submission as far as practically possible (for instance, by not uploading the submission to a public website and/or removing any currently public unpublished preprints while it is under review) and that submissions to DLfM are not under active consideration by another conference or journal.
+
+##### Submission link, registration link, and contact email
+
+- Submissions link: <a href="https://easychair.org/conferences/?conf=dlfm2024" target="_blank">https://easychair.org/conferences/?conf=dlfm2024</a>
+- Registration page: <https://dlfm.web.ox.ac.uk/2024-registration>
+- Contact email: <dlfm2024@easychair.org>
+
+#### BACKGROUND
+
+While Digital Libraries have long offered facilities to provide multimedia content, the requirements of systems for library music are complex. The many forms taken by musical data, the needs for connections between these, and the importance of scholarly and historical contextual information all require special care to support meaningful engagement with the materials.
+
+The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. This includes Music Digital Library systems, their application and use in musicology, technologies for enhanced access and organisation of musics in Digital Libraries, bibliographic and metadata for music, intersections with music Linked Data, and the challenges of working with the multiple representations of music across large-scale digital collections such as the Internet Archive and HathiTrust.
+
+DLfM focuses on the implications of music for Digital Libraries and Digital Libraries research, especially when pushing the boundaries of contemporary musicology through the application of techniques from more technology-oriented fora such as ISMIR and ICMC. This instalment of DLfM conference follows previous conferences in Milan, Prague, Montreal, The Hague, Paris, New York, Shanghai, Knoxville and London.
+
+DLfM partners with IAML, ISMIR, and other conferences to encourage new collaborations and discussions surrounding prominent issues in our shared field.
+
+#### CONFERENCE OBJECTIVES
+
+- to **act as a forum** for reporting, presenting, evaluating and disseminating work combining technology with musicology through Digital Library systems;
+- to **critically evaluate** the operation of Music Digital Libraries and the applications and findings that flow from them;
+- to **re-evaluate** existing Music Digital Libraries, particularly in light of the transformative methods and applications emerging from musicology, large collections of both audio and music-related data, ‘big data’ methods, and MIR;
+- to **explore** how digital libraries and digital musicology can combine to offer richer online access to online music collections;
+- to** set the agenda** for work in the field to address these new challenges and opportunities.
+
+#### TOPICS
+
+Topics of interest include, but are not limited to:
+
+- Building and managing digital music collections
+  - Optical music recognition
+  - Information literacies for Music Digital Libraries
+  - Data quality assessment
+- Access, interfaces, and ergonomics
+  - Interfaces and access mechanisms for digital music content
+  - Identification/location of music (in all forms) in generic Digital Libraries
+  - Techniques for locating and accessing music in very large Digital Libraries (e.g. HathiTrust, Internet Archive)
+  - Mechanisms for combining multi-form music content within and between Digital Libraries and other digital resources
+  - User information needs and behaviour for Music Digital Libraries
+- Musicological knowledge
+  - Music data representations, including manuscripts/scores and audio
+  - Applied MIR techniques for digital music content or analysis
+  - Computational and systematic approaches to musicological analysis
+  - Extraction of musical concepts from symbolic notation and/or audio data
+  - Metadata and metadata schemas for music
+  - Application of Linked Data and Semantic Web techniques to Music Digital Library content, access, or organisation
+  - Ontologies and categorisation of musics and music artefacts
+- Improving data for musicology
+  - Musical corpus-building at scale
+  - Enriching public access to music, music-cultural, and music-ephemera material online
+  - Digital Libraries showcasing need or support of musicology and/or other scholarly domain
+  - Digital Libraries combining resources for musicology (e.g. combining audio, scores, bibliographic, geographic, ethnomusicology, performance, etc.)
+
+#### CONFERENCE ORGANIZATION
+
+##### Programme Chair
+
+David M. Weigl, mdw – University of Music and Performing Arts Vienna
+
+##### General Chair
+
+Martha E. Thomae, Universidade NOVA de Lisboa
+
+##### Proceedings Chair
+
+Anna Plaksin, Paderborn University
+
+##### Local Chair
+
+Beulah Gericke-Geldenhuys, Stellenbosch University
+
+##### Programme Committee
+
+Claire Arthur, Georgia Institute of Technology  
+David Bainbridge, University of Waikato  
+Houman Behzadi, McGill University  
+J. A. Burgoyne, University of Amsterdam  
+Joy Calico, UCLA Herb Alpert School of Music  
+Jorge Calvo-Zaragoza, University of Alicante  
+Rafael Caro Repetto, Institute for Ethnomusicology, Kunstuniversität Graz  
+Kahyun Choi, Indiana University Bloomington  
+Nathaniel Condit-Schultz, Georgia Institute of Technology  
+Rachel Cowgill, University of York  
+Elsa De Luca, CESEM, Universidade Nova de Lisboa  
+María Teresa Delgado-Sánchez, Biblioteca Nacional de España  
+Jürgen Diet, Bavarian State Library  
+Benjamin Fields, BBC  
+Ichiro Fujinaga, McGill University  
+Francesca Giannetti, Rutgers University  
+Mark Gotham, Durham University  
+Jose M. Iñesta, Universidad de Alicante  
+Charles Inskip, University College London  
+Audrey Laplante, EBSI, Université de Montréal  
+Kjell Lemström, University of Helsinki  
+David Lewis, Goldsmiths, University of London  
+Ewa Lukasik, Poznan University of Technology, Institute of Computing Science  
+Cory Mckay, Marianopolis College  
+Stefan Münnich, University of Basel  
+Joshua Neumann, Akademie der Wissenschaften und der Literatur Mainz  
+Kevin Page, University of Oxford  
+Laurent Pugin, RISM Digital Center  
+Andreas Rauber, Vienna University of Technology  
+Xavier Serra, Universitat Pompeu Fabra  
+Sertan Şentürk, Independent Researcher  
+Sandra Tuppen, British Library  
+Marnix van Berchum, Utrecht University  
+Raffaele Viglianti, University of Maryland  
+Sonia Wronkowska, The National Library of Poland
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="panel-panel right col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+<div class="panel-pane pane-entity-field pane-node-field-region-3">
+
+<div class="pane-content">
+
+<div class="paragraphs-items paragraphs-items-field-region-3 paragraphs-items-field-region-3-full paragraphs-items-full">
+
+<div class="field field-name-field-region-3 field-type-paragraphs field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-wysiwyg-content-area margin-bottom widget-width-12-columns widget-style-main paragraphs-item-5044731">
+
+<div id="widget-id-5044731">
+
+</div>
+
+<div class="content">
+
+<div class="field field-name-field-content field-type-text-with-summary field-label-hidden">
+
+<div class="field-items">
+
+<div class="field-item private-show even">
+
+#### Sponsors
+
+ 
+
+<div class="file file-image file-image-png embed-image small">
+
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/logo-cesem-eps_trans.png?itok=gOscwZuu" title="Logo cesem" class="img-responsive" alt="logo cesem" />  
+](https://cesem.fcsh.unl.pt)
+
+</div>
+
+ 
+
+<div class="file file-image file-image-png embed-image small">
+
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/logotipo_nova_fcsh.png?itok=7dYPGO-q" title="Logo nova fcsh" class="img-responsive" alt="logo nova fcsh" />  
+](https://www.fcsh.unl.pt/en/)
+
+</div>
+
+ 
+
+<div class="file file-image file-image-png embed-image small">
+
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/2022_fct_logo_a_horizontal_preto_trimmed.png?itok=htORZxFe" title="2022 fct logo" class="img-responsive" alt="2022 fct logo" />  
+](https://www.fct.pt/en/)
+
+</div>
+
+ 
+
+<div class="file file-image file-image-jpeg embed-image small">
+
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/icps-logo-plain.jpg?itok=_CZyIHKX" title="ICPS" class="img-responsive" alt="ICPS" />  
+](https://www.acm.org/publications/icps-series)
+
+</div>
+
+<div contenteditable="false" tabindex="-1">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

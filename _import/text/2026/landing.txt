@@ -1,0 +1,130 @@
+13th International Conference on Digital Libraries for Musicology
+
+News
+
+-   Programme is now available
+
+-   Attendance registration for DLfM is now available via IAML 
+
+-   Poster notification: ~~April 21~~
+
+-   Poster submission deadline: ~~April 15, AOE~~
+
+-   Presentation registration is open
+    -   ~~One author per paper must register by 15 April~~
+    -   ~~One author per poster must register by 01 May~~
+
+-   Camera-Ready Submission enabled in CMT: ~~April 15 deadline~~
+
+-   ~~(Small) Extension!~~
+    -   ~~Abstracts, Subject Areas, and Keywords submission by 11:59pm, 23 January, AoE~~
+    -   ~~Final paper upload submission deadline of 11:59pm 27 January, AoE~~
+
+-   ~~DLfM 2026 submissions now open! (Deadline 23 January, AoE)~~
+
+-   DLfM 2026 Proceedings will be published as Open Access publications in the ACM Digital Library through ICPS
+
+-   Follow DLfM on Bluesky
+
+-   The call for papers has been published (~~deadline for submissions is 23 January 2026~~)
+
+ 
+
+13th International Conference on Digital Libraries for Musicology (DLfM 2026)
+Thursday 02 July 2026
+Thessaloniki Concert Hall, Thessaloniki, Greece
+A satellite event of IAML 2026
+Conference Website https://dlfm.web.ox.ac.uk/  
+
+The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations, computational musicology, or the application of music  information retrieval (MIR) to musicology (see TOPICS, below).
+
+REGISTRATION
+
+DLfM attendance costs for 2026 are payable to IAML. The daily rate for attending only DLfM is 50€. DLfM attendees who plan to attend the full week of IAML will pay the IAML member rate. Attendance registration via IAML is available here: https://www.conftool.com/iaml2026/index.php?page=login.
+
+DLfM paper and poster presentation costs are in addition to the attendance registration. These costs are calculated on a per-presentation basis (only one author per presentation needs to register the presentation) and are :
+
+Paper presentation: $85
+
+Poster presentation: $60
+
+DLfM 2026 presentation registration is currently open.
+
+ 
+
+LOCATION, COLLABORATION
+
+In 2021, 2022, and 2024, we had successful and productive collaborations with the International Association of Music Libraries, Archives, and Documentation Centres (IAML). We are thus delighted to come back to IAML in 2026.
+
+DLfM 2026 will take place on July 02, 2026, at the Thessaloniki Concert Hall in Thessaloniki, Greece, within the wider IAML conference running from 28 June - 03 July 2026.
+
+CALL FOR PAPERS AND POSTERS
+
+CONTACTS and ORGANISATION
+
+Please contact the Chairs with any questions via: https://cmt3.research.microsoft.com/DLfM2026/Email/Chairs
+
+Programme Chair: Joshua Neumann, Akademie der Wissenschaften und der Literatur Mainz
+
+General Chair: Elsa De Luca, CESEM, Universidade Nova de Lisboa
+
+Proceedings Chair: Jessica Grimmer, University of Maryland
+
+Local Chair: Arsinoi Ioannidou, RISM Greek Office
+
+  ------------------------------ -------------------------------------------------------
+  Claire Arthur                  Georgia Institute of Technology
+  Margrethe Bue                  National Library of Norway
+  Tim Crawford                   Goldsmiths University of London
+  Elsa De Luca                   Universidade Nova de Lisboa
+  Timothy Duguid                 University of Glasgow
+  Raphaël Fournier S'niehotta    Sorbonne Université
+  Ichiro Fujinaga                McGill University
+  Francesca Giannetti            Rutgers University
+  Mathieu Giraud                 Université de Lille
+  Werner Goebl                   University of Music and Performing Arts Vienna
+  Clemens Gubsch                 Austrian Academy of Sciences
+  Carlos Guedes                  NYU Abu Dhabi
+  Paul Gulewycz                  Austrian Center for Digital Humanities
+  Jan Hajič, Jr.                 Charles University
+  Zeynep Helvaci                 University of Muenster
+  Olja Janjuš                    Ludwig Maximilian University of Munich
+  Yaolong Ju                     McGill University
+  Anna Kijas                     Tufts University
+  Audrey Laplante                Université de Montréal
+  Kjell Lemström                 University of Helsinki
+  Florence Leve                  Université de Picardie Jules Verne
+  Cynthia Liem                   Delft University of Technology
+  Ewa Łukasik                    Poznan University of Technology
+  Juan Carlos Martinez-Sevilla   University of Alicante
+  Anna Matuszewska               Polish Academy of Sciences
+  Davide Andrea Mauro            Paderborn University
+  Cory McKay                     Marianopolis College
+  Fabian Moss                    Julius-Maximilians-Universität Würzburg
+  Terhi Nurmikko-Fuller          Australian National University
+  Kevin Page                     University of Oxford
+  Anna Plaksin                   Paderborn University
+  Laurent Pugin                  RISM Digital Center
+  Klaus Rettinghaus              SLUB Dresden
+  Kristina Richts-Matthaei       Akademie der Wissenschaften und der Literatur | Mainz
+  Dennis Ried                    Martin Luther University Halle-Wittenberg
+  John Rink                      University of Cambridge
+  David Rizo                     University of Alicante
+  Mark Saccomano                 Paderborn University
+  Joshua Stutter                 University of Sheffield
+  Martha Thomae                  CESEM, Universidade Nova de Lisboa
+  Chanda VanderHart              University for Continuing Education Krems
+  David Weigl                    University of Music and Performing Arts Vienna
+  ------------------------------ -------------------------------------------------------
+
+Sponsors
+
+[da logo]
+
+[cdmd logo grand black]
+
+[logo schwarzschrift freigestellt]
+
+[ICPS]
+
+[iaml logo 20206 png]
