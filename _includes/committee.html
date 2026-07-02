@@ -1,0 +1,25 @@
+{%- assign comm = site.data.committee[ystr] -%}
+{%- if comm -%}
+<section class="committee" id="committee" data-jump="Committee" aria-labelledby="committee-heading">
+  <div class="wrap section">
+    <h2 id="committee-heading">Committee</h2>
+    {%- if comm.chairs %}
+    <ul class="chair-list">
+      {%- for c in comm.chairs %}
+      <li><span class="chair-role">{{ c.role }}</span>
+        <span class="chair-name">{{ c.name }}</span>
+        <span class="chair-aff">{{ c.affiliation }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- if comm.members %}
+    <h3>Programme Committee</h3>
+    <ul class="member-list">
+      {%- for m in comm.members %}
+      <li><span class="m-name">{{ m.name }}</span><span class="m-aff">{{ m.affiliation }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+{%- endif -%}

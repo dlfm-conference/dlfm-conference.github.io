@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% include resolve-edition.html %}
+<header class="page-header wrap">
+  <p class="eyebrow">DLfM {{ year }}{% if edition.city %} · {{ edition.city }}{% endif %}</p>
+  <h1>Proceedings</h1>
+</header>
+<div class="wrap section">
+  {%- assign proc = site.data.proceedings[ystr] -%}
+  {% if proc %}
+    <div class="prose">
+      {% if proc.intro %}{{ proc.intro | markdownify }}{% endif %}
+      {% if proc.publisher %}<p>Published in {{ proc.publisher }}.</p>{% endif %}
+      {% if proc.doi %}<p><strong>Proceedings DOI:</strong> <a href="https://doi.org/{{ proc.doi }}">{{ proc.doi }}</a></p>{% endif %}
+    </div>
+    <ol class="paper-list">
+    {% for p in proc.papers %}
+      <li>
+        <div class="title">{{ p.title }}</div>
+        {% if p.authors %}<div class="authors">{{ p.authors | join: ', ' }}</div>{% endif %}
+        <div class="meta">
+          {% if p.pages %}<span>pp.&nbsp;{{ p.pages }}</span>{% endif %}
+          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}
+          {% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
+        </div>
+      </li>
+    {% endfor %}
+    </ol>
+  {% else %}
+    <div class="prose"><p>Proceedings for DLfM {{ year }} will be linked here once published.</p></div>
+  {% endif %}
+</div>

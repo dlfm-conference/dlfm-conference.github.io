@@ -1,0 +1,19 @@
+# ─── Registry of all DLfM editions (newest first) ──────────────────────────
+# Drives the "Previous events" navigation and each edition's hero facts.
+# The yearly rollover Action appends the outgoing year to this list.
+#
+#   year      : integer, also the URL segment (/2026/)
+#   ordinal   : e.g. "13th" — shown in the hero eyebrow
+#   city      : venue city, shown in hero + eyebrows
+#   dates     : human-readable conference date(s)
+#   satellite : optional — e.g. co-location with IAML
+#   pages     : which optional pages exist this year (controls nav + links)
+#               one or more of: call-for-papers, programme, proceedings,
+#               registration, venue, local
+
+- year: 2026
+  ordinal: "13th"
+  city: "Thessaloniki, Greece"
+  dates: "Thursday 2 July 2026"
+  satellite: "A satellite event of IAML 2026"
+  pages: [call-for-papers, programme]

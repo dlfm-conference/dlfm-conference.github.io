@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% include resolve-edition.html %}
+<header class="page-header wrap">
+  <p class="eyebrow">DLfM {{ year }}{% if edition.city %} · {{ edition.city }}{% endif %}</p>
+  <h1>{{ edpage.title | default: page.title }}</h1>
+</header>
+<div class="wrap section">
+  <div class="prose">
+    {{ edpage.content | markdownify }}
+  </div>
+</div>

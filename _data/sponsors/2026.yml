@@ -1,0 +1,17 @@
+# Sponsors / supporting organisations shown on the DLfM 2026 landing page.
+# To add one: drop a logo in assets/sponsors/2026/ and add name / logo / url.
+- name: "Digitale Akademie, Akademie der Wissenschaften und der Literatur Mainz"
+  logo: /assets/sponsors/2026/digitale-akademie.png
+  url: https://www.adwmainz.de/forschung/digitale-akademie.html
+- name: "Centre for Digital Music Documentation (CDMD)"
+  logo: /assets/sponsors/2026/cdmd.png
+  url: https://www.adwmainz.de/forschung/centre-for-digital-music-documentation.html
+- name: "Akademie der Wissenschaften und der Literatur Mainz"
+  logo: /assets/sponsors/2026/adw-mainz.png
+  url: https://www.adwmainz.de/startseite.html
+- name: "ACM International Conference Proceedings Series (ICPS)"
+  logo: /assets/sponsors/2026/icps-acm.png
+  url: https://dl.acm.org/conference/dlfm
+- name: "International Association of Music Libraries, Archives and Documentation Centres (IAML)"
+  logo: /assets/sponsors/2026/iaml.webp
+  url: https://www.iaml.info/

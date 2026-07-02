@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include resolve-edition.html %}
+{% assign _sponsors = site.data.sponsors[ystr] %}
+<section class="hero{% if _sponsors and _sponsors.size > 0 %} hero--with-sponsors{% endif %}">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="ordinal">{{ edition.ordinal }} International Conference on</p>
+      <h1>Digital&nbsp;Libraries for&nbsp;Musicology</h1>
+      <p class="meta"><strong>{{ edition.dates }}</strong>{% if edition.city %} · {{ edition.city }}{% endif %}</p>
+      {% if edition.satellite %}<p class="satellite">{{ edition.satellite }}</p>{% endif %}
+    </div>
+    {% include sponsors.html %}
+  </div>
+</section>
+
+<div class="wrap section">
+  <div class="prose">
+    {{ edpage.content | markdownify }}
+  </div>
+</div>
+
+{% include committee.html %}

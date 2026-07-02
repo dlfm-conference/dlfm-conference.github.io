@@ -1,0 +1,58 @@
+# DLfM 2026 organising team and programme committee.
+chairs:
+  - role: Programme Chair
+    name: Joshua Neumann
+    affiliation: Akademie der Wissenschaften und der Literatur Mainz
+  - role: General Chair
+    name: Elsa De Luca
+    affiliation: CESEM, Universidade Nova de Lisboa
+  - role: Proceedings Chair
+    name: Jessica Grimmer
+    affiliation: University of Maryland
+  - role: Local Chair
+    name: Arsinoi Ioannidou
+    affiliation: RISM Greek Office
+
+members:
+  - { name: Claire Arthur, affiliation: Georgia Institute of Technology }
+  - { name: Margrethe Bue, affiliation: National Library of Norway }
+  - { name: Tim Crawford, affiliation: Goldsmiths University of London }
+  - { name: Elsa De Luca, affiliation: Universidade Nova de Lisboa }
+  - { name: Timothy Duguid, affiliation: University of Glasgow }
+  - { name: Raphaël Fournier S'niehotta, affiliation: Sorbonne Université }
+  - { name: Ichiro Fujinaga, affiliation: McGill University }
+  - { name: Francesca Giannetti, affiliation: Rutgers University }
+  - { name: Mathieu Giraud, affiliation: Université de Lille }
+  - { name: Werner Goebl, affiliation: University of Music and Performing Arts Vienna }
+  - { name: Clemens Gubsch, affiliation: Austrian Academy of Sciences }
+  - { name: Carlos Guedes, affiliation: NYU Abu Dhabi }
+  - { name: Paul Gulewycz, affiliation: Austrian Center for Digital Humanities }
+  - { name: Jan Hajič, Jr., affiliation: Charles University }
+  - { name: Zeynep Helvaci, affiliation: University of Muenster }
+  - { name: Olja Janjuš, affiliation: Ludwig Maximilian University of Munich }
+  - { name: Yaolong Ju, affiliation: McGill University }
+  - { name: Anna Kijas, affiliation: Tufts University }
+  - { name: Audrey Laplante, affiliation: Université de Montréal }
+  - { name: Kjell Lemström, affiliation: University of Helsinki }
+  - { name: Florence Leve, affiliation: Université de Picardie Jules Verne }
+  - { name: Cynthia Liem, affiliation: Delft University of Technology }
+  - { name: Ewa Łukasik, affiliation: Poznan University of Technology }
+  - { name: Juan Carlos Martinez-Sevilla, affiliation: University of Alicante }
+  - { name: Anna Matuszewska, affiliation: Polish Academy of Sciences }
+  - { name: Davide Andrea Mauro, affiliation: Paderborn University }
+  - { name: Cory McKay, affiliation: Marianopolis College }
+  - { name: Fabian Moss, affiliation: Julius-Maximilians-Universität Würzburg }
+  - { name: Terhi Nurmikko-Fuller, affiliation: Australian National University }
+  - { name: Kevin Page, affiliation: University of Oxford }
+  - { name: Anna Plaksin, affiliation: Paderborn University }
+  - { name: Laurent Pugin, affiliation: RISM Digital Center }
+  - { name: Klaus Rettinghaus, affiliation: SLUB Dresden }
+  - { name: "Kristina Richts-Matthaei", affiliation: "Akademie der Wissenschaften und der Literatur | Mainz" }
+  - { name: Dennis Ried, affiliation: Martin Luther University Halle-Wittenberg }
+  - { name: John Rink, affiliation: University of Cambridge }
+  - { name: David Rizo, affiliation: University of Alicante }
+  - { name: Mark Saccomano, affiliation: Paderborn University }
+  - { name: Joshua Stutter, affiliation: University of Sheffield }
+  - { name: Martha Thomae, affiliation: CESEM, Universidade Nova de Lisboa }
+  - { name: Chanda VanderHart, affiliation: University for Continuing Education Krems }
+  - { name: David Weigl, affiliation: University of Music and Performing Arts Vienna }

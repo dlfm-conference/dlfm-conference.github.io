@@ -1,0 +1,14 @@
+# Jekyll build output & caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local bundler install
+vendor/
+.bundle/
+
+# OS cruft
+.DS_Store
+
+.gems/

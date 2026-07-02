@@ -1,0 +1,49 @@
+{%- assign current = site.data.editions | where: "year", site.current_year | first -%}
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="DLfM — home">
+      <img src="{{ '/assets/logo/dlfm-logo.png' | relative_url }}"
+           alt="Digital Libraries for Musicology" title="Digital Libraries for Musicology"
+           class="brand-logo" width="550" height="200">
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle-bar"></span><span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <ul class="nav-list">
+        {%- if current.pages contains 'call-for-papers' %}
+        <li><a href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a></li>{% endif -%}
+        {%- if current.pages contains 'programme' %}
+        <li><a href="{{ '/programme/' | relative_url }}">Programme</a></li>{% endif -%}
+        {%- if current.pages contains 'proceedings' %}
+        <li><a href="{{ '/proceedings/' | relative_url }}">Proceedings</a></li>{% endif -%}
+        {%- if current.pages contains 'registration' %}
+        <li><a href="{{ '/registration/' | relative_url }}">Registration</a></li>{% endif -%}
+        {%- if current.pages contains 'venue' %}
+        <li><a href="{{ '/venue/' | relative_url }}">Venue</a></li>{% endif -%}
+
+        {%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
+        {%- if past.size > 0 %}
+        <li class="has-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-controls="prev-events">
+            Previous events <span aria-hidden="true" class="caret">▾</span>
+          </button>
+          <ul id="prev-events" class="dropdown">
+            {%- for e in past %}
+            <li class="dropdown-year">
+              <a href="{{ '/' | append: e.year | append: '/' | relative_url }}">DLfM {{ e.year }}</a>
+              <span class="dropdown-sub">
+                {%- if e.pages contains 'programme' %}<a href="{{ '/' | append: e.year | append: '/programme/' | relative_url }}">Programme</a>{% endif -%}
+                {%- if e.pages contains 'proceedings' %} · <a href="{{ '/' | append: e.year | append: '/proceedings/' | relative_url }}">Proceedings</a>{% endif -%}
+              </span>
+            </li>{% endfor -%}
+          </ul>
+        </li>
+        {%- endif %}
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

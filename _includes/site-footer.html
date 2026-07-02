@@ -1,0 +1,45 @@
+{%- assign current = site.data.editions | where: "year", site.current_year | first -%}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <p class="footer-title">Digital Libraries for Musicology</p>
+      <p class="footer-note">{{ site.tagline }}</p>
+    </div>
+
+    <nav class="footer-col" aria-label="This year">
+      <h2 class="footer-heading">DLfM {{ site.current_year }}</h2>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {%- if current.pages contains 'call-for-papers' %}<li><a href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a></li>{% endif -%}
+        {%- if current.pages contains 'programme' %}<li><a href="{{ '/programme/' | relative_url }}">Programme</a></li>{% endif -%}
+        {%- if current.pages contains 'proceedings' %}<li><a href="{{ '/proceedings/' | relative_url }}">Proceedings</a></li>{% endif -%}
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      </ul>
+    </nav>
+
+    {%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
+    {%- if past.size > 0 %}
+    <nav class="footer-col" aria-label="Previous events">
+      <h2 class="footer-heading">Previous events</h2>
+      <ul class="footer-years">
+        {%- for e in past %}<li><a href="{{ '/' | append: e.year | append: '/' | relative_url }}">{{ e.year }}</a></li>{% endfor -%}
+      </ul>
+    </nav>
+    {%- endif %}
+  </div>
+  <div class="wrap footer-baseline">
+    <p class="footer-copyright">© {{ site.current_year }} Digital Libraries for Musicology</p>
+    <ul class="footer-partners">
+      <li class="partner-rism">
+        <a href="https://rism.digital/" aria-label="RISM Digital Center">
+          <img src="{{ '/assets/logo/rism-cream.png' | relative_url }}" alt="RISM Digital Center" title="RISM Digital Center" loading="lazy">
+        </a>
+      </li>
+      <li class="partner-le">
+        <a href="https://letsenco.de" aria-label="Let’s Encode!">
+          <img src="{{ '/assets/logo/lets-encode-cream.png' | relative_url }}" alt="Let’s Encode!" title="Let’s Encode!" loading="lazy">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>

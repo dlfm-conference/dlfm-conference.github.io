@@ -1,0 +1,46 @@
+# ─── DLfM conference website ───────────────────────────────────────────────
+# The ONE setting the yearly rollover flips:
+current_year: 2026
+
+# Site identity
+title: DLfM
+tagline: International Conference on Digital Libraries for Musicology
+description: >-
+  The International Conference on Digital Libraries for Musicology (DLfM)
+  presents a venue for those working on and with digital library systems and
+  content in the domain of music and musicology.
+url: https://dlfm.rism.digital
+baseurl: ""
+lang: en
+
+# Build
+markdown: kramdown
+kramdown:
+  input: GFM          # strikethrough, tables, fenced code, autolinks
+  hard_wrap: false
+  toc_levels: [2]     # {:toc} lists only H2s (used for the About jump bar)
+highlighter: rouge
+permalink: pretty            # /page/ instead of /page.html
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+
+# Everything that is capture / tooling / docs, not website content:
+exclude:
+  - _import/
+  - tools/
+  - docs/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .github/
+
+# Front-matter defaults
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }

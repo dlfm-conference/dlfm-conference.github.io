@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Local dev wrapper for THIS machine's broken multi-Ruby setup.
+# NOT committed (see .gitignore) — a normal machine would just use
+# `bundle exec jekyll serve`.
+#
+# Why this exists: chruby's Ruby 3.1.2 was built without OpenSSL, Homebrew's
+# Ruby 4.0.1 can't load the 3.1.2-built native gems, and bundler's resolver is
+# wedged. So we drive the github-pages-pinned Jekyll 3.9.2 (which mirrors what
+# GitHub Pages runs) directly with chruby's Ruby, skipping bundler.
+#
+# Usage:
+#   bin/serve                 # serve at http://127.0.0.1:4000
+#   bin/serve --port 5000     # serve on another port
+#   bin/serve build           # one-off build into _site/
+#   bin/serve build --profile # any jekyll subcommand + flags pass through
+#
+# Run in the foreground (Ctrl-C to stop); `--detach` misbehaves here.
+# Fallback if `serve` ever hangs:
+#   bin/serve build && python3 -m http.server 4000 --directory _site
+set -euo pipefail
+cd "$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+export GEM_HOME="$HOME/.gem/ruby/3.1.2"
+export GEM_PATH="$HOME/.gem/ruby/3.1.2:$HOME/.rubies/ruby-3.1.2/lib/ruby/gems/3.1.0"
+export JEKYLL_NO_BUNDLER_REQUIRE=true
+
+RUBY="$HOME/.rubies/ruby-3.1.2/bin/ruby"
+JEKYLL="$HOME/.gem/ruby/3.1.2/gems/jekyll-3.9.2/exe/jekyll"
+
+if [ ! -x "$RUBY" ] || [ ! -f "$JEKYLL" ]; then
+  echo "bin/serve: expected Ruby 3.1.2 + Jekyll 3.9.2 not found." >&2
+  echo "  RUBY=$RUBY" >&2
+  echo "  JEKYLL=$JEKYLL" >&2
+  exit 1
+fi
+
+# Assume `serve` unless the caller named a subcommand. So `bin/serve`,
+# `bin/serve --port 5000`, `bin/serve build`, and `bin/serve serve --watch`
+# all do the sensible thing.
+if [ "$#" -eq 0 ] || [ "${1#-}" != "$1" ]; then
+  set -- serve "$@"
+fi
+
+exec "$RUBY" "$JEKYLL" "$@"

@@ -1,0 +1,44 @@
+# DLfM 2026 programme — 02 July, Thessaloniki Concert Hall.
+# Rendered by _layouts/programme.html. Edit here to update the schedule.
+date: "02 July 2026"
+
+sessions:
+  - title: "Session 1"
+    items:
+      - { type: short paper, time: "09:00", title: "Facilitating Access to LinkedMusic with SESEMMI: Converting Natural Language Queries to SPARQL with Large Language Models", authors: ["Liam Pond", "Sichen Meng", "Linnea Kirby", "Sebastien Chow", "Simon Ngassam", "Dylan Hillerbrand", "Ichiro Fujinaga"], affiliation: "McGill University, Canada" }
+      - { type: long paper, time: "09:20", title: "Multimodal Large Language Model-Assisted Metadata Extraction from Historical Concert Programmes (1872–1928)", authors: ["Sebastian Eck (University of Oxford, UK)", "Kevin Page (University of Oxford, UK)"] }
+      - { type: short paper, time: "09:50", title: "From Field to Archive: A Preservation-Centered Workflow for Multimodal Music Collections", authors: ["Xiner Chen", "Juan Sierra", "Rebecca Pittam", "Brad Bauer", "Carlos Guedes"], affiliation: "New York University Abu Dhabi, UAE" }
+      - { type: IAML respondent, time: "10:10", title: "", authors: ["Kimmy Szeto (Baruch College, USA)"] }
+
+  - title: "Session 2"
+    items:
+      - { type: long paper, time: "11:00", title: "Mapping the space of harmonic cadences between Brazilian choro, jazz and Anglophone popular music", authors: ["Mauro Orsini Windholz", "Fabian Moss"], affiliation: "Julius-Maximilians-Universität Würzburg, Germany" }
+      - { type: long paper, time: "11:30", title: "A Rāga Independent Encoder for Svara Representation in Carnatic Music", authors: ["Vivek Vijayan", "Thomas Nuttall", "Xavier Serra"], affiliation: "Universitat Pompeu Fabra, Spain" }
+      - { type: long paper, time: "12:00", title: "Boundary Characteristics of Sancara Segments in Carnatic Music", authors: ["Thomas Nuttall (Universitat Pompeu Fabra, Spain)", "Brindha Manickavasakan (Independent Researcher, India)", "Xavier Serra (Universitat Pompeu Fabra, Spain)", "Lara Pearson (University of Cologne, Germany)"] }
+
+  - title: "Session 3"
+    items:
+      - { type: long paper, time: "14:00", title: "Encoding polymeter: A corpus of Hugo Distler’s «Der Jahrkreis» op. 5 in different symbolic formats", authors: ["Lucas Hofmann (Julius-Maximilians-Universität Würzburg, Germany)", "Craig Sapp (Stanford University, USA)", "Fabian Moss (Julius-Maximilians-Universität Würzburg, Germany)"] }
+      - { type: short paper, time: "14:30", title: "Bridging Piano Pedagogy and Digital Music Libraries", authors: ["Hyae-jin Hwang", "Synae Yoon"], affiliation: "Southern Methodist University, USA" }
+      - { type: short paper, time: "14:50", title: "Beyond Rules: Towards Basso Continuo Personal Style Identification", authors: ["Adam Štefunko (Charles University, Czech Republic)"] }
+      - { type: short paper, time: "15:10", title: "A model for an interactive digital critical edition of Italian 19th-century opera", authors: ["Francesco Maccarini (Università di Pavia, Italy)", "Candida Billie Mantica (Università di Pavia, Italy)", "Giovanni Meriani (Università di Pavia, Italy)", "Mark Saccomano (Paderborn University, Germany)"] }
+
+  - title: "Session 4"
+    items:
+      - { type: long paper, time: "16:00", title: "The CollabScore Dataset — Towards Robust and Generalized OMR Evaluation", authors: ["Philippe Rigaux (CNAM, France)", "Bertrand Couasnon (IRISA, France)", "Christophe Guillotel-Nothmann (IReMus/CNRS, France)", "Fabien Guilloux (IReMus/CNRS, France)", "Aurélie Lemaitre (IRISA/University of Rennes, France)"] }
+      - { type: long paper, time: "16:30", title: "A Timed Petri Net Model and Renderer for Typesetting Pre-Mensural Polyphony", authors: ["Joshua Stutter (Newcastle University, UK)"] }
+      - { type: long paper, time: "17:00", title: "‘Building’ or ‘Bullshit’? AI-assisted Making and the EUYO Concert Explorer", authors: ["Chanda VanderHart (University for Continuing Education Krems, Austria)", "David Weigl (mdw – University of Music and Performing Arts Vienna, Austria)", "Werner Goebl (mdw – University of Music and Performing Arts Vienna, Austria)"] }
+
+# Poster / Challenge track. Sessions at 10:30–11:00 & 15:30–16:00.
+# Challenge-track submissions were italicised in the source programme.
+poster_sessions: "10:30 – 11:00 & 15:30 – 16:00"
+posters:
+  - { challenge: true, title: "Computational approaches to medieval polyphony: tools and workflows developed within REIMAGE", authors: ["Antonio Constenla (Haute école de musique de Genève-Neuchâtel, HES-SO)*", "Niels Berentsen (Haute école de musique de Genève-Neuchâtel, HES-SO)"] }
+  - { challenge: true, title: "A Flexible System for Collecting and Organizing Ethnomusicological Research Metadata", authors: ["Ewa Łukasik (Poznan University of Technology)", "Arleta Nawrocka-Wysocka (Polish Academy of Sciences)", "Magdalena Chudy (Polish Academy of Sciences)*"] }
+  - { challenge: true, title: "Towards automated transcription of Hardanger fiddle performances", authors: ["Olivier Lartillot (RITMO, University of Oslo)*", "Lars Løberg Monstad (Bots for Music)"] }
+  - { challenge: true, title: "PAM: Plainchant Analyser for MEI Neumes", authors: ["Martha Thomae Elías (NOVA University of Lisbon)*", "Elsa De Luca (NOVA University of Lisbon)"] }
+  - { challenge: true, title: "Language-Augmented Soundsketcher: Semantic Enrichment of Perceptual Audio Representations", authors: ["Konstantinos Velenis (Aristotle University of Thessaloniki)*", "Asterios Zacharakis (Aristotle University of Thessaloniki)", "Emilios Cambouropoulos (Aristotle University of Thessaloniki)"] }
+  - { challenge: true, title: "Modular development. What’s new on the Joachim Raff Archive’s online portal", authors: ["Severin Kolb (Joachim-Raff-Archiv)*", "Stefan König (Max-Reger-Institut, Karlsruhe)", "Dennis Ried (Martin-Luther-Universität Halle-Wittenberg)"] }
+  - { challenge: true, title: "How Expert Users Judge Relevance in Chant Retrieval: A User-Centred Evaluation of Cantus Ultimus", authors: ["Emma Pope (McGill University)*"] }
+  - { challenge: true, title: "Musicology, librarianship and technology in the EU Context: the perspective of COST Action EarlyMuse", authors: ["Sonia Wronkowska (National Library of Poland)*"] }
+  - { challenge: true, title: "OMR in the Browser for Large-Scale Music Collections", authors: ["David Rizo (University of Alicante; ISEA CV)", "Bernhard Lutz (Bavarian State Library)", "Adrián Roselló (University of Alicante)", "Janosch Umbreit (Bavarian State Library)*", "Marina Maciá (University of Alicante)", "Silvana Schumann (Bavarian State Library)", "Jorge Calvo-Zaragoza (University of Alicante)"] }

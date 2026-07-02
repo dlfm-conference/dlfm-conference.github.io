@@ -1,0 +1,21 @@
+{%- comment -%}
+  Resolves which edition a page represents, for co-rendering the current year at
+  both `/` and `/<year>/`.
+
+  - A year page (e.g. 2026/index.md) sets `year` in its front matter → it IS the
+    source: `edpage` = itself.
+  - A root stub (e.g. index.md) sets no `year` → it represents the CURRENT edition:
+    `edpage` = the year page with the same `role` and `year == site.current_year`.
+
+  Sets: `year` (int), `ystr` (string key for _data lookups), `edpage` (source page),
+  `edition` (the _data/editions.yml entry).
+{%- endcomment -%}
+{%- if page.year -%}
+  {%- assign year = page.year -%}
+  {%- assign edpage = page -%}
+{%- else -%}
+  {%- assign year = site.current_year -%}
+  {%- assign edpage = site.pages | where: "role", page.role | where: "year", year | first -%}
+{%- endif -%}
+{%- assign ystr = year | append: '' -%}
+{%- assign edition = site.data.editions | where: "year", year | first -%}

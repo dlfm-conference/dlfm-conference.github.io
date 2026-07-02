@@ -1,0 +1,14 @@
+{%- assign sponsors = site.data.sponsors[ystr] -%}
+{%- if sponsors and sponsors.size > 0 -%}
+<aside class="hero-sponsors" aria-labelledby="sponsors-heading">
+  <p id="sponsors-heading" class="hero-sponsors-label">With the support of</p>
+  <ul class="sponsor-grid">
+    {%- for s in sponsors -%}
+    <li>
+      {%- if s.url %}<a href="{{ s.url }}"><img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" title="{{ s.name }}" loading="lazy"></a>
+      {%- else %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" title="{{ s.name }}" loading="lazy">{% endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</aside>
+{%- endif -%}
