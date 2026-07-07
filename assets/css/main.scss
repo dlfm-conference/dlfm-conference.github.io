@@ -49,8 +49,8 @@ body {
 .wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: 1.5rem; }
 
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.2; color: var(--ink); }
-h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.1rem); letter-spacing: -0.01em; }
-h2 { font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem); margin-top: 2.4rem; }
+h1 { font-size: clamp(2rem, calc(1.4rem + 2.6vw), 3.1rem); letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.5rem, calc(1.2rem + 1.2vw), 2rem); margin-top: 2.4rem; }
 h3 { font-size: 1.3rem; font-weight: 600; margin-top: 1.8rem; }
 p, ul, ol { margin: 0 0 1.1rem; }
 
@@ -110,7 +110,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 
 /* ─── Hero (landing) ────────────────────────────────────────────────── */
 .hero { background: var(--band); border-bottom: 1px solid var(--rule); }
-.hero-inner { padding-block: clamp(2.5rem, 1.5rem + 4vw, 4.5rem); }
+.hero-inner { padding-block: clamp(2.5rem, calc(1.5rem + 4vw), 4.5rem); }
 /* When the edition has sponsors, split the hero: text left, sponsors right. */
 .hero--with-sponsors .hero-inner {
   display: grid; grid-template-columns: minmax(0, 1fr) clamp(15rem, 32%, 22rem);
