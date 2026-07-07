@@ -1,6 +1,5 @@
-# DLfM 2025 programme — parsed from the frozen capture; verified by
-# tools/verify_fidelity.py.
-date: "26 September 2025"
+# DLfM 2025 programme — parsed from the frozen capture;
+# verified by tools/verify_fidelity.py.
 note: |-
   The conference will be held on Friday 26 September 2025 in Seoul, as a satellite event of ISMIR. All paper sessions will take place in Room G109 of Gabriel Hall, Sogang University. Poster sessions will take place in TV Studio B (B117) of the same building. Presentation durations: Full papers: 15' presentation + 5' Q&A Short papers: 12' presentation + 3' Q&A The preliminary programme follows below. All times are given in the local KST timezone (UTC+9).
 sessions:

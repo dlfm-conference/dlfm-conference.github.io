@@ -27,18 +27,17 @@
         {%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
         {%- if past.size > 0 %}
         <li class="has-dropdown">
-          <button class="dropdown-toggle" aria-expanded="false" aria-controls="prev-events">
-            Previous events <span aria-hidden="true" class="caret">▾</span>
-          </button>
+          <a href="{{ '/previous/' | relative_url }}" aria-haspopup="true">Previous events <span aria-hidden="true" class="caret">▾</span></a>
           <ul id="prev-events" class="dropdown">
-            {%- for e in past %}
+            {%- for e in past limit: 5 %}
             <li class="dropdown-year">
-              <a href="{{ '/' | append: e.year | append: '/' | relative_url }}">DLfM {{ e.year }}</a>
+              <a href="{{ '/' | append: e.year | append: '/' | relative_url }}">DLfM {{ e.year }}{% if e.city %}<span class="dropdown-city">{{ e.city }}</span>{% endif %}</a>
               <span class="dropdown-sub">
                 {%- if e.pages contains 'programme' %}<a href="{{ '/' | append: e.year | append: '/programme/' | relative_url }}">Programme</a>{% endif -%}
                 {%- if e.pages contains 'proceedings' %} · <a href="{{ '/' | append: e.year | append: '/proceedings/' | relative_url }}">Proceedings</a>{% endif -%}
               </span>
             </li>{% endfor -%}
+            <li class="dropdown-all"><a href="{{ '/previous/' | relative_url }}">All previous events →</a></li>
           </ul>
         </li>
         {%- endif %}

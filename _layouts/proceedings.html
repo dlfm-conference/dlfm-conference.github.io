@@ -3,7 +3,7 @@ layout: default
 ---
 {% include resolve-edition.html %}
 <header class="page-header wrap">
-  <p class="eyebrow">DLfM {{ year }}{% if edition.city %} · {{ edition.city }}{% endif %}</p>
+  <p class="eyebrow"><span class="eyebrow-brand">DLfM</span> {{ year }}{% if edition.city %} · {{ edition.city }}{% endif %}</p>
   <h1>Proceedings</h1>
 </header>
 <div class="wrap section">
@@ -14,13 +14,14 @@ layout: default
       {% if proc.intro %}{{ proc.intro | markdownify }}{% endif %}
       {% if proc.note %}<p>{{ proc.note }}</p>{% endif %}
       {% if proc.publisher %}<p>Published in {{ proc.publisher }}.</p>{% endif %}
-      {% if proc.citation_doi %}<p><a href="https://doi.org/{{ proc.citation_doi }}">Full citation in the ACM Digital Library</a></p>{% endif %}
+      {% if proc.citation_url %}<p><a href="{{ proc.citation_url }}">Full citation in the ACM Digital Library</a></p>
+      {% elsif proc.citation_doi %}<p><a href="https://doi.org/{{ proc.citation_doi }}">Full citation in the ACM Digital Library</a></p>{% endif %}
       {% if proc.doi %}<p><strong>Proceedings DOI:</strong> <a href="https://doi.org/{{ proc.doi }}">{{ proc.doi }}</a></p>{% endif %}
     </div>
     <ol class="paper-list">
     {% for p in proc.papers %}
       <li>
-        <div class="title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+        <div class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% elsif p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
         {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ', ' }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
         {% if p.corrigendum_url %}<p class="corrigendum"><a href="{{ p.corrigendum_url }}">⚠ {{ p.corrigendum_text | default: "A corrigendum has been published for this article" }}</a></p>{% endif %}
         {% if p.abstract %}<div class="abstract">{{ p.abstract | markdownify }}</div>{% endif %}

@@ -99,12 +99,27 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   box-shadow: var(--shadow); opacity: 0; visibility: hidden; transform: translateY(-6px);
   transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s;
 }
-.has-dropdown:hover .dropdown, .dropdown.open { opacity: 1; visibility: visible; transform: translateY(0); }
-.dropdown-year { padding: 0.35rem 0.55rem; border-radius: 4px; }
+.has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown, .dropdown.open {
+  opacity: 1; visibility: visible; transform: translateY(0); }
+.dropdown-year { padding: 0.4rem 0.55rem; border-radius: 4px; }
+.dropdown-year:nth-child(odd) { background: color-mix(in srgb, var(--band) 45%, transparent); }
 .dropdown-year:hover { background: var(--band); }
 .dropdown-year > a { font-weight: 600; color: var(--ink); }
 .dropdown-sub { display: block; font-size: 0.82rem; color: var(--ink-faint); }
 .dropdown-sub a { color: var(--accent); }
+.dropdown-city { display: block; font-size: 0.8rem; font-weight: 400; color: var(--ink-faint); }
+.dropdown-all { margin-top: 0.35rem; padding: 0.5rem 0.55rem 0.25rem; border-top: 1px solid var(--rule); }
+.dropdown-all a { font-weight: 600; color: var(--accent); }
+
+/* ─── Previous events archive page ──────────────────────────────────── */
+.edition-archive { list-style: none; padding: 0; margin: 0; max-width: var(--measure); }
+.edition { padding: 1.15rem 0; border-bottom: 1px solid var(--rule); }
+.edition:last-child { border-bottom: 0; }
+.edition-year { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; }
+.edition-year a { color: var(--ink); text-decoration: none; }
+.edition-year a:hover { color: var(--accent); }
+.edition-meta { display: block; color: var(--ink-soft); font-size: 0.95rem; margin-top: 0.15rem; }
+.edition-links { list-style: none; padding: 0; margin: 0.55rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; font-size: 0.93rem; }
 
 .nav-toggle { display: none; }
 
@@ -172,6 +187,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .page-header + .section { padding-top: 1.25rem; }
 .page-header .eyebrow { font-family: var(--sans); font-weight: 600; letter-spacing: 0.1em;
   text-transform: uppercase; font-size: 0.78rem; color: var(--accent); margin: 0 0 0.5rem; }
+.eyebrow-brand { text-transform: none; }   /* keep "DLfM" cased, not "DLFM" */
 
 /* News callout */
 .news { max-width: var(--measure); background: var(--paper-card); border: 1px solid var(--rule);

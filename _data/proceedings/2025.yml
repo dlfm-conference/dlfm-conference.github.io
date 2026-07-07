@@ -1,8 +1,8 @@
-# DLfM 2025 proceedings — parsed from the frozen capture; verified by
-# tools/verify_fidelity.py. Papers link to their DOI record.
+# DLfM 2025 proceedings — parsed from the frozen capture;
+# verified by tools/verify_fidelity.py.
 title: |-
   DLfM '25: Proceedings of the 12th International Conference on Digital Libraries for Musicology
-citation_doi: 10.1145/3748336
+citation_url: https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png
 note: |-
   The conference was supported by the Ministry of Education of the Republic of Korea and the National Research Foundation of Korea (NRF-2024S1A5C3A03046168)
 papers:
@@ -10,49 +10,49 @@ papers:
       From Pixels to Paleography: A Dual-Pathway Neural Network for Neume Script Classification
     authors: |-
       Kyrie Bouressa and Ichiro Fujinaga
-    doi: 10.1145/3748336.3748344
+    url: https://doi.org/10.1145/3748336.3748344
     abstract: |-
       Medieval music manuscripts in digital libraries often have minimal metadata—descriptions like “has notes” or “musical notation”—creating significant retrieval challenges for researchers and libraries. This paper introduces POSSUMM (Paleographical Object Sorting System Using Machine Methods), a system that leverages machine learning to identify medieval musical notation script types (Beneventan, Hispanic, St. Gall, and Square notations) through visual analysis, enabling better discovery and comparison of early music sources. POSSUMM employs a Siamese neural network architecture with dual-pathway analysis: one branch classifies script styles in a full page context, while the other isolates and analyzes individual neume forms using modified word-spotting techniques. This combination of macro-level classification with micro-level feature recognition provides advantages over traditional single-branch models, such as standard convolutional neural networks, achieving 96% accuracy overall and 93% accuracy for minority notation traditions, even with fragmentary or damaged inputs. For uncertain cases, the system implements a Bayesian query-by-example protocol that provides data that allows users to assist the model in making its classification in an efficient user-guided decision process, typically requiring just 3–5 interactions to achieve high-confidence classification. This human-in-the-loop approach bridges the gap between fully automated systems and expert knowledge, creating a framework where specialist paleographic expertise can be democratized across cultural heritage institutions. POSSUMM enables improved cataloging of under-described fragments, correction of misclassifications, and cross-collection discovery by notation type. POSSUMM’s architecture is designed for extensibility and integration with linked data frameworks (such as Digital Scriptorium, Mapping Manuscript Migrations, or Wikidata), advancing both technical accuracy and the broader goals of digital musicology through the transformation of specialized knowledge into machine-actionable metadata.
   - title: |-
       (Digital) Philology for/of Multiple Creative Processes: Considering Notation, Recordings, and Digital Editions
     authors: |-
       Joshua Neumann
-    doi: 10.1145/3748336.3748338
+    url: https://doi.org/10.1145/3748336.3748338
     abstract: |-
       Digital editions of music represent the fusion of musicology's longstanding focus on philological questions with the affordances of technological flexibility for data modelling, encoding, and presentation, along with possibilities for rapid and broad dissemination. Parallel to analogue musicological work, the focus remains on the concept of works and the identification and compilation of authoritative or definitive editions. Notably absent in both spheres are the contributions of performers and the acknowledgment that music is foremost a sounded entity rather than only a written one. Of course, exponentially more challenges exist for documenting the process of performance than the fixity of a written score. A first step in the direction of addressing some of these challenges still lies within the area of philology, albeit with a different purpose than has been conventional: an Interpretations Edition. Here, the goal is to account for diverse interpretive instructions appearing in a variety of score editions. In the case of project design, of course, a primary challenge is how to balance the usual plethora of editions against a corpus of recordings for interpretations-analysis. Curating the edition to the specific needs of a project thus becomes of paramount importance. More than exhibiting the conceptual variations in the use of MEI for this kind of work, this paper reinforces the importance of balancing technological development with the best ethical practices of edition making as historiographical praxis.
   - title: |-
       A Multimodal Dataset of Greek Folk Music
     authors: |-
       Anna Maria Christodoulou and Olivier Lartillot
-    doi: 10.1145/3748336.3748339
+    url: https://doi.org/10.1145/3748336.3748339
     abstract: |-
       This paper presents a multimodal dataset of Greek folk dance music, focusing on syrtos and balos. Developed to support research in computational musicology, the dataset improves access to Greek musical heritage through manually transcribed MIDI scores, aligned lyrics, and rich metadata, all curated by expert musicologists. Through pattern analysis and feature extraction, we examine both shared melodic structures and unique characteristics of each dance, with some examples reflecting traces of oral transmission. While metadata accompanies the collection to support organization and context, our primary emphasis is on the musical and lyrical content. This work contributes to digital ethnomusicology by showing how multimodal datasets of folk music can inform both analytical research and cultural heritage preservation.
   - title: |-
       Drafting the Landscape of Computational Musicology Tools: A Survey-Based Approach
     authors: |-
       Jorge Junior Morgado Vega, Sachin Sharma and Federico Simonetta
-    doi: 10.1145/3748336.3748340
+    url: https://doi.org/10.1145/3748336.3748340
     abstract: |-
       Since the 50s, musicology has been increasingly impacted by computational tools in various ways, from systematic analysis approaches, to modeling of creativity. This article presents a comprehensive assessment of the current state of computational musicology tools based on survey data collected from practitioners in the field. Through a structured questionnaire, we gathered information on tool usage patterns, common analytical tasks, user satisfaction levels, data characteristics, and prioritized features across four distinct domains: symbolic music, music-related imagery, audio, and lyrics. Our findings reveal significant gaps between current tooling capabilities and user needs, highlighting some limitations of these tools across all domains. This assessment contributes to the ongoing dialogue between tool developers and music scholars, aiming to enhance the effectiveness and accessibility of computational methods in musicological research.
   - title: |-
       The IRMA Dataset: A Structured Audio–MIDI Corpus for Iranian Classical Music
     authors: |-
       Sepideh Shafiei and Shapour Hakam
-    doi: 10.1145/3748336.3748341
+    url: https://doi.org/10.1145/3748336.3748341
     abstract: |-
       We present the IRMA Dataset (Iranian Radif MIDI Audio), a multi-level, open-access corpus designed for the computational study of Iranian classical music, with a particular emphasis on the radif—a structured repertoire of modal-melodic units central to pedagogy and performance. The dataset combines audio recordings, symbolic MIDI representations, phrase-level audio–MIDI alignment, musicological transcriptions in PDF format, and comparative tables of theoretical information curated from a range of performers and scholars. We outline the multi-phase construction process, including segment annotation, alignment methods, and a structured system of identifier codes to reference individual musical units. The current release includes the complete radif of Karimi; audio recordings and MIDI files of Mirzā ʿAbdollāh’s radif; selected segments from the vocal radif of Davāmi, as transcribed by Pāyvar and Fereyduni; and a dedicated section featuring audio–MIDI examples of tahrir ornamentation performed by prominent 20th-century vocalists. Serving both as a scholarly archive and a resource for computational analysis, this open-access dataset supports applications in ethnomusicology, pedagogy, symbolic audio research, cultural heritage preservation, and AI-driven tasks such as automatic transcription and music generation. We welcome collaboration and feedback to support its ongoing refinement and broader integration into musicological and machine learning workflows.
   - title: |-
       Performance Configuration Analysis in Portuguese Traditional Music: A Computational Approach
     authors: |-
       Nawaraj Khatri and Gilberto Bernardes
-    doi: 10.1145/3748336.3748342
+    url: https://doi.org/10.1145/3748336.3748342
     abstract: |-
       We present an analysis of performance configurations in Portuguese traditional music, using computational methods to process field recordings from the A Música Portuguesa A Gostar Dela Própria (MPAGDP) archive. Our approach employs YOLOv11s ("You Only Look Once"), a computer vision system that can detect and count performers in archival footage, allowing us to automatically classify performances into meaningful categories: solo, duo, small, and large ensembles. This computational classification method processed over 8000 field recordings with 96% accuracy, enabling systematic examination of performance contexts that would be time-consuming through manual analysis. Our analysis reveals significant relationships between performance configuration and musical practice across Portuguese traditions. Solo performers, comprising 48% of vocal recordings, predominantly appear in narrative and poetic traditions requiring individual expression. Large ensembles (21%) maintain collective practices like polyphonic singing traditions. The geographic distribution shows regional traits—Alentejo features large-ensemble singing traditions, while northern regions favor solo performances. The temporal analysis traces how traditional forms maintain continuity through specific performance configurations, while contemporary adaptations emerge primarily in small group formats, illuminating the social dimensions of musical transmission and adaptation in Portuguese traditional music.
   - title: |-
       Leveraging Large-language Models for Thematic Analysis of Children’s Folk Lyrics: A comparative study of Iberian Traditions
     authors: |-
       Jorge Forero Rodríguez and Gilberto Bernardes
-    doi: 10.1145/3748336.3748343
+    url: https://doi.org/10.1145/3748336.3748343
     corrigendum_text: |-
       A corrigendum has been published for this article
     corrigendum_url: https://dl.acm.org/doi/suppl/10.1145/3748336.3748343/suppl_file/3748343-corrigendum.pdf
@@ -62,76 +62,76 @@ papers:
       The Cancionero de Miranda Edition: Leveraging Open Source Technologies for Multi-Modal Music Publication
     authors: |-
       Fernando Herrera de Las Heras
-    doi: 10.1145/3748336.3748337
+    url: https://doi.org/10.1145/3748336.3748337
     abstract: |-
       This paper presents the technological framework developed for the digital publication of the Cancionero de Miranda songbook, a significant 17th century Iberian musical collection with important cultural heritage value. Our approach addresses a key challenge in music digital libraries: providing customized access to specialized musical content for diverse user groups. The primary contribution is a flexible publication pipeline that generates tailored editions for different audiences (performers, musicologists, casual readers) across multiple media formats (paper and digital screens). We evaluate and integrate various open source technologies, some of them not typically found in music publishing workflows, like the audio synthesis using virtual singer databanks or an immersive visualization player with auto-scrolling score developed specifically for this project. The paper details our MEI encoding methodology, the customization architecture that adapts content presentation based on user needs, and the technical challenges overcome in creating a cohesive system from disparate open source components. In line with digital preservation best practices, all developed tools are released as reusable open source components that can process standard MEI-encoded music files and markdown text, enabling similar multi-modal editions of other musical collections. Our findings demonstrate how digital library technologies can enhance access to musical heritage while simultaneously serving the specialized needs of both scholarly and performance communities.
   - title: |-
       The Polyphonic Audio to Roman Corpus
     authors: |-
       Thiago Poppe, Luisa Lopes and Flavio Figueiredo
-    doi: 10.1145/3748336.3748345
+    url: https://doi.org/10.1145/3748336.3748345
     abstract: |-
       Roman Numeral Analysis (RNA) is a method for representing chords based on their scale degree and function within a tonal context. This task is particularly challenging, as the classification of a chord can vary depending on the surrounding musical context. The difficulty increases further when RNA is applied to real polyphonic audio recordings, due to the presence of multiple timbres, background noise, ambience effects, and human expressiveness. Despite recent progress, the current literature lacks a large-scale, Music Information Retrieval (MIR)-friendly dataset—one that includes real audio, RNA labels, and well-defined training and evaluation splits—spanning diverse artists, genres, and song complexities. In this paper, we fill this gap by introducing the Polyphonic Audio to Roman Corpus (PARC), a MIR-friendly polyphonic audio to RNA dataset with metadata. We also adapt the current state-of-the-art Deep Learning models, originally focused on symbolic music, to evaluate PARC. To evaluate model performance, not only do we employ standard classification metrics, but we additionally propose a novel equivalence-aware evaluation framework that accounts for inherent ambiguities in RNA labeling (e.g., a C major chord can be seen as I in the key of C major or as III in the key of A minor). The PARC dataset and our evaluations provide valuable insights and open new directions towards RNA on real polyphonic audio recordings.
   - title: |-
       Annotation of digital music notation documents: surveying needs for a generalised implementation
     authors: |-
       Kevin Page, David Lewis and Laurent Pugin
-    doi: 10.1145/3748336.3748346
+    url: https://doi.org/10.1145/3748336.3748346
     abstract: |-
       The ability to annotate music notation documents offers a powerful affordance to musicologists using digital libraries, and in the organisation and discovery of annotated sources within a music digital library. In this paper we first assess the current state of the art for annotating digital scores, then report on a survey conducted into existing uses and future needs elicited from the music library community. Analysing the survey results, we distinguish between extensions which might provide generalised annotation services for music notation software, versus application-specific interfaces and visualisations using such annotation services. Drawing upon the Web Annotation Model, we frame this distinction in terms of annotation targets and bodies, whereby specialist or customised bodies might utilise common shared mechanisms to address targets. We demonstrate the value of the latter by, for the first time, implementing support for annotation targets in the popular and widely used Verovio open source music engraving software, adding visual indications for enumerations and ranges encoded using the MEI element, and which can be manipulated in the resultant SVG. We conclude that common mechanisms for specifying and implementing annotation targets are not only possible, but a practical and useful foundation for music digital library tools and infrastructure.
   - title: |-
       Knowing when to stop: insights from ecology for building catalogues, collections, and corpora
     authors: |-
       Jan Hajič Jr. and Fabian C. Moss
-    doi: 10.1145/3748336.3748347
+    url: https://doi.org/10.1145/3748336.3748347
     abstract: |-
       A major locus of musicological activity—increasingly in the digital domain—is the cataloguing of sources, which requires large-scale and long-lasting research collaborations. Yet, despite decades of effort, the databases aiming at covering and representing musical repertoires are never quite complete, and scholars must contend with the question: how much are we still missing? This question structurally resembles the ‘unseen species’ problem in ecology, where the true number of species must be estimated from limited observations. In this case study, we apply for the first time the common Chao1 estimator to music, specifically Gregorian chant. We find that, overall, upper bounds for repertoire coverage of the major chant genres range between 50 and 80%. As expected, we find that mass propers are covered better than the divine office, though not overwhelmingly so. However, the accumulation curve suggests that those bounds are not tight: we find that ∼5% of chants in sources indexed between 1993 and 2020 were unique, so diminishing returns in terms of repertoire diversity are not yet to be expected. Our study demonstrates that these kinds of questions can be addressed empirically to inform musicological data-gathering, and delineate promising areas of application for unseen species models in musicology.
   - title: |-
       Collaborative workflows for encoding, validating, and publishing a multimodal digital edition
     authors: |-
       David M. Weigl, Olja Janjuš, Reinier de Valk, Ilias Kyriazis, Julia Jaklin, Stefan Rosmer, Silas Bischoff, Henning Burghoff, Martina Bürgermeister, Christoph Steindl, Andreas Rauber and Kateryna Schöning
-    doi: 10.1145/3748336.3748349
+    url: https://doi.org/10.1145/3748336.3748349
     abstract: |-
       German lute tablature (GLT), once widespread throughout central Europe in the 15th and 16th centuries, has remained underexplored in scholarship and largely abandoned in performance practice, in part due to its significantly greater complexity when compared to other tablature types. ANON is an international, interdisciplinary research project assembling a comprehensive multimodal digital edition of surviving GLT sources. The project's team unites scholars with backgrounds in musicology, music performance, German language and literature studies, music informatics, library and information studies, and Web science; with correspondingly heterogeneous research priorities, data formats, and software tools. Developing a research data infrastructure and corresponding workflows to provide effective and sustainable support for this collaboration is an important focus of the project. Here, we present an overview of the technologies, tools, environments, and workflows serving to fulfill the varied stakeholder requirements underlying our multimodal digital edition.
   - title: |-
       Sustainable Archiving of Music Databases through RDF and NLQ2SPARQL
     authors: |-
       Ichiro Fujinaga
-    doi: 10.1145/3748336.3748352
+    url: https://doi.org/10.1145/3748336.3748352
     abstract: |-
       Ensuring the long-term accessibility of academic and non-profit databases remains a persistent challenge—especially in fields like musicology, where limited funding often leads to data loss. Traditional archiving methods may preserve raw data but rarely retain the interactive interfaces and query functions essential for research. This paper presents a sustainable solution for archiving music databases by combining the Resource Description Framework (RDF) with Natural Language Query to SPARQL (NLQ2SPARQL) technologies. By converting diverse music data into RDF and enabling natural language queries via large language models (LLMs), we propose an interoperable framework that preserves both content and access. While originally developed to support seamless, multilingual searches across multiple music databases, our model also serves as a blueprint for preserving at-risk databases and ensuring their continued usability through intuitive interfaces.
   - title: |-
       Modelling Musical Meaning: A Semantically Enriched Corpus from Nineteenth-Century Spanish Music Lexicons
     authors: |-
       Teresa Cascudo García-Villaraco, David Ferreiro Carballo and Arturo de Las Casas Escolar
-    doi: 10.1145/3748336.3748353
+    url: https://doi.org/10.1145/3748336.3748353
     abstract: |-
       This paper presents ongoing work within the LexiMus project, which aims to construct a semantically enriched corpus based on nineteenth-century Spanish music dictionaries. By converting legacy lexicographic sources (ca. 1850–1920) into structured data, the project enables digital representation, querying, and comparative analysis of historical musical concepts. The corpus integrates ontological modelling (subject–predicate–object triples) and manual annotation of conceptual relations and coreferential structures. It organises musical knowledge into categories, such as material sound entities, musical forms, performance practices, and reception. Through semantic enrichment, the system supports complex SPARQL-style queries and enables diachronic tracking of terminological shifts and conceptual change in music theory discourse. We focus here on a pilot case study centred on the term ‘acorde’ (chord) in Carlos José Melcior’s Diccionario enciclopédico de la música (1859). We develop a preliminary ontological model from the entry, which captures both explicit and implicit conceptual structures. The model is then compared to the corresponding definitions in María Luisa Lacal’s (1899) and Jaime Pahissa’s (1929) dictionaries, highlighting semantic variation over time. This case illustrates how nineteenth-century lexicographic voices, often considered peripheral, encode complex relationships among, for instance, acoustics, perception, notation, and theoretical classification. This work contributes to digital musicology by bridging historical music discourse and semantic web technologies. Beyond digitisation, it proposes new interfaces for interaction with historical sources: structured conceptual navigation, alignment with existing music ontologies, and potential integration into digital library systems.
   - title: |-
       Curating a Public Carnatic Music Dataset: Scalable Extraction of Ragam, Shruti, and Talam Metadata for Computational Musicology
     authors: |-
       Sanjay Natesan and Homayoon Beigi
-    doi: 10.1145/3748336.3748354
+    url: https://doi.org/10.1145/3748336.3748354
     abstract: |-
       We introduce a novel, publicly available corpus of South Indian Carnatic music, which—for the first time—spans 172 distinct ragams (melodic frameworks) and 676 curated concert recordings, segmented into more than 11,219 audio clips. Each clip is annotated with its shruti (tonal center) and talam (metrical cycle) as Linked-Data entities, enabling automatic interoperability with established Music Information Retrieval (MIR) ontologies. The dataset was assembled through a hybrid pipeline that combines web-scale harvesting of YouTube concerts, automated signal processing for quality control, and expert-in-the-loop validation. To address inconsistencies in crowdsourced metadata, we introduce a pragmatic taxonomy that reconciles regional performance practices with canonical musicological literature. Case studies in automatic ragam recognition and comparative talam analysis illustrate how the resource advances computational musicology, cross-cultural MIR, and data quality assessment in digital libraries. This dataset is released under an open license at <https://www.kaggle.com/datasets/sanjaynatesan/carnatic-song-database> and will be updated as the resource grows.
   - title: |-
       MuNG Studio: Annotation Tool for Music Notation Graph
     authors: |-
       Jiří Mayer, Filip Jebavý, Markéta Herzánová Vlková, Martina Dvořáková, Pavel Pecina and Jan Hajič Jr.
-    doi: 10.1145/3748336.3748379
+    url: https://doi.org/10.1145/3748336.3748379
     abstract: |-
       This paper introduces MuNG Studio, a new annotation tool for the Music Notation Graph (MuNG) format. MuNG is a high-detail graphical annotation format designed for Optical Music Recognition (OMR) tasks, originally proposed for the MUSCIMA++ dataset in 2017. MUSCIMA++ had a significant impact on the OMR community; however, most subsequent datasets made little use of the full MuNG format. This was likely due to the lack of user-friendly tools supporting the format. The original MUSCIMarker tool supporting the MuNG format that was used to annotate the MUSCIMA++ dataset is now obsolete and is impossible to install. The new MuNG Studio seeks to provide an easy-to-install web-based viewer and editor for the MuNG format with the goal of expanding and supporting the now growing ecosystem around MuNG.
   - title: |-
       Smashcima: Full-Page Handwritten Music Document Synthesizer
     authors: |-
       Jiří Mayer, Pavel Pecina and Jan Hajič Jr.
-    doi: 10.1145/3748336.3748380
+    url: https://doi.org/10.1145/3748336.3748380
     abstract: |-
       Despite massive progress made in Optical Music Recognition (OMR) with deep learning, data scarcity remains an issue, especially for manuscripts. Synthetic data has been shown to alleviate this issue, but no tool for rendering a handwritten page from structured encoding such as MusicXML exists. This paper introduces Smashcima, a synthesizer and framework for the creation of synthetic handwritten full-page music images. It accepts MusicXML files and produces images with full information on their glyphs, segmentation masks, keypoints, notation graph, and semantics. It is compatible with the MuNG format and so can also be used to train object detection and graph models. It can synthesize images of all levels of music notation complexity, including pianoform music. Smashcima thus greatly increases the value of dataset acquisition, as it can expand a small manually annotated dataset to the scale of arbitrary available MusicXML data, thereby alleviating manuscript data scarcity for OMR.
   - title: |-
       Accompaniment in America: A Minimal-Computing Digital Collection for Hybrid Musicological Publication
     authors: |-
       Chanda Vanderhart, David Wögerbauer and David M. Weigl
-    doi: 10.1145/3748336.3750057
+    url: https://doi.org/10.1145/3748336.3750057
     abstract: |-
       Despite the increasing digitization of music scholarship, historical musicology has been slow to adopt hybrid or multimodal approaches to research dissemination. This paper presents Accompaniment in America, a hybrid digital and print publication that bridges this gap by integrating traditional musicological scholarship with an open-access, minimal computing digital collection. The project – comprising a mini-monograph and a multifaceted digital companion – examines the institutionalization of collaborative piano in North America while demonstrating how lightweight, sustainable digital frameworks can enhance humanities research and publication without alienating traditional scholars or requiring extensive institutional resources. The collection, built by a team of two, leverages open-source tools (GitHub, Zenodo), hosts archival materials, interactive visualizations, and pedagogical resources, and adheres to FAIR principles (Findable, Accessible, Interoperable, Reusable). Designed for longevity and low technical and financial overhead, it serves as both a living archive and a model for minimal computing in musicology, addressing challenges of accessibility, copyright, and resource limitations. By pairing QR codes in the print edition with hyperlinked digital content, the project fosters engagement across analog and digital scholarly ecosystems. We argue that such minimal computing approaches can both enrich traditional musicological dissemination and democratize access to data and digitized archival material while preserving the comfort levels and preferences of traditional music scholars. The paper concludes with reflections on the technical, legal, and ethical challenges of small-scale hybrid publishing, including copyright barriers and the need for interdisciplinary collaboration. This case study offers actionable insights for scholars, computer scientists, librarians, and archivists seeking to integrate digital libraries into cultural heritage projects with limited budgets and infrastructure.

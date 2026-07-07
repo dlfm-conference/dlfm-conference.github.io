@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{%- assign labels = "programme:Programme,proceedings:Proceedings,call-for-papers:Call for Papers,registration:Registration,venue:Venue,local:Local arrangements" | split: "," -%}
+<header class="page-header wrap">
+  <p class="eyebrow">Digital Libraries for Musicology</p>
+  <h1>{{ page.title }}</h1>
+</header>
+<div class="wrap section">
+  <ol class="edition-archive">
+    {%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
+    {%- for e in past %}
+    <li class="edition">
+      <div class="edition-head">
+        <a class="edition-year" href="{{ '/' | append: e.year | append: '/' | relative_url }}">DLfM {{ e.year }}</a>
+        <span class="edition-meta">{{ e.ordinal }} International Conference{% if e.city %} · {{ e.city }}{% endif %}{% if e.dates %} · {{ e.dates }}{% endif %}</span>
+      </div>
+      <ul class="edition-links">
+        {%- for pg in e.pages -%}
+        {%- assign lbl = pg -%}
+        {%- for pair in labels -%}
+          {%- assign kv = pair | split: ":" -%}
+          {%- if kv[0] == pg %}{% assign lbl = kv[1] %}{% endif -%}
+        {%- endfor -%}
+        <li><a href="{{ '/' | append: e.year | append: '/' | append: pg | append: '/' | relative_url }}">{{ lbl }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </li>
+    {%- endfor %}
+  </ol>
+</div>

@@ -24,3 +24,45 @@
   dates: "26 September 2025"
   satellite: "In association with the International Society for Music Information Retrieval (ISMIR)"
   pages: [programme, proceedings, registration, venue, local]
+
+- year: 2024
+  ordinal: "11th"
+  city: "Stellenbosch, South Africa"
+  dates: "27 June 2024"
+  pages: [programme, proceedings, registration]
+
+- year: 2023
+  ordinal: "10th"
+  city: "Milan, Italy"
+  dates: "10 November 2023"
+  pages: [programme, proceedings]
+
+- year: 2022
+  ordinal: "9th"
+  city: "Prague, Czech Republic"
+  dates: "28 July 2022"
+  pages: [programme, proceedings]
+
+- year: 2021
+  ordinal: "8th"
+  city: "Online"
+  dates: "28–30 July 2021"
+  pages: [programme, proceedings]
+
+- year: 2020
+  ordinal: "7th"
+  city: "Montréal, Canada (online)"
+  dates: "16 October 2020"
+  pages: [programme, proceedings]
+
+- year: 2019
+  ordinal: "6th"
+  city: "The Hague, Netherlands"
+  dates: "9th November 2019"
+  pages: [programme, proceedings]
+
+- year: 2018
+  ordinal: "5th"
+  city: "Paris, France"
+  dates: "28th September 2018"
+  pages: [programme, proceedings]

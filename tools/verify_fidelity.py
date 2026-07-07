@@ -139,8 +139,17 @@ def check_page(year, slug, site, allow, strict_links):
     # Set semantics: a word in the legacy text must appear SOMEWHERE in the
     # built page (and vice-versa). This tolerates duplication introduced by the
     # hero / nav / templating while still catching real omissions or inventions.
-    built = set(tokens(parser.text()))
-    gt = set(tokens(gt_txt.read_text(encoding="utf-8", errors="replace")))
+    # Scrub both sides identically before diffing:
+    #  - old-CMS / Wayback URLs (intentionally repointed, and sometimes kept as
+    #    historical text) — their host tokens (ox, ac, uk, archive…) aren't content
+    #  - bracketed spans: pandoc renders images as "[alt]" (logos relocated to the
+    #    hero) and citation refs like "[39]" are bracketed in both
+    def scrub(t):
+        t = re.sub(r"https?://(?:dlfm\.web\.ox\.ac\.uk|web\.archive\.org)\S*", " ", t)
+        return re.sub(r"\[[^\]]*\]", " ", t)
+
+    built = set(tokens(scrub(parser.text())))
+    gt = set(tokens(scrub(gt_txt.read_text(encoding="utf-8", errors="replace"))))
 
     # The allowlist marks expected text-vs-render differences, in either
     # direction (e.g. a name that survives only as a logo's alt text).
@@ -158,11 +167,15 @@ def check_page(year, slug, site, allow, strict_links):
     if gt_md.exists():
         md = WAYBACK_RE.sub("", gt_md.read_text(encoding="utf-8", errors="replace"))
         want = set(DOI_RE.findall(md))
-        # external URLs only (legacy self-links to the old CMS are expected to change)
+        # external URLs only (legacy self-links to the old CMS are expected to
+        # change; image/asset URLs are not content links)
         for u in URL_RE.findall(md):
             u = u.rstrip(".,);]")
-            if "dlfm.web.ox.ac.uk" not in u:
-                want.add(u)
+            if "dlfm.web.ox.ac.uk" in u:
+                continue
+            if re.search(r"\.(png|jpe?g|gif|svg|webp)$", u, re.I):
+                continue
+            want.add(u)
         # compare scheme-insensitively (https vs http is not a fidelity issue)
         def noscheme(s):
             return s.replace("https://", "//").replace("http://", "//")

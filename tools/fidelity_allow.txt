@@ -6,6 +6,18 @@
 # Sponsors block label ("With the support of")
 with the support of
 
+# ACM Digital Library citation line carries a "[Digital Library logo]" image
+# whose alt survives in the legacy text; the logo itself is not reproduced.
+logo
+
+# "DLfM" appears in every page-header eyebrow ("DLfM <year> · <city>"); on bare
+# subpages it may not be in that page's legacy body. Ubiquitous brand — safe.
+dlfm
+
+# Landing section headings the redesign relocates: "Sponsors" (-> hero) and
+# "Conference Organization" (-> Committee section).
+sponsors organization organisation supported
+
 # Hero / page-header scaffolding that may not appear verbatim in every legacy page
 international conference on
 digital libraries for musicology
@@ -25,3 +37,21 @@ a satellite event of
 2025/proceedings: seoul south korea logo
 # programme: eyebrow "DLfM <year> · <city>" + table header + section label
 2025/programme: dlfm seoul south korea time oral
+2024/proceedings: africa stellenbosch
+2024/programme: south africa
+# 2024 landing: sponsor names live in hero logos (alt); Sponsors/Organization headings removed
+2024/landing: fcsh fct organization sponsors
+2024/registration: 2022 fct nova sponsors africa south stellenbosch
+2023/programme: italy
+2023/proceedings: italy milan
+2022/landing: czech republic
+2022/programme: czech republic
+2022/proceedings: czech prague republic
+2020/landing: covid 19 steering
+2020/programme: canada online
+2020/proceedings: canada montréal
+2020/gathertown-user-instructions: 2020 canada montréal online
+2019/landing: committe dlsi drizo ua es centraa l
+2019/proceedings: session hague netherlands
+2018/landing: mportant
+2018/proceedings: studies paris france
