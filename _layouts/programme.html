@@ -9,62 +9,63 @@ layout: default
 <div class="wrap section">
   {%- assign prog = site.data.programme[ystr] -%}
   {% if prog %}
-    {% if prog.note %}<div class="prose">{{ prog.note | markdownify }}</div>{% endif %}
+    {% if prog.note %}<div class="prose"><p>{{ prog.note }}</p></div>{% endif %}
 
-    {% if prog.sessions.size > 1 or prog.posters %}
+    {% assign titled = prog.sessions | where_exp: "s", "s.title" %}
+    {% if titled.size > 1 or prog.posters %}
     <nav class="prog-jump" aria-label="Jump to a part of the programme">
       <ul>
-        {% for session in prog.sessions %}
-        <li><a href="#s{{ forloop.index }}">{{ session.title }}</a></li>
-        {% endfor %}
-        {% if prog.posters %}<li><a href="#posters">Posters &amp; Challenge track</a></li>{% endif %}
+        {% for s in prog.sessions %}{% if s.title %}<li><a href="#s{{ forloop.index }}">{{ s.title }}</a></li>{% endif %}{% endfor %}
+        {% if prog.posters %}<li><a href="#posters">Posters</a></li>{% endif %}
       </ul>
     </nav>
     {% endif %}
 
     {% for session in prog.sessions %}
-    <section class="prog-session" aria-labelledby="s{{ forloop.index }}">
-      <h2 id="s{{ forloop.index }}">{{ session.title }}<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>
-      {% if session.chair %}<p class="prog-chair">Chair: {{ session.chair }}</p>{% endif %}
-      <div class="table-scroll">
-      <table class="data-table prog-table">
-        <caption class="visually-hidden">{{ session.title }}</caption>
-        <thead><tr><th scope="col">Time</th><th scope="col">Presentation</th></tr></thead>
-        <tbody>
-        {% for item in session.items %}
-          <tr>
-            <td class="prog-time">{{ item.time }}</td>
-            <td>
-              {% if item.type %}<span class="prog-type">{{ item.type }}</span>{% endif %}
-              {% if item.title != "" %}<span class="prog-title">{{ item.title }}</span>{% endif %}
-              {% if item.authors %}<span class="prog-authors">{{ item.authors | join: ', ' }}{% if item.affiliation %} ({{ item.affiliation }}){% endif %}</span>{% endif %}
-              {% if item.pdf %}<span class="prog-links"><a href="{{ item.pdf | relative_url }}">Poster&nbsp;PDF</a></span>{% endif %}
-            </td>
-          </tr>
-        {% endfor %}
-        </tbody>
-      </table>
-      </div>
-    </section>
+      {% if session.break %}
+      <div class="prog-break">{% if session.time %}<span class="prog-time">{{ session.time }}</span>{% endif %}<span class="prog-break-label">{{ session.break }}</span></div>
+      {% else %}
+      <section class="prog-session"{% if session.title %} aria-labelledby="s{{ forloop.index }}"{% endif %}>
+        {% if session.title %}<h2 id="s{{ forloop.index }}">{{ session.title }}<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>{% endif %}
+        {% if session.time %}<p class="prog-chair">{{ session.time }}</p>{% endif %}
+        <div class="table-scroll">
+        <table class="data-table prog-table">
+          <caption class="visually-hidden">{{ session.title | default: "Programme" }}</caption>
+          <thead><tr><th scope="col">Time</th><th scope="col">Presentation</th></tr></thead>
+          <tbody>
+          {% for item in session.items %}
+            <tr>
+              <td class="prog-time">{{ item.time }}</td>
+              <td>
+                {% if item.type %}<span class="prog-type prog-type--{{ item.type | slugify }}">{{ item.type }}</span>{% endif %}
+                {% if item.title and item.title != "" %}<span class="prog-title">{{ item.title }}</span>{% endif %}
+                {% if item.authors %}<span class="prog-authors">{% if item.authors.first %}{{ item.authors | join: ", " }}{% else %}{{ item.authors }}{% endif %}</span>{% endif %}
+                {% if item.affiliation %}<span class="prog-authors">{{ item.affiliation }}</span>{% endif %}
+                {% if item.pdf %}<span class="prog-links"><a href="{{ item.pdf | relative_url }}">PDF</a></span>{% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+        </div>
+      </section>
+      {% endif %}
     {% endfor %}
 
     {% if prog.posters %}
     <section class="prog-session" aria-labelledby="posters">
-      <h2 id="posters">Posters &amp; Challenge track<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>
-      {% if prog.poster_sessions %}<p class="prog-chair">Poster sessions: {{ prog.poster_sessions }}. Challenge-track submissions are marked <span class="prog-type prog-type--challenge">challenge</span>.</p>{% endif %}
+      <h2 id="posters">Posters<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>
+      {% if prog.posters.note %}<p class="prog-chair">{{ prog.posters.note }}</p>{% endif %}
       <ul class="paper-list">
-        {% for p in prog.posters %}
+        {% for p in prog.posters.items %}
         <li>
-          <div class="title">{{ p.title }}{% if p.challenge %} <span class="prog-type prog-type--challenge">challenge</span>{% endif %}</div>
-          {% if p.authors %}<div class="authors">{{ p.authors | join: ', ' }}</div>{% endif %}
-          {% if p.pdf %}<div class="meta"><a href="{{ p.pdf | relative_url }}">Poster PDF</a></div>{% endif %}
+          <div class="title">{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+          {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ", " }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
         </li>
         {% endfor %}
       </ul>
     </section>
     {% endif %}
-
-    {% if prog.pdf %}<p class="prog-download"><a href="{{ prog.pdf | relative_url }}">Download the full programme (PDF)</a></p>{% endif %}
   {% else %}
     <div class="prose"><p>The programme for DLfM {{ year }} will be published closer to the event.</p></div>
   {% endif %}

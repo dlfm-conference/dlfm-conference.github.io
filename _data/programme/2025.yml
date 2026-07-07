@@ -1,0 +1,232 @@
+# DLfM 2025 programme — parsed from the frozen capture; verified by
+# tools/verify_fidelity.py.
+date: "26 September 2025"
+note: |-
+  The conference will be held on Friday 26 September 2025 in Seoul, as a satellite event of ISMIR. All paper sessions will take place in Room G109 of Gabriel Hall, Sogang University. Poster sessions will take place in TV Studio B (B117) of the same building. Presentation durations: Full papers: 15' presentation + 5' Q&A Short papers: 12' presentation + 3' Q&A The preliminary programme follows below. All times are given in the local KST timezone (UTC+9).
+sessions:
+  - break: |-
+      Welcome
+    time: "9:00-9:10"
+  - title: |-
+      Session 1: Digital collections and datasets
+    time: "9:10-10:40"
+    items:
+      - time: "9:10"
+        type: |-
+          Full paper
+        title: |-
+          The IRMA Dataset: A Structured Audio–MIDI Corpus for Iranian Classical Music
+        authors: |-
+          Sepideh Shafiei and Shapour Hakam
+      - time: "9:30"
+        type: |-
+          Full paper
+        title: |-
+          A Multimodal Dataset of Greek Folk Music
+        authors: |-
+          Anna Maria Christodoulou and Olivier Lartillot
+      - time: "09:50"
+        type: |-
+          Full paper
+        title: |-
+          The Cancionero de Miranda Edition: Leveraging Open Source Technologies for Multi-Modal Music Publication
+        authors: |-
+          Fernando Herrera de Las Heras
+      - time: "10:10"
+        type: |-
+          Short paper
+        title: |-
+          Curating a Public Carnatic Music Dataset: Scalable Extraction of Ragam, Shruti, and Talam Metadata for Computational Musicology
+        authors: |-
+          Sanjay Natesan and Homayoon Beigi
+      - time: "10:25"
+        type: |-
+          Short paper
+        title: |-
+          Sustainable Archiving of Music Databases through RDF and NLQ2SPARQL
+        authors: |-
+          Ichiro Fujinaga
+  - break: |-
+      Coffee break & posters
+    time: "10:40-11:30"
+  - title: |-
+      Session 2: Reflections on digital editions and musicological tools
+    time: "11:30-13:00"
+    items:
+      - time: "11:30"
+        type: |-
+          Full paper
+        title: |-
+          (Digital) Philology for/of Multiple Creative Processes: Considering Notation, Recordings, and Digital Editions
+        authors: |-
+          Joshua Neumann
+      - time: "11:50"
+        type: |-
+          Full paper
+        title: |-
+          Drafting the Landscape of Computational Musicology Tools: A Survey-Based Approach
+        authors: |-
+          Jorge Junior Morgado Vega, Sachin Sharma and Federico Simonetta
+      - time: "12:10"
+        type: |-
+          Full paper
+        title: |-
+          Annotation of digital music notation documents: surveying needs for a generalised implementation
+        authors: |-
+          Kevin Page, David Lewis and Laurent Pugin
+      - time: "12:30"
+        type: |-
+          Short paper
+        title: |-
+          MuNG Studio: Annotation Tool for Music Notation Graph
+        authors: |-
+          Jiří Mayer, Filip Jebavý, Markéta Herzánová Vlková, Martina Dvořáková, Pavel Pecina and Jan Hajič Jr.
+      - time: "12:45"
+        type: |-
+          Short paper
+        title: |-
+          Collaborative workflows for encoding, validating, and publishing a multimodal digital edition
+        authors: |-
+          David M. Weigl, Olja Janjuš, Reinier de Valk, Ilias Kyriazis, Julia Jaklin, Stefan Rosmer, Silas Bischoff, Henning Burghoff, Martina Bürgermeister, Christoph Steindl, Andreas Rauber and Kateryna Schöning
+  - break: |-
+      Lunch break
+    time: "13:00-14:00"
+  - title: |-
+      Session 3: Analysis and building digital collections
+    time: "14:00-15:30"
+    items:
+      - time: "14:00"
+        type: |-
+          Full paper
+        title: |-
+          Performance Configuration Analysis in Portuguese Traditional Music: A Computational Approach
+        authors: |-
+          Nawaraj Khatri and Gilberto Bernardes
+      - time: "14:20"
+        type: |-
+          Full paper
+        title: |-
+          Leveraging Large-language Models for Thematic Analysis of Children’s Folk Lyrics: A comparative study of Iberian Traditions
+        authors: |-
+          Jorge Forero Rodriguez and Gilberto Bernardes
+      - time: "14:40"
+        type: |-
+          Full paper
+        title: |-
+          The Polyphonic Audio to Roman Corpus
+        authors: |-
+          Thiago Poppe, Luisa Lopes and Flavio Figueiredo
+      - time: "15:00"
+        type: |-
+          Short paper
+        title: |-
+          Accompaniment in America: A Minimal-Computing Digital Collection for Hybrid Musicological Publication
+        authors: |-
+          Chanda Vanderhart, David Wögerbauer and David M. Weigl
+      - time: "15:15"
+        type: |-
+          Short paper
+        title: |-
+          Knowing when to stop: insights from ecology for building catalogues, collections, and corpora
+        authors: |-
+          Jan Hajič Jr. and Fabian C. Moss
+  - break: |-
+      Coffee break & posters
+    time: "15:30-16:20"
+  - title: |-
+      Session 4: Tools
+    time: "16:20-17:10"
+    items:
+      - time: "16:20"
+        type: |-
+          Short paper
+        title: |-
+          Smashcima: Full-Page Handwritten Music Document Synthesizer
+        authors: |-
+          Jiří Mayer, Pavel Pecina and Jan Hajič Jr.
+      - time: "16:35"
+        type: |-
+          Full paper
+        title: |-
+          From Pixels to Paleography: A Dual-Pathway Neural Network for Neume Script Classification
+        authors: |-
+          Kyrie Bouressa and Ichiro Fujinaga
+      - time: "16:55"
+        type: |-
+          Short paper
+        title: |-
+          Modelling Musical Meaning: A Semantically Enriched Corpus from Nineteenth-Century Spanish Music Lexicons
+        authors: |-
+          Teresa Cascudo García-Villaraco, David Ferreiro Carballo and Arturo de Las Casas Escolar
+  - break: |-
+      Farewell
+    time: "17:10-17:20"
+posters:
+  note: |-
+    Poster presentations (10:40-11:30 and 15:30-16:20)
+  items:
+    - title: |-
+        Universal Musical Instrument Lexicon: A Crowdsourced Platform for Expanding Multilingual Vocabularies and Enhancing Global Access to Musical Instrument Metadata
+      authors: |-
+        Kun Fang, Kyrie Bouressa, Yu Chia Kuo, Anna de Bakker and Ichiro Fujinaga
+      pdf: /assets/2025/posters/2025-poster-fang.pdf
+    - title: |-
+        The Intersection of Music and Cybernetics and Its Beginnings: Alvin Lucier's Music for Solo Performer (1965)
+      authors: |-
+        Yerim Gim
+      pdf: /assets/2025/posters/2025-poster-gim.pdf
+    - title: |-
+        Digitally Unpacking Musical Treasures from Archduke Rudolph’s Musikalien Register Nr. 9 at the Gesellschaft der Musikfreunde, Wien
+      authors: |-
+        Stephen Husarik
+      pdf: /assets/2025/posters/2025-poster-husarik.pdf
+    - title: |-
+        From Digital Editions to Interpretive Insights: Reimagining Čiurlionis' Piano Legacy
+      authors: |-
+        Jūratė Janutėnaitė-Bogdanienė, Darius Kučinskas and Laimonas Janutėnas
+      pdf: /assets/2025/posters/2025-poster-bogdaniene.pdf
+    - title: |-
+        Toward the Archiving of Performance Data in Music Therapy and Early Childhood Education
+      authors: |-
+        Risa Kobayashi, Kanae Suzuki, Ikki Ohmukai, Nami Iino, Hiroko Terasawa and Masaki Matsubara
+      pdf: /assets/2025/posters/2025-poster-kobayashi.pdf
+    - title: |-
+        Reviving Lost Voices: Digital Archiving of Indigenous Folk Song Field Recordings from 1960s Taiwan
+      authors: |-
+        Liang Lee
+      pdf: /assets/2025/posters/2025-poster-liang.pdf
+    - title: |-
+        How graphic design enables new capabilities in MuRET
+      authors: |-
+        Marina Maciá, David Rizo, Javier Sanchis
+      pdf: /assets/2025/posters/2025-poster-macia.pdf
+    - title: |-
+        Works in RISM
+      authors: |-
+        Laurent Pugin, Jennifer Ward and Claudio Bacciagaluppi
+      pdf: /assets/2025/posters/2025-poster-pugin.pdf
+    - title: |-
+        Distorted Realities: Classifying Extreme Vocals Between Harmony and Noise — A Machine–Human Evaluation of Vocal Confusion Patterns
+      authors: |-
+        Xuhong Qiu and Emilia Parada-Cabaleiro.
+      pdf: /assets/2025/posters/2025-poster-qiu.pdf
+    - title: |-
+        Structuring RDF-Based Metadata to Enhance Access to Digitized Gagaku Scores
+      authors: |-
+        Shintaro Seki
+      pdf: /assets/2025/posters/2025-poster-seki-compressed.pdf
+    - title: |-
+        Music data representations, including manuscripts/scores and audio Applied MIR techniques for digital music content or analysis
+      authors: |-
+        Juyong Uhm, Jeongmi Park, Siwoo Woo and Areum Yang
+      pdf: /assets/2025/posters/2025-poster-uhm.pdf
+    - title: |-
+        Vmus.net: A Web-based Platform Transforming Music Performance Research in China and Beyond
+      authors: |-
+        Jian Yang, Haishen Yu, David Weigl, Chanda VanderHart and Werner Goebl
+      pdf: /assets/2025/posters/2025-poster-yang.pdf
+    - title: |-
+        Modelling Flute Difficulty through a Corpus of Annotated Scores
+      authors: |-
+        Rui Yang, Xiaotong Cai, Mathieu Giraud, Marc-Antoine Houën, Florence Levé and Dingjin Ma
+      pdf: /assets/2025/posters/2025-poster-ruiyang.pdf

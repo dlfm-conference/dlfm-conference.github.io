@@ -1,0 +1,27 @@
+# Structural / template words that the theme renders inside <main> but which are
+# not part of the legacy page's content. One token (or phrase) per line; '#'
+# starts a comment. Kept deliberately small — every entry here is a word the
+# fidelity gate will NOT flag as "added", so add only genuine chrome.
+
+# Sponsors block label ("With the support of")
+with the support of
+
+# Hero / page-header scaffolding that may not appear verbatim in every legacy page
+international conference on
+digital libraries for musicology
+a satellite event of
+
+# Per-page allowances: "<year>/<slug>: tokens" — scoped to that page only.
+# 2025 landing: host/sponsor logos rendered as images; these words survive only
+# in the legacy page's [alt] text (the logos themselves are preserved).
+2025/landing: logo future lab fct fcsh 2022 host institution sponsors
+# 2025 subpages repeated the site-wide Host/Sponsors logo block + venue photos;
+# these words survive only in the legacy [alt] text (logos/photos are preserved
+# on the landing / rendered as images).
+2025/registration: logo host institution sponsors sogang university future lab in2past icps nova fct 2022 seoul south korea
+2025/accommodation-and-transportation: logo host institution sponsors future lab in2past cesem fcsh icps nova fct 2022 south korea
+2025/venue: ga back gate main
+# proceedings: eyebrow city + ACM "Digital Library logo" alt
+2025/proceedings: seoul south korea logo
+# programme: eyebrow "DLfM <year> · <city>" + table header + section label
+2025/programme: dlfm seoul south korea time oral

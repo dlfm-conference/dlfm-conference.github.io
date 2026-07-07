@@ -225,6 +225,9 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .prog-type--break { background: transparent; color: var(--ink-faint); }
 .prog-type--challenge { background: color-mix(in srgb, var(--accent) 14%, var(--paper-card)); color: var(--accent); }
 .prog-download { margin-top: 2rem; }
+.prog-break { display: flex; gap: 1rem; align-items: baseline; padding: 0.5rem 0;
+  margin: 0.5rem 0 1.75rem; border-top: 1px dashed var(--rule); color: var(--ink-soft); }
+.prog-break-label { font-family: var(--sans); font-weight: 600; letter-spacing: 0.02em; }
 
 .paper-list { list-style: none; padding: 0; max-width: var(--measure); }
 .paper-list li { padding: 1rem 0; border-bottom: 1px solid var(--rule); }
@@ -232,6 +235,14 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .paper-list .authors { color: var(--ink-soft); }
 .paper-list .meta { font-size: 0.9rem; color: var(--ink-faint); margin-top: 0.2rem; }
 .paper-list .meta a { margin-right: 0.9rem; }
+.paper-list .abstract { color: var(--ink-soft); font-size: 0.96rem; margin: 0.5rem 0 0; }
+.paper-list .abstract p { margin: 0.5rem 0 0; }
+.corrigendum { margin: 0.6rem 0 0; }
+.corrigendum a { display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 600;
+  font-size: 0.9rem; color: #8a5a00; background: color-mix(in srgb, var(--gold) 18%, var(--paper-card));
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: var(--radius);
+  padding: 0.3rem 0.7rem; text-decoration: none; }
+.corrigendum a:hover { background: color-mix(in srgb, var(--gold) 28%, var(--paper-card)); }
 
 /* ─── Committee ─────────────────────────────────────────────────────── */
 .committee { border-top: 1px solid var(--rule); background: var(--paper-card); scroll-margin-top: 80px; }

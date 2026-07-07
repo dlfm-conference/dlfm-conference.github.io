@@ -10,20 +10,25 @@ layout: default
   {%- assign proc = site.data.proceedings[ystr] -%}
   {% if proc %}
     <div class="prose">
+      {% if proc.title %}<p class="proc-title">{{ proc.title }}</p>{% endif %}
       {% if proc.intro %}{{ proc.intro | markdownify }}{% endif %}
+      {% if proc.note %}<p>{{ proc.note }}</p>{% endif %}
       {% if proc.publisher %}<p>Published in {{ proc.publisher }}.</p>{% endif %}
+      {% if proc.citation_doi %}<p><a href="https://doi.org/{{ proc.citation_doi }}">Full citation in the ACM Digital Library</a></p>{% endif %}
       {% if proc.doi %}<p><strong>Proceedings DOI:</strong> <a href="https://doi.org/{{ proc.doi }}">{{ proc.doi }}</a></p>{% endif %}
     </div>
     <ol class="paper-list">
     {% for p in proc.papers %}
       <li>
-        <div class="title">{{ p.title }}</div>
-        {% if p.authors %}<div class="authors">{{ p.authors | join: ', ' }}</div>{% endif %}
+        <div class="title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+        {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ', ' }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
+        {% if p.corrigendum_url %}<p class="corrigendum"><a href="{{ p.corrigendum_url }}">⚠ {{ p.corrigendum_text | default: "A corrigendum has been published for this article" }}</a></p>{% endif %}
+        {% if p.abstract %}<div class="abstract">{{ p.abstract | markdownify }}</div>{% endif %}
+        {% if p.pages or p.pdf %}
         <div class="meta">
           {% if p.pages %}<span>pp.&nbsp;{{ p.pages }}</span>{% endif %}
-          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}
           {% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
-        </div>
+        </div>{% endif %}
       </li>
     {% endfor %}
     </ol>

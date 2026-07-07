@@ -1,0 +1,46 @@
+name: Content fidelity
+
+# Builds the site and verifies that every MIGRATED (archived) edition still
+# preserves the words of the frozen legacy capture in _import/. The current
+# (editable) year is exempt — it has no frozen ground truth to match.
+#
+# See tools/verify_fidelity.py and docs/implementation-plan.md §4.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  fidelity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify fidelity of archived editions
+        run: |
+          current=$(grep -E '^current_year:' _config.yml | grep -oE '[0-9]{4}')
+          echo "Current (exempt) year: $current"
+          status=0
+          for dir in _import/text/*/; do
+            year=$(basename "$dir")
+            [[ "$year" =~ ^[0-9]{4}$ ]] || continue          # skip 'about' etc.
+            [ "$year" = "$current" ] && continue             # editable year is exempt
+            [ -f "$year/index.md" ] || continue              # only migrated editions
+            echo "::group::Fidelity $year"
+            python3 tools/verify_fidelity.py "$year" || status=1
+            echo "::endgroup::"
+          done
+          exit $status

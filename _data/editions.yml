@@ -17,3 +17,10 @@
   dates: "Thursday 2 July 2026"
   satellite: "A satellite event of IAML 2026"
   pages: [call-for-papers, programme]
+
+- year: 2025
+  ordinal: "12th"
+  city: "Seoul, South Korea"
+  dates: "26 September 2025"
+  satellite: "In association with the International Society for Music Information Retrieval (ISMIR)"
+  pages: [programme, proceedings, registration, venue, local]

@@ -1,0 +1,19 @@
+# DLfM 2025 host institution + sponsors, shown in the landing hero (as 2026).
+- name: "Sogang University"
+  logo: /assets/sponsors/2025/sogang.png
+  url: https://www.sogang.ac.kr/en/
+- name: "Sogang Future Lab"
+  logo: /assets/sponsors/2025/sogang-future.png
+- name: "IN2PAST"
+  logo: /assets/sponsors/2025/in2past.png
+- name: "CESEM — Centro de Estudos de Sociologia e Estética Musical"
+  logo: /assets/sponsors/2025/cesem.png
+- name: "FCT — Fundação para a Ciência e a Tecnologia"
+  logo: /assets/sponsors/2025/fct.png
+  url: https://www.fct.pt/en/
+- name: "NOVA FCSH"
+  logo: /assets/sponsors/2025/nova-fcsh.png
+  url: https://www.fcsh.unl.pt/en/
+- name: "ACM International Conference Proceedings Series (ICPS)"
+  logo: /assets/sponsors/2025/icps.png
+  url: https://www.acm.org/publications/icps-series
