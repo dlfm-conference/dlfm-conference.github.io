@@ -1,0 +1,64 @@
+name: Roll over to next year
+
+# One-click yearly rollover: scaffold the next edition, register it, make it the
+# current year, and open a PR to review. The outgoing year keeps its /<year>/
+# URLs and moves into "Previous events" automatically.
+on:
+  workflow_dispatch:
+    inputs:
+      next_year:
+        description: "New conference year, e.g. 2027"
+        required: true
+      ordinal:
+        description: "Ordinal, e.g. 14th (leave blank to auto-increment)"
+        required: false
+      city:
+        description: "City, Country (optional; can fill in later)"
+        required: false
+      dates:
+        description: "Conference date(s) (optional; can fill in later)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rollover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scaffold the next edition
+        run: |
+          python3 tools/rollover.py "${{ github.event.inputs.next_year }}" \
+            --ordinal "${{ github.event.inputs.ordinal }}" \
+            --city "${{ github.event.inputs.city }}" \
+            --dates "${{ github.event.inputs.dates }}"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "rollover/${{ github.event.inputs.next_year }}"
+          title: "Roll over to DLfM ${{ github.event.inputs.next_year }}"
+          commit-message: "Roll over to DLfM ${{ github.event.inputs.next_year }}"
+          body: |
+            Automated rollover to **DLfM ${{ github.event.inputs.next_year }}**.
+
+            - Scaffolded `${{ github.event.inputs.next_year }}/` — landing, Call for Papers, programme, proceedings
+            - Added empty `_data/*` stubs and a `_data/editions.yml` entry
+            - Set `current_year: ${{ github.event.inputs.next_year }}`
+
+            The previous year keeps its `/<year>/` URLs and now appears under
+            **Previous events**.
+
+            **To finish this year (all Markdown / YAML — no HTML needed):**
+            1. Landing prose + news in `${{ github.event.inputs.next_year }}/index.md`
+            2. City / dates / ordinal / satellite in `_data/editions.yml`
+            3. Committee in `_data/committee/${{ github.event.inputs.next_year }}.yml`
+            4. Sponsors in `_data/sponsors/${{ github.event.inputs.next_year }}.yml` (+ logos in `assets/sponsors/${{ github.event.inputs.next_year }}/`)
+            5. Programme / proceedings data when available
+            6. Adjust the `pages:` list for this year as pages are added

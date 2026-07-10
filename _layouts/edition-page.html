@@ -8,6 +8,7 @@ layout: default
 </header>
 <div class="wrap section">
   <div class="prose">
-    {{ edpage.content | markdownify }}
+    {% if edpage and edpage.content != "" %}{{ edpage.content | markdownify }}
+    {% else %}<p>This page is not available for DLfM {{ year }}.</p>{% endif %}
   </div>
 </div>

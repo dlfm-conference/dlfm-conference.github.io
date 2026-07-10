@@ -32,6 +32,7 @@ plugins:
 # Everything that is capture / tooling / docs, not website content:
 exclude:
   - _import/
+  - _templates/
   - tools/
   - docs/
   - README.md
