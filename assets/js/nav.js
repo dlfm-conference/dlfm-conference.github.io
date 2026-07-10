@@ -10,7 +10,7 @@
     });
   }
 
-  document.querySelectorAll('.dropdown-toggle').forEach(function (btn) {
+  document.querySelectorAll('.dropdown-caret').forEach(function (btn) {
     var menu = document.getElementById(btn.getAttribute('aria-controls'));
     if (!menu) return;
     btn.addEventListener('click', function (e) {
@@ -47,11 +47,19 @@
     });
   }
 
-  document.addEventListener('click', function () {
+  document.addEventListener('click', function (e) {
+    var inHeader = e.target.closest('.site-header');
+    // close open submenu dropdowns on any outside click
     document.querySelectorAll('.dropdown.open').forEach(function (m) {
+      if (inHeader && m.contains(e.target)) return;
       m.classList.remove('open');
       var b = document.querySelector('[aria-controls="' + m.id + '"]');
       if (b) b.setAttribute('aria-expanded', 'false');
     });
+    // close the mobile menu when tapping outside the header (e.g. in content)
+    if (nav && nav.classList.contains('open') && !inHeader) {
+      nav.classList.remove('open');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    }
   });
 })();

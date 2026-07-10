@@ -13,6 +13,7 @@
 
     <nav id="primary-nav" class="site-nav" aria-label="Primary">
       <ul class="nav-list">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         {%- if current.pages contains 'call-for-papers' %}
         <li><a href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a></li>{% endif -%}
         {%- if current.pages contains 'programme' %}
@@ -27,7 +28,8 @@
         {%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
         {%- if past.size > 0 %}
         <li class="has-dropdown">
-          <a href="{{ '/previous/' | relative_url }}" aria-haspopup="true">Previous events <span aria-hidden="true" class="caret">▾</span></a>
+          <a href="{{ '/previous/' | relative_url }}">Previous events</a>
+          <button class="dropdown-caret" aria-expanded="false" aria-controls="prev-events" aria-label="Show previous events"><span class="caret" aria-hidden="true">▾</span></button>
           <ul id="prev-events" class="dropdown">
             {%- for e in past limit: 5 %}
             <li class="dropdown-year">
