@@ -12,3 +12,7 @@ vendor/
 .DS_Store
 
 .gems/
+
+# Python bytecode
+__pycache__/
+*.pyc

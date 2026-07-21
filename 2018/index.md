@@ -10,16 +10,16 @@ title: "DLfM 2018 — 5th International Conference on Digital Libraries for Musi
 
 9.30am - 5.30pm, Friday 28th September, 2018
 
-## Institut De Recherche Et Coordination Acoustique/Musique (ircam), Paris, France
+Institut de Recherche et Coordination Acoustique/Musique (IRCAM), Paris, France
 
-## A Satellite Event of [ismir 2018](http://ismir2018.ircam.fr/).
+A satellite event of [ISMIR 2018](http://ismir2018.ircam.fr/).
 
 ## News
 
-- Welcome to DLfM 2018! Our [proceedings](https://dlfm.web.ox.ac.uk/workshops/dlfm-2018/proceedings) are now available on the workshop website.
-- **Attendees**: please ensure you bring valid **photo ID** for a security check at IRCAM before the [programme](https://dlfm.web.ox.ac.uk/workshops/dlfm-2018/programme) stats at 09:30. Address: [1, Place Igor-Stravinsky, 75004 Paris](https://www.ircam.fr/venir-a-lircam/).
+- Welcome to DLfM 2018! Our [proceedings](/2018/proceedings/) are now available on the workshop website.
+- **Attendees**: please ensure you bring valid **photo ID** for a security check at IRCAM before the [programme](/2018/programme/) stats at 09:30. Address: [1, Place Igor-Stravinsky, 75004 Paris](https://www.ircam.fr/venir-a-lircam/).
 - **Registration for DLfM 2018 has closed** ~~will close on Sunday 23rd September (23:59 GMT)~~ or when we reach maximum capacity, whichever is sooner. Places are filling up, so [register now](https://www.oxforduniversitystores.co.uk/product-catalogue/engineering-science/conferences/5th-international-conference-on-digital-libraries-for-musicology-september-2018) to secure your place! We must finalise catering and access lists after this date, so regret that we will not be accepting on site registrations.
-- 03/09/2018: The DLfM 2018 [**programme** is now available online](https://dlfm.web.ox.ac.uk/workshops/dlfm-2018/programme). Remember to register for the conference [at our online store](https://www.oxforduniversitystores.co.uk/product-catalogue/engineering-science/conferences/5th-international-conference-on-digital-libraries-for-musicology-september-2018).
+- 03/09/2018: The DLfM 2018 [**programme** is now available online](/2018/programme/). Remember to register for the conference [at our online store](https://www.oxforduniversitystores.co.uk/product-catalogue/engineering-science/conferences/5th-international-conference-on-digital-libraries-for-musicology-september-2018).
 - 01/08/2018: **Registration** for DLfM 2018 is now [open for booking at the Oxford Online Store](https://www.oxforduniversitystores.co.uk/product-catalogue/engineering-science/conferences/5th-international-conference-on-digital-libraries-for-musicology-september-2018). The registration fee is £50 and will include access to the conference proceedings, tea/coffee breaks, and lunch. The conference programme is due to be published in August.
 - 09/06/2018: **Deadline extension**. Please submit an abstract to easychair by 19th June. Authors of abstracts submitted by this date will be able to upload their papers until 24th June.
 - 09/06/2018: Details of registration fees for DLfM 2018 will be announced in July, but are expected to be of a similar cost to those in previous years. Registration for DLfM will not require registration for ISMIR, although we encourage attendance at both conferences!
@@ -40,7 +40,7 @@ This, the fifth Digital Libraries for Musicology conference, follows previous wo
 
 DLfM will focuses on the implications of music for Digital Libraries and Digital Libraries research when pushing the boundaries of contemporary musicology, including the application of techniques as reported in more technologically-oriented fora such as ISMIR and ICMC.
 
-This will be the fifth edition of DLfM following very successful and well received previous workshops (in [2014](https://dlfm.web.ox.ac.uk/workshops/dlfm-2014), [2015](https://dlfm.web.ox.ac.uk/workshops/dlfm-2015), [2016](https://dlfm.web.ox.ac.uk/workshops/dlfm-2016), and [2017](https://dlfm.web.ox.ac.uk/workshops/dlfm-2017)), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
+This will be the fifth edition of DLfM following very successful and well received previous workshops (in [2014](/2014/), [2015](/2015/), [2016](/2016/), and [2017](/2017/)), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
 
 The conference objectives are:
 
@@ -80,7 +80,7 @@ Topics of interest include, but are not limited to:
 
 Papers for either track will be peer reviewed by 2-3 members of the programme committee.
 
-Please submit an abstract to EasyChair by 19th June, and produce your paper using the ACM template and submit it to DLfM on EasyChair by 24th June 2018 (see [IMPORTANT DATES](#Dates)).
+Please submit an abstract to EasyChair by 19th June, and produce your paper using the ACM template and submit it to DLfM on EasyChair by 24th June 2018 (see [IMPORTANT DATES](#important-dates)).
 
 All submitted papers must:
 
@@ -103,17 +103,17 @@ Please use the ‘ACM Standard’ version of the ‘ACM proceedings template’ 
 
 ## Submissions: Proceedings Track
 
-We invite full papers (up to 8 pages excluding reference) or short and position papers (up to 4 pages excluding references). In addition to the general submission requirements above, we will require that camera-ready copy be received before 24th August 2018 (see I[MPORTANT DATES](#Dates)), and that at least one author per accepted paper is registered for DLfM *by that date*.
+We invite full papers (up to 8 pages excluding reference) or short and position papers (up to 4 pages excluding references). In addition to the general submission requirements above, we will require that camera-ready copy be received before 24th August 2018 (see I[MPORTANT DATES](#important-dates)), and that at least one author per accepted paper is registered for DLfM *by that date*.
 
 ## Submissions: Unlocking Musicology Challenge
 
 How can the methods and techniques of Digital Musicology, applied through Music Digital Libraries, be used to increase awareness and access to digital music and associated ephemera in non-academic contexts? How can Music Digital Libraries offer enhanced mechanisms by which the public can explore collections of music and music-related material, showing that digital musicology provides sound approaches for doing so? How can digital musicology approaches, and the tools that implement them, be translated into commercial and third sector applications?
 
-The Unlocking Musicology Challenge solicits short position papers addressing these questions as submissions of up to 2 pages to DLfM (see [SUBMISSIONS](#Submissions)).
+The Unlocking Musicology Challenge solicits short position papers addressing these questions as submissions of up to 2 pages to DLfM (see [SUBMISSIONS](#submissions)).
 
 Unlocking Musicology Challenge papers will be peer reviewed, and accepted papers will be presented at the conference as either part of a panel or as poster. Challenge papers will not be included in the main DLfM proceedings, but will be compiled into a supplement hosted on the conference website.
 
-While we encourage authors to engage with DLfM through the Unlocking Musicology Challenge track, those who wish their papers to appear in the main proceedings may prefer to submit a more detailed description of their work to the Proceedings Track as a short or long paper (see [above](#Proceedings-track)).
+While we encourage authors to engage with DLfM through the Unlocking Musicology Challenge track, those who wish their papers to appear in the main proceedings may prefer to submit a more detailed description of their work to the Proceedings Track as a short or long paper (see [above](#submissions-proceedings-track)).
 
 ## Important Dates
 

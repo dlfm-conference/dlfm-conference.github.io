@@ -5,7 +5,7 @@ year: 2025
 title: Accommodation and Transportation Guide
 ---
 
-## Important Notice
+# Important Notice
 
 We strongly recommend booking accommodations in advance, as prices tend to rise over time, especially for Friday and Saturday (conference day and the day after). Please note that the Seoul International Fireworks Festival is scheduled for Saturday, September 27th in Yeouido, which may increase demand for hotels.
 
@@ -69,4 +69,4 @@ These areas selected based on accessibility to Sogang University and Seoul Stati
 
 The following subway map highlights recommended accommodation areas in red boxes. As this is a schematic diagram, actual distances between stations may vary from the visual representation.
 
-![](/assets/2025/seoul-metro.png "Schematic diagram highlighting recommended accommodation areas on the Seoul subway map")
+![](/assets/2025/files/dlfm-metro.png "Schematic diagram highlighting recommended accommodation areas on the Seoul subway map")

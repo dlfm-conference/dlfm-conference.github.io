@@ -64,9 +64,17 @@ def main():
             if s.startswith("# DLfM"):
                 proc["title"] = s.lstrip("# ").strip()
             elif "Full Citation in the ACM" in s or "Full Text" in s:
-                um = re.search(r'href="([^"]+)"', s) or re.search(r"(https?://\S+)", s)
-                if um and not proc["citation_url"]:
-                    proc["citation_url"] = um.group(1).rstrip('"')
+                # collect candidate URLs from href="", ](url) and bare; skip images
+                cands = (re.findall(r'href="([^"]+)"', s)
+                         + re.findall(r"\]\((https?://[^)]+)\)", s)
+                         + re.findall(r"(https?://\S+)", s))
+                for u in cands:
+                    u = u.rstrip('">).,')
+                    if re.search(r"\.(png|jpe?g|gif|svg|webp)$", u, re.I):
+                        continue
+                    if not proc["citation_url"]:
+                        proc["citation_url"] = u
+                    break
             elif s.startswith("# ") and "Proceedings" in s:
                 pass
             elif not s.startswith("<img") and not s.startswith("<a") and not proc["note"]:

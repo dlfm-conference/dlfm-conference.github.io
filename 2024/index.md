@@ -70,7 +70,7 @@ DLfM conforms to the usual conventions for publication ethics. For instance, we 
 ### Submission Link, Registration Link, and Contact Email
 
 - Submissions link: <a href="https://easychair.org/conferences/?conf=dlfm2024" target="_blank">https://easychair.org/conferences/?conf=dlfm2024</a>
-- Registration page: </2024/registration/>
+- Registration page: [https://dlfm.rism.digital/2024/registration/](/2024/registration/)
 - Contact email: <dlfm2024@easychair.org>
 
 ## Background

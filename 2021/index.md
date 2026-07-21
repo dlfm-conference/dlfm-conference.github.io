@@ -14,7 +14,7 @@ The Digital Libraries for Musicology (DLfM) conference presents a venue for thos
 
 ## Programme
 
-The DLfM preliminary schedule can now be found here: </2021/programme/>
+The DLfM preliminary schedule can now be found here: [https://dlfm.rism.digital/2021/programme/](/2021/programme/)
 
 ## Registration
 
@@ -22,7 +22,7 @@ This year, there is **no fee for registration**, however registration remains ma
 
 ## Gather.Town
 
-We will be using the online platform Gather.Town for our joint DLfM-IAML poster session. Please visit here for instructions: <https://dlfm.web.ox.ac.uk/gathertown-user-instructions>
+We will be using the online platform Gather.Town for our joint DLfM-IAML poster session. Please visit here for instructions: [https://dlfm.rism.digital/2020/gathertown-user-instructions/](/2020/gathertown-user-instructions/)
 
 ## Call for Papers and Posters
 
@@ -62,7 +62,7 @@ The LaTeX template is [here](https://www.acm.org/binaries/content/assets/publica
 
 Historically, LaTex versions have been easier to process in camera-ready versions. Therefore, we encourage all authors to use the LaTeX (or LaTeX + Overleaf) template if possible. Page limits for submitted papers apply to all text, but exclude the bibliography (i.e., references can be included on pages over the specified limits).
 
-Authors of accepted paper submissions are expected to submit corrected, camera-ready copies, which must be received by **June 13, 2021**. (See [IMPORTANT DATES](#Important%20Dates)). Papers for each track will be peer reviewed by 2-3 members of the programme committee. For accepted paper submissions, at least one author must register for the conference (as a presenter) by **June 13th, 2021**.
+Authors of accepted paper submissions are expected to submit corrected, camera-ready copies, which must be received by **June 13, 2021**. (See [IMPORTANT DATES](#important-dates-aoehttpsenwikipediaorgwikianywhereonearth)). Papers for each track will be peer reviewed by 2-3 members of the programme committee. For accepted paper submissions, at least one author must register for the conference (as a presenter) by **June 13th, 2021**.
 
 All submitted papers must:
 

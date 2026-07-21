@@ -13,8 +13,8 @@ Please refer to the images below for assistance in locating Gabriel Hall, where 
 
 **Poster sessions will take place in TV Studio B (B117).**
 
-<img src="/assets/2025/venue/ga_back_gate.jpeg" title="Ga back gate" alt="ga back gate" />
+<img src="/assets/2025/files/ga_back_gate.jpeg" title="Ga back gate" alt="ga back gate" />
 
-<img src="/assets/2025/venue/ga_main_gate.jpeg" title="Ga main gate" alt="ga main gate" />
+<img src="/assets/2025/files/ga_main_gate.jpeg" title="Ga main gate" alt="ga main gate" />
 
-<img src="/assets/2025/venue/ga.jpeg" title="Ga" alt="ga" />
+<img src="/assets/2025/files/ga.jpeg" title="Ga" alt="ga" />

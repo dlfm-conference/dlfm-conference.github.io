@@ -14,7 +14,7 @@ The Digital Libraries for Musicology (DLfM) conference is the premiere venue for
 
 ## Programme
 
-The DLfM 2023 schedule can now be found here: </2023/programme/>
+The DLfM 2023 schedule can now be found here: [https://dlfm.rism.digital/2023/programme/](/2023/programme/)
 
 ## Location, Collaboration
 
@@ -70,7 +70,7 @@ General deadlines:
 
 ## Poster Submissions
 
-- Submission: The initial poster submission consists of an abstract which outlines both the scholarly content and broad details of the proposed layout in 500 words or fewer. This is to be sent to [dlfm2023@easychair.org](https://dlfm.web.ox.ac.uk/dlfm2023%40easychair.org).
+- Submission: The initial poster submission consists of an abstract which outlines both the scholarly content and broad details of the proposed layout in 500 words or fewer. This is to be sent to [dlfm2023@easychair.org](mailto:dlfm2023@easychair.org).
 - Format: Posters will be formatted in A0 specifications and in portrait format. All accepted posters will also be required to submit before the conference date a digital copy to be shared publicly on the conference web page.
 
 ## Software-Sustainability Challenge

@@ -14,7 +14,7 @@ The Digital Libraries for Musicology (DLfM) conference is the premiere venue for
 
 ## Programme
 
-The DLfM 2022 preliminary schedule can now be found here: </2022/programme/>
+The DLfM 2022 preliminary schedule can now be found here: [https://dlfm.rism.digital/2022/programme/](/2022/programme/)
 
 ## Location, Collaboration
 

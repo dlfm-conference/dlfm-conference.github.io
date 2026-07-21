@@ -14,8 +14,8 @@ layout: default
       {% if proc.intro %}{{ proc.intro | markdownify }}{% endif %}
       {% if proc.note %}<p>{{ proc.note }}</p>{% endif %}
       {% if proc.publisher %}<p>Published in {{ proc.publisher }}.</p>{% endif %}
-      {% if proc.citation_url %}<p><a href="{{ proc.citation_url }}">Full citation in the ACM Digital Library</a></p>
-      {% elsif proc.citation_doi %}<p><a href="https://doi.org/{{ proc.citation_doi }}">Full citation in the ACM Digital Library</a></p>{% endif %}
+      {% assign citurl = proc.citation_url %}{% if citurl == nil and proc.citation_doi %}{% assign citurl = 'https://doi.org/' | append: proc.citation_doi %}{% endif %}
+      {% if citurl %}<p class="acm-citation"><a href="{{ citurl }}"><img src="{{ '/assets/logo/acm-dl.png' | relative_url }}" alt="ACM Digital Library" class="acm-dl-logo"> Full citation in the ACM Digital Library</a></p>{% endif %}
       {% if proc.doi %}<p><strong>Proceedings DOI:</strong> <a href="https://doi.org/{{ proc.doi }}">{{ proc.doi }}</a></p>{% endif %}
     </div>
     <ol class="paper-list">

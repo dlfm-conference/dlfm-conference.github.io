@@ -10,11 +10,11 @@ title: "DLfM 2019 — 6th International Conference on Digital Libraries for Musi
 
 **9th November 2019**
 
-## **National Library of the Netherlands** (**The Hague)**
+**National Library of The Netherlands** (**The Hague)**
 
-## A Satellite Event of [ismir 2019](http://ismir2019.ewi.tudelft.nl/).
+A satellite event of [ISMIR 2019](http://ismir2019.ewi.tudelft.nl/).
 
-## News
+News
 
 - **09/11/2019**: The [proceedings of DLfM 2019](/2019/proceedings/) are now available as open access from the conference website.
 - **24/10/2019**: The [full programme](/2019/programme/) is now available online.
@@ -54,7 +54,7 @@ This, the Sixth Digital Libraries for Musicology conference, follows previous wo
 
 DLfM will focuses on the implications of music for Digital Libraries and Digital Libraries research when pushing the boundaries of contemporary musicology, including the application of techniques as reported in more technologically-oriented fora such as ISMIR and ICMC.
 
-This will be the sixth edition of DLfM following very successful and well received previous workshops (in [2014](https://dlfm.web.ox.ac.uk/workshops/dlfm-2014), [2015](https://dlfm.web.ox.ac.uk/workshops/dlfm-2015), [2016](https://dlfm.web.ox.ac.uk/workshops/dlfm-2016), [2017](https://dlfm.web.ox.ac.uk/workshops/dlfm-2017), and [2018](https://dlfm.web.ox.ac.uk/5th-international-conference-digital-libraries-musicology-paris-2018)), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
+This will be the sixth edition of DLfM following very successful and well received previous workshops (in [2014](/2014/), [2015](/2015/), [2016](/2016/), [2017](/2017/), and [2018](/2018/)), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
 
 The conference objectives are:
 

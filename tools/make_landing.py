@@ -16,9 +16,19 @@ Usage: python3 tools/make_landing.py <year> "<title>"
 import re
 import subprocess
 import sys
+import urllib.parse
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import linkfix
+
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def kramdown_id(t):
+    t = re.sub(r"<[^>]+>", "", t).lower()
+    t = re.sub(r"[^a-z0-9 -]", "", t)
+    return re.sub(r"-+", "-", re.sub(r"\s+", "-", t.strip())).strip("-")
 MINOR = {"a", "an", "and", "as", "at", "but", "by", "for", "in", "nor", "of",
          "on", "or", "the", "to", "with", "via"}
 ACR = {"AI", "ACM", "MIR", "ISMIR", "IAML", "DLFM", "RDF", "MEI", "OMR", "IEEE"}
@@ -51,9 +61,7 @@ def main():
     md = subprocess.run(["python3", str(ROOT / "tools/clean_pandoc_md.py"),
                          str(ROOT / f"_import/md/{year}/landing.md")],
                         capture_output=True, text=True).stdout
-    md = re.sub(r"https?://web\.archive\.org/web/\d+/", "", md)
-    for sp in ["programme", "proceedings", "registration", "venue"]:
-        md = md.replace(f"https://dlfm.web.ox.ac.uk/{year}-{sp}", f"/{year}/{sp}/")
+    md = linkfix.normalise(md)   # repoint old-CMS URLs + fix verbatim autolinks
 
     # split off Sponsors / Host Institution logo block (report its logos)
     logos = []
@@ -87,8 +95,9 @@ def main():
                     in_members, role = False, None    # parent / other heading
                 continue
             if "<img" in s or s.startswith("<") or "](http" in s \
-                    or re.search(r"steering committee", s, re.I):
-                continue                              # skip logos / links / steering note
+                    or re.search(r"steering committee|contact|e-?mail|@|supported by|<u>|<a\s|http",
+                                 s, re.I):
+                continue                              # skip logos / links / notes / contacts
             s = re.sub(r"^[-*]\s+", "", s)            # strip bullet
             name, _, aff = s.partition(",")
             if in_members:
@@ -107,16 +116,25 @@ def main():
                     for n, a in members:
                         f.write(f"  - name: {q(n)}\n    affiliation: {q(a)}\n")
 
-    # drop leading H1 + the first #### subheading (date/association); title-case headers
-    lines, body, dropped_h1, dropped_sub = md.splitlines(), [], False, False
+    # Drop the leading H1; keep the whole run of leading #### subheadings
+    # (date / venue / association) as lead paragraphs — NOT headings, so they
+    # don't become spurious jump-bar entries. Title-case the real section headers.
+    lines, body, dropped_h1, lead_in = md.splitlines(), [], False, False
     for l in lines:
         s = l.strip()
-        if not dropped_h1 and s.startswith("# "):
-            dropped_h1 = True; continue
-        if dropped_h1 and not dropped_sub and s.startswith("#### "):
-            dropped_sub = True                     # date / association subheading:
-            body.append(re.sub(r"^#### ", "", l))  # keep as a lead paragraph
-            continue
+        if not dropped_h1:
+            if s.startswith("# "):
+                dropped_h1 = lead_in = True
+                continue
+            if s == "":
+                body.append(l); continue
+        if lead_in:
+            if s == "":
+                body.append(l); continue
+            if s.startswith("#### "):
+                body.append(re.sub(r"^#### ", "", l))   # subheading -> lead paragraph
+                continue
+            lead_in = False                             # first ## / content ends the lead-in
         m2 = re.match(r"^(#{2,5})\s+(.*)$", l)
         if m2:
             lvl = "##" if len(m2.group(1)) <= 4 else "###"
@@ -125,7 +143,18 @@ def main():
             body.append(f"## {tc(s)}")
         else:
             body.append(l)
-    text = re.sub(r"\n{3,}", "\n\n", "\n".join(body)).strip() + "\n"
+
+    # Rewrite in-page anchor links (#Dates, #Submissions…) to the target
+    # heading's kramdown id, so they aren't broken.
+    heads = [(kramdown_id(mm.group(1)), mm.group(1).lower())
+             for line in body for mm in [re.match(r"^#{2,4} (.+)$", line)] if mm]
+    text = "\n".join(body)
+    for a in set(re.findall(r"\]\(#([^)]+)\)", text)):
+        key = re.split(r"[ -]", urllib.parse.unquote(a).lower().strip())[0]
+        tgt = next((hid for hid, ht in heads if key and key in ht), None)
+        if tgt and tgt != a:
+            text = text.replace(f"](#{a})", f"](#{tgt})")
+    text = re.sub(r"\n{3,}", "\n\n", text).strip() + "\n"
 
     fm = (f"---\nlayout: landing\nrole: landing\nyear: {year}\n"
           f'title: "{title}"\n---\n\n* TOC\n{{:toc}}\n\n')

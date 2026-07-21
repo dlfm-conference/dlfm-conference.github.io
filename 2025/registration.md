@@ -5,7 +5,7 @@ year: 2025
 title: Registration
 ---
 
-## Registration Details (DLfM 2025)
+#### Registration Details (DLfM 2025)
 
 There are two categories for registration:
 
@@ -16,7 +16,7 @@ There are two categories for registration:
 
 **\* Important note: **At least one author per paper (short and full papers) **must be registered** by the camera-ready submission deadline, **16th July 2025** (using the early bird rate at €140) for accepted submissions to be included in the conference programme and proceedings.
 
-## Payment: Details and Information
+#### Payment: Details and Information
 
 Registration payment is possible via bank transfer and PayPal. The details are provided below.
 
@@ -24,18 +24,18 @@ Registration payment is possible via bank transfer and PayPal. The details are p
 
 Please keep in mind that regardless of the form of payment, you should fill in the registration form (provided below) and forward it, together with your proof of payment, to the given email address according to the following instructions:
 
-### **BANK TRANSFER** (preferred method):
+##### **BANK TRANSFER** (preferred method):
 
 - **IBAN:** PT50 0018 000321419114020 13
 - **BIC/SWIFT:** TOTAPTPL
 
 Please send the proof of payment to the conference registration e-mail (<dlfm@fcsh.unl.pt>), including the reference CESEM COL DLfM in the transfer receipt.
 
-### **PAYPAL:**
+##### **PAYPAL:**
 
 If you use PayPal, please send your payment to <dgfc@fcsh.unl.pt>, but do not forget to confirm it to the conference registration e-mail (<dlfm@fcsh.unl.pt>). Kindly note that any fees incurred are to be borne by the participant.
 
-### **Download the registration form in your preferred format here:**
+##### **Download the registration form in your preferred format here:**
 
-- **[PDF](/assets/2025/forms/registration-form-dlfm-2025.pdf)**
-- **[Word](/assets/2025/forms/registration-form-dlfm-2025.docx)**
+- **[PDF](/assets/2025/files/registration-form-dlfm-conference-2025.pdf)**
+- **[Word](/assets/2025/files/registration-form-dlfm-conference-2025-v2.docx)**

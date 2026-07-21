@@ -15,8 +15,10 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import linkfix
+
 ROOT = Path(__file__).resolve().parent.parent
-SUBPAGES = ["programme", "proceedings", "registration", "venue"]
 
 
 def main():
@@ -43,9 +45,8 @@ def main():
     for url, local in seen.items():
         md = re.sub(re.escape(url) + r"[^\s\")]*", local, md)
 
-    # repoint old-CMS year subpage links (/2024-programme -> /2024/programme/)
-    for sp in SUBPAGES:
-        md = md.replace(f"https://dlfm.web.ox.ac.uk/{year}-{sp}", f"/{year}/{sp}/")
+    # repoint remaining old-CMS links + fix verbatim autolinks (assets already localised above)
+    md = linkfix.normalise(md)
 
     # drop the leading H1 (page header supplies the title)
     lines = md.splitlines()

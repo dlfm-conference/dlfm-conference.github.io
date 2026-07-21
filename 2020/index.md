@@ -10,7 +10,7 @@ title: "DLfM 2020 — 7th International Conference on Digital Libraries for Musi
 
 16 October 2020
 
-Schulich School of Music, McGill University, Montréal, Canada
+## Schulich School of Music, McGill University, Montréal, Canada
 
 ## A Satellite Event of [ismir 2020](https://ismir.github.io/ISMIR2020/).
 
@@ -21,7 +21,7 @@ Schulich School of Music, McGill University, Montréal, Canada
 ## News
 
 - 14 October: **Registration is now closed**. Information for attendees will be sent out later today. If you haven't received your Zoom link by tomorrow, contact us at <dlfm2020@easychair.org>.
-- 21 September: The [full programme](https://dlfm.web.ox.ac.uk/dlfm-2020-programme) is now available online.
+- 21 September: The [full programme](/2020/programme/) is now available online.
 - 26 August 2020: **Registration** is now [open for booking](https://ismir.github.io/ISMIR2020/registration/#digital-libraries-for-musicology-dlfm-16-october-2020).
   - The registration fees are summarised below:
 
@@ -36,13 +36,13 @@ Schulich School of Music, McGill University, Montréal, Canada
     \*\* A reduced fee of CA\$5 is available for independent students, people from low-GDP countries, and low-income attendees, who are paying out-of-pocket.
 
   - Registration is integrated with ISMIR's registration, and we would encourage all attendees to consider supporting the larger conference. To register for DLfM without also registering for ISMIR, you will need to request a fee-waiver code from <ismir2020-registration@ismir.net>.
-- **23 July 2020**: We have **extended the deadlines** by one week. Please see the revised [IMPORTANT DATES](#Dates) section below.
+- **23 July 2020**: We have **extended the deadlines** by one week. Please see the revised [IMPORTANT DATES](#important-dates) section below.
 
 The Digital Libraries for Musicology (DLfM) conference presents a venue for those engaging with Digital Library systems and content in the domain of music and musicology. It provides a forum for musicians, musicologists, librarians, and technologists to share findings and expertise.
 
 ## Call for Papers
 
-We are calling for paper submissions in two tracks: a [‘proceedings’ track](#Proceedings) for short and full papers; and a [‘Trompa Challenge’ track](#Challenge) for position papers proposing novel ways of bringing libraries and archives to home users. Details of both are provided below. Proceedings will be published in ACM ICPS, and we expect this to be an Open Access publication.
+We are calling for paper submissions in two tracks: a [‘proceedings’ track](#proceedings-track-submissions) for short and full papers; and a [‘Trompa Challenge’ track](#trompa-challenge-submissions) for position papers proposing novel ways of bringing libraries and archives to home users. Details of both are provided below. Proceedings will be published in ACM ICPS, and we expect this to be an Open Access publication.
 
 ## Background
 
@@ -93,7 +93,7 @@ Topics of interest include, but are not limited to:
 
 Papers for each track will be peer reviewed by 2-3 members of the programme committee. For accepted submissions on either track, at least one author must register as a presenter for the conference by 11 September 2020. Presenting authors should expect an attendance fee of \$95-140 CAD (c. \$70-100 USD / €65-95 EUR). We will try to keep this fee at the lower end of the range. Non-presenting authors and others who wish to attend should expect a fee of \$5-25 CAD (c. \$5-20 USD / €5-20 EUR).
 
-Please produce your paper using the ACM template and submit it to DLfM on EasyChair by 31st July 2020 (see [IMPORTANT DATES](#Dates)).
+Please produce your paper using the ACM template and submit it to DLfM on EasyChair by 31st July 2020 (see [IMPORTANT DATES](#important-dates)).
 
 All submitted papers must:
 
