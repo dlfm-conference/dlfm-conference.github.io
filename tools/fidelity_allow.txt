@@ -58,6 +58,13 @@ a satellite event of
 # 2021 day headings now read "…July 28 …" (carried from the removed jump links)
 # rather than the old "…July 28th"; the ordinal suffixes are the only change.
 2021/programme: 28th 29th 30th
+# 2014 landing: hero eyebrow "1st" + city "London, UK" + the "12th September 2014"
+# date, which isn't in the archived page (workshop was co-located with DL2014).
+2014/landing: 1st 12th september uk
+# 2016/2017 landing: the "DLfM <year> is kindly supported by:" line is dropped
+# (sponsor logos now render in the hero from _data/sponsors).
+2016/landing: kindly
+2017/landing: kindly
 2024/proceedings: africa stellenbosch
 2024/programme: south africa
 # 2024 landing: sponsor names live in hero logos (alt); Sponsors/Organization headings removed

@@ -1,0 +1,7 @@
+# DLfM 2016 sponsors, shown in the landing hero.
+- { name: "New York University Libraries", logo: /assets/sponsors/2016/nyul.jpg, url: "https://library.nyu.edu/", wide: true }
+- { name: "Transforming Musicology", logo: /assets/sponsors/2016/tmus.png, url: "https://www.transforming-musicology.org/" }
+- { name: "University of Oxford e-Research Centre", logo: /assets/sponsors/2016/oerc.gif, url: "https://www.oerc.ox.ac.uk/" }
+- { name: "University of Oxford", logo: /assets/sponsors/2016/oxford.png, url: "https://www.ox.ac.uk/" }
+- { name: "Goldsmiths, University of London", logo: /assets/sponsors/2016/goldsmiths.png, url: "https://www.gold.ac.uk/" }
+- { name: "FAST — Fusing Audio and Semantic Technologies for Intelligent Music Production and Consumption", logo: /assets/sponsors/2016/fast.png, url: "https://www.semanticaudio.ac.uk/" }

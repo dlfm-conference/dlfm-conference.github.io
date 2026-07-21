@@ -1,0 +1,6 @@
+# DLfM 2017 sponsors, shown in the landing hero.
+- { name: "Shanghai Conservatory of Music", logo: /assets/sponsors/2017/shanghai-conservatory.jpg, url: "https://en.shcmusic.edu.cn/" }
+- { name: "Transforming Musicology", logo: /assets/sponsors/2017/tmus.png, url: "https://www.transforming-musicology.org/" }
+- { name: "University of Oxford e-Research Centre", logo: /assets/sponsors/2017/oerc.png, url: "https://www.oerc.ox.ac.uk/" }
+- { name: "Goldsmiths, University of London", logo: /assets/sponsors/2017/goldsmiths.png, url: "https://www.gold.ac.uk/" }
+- { name: "FAST — Fusing Audio and Semantic Technologies for Intelligent Music Production and Consumption", logo: /assets/sponsors/2017/fast.png, url: "https://www.semanticaudio.ac.uk/" }

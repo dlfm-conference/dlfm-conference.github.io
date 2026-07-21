@@ -73,3 +73,35 @@
   dates: "28th September 2018"
   satellite: "A satellite event of ISMIR 2018"
   pages: [programme, proceedings]
+
+- year: 2017
+  ordinal: "4th"
+  kind: Workshop
+  city: "Shanghai, China"
+  dates: "28th October 2017"
+  satellite: "A satellite event of ISMIR 2017"
+  pages: []
+
+- year: 2016
+  ordinal: "3rd"
+  kind: Workshop
+  city: "New York, USA"
+  dates: "12th August 2016"
+  satellite: "A satellite event of ISMIR 2016"
+  pages: []
+
+- year: 2015
+  ordinal: "2nd"
+  kind: Workshop
+  city: "Knoxville, TN, USA"
+  dates: "24th June 2015"
+  satellite: "A workshop at JCDL 2015"
+  pages: []
+
+- year: 2014
+  ordinal: "1st"
+  kind: Workshop
+  city: "London, UK"
+  dates: "12th September 2014"
+  satellite: "A workshop at Digital Libraries 2014"
+  pages: []

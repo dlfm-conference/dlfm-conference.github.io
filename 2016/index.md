@@ -1,0 +1,189 @@
+---
+layout: landing
+role: landing
+year: 2016
+title: "DLfM 2016 — 3rd International Workshop on Digital Libraries for Musicology"
+---
+
+* TOC
+{:toc}
+
+# 3rd International Digital Libraries for Musicology workshop (DLfM 2016)
+
+### Friday 12th August 2016
+
+### The Avery Fisher Center for Music and Media, Bobst Library, New York University, Ny, Usa
+
+### Proceedings Published in ACM Icps
+
+### A Satellite Event of [ismir 2016](https://wp.nyu.edu/ismir2016/)
+
+*The call for papers is out for [DLfM 2017](https://dlfm.web.ox.ac.uk/dlfm2017), with submissions due by 30 June 2017.*
+
+**Registration**: via [online store](http://www.oxforduniversitystores.co.uk/browse/extra_info.asp?compid=1&modid=1&deptid=172&catid=2680&prodid=12483).
+
+## News
+
+- **2016-08-10**: [Proceedings](#proceedings-published-in-acm-icps) and [venue](#venue-and-directions-to-dlfm) information now available.
+- **2016-08-09**: Due to several requests, we have re-opened registration for the workshop. Please be aware that we may not be able to provide all pre-ordered items for late registrations (although we'll try our best!).
+- **2016-07-25**: The [programme](#programme) is now available.
+- **2016-07-13**: Registration for DLfM 2016 in New York is now open through our [online store](http://www.oxforduniversitystores.co.uk/browse/extra_info.asp?compid=1&modid=1&deptid=172&catid=2680&prodid=12483). The registration deadline for authors of papers and posters is 21st July 2016; general registration will close on 6th August. The workshop programme is currently being confirmed and will be published here in the last week of July.
+- **2016-06-30**: *Registration* for DLfM 2016 will open shortly and will be linked from this site in due course. The registration fee of £50 covers the ACM ICPS proceedings and lunch on the day of the workshop. The venue and coffee breaks have been generously provided by the New York University Bobst Library. Author registration closes on 21st July and general registration on 5th August; the programme will be confirmed in the last week of July.
+- **2016-05-26**: Final submissions are due this Friday 27th May (23:59 UTC-11). Short case-by-case extensions may be available on request from the chairs (email <dlfm2016@easychair.org>). Please note that any extension granted will be until 31st May at the latest.
+- **2016-05-20**: Due to several requests, the abstract submission deadline has been extended to **23rd May**. Papers for submitted abstracts can be uploaded until 27th May.
+- **2016-05-18**: Registration is now open on [easychair](https://easychair.org/conferences/?conf=dlfm2016). Abstracts are due Friday 20th May; authors can upload papers for submitted abstracts until one week later (Friday 27th May).
+- **2015-04-25**: We are pleased to announce that the DLfM 2016 proceedings will again be published in the ACM Digital Library as part of the ICPS series.
+
+## Venue and Directions to DLfM
+
+Registered attendees of DLfM should travel to the Elmer Holmes Bobst Library of New York University (at [70 Washington Square South, New York, NY 10012](https://www.google.com/maps/place/Bobst+Library,+70+Washington+Square+S,+New+York,+NY+10012,+USA/@40.7294345,-73.9972124,16z/data=!4m2!3m1!1s0x89c2599051e43f09:0x73708ab233ccf977)). On arrival please present yourself at the lobby security desk who will have a list of registered workshop attendees. After entering the library atrium please proceed to the 2nd floor by lift or stairs and enter the Avery Fisher Center for Music and Media. Within the Avery Fisher Center follow signs to the Avery Room, where the workshop is being held (turn right at the main Center desks and continue to the end of the corridor). Registration and collection of name badges etc. will take place within the Avery Room.
+
+## Proceedings
+
+The DLfM 2016 proceedings are published as part of ACM ICPS through the ACM Digital Library. Individual papers will be available from the day of the workshop, as per ICPS policy.
+
+<http://dl.acm.org/citation.cfm?id=2970044>
+
+## Programme
+
+Short paper presentations will be 15 minutes plus five minutes questions, and long paper presentations will be 25 minutes plus five questions.
+
+|       |                                                                                                                                                                                                                                |             |                                                                |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|----------------------------------------------------------------|
+| 10:00 | Workshop opening                                                                                                                                                                                                               |             |                                                                |
+|       | Session 1. Chair: Ben Fields                                                                                                                                                                                                   |             |                                                                |
+| 10:10 | Representing and Linking Music Performance Data with Score Information                                                                                                                                                         | Long paper  | Johanna Devaney and Hubert Léveillé Gauvin                     |
+| 10:40 | Approaches to handwritten conductor annotation extraction in musical scores                                                                                                                                                    | Short paper | Eamonn Bell and Laurent Pugin                                  |
+| 11:00 | Digitizing musical scores: Challenges and opportunities for libraries                                                                                                                                                          | Short paper | Audrey Laplante and Ichiro Fujinaga                            |
+| 11:20 | Tea break and posters                                                                                                                                                                                                          |             |                                                                |
+|       | Session 2. Chair: David Lewis                                                                                                                                                                                                  |             |                                                                |
+| 11:50 | MORTY: A Toolbox for Mode Recognition and Tonic Identification                                                                                                                                                                 | Long paper  | Altuğ Karakurt, Sertan Şentürk and Xavier Serra                |
+| 12:20 | Data Generation and Multi-Modal Analysis for Archival Recorded Operatic Performance                                                                                                                                            | Short paper | Joshua Neumann                                                 |
+| 12:40 | Exploring J-DISC: Some Preliminary Analyses                                                                                                                                                                                    | Short paper | Yun Hao, Kahyun Choi and J. Stephen Downie                     |
+| 13:00 | Lunch: BBar & Grill, [40 East 4th Street](https://www.google.com/maps/place/B+Bar+%26+Grill,+40+E+4th+St,+New+York,+NY+10003,+United+States/@40.7270718,-73.9919324,18z/data=!4m2!3m1!1s0x89c2599ad7a58a9f:0xc6001c2926c5929e) |             |                                                                |
+|       | Session 3. Chair: David Bainbridge                                                                                                                                                                                             |             |                                                                |
+| 14:20 | In Collaboration with In Concert: Reflecting a Digital Library as Linked Data for Performance Ephemera                                                                                                                         | Long paper  | Terhi Nurmikko-Fuller, Alan Dix, David M. Weigl and Kevin Page |
+| 14:50 | Mining metadata from the web for AcousticBrainz                                                                                                                                                                                | Short paper | Alastair Porter, Dmitry Bogdanov and Xavier Serra              |
+| 15:10 | Document Analysis for Music Scores via Machine Learning                                                                                                                                                                        | Short paper | Jorge Calvo-Zaragoza, Gabriel Vigliensoni and Ichiro Fujinaga  |
+| 15:30 | Tea break and posters                                                                                                                                                                                                          |             |                                                                |
+|       | Session 4. Chair: Kevin Page                                                                                                                                                                                                   |             |                                                                |
+| 16:00 | The Music Addressability API: A draft specification for addressing portions of music notation on the web                                                                                                                       | Short paper | Raffaele Viglianti                                             |
+| 16:20 | A standard format proposal for hierarchical analyses and representations                                                                                                                                                       | Long paper  | David Rizo and Alan Marsden                                    |
+| 16:50 | Round table discussion                                                                                                                                                                                                         |             |                                                                |
+| 17:30 | Close                                                                                                                                                                                                                          |             |                                                                |
+
+### Posters
+
+|                                                                                                                                                                                |        |                                                                         |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------------------|
+| An ecosystem for optical music recognition of numbered music notation                                                                                                          | Poster | Fu-Hai Frank Wu                                                         |
+| The Human History Project: Digital Prosopography of Renaissance Musicians                                                                                                      | Poster | Susan Weiss and Ichiro Fujinaga                                         |
+| GRAIL: A General Recorded Audio Identity Linker                                                                                                                                | Poster | Michael Barone, Gabriel Vigliensoni, Kurt Dacosta and Matthew Woolhouse |
+| [Application of Islandora for Interdisciplinary Musicological Research: the AIRS DL for Research in Singing](https://dlfm.web.ox.ac.uk/resources/documents/dlfm2016-moses.pdf) | Poster | Donald Moses, Tom Germaine, Karen Ludke and Annabel Cohen               |
+
+## Background
+
+Many Digital Libraries have long offered facilities to provide multimedia content, including music. However there is now an ever more urgent need to specifically support the distinct multiple forms of music, the links between them, and the surrounding scholarly context, as required by the transformed and extended methods being applied to musicology and the wider Digital Humanities.
+
+The Digital Libraries for Musicology (DLfM) workshop presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. This includes Music Digital Library systems, their application and use in musicology, technologies for enhanced access and organisation of musics in Digital Libraries, bibliographic and metadata for music, intersections with music Linked Data, and the challenges of working with the multiple representations of music across large-scale digital collections such as the Internet Archive and HathiTrust.
+
+This, the third Digital Libraries for Musicology workshop, is a satellite event of the annual International Society for Music Information Retrieval (ISMIR) conference, and in particular encourages reports on the use of MIR methods and technologies within Music Digital Library systems when applied to the pursuit of musicological research.
+
+## Workshop Objectives
+
+DLfM will focus on the implications of music on Digital Libraries and Digital Libraries research when pushing the boundaries of contemporary musicology, including the application of techniques as reported in more technologically oriented fora such as ISMIR and ICMC.
+
+This will be the third edition of DLfM following a very successful and well received workshop at Digital Libraries 2014, and then at JCDL 2015, giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
+
+The workshop objectives are:
+
+- to act as a forum for reporting, presenting, and evaluating this work and disseminating new approaches to advance the discipline;
+- to create a venue for critically and constructively evaluating and verifying the operation of Music Digital Libraries and the applications and findings that flow from them;
+- to consider the suitability of existing Music Digital Libraries, particularly in light of the transformative methods and applications emerging from musicology, large collections of both audio and music related data, ‘big data’ method, and MIR;
+- to set the agenda for work in the field to address these new challenges and opportunities.
+
+## Topics
+
+Topics of interest for the workshop include but are not limited to:
+
+- Music Digital Libraries.
+- Applied MIR techniques in Music Digital Libraries and musicological investigations using them.
+- Techniques for locating and accessing music in Very Large Digital Libraries (e.g. HathiTrust, Internet Archive).
+- Music data representations, including manuscripts/scores and audio
+- Interfaces and access mechanisms for Music Digital Libraries.
+- Digital Libraries in support of musicology and other scholarly study; novel requirements and methodologies therein.
+- Digital Libraries for combination of resources in support of musicology (e.g. combining audio, scores, bibliographic, geographic, ethnomusicology, performance, etc.)
+- User information needs and behaviour for Music Digital Libraries.
+- Identification/location of music (in all forms) in generic Digital Libraries.
+- Mechanisms for combining multi-form music content within and between Digital Libraries and other digital resources.
+- Information literacies for Music Digital Libraries.
+- Metadata and metadata schemas for music.
+- Application of Linked Data and Semantic Web techniques to Music Digital Libraries, and for their access and organisation.
+- Optical Music Recognition.
+- Ontologies and categorisation of musics and music artifacts.
+
+## Submissions
+
+We invite full papers (up to 8 pages) or short and position papers (up to 4 pages). Papers will be peer reviewed by 2-3 members of the programme committee.
+
+Please produce your paper using the ACM template and submit it in draft to DLfM on EasyChair by 23rd May 2016 20th May 2016 and the final version before 27th May 2016 (see [IMPORTANT DATES](#important-dates)).
+
+Accepted papers will be included in our proceedings, which will be published in the ACM Digital Libraries as part of the ICPS series.
+
+All submitted papers must:
+
+- be written in English;
+- contain author names, affiliations, and email addresses;
+- be formatted according to the ACM SIG Proceedings template with a Type 1 font no smaller than 9pt;
+- be in PDF (make sure that the PDF can be viewed on any platform), and formatted for A4 size.
+
+It is the authors' responsibility to ensure that their submissions adhere strictly to the required format. Submissions that do not comply with the above guidelines may be rejected without review.
+
+Please note that at least one author from each accepted paper must attend the workshop to present their work, and in addition must be registered for the workshop by a date, preceding the camera ready deadline, which will be confirmed in due course (see [IMPORTANT DATES](#important-dates)).
+
+ACM template: <http://www.acm.org/sigs/publications/proceedings-templates>
+Submissions: <https://easychair.org/conferences/?conf=dlfm2016>
+Contact email: <dlfm2016@easychair.org>
+
+## Important Dates
+
+Abstract submission deadline: 23rd May 2016 (23:59 UTC-11) 20th May 2016 (23:59 UTC-11)
+Final paper submission deadline: 27th May 2016 (23:59 UTC-11)
+Notification of acceptance: 4th July 2016
+Camera ready submission deadline: 19th July 2016 (23:59 UTC) 26th July 2016 (14:00 UTC)
+Workshop: 12th August 2016
+
+## Workshop Organisation
+
+### Chairs
+
+Kevin Page, University of Oxford  
+Ben Fields, Goldsmiths University of London
+
+### Publicity and Proceedings
+
+Richard Lewis, Goldsmiths University of London
+
+### Programme Committee
+
+- Islah Ali-Maclachlan, Birmingham City University
+- Richard Chesser, British Library
+- Rachel Cowgill, Huddersfield University
+- Tim Crawford, Goldsmiths College
+- David De Roure, University of Oxford
+- Jürgen Diet, Bavarian State Library
+- J. Stephen Downie, University of Illinois
+- Ichiro Fujinaga, McGill University
+- Jonathan Greenberg, RILM
+- Andrew Hankinson, McGill University
+- Xiao Hu, University of Hong Kong
+- Charles Inskip, University College London
+- David Lewis, Goldsmiths University of London
+- Alastair Porter, Universitat Pompeu Fabra, Spain
+- Laurent Pugin, RISM Switzerland
+- Carolin Rindfleisch, University of Oxford
+- Mohamed Sordo, Pandora
+- Marnix van Berchum, Utrecht University
+- Raffaele Viglianti, University of Maryland
+- David M. Weigl, University of Oxford
+- Tillman Weyde, City University

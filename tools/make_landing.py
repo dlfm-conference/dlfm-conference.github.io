@@ -58,25 +58,30 @@ def q(x):
 
 def main():
     year, title = sys.argv[1], sys.argv[2]
+    no_committee = "--no-committee" in sys.argv[3:]   # keep org section as prose
     md = subprocess.run(["python3", str(ROOT / "tools/clean_pandoc_md.py"),
                          str(ROOT / f"_import/md/{year}/landing.md")],
                         capture_output=True, text=True).stdout
     md = linkfix.normalise(md)   # repoint old-CMS URLs + fix verbatim autolinks
 
-    # split off Sponsors / Host Institution logo block (report its logos)
+    # Split off the Sponsors / Host Institution / "…is kindly supported by:" logo
+    # block FIRST (capture its logos to report), THEN drop any stray dead images —
+    # otherwise the image strip would remove the sponsor logos before capture.
     logos = []
-    m = re.search(r"\n#+\s*(Host Institution|Sponsors|Supported by)\b", md, re.I)
+    m = re.search(r"\n(?:#+\s*(?:Host Institution|Sponsors|Supported by)\b"
+                  r"|[^\n]*kindly supported by[^\n]*)", md, re.I)
     if m:
         tail = md[m.start():]
         md = md[:m.start()]
         for im in re.finditer(r'<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"', tail):
             logos.append((im.group(1), im.group(2)))
+    md = re.sub(r'<img[^>]*dlfm\.web\.ox\.ac\.uk[^>]*>\s*', '', md)  # drop dead old-CMS images
 
     # split off Conference Organization -> committee data
     om = re.search(r"\n#+\s*(conference organi[sz]ation|organising committee|"
                    r"programme committee|committee)\b", md, re.I)
     chairs, members = [], []
-    if om:
+    if om and not no_committee:
         org = md[om.start():]
         md = md[:om.start()]
         role, in_members = None, False
@@ -137,7 +142,7 @@ def main():
             lead_in = False                             # first ## / content ends the lead-in
         m2 = re.match(r"^(#{2,5})\s+(.*)$", l)
         if m2:
-            lvl = "##" if len(m2.group(1)) <= 4 else "###"
+            lvl = "#" * min(len(m2.group(1)), 3)   # preserve H2/H3 (deeper -> H3)
             body.append(f"{lvl} {tc(m2.group(2))}")
         elif s in PLAIN_H2 or s.rstrip(":") in PLAIN_H2 or (s.isupper() and 4 < len(s) < 40 and s[0].isalpha()):
             body.append(f"## {tc(s)}")
@@ -155,6 +160,23 @@ def main():
         if tgt and tgt != a:
             text = text.replace(f"](#{a})", f"](#{tgt})")
     text = re.sub(r"\n{3,}", "\n\n", text).strip() + "\n"
+
+    # In the organisation section, stack each committee entry on its own line
+    # (kramdown hard break), matching the source layout instead of collapsing
+    # the names into one run-on paragraph.
+    tl, out_lines, in_org = text.split("\n"), [], False
+    for i, l in enumerate(tl):
+        if re.match(r"^##\s", l):
+            in_org = bool(re.search(r"organi[sz]ation|committee|chair", l, re.I))
+        nxt = tl[i + 1] if i + 1 < len(tl) else ""
+        def entry(s):
+            return bool(s.strip()) and not s.startswith("#") \
+                and not s.lstrip().startswith(("|", "-", "*", "<", "["))
+        if in_org and entry(l) and entry(nxt):
+            out_lines.append(l.rstrip() + "  ")     # trailing 2 spaces = <br>
+        else:
+            out_lines.append(l)
+    text = "\n".join(out_lines)
 
     fm = (f"---\nlayout: landing\nrole: landing\nyear: {year}\n"
           f'title: "{title}"\n---\n\n* TOC\n{{:toc}}\n\n')

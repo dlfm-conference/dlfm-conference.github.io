@@ -13,7 +13,7 @@ layout: default
     <li class="edition">
       <div class="edition-head">
         <a class="edition-year" href="{{ '/' | append: e.year | append: '/' | relative_url }}">DLfM {{ e.year }}</a>
-        <span class="edition-meta">{{ e.ordinal }} International Conference{% if e.city %} · {{ e.city }}{% endif %}{% if e.dates %} · {{ e.dates }}{% endif %}</span>
+        <span class="edition-meta">{{ e.ordinal }} International {{ e.kind | default: "Conference" }}{% if e.city %} · {{ e.city }}{% endif %}{% if e.dates %} · {{ e.dates }}{% endif %}</span>
       </div>
       <ul class="edition-links">
         {%- for pg in e.pages -%}
