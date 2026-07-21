@@ -1,8 +1,8 @@
 # DLfM 2020 sponsors, shown in the landing hero.
 - { name: "ISMIR 2020", logo: /assets/sponsors/2020/ismir.png, url: "https://ismir2020.ismir.net/" }
-- { name: "TROMPA", logo: /assets/sponsors/2020/trompa.png, url: "https://trompamusic.eu/" }
-- { name: "Schulich School of Music, McGill University", logo: /assets/sponsors/2020/mcgill.png, url: "https://www.mcgill.ca/music/" }
-- { name: "SIMSSA", logo: /assets/sponsors/2020/simssa.png, url: "https://simssa.ca/" }
-- { name: "Social Sciences and Humanities Research Council (SSHRC)", logo: /assets/sponsors/2020/sshrc.png, url: "https://www.sshrc-crsh.gc.ca/" }
+- { name: "TROMPA", logo: /assets/sponsors/2020/trompa.png, url: "https://trompamusic.eu/", wide: true }
+- { name: "Schulich School of Music, McGill University", logo: /assets/sponsors/2020/mcgill.png, url: "https://www.mcgill.ca/music/" , wide: true }
+- { name: "SIMSSA", logo: /assets/sponsors/2020/simssa.png, url: "https://simssa.ca/" , wide: true }
+- { name: "Social Sciences and Humanities Research Council (SSHRC)", logo: /assets/sponsors/2020/sshrc.png, url: "https://www.sshrc-crsh.gc.ca/" , wide: true }
 - { name: "Universidad de Alicante", logo: /assets/sponsors/2020/ualicante.png, url: "https://www.ua.es/" }
 - { name: "ACM ICPS", logo: /assets/sponsors/2020/icps.png, url: "https://www.acm.org/publications/icps-series" }

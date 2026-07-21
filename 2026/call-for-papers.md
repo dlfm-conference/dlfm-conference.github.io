@@ -65,7 +65,7 @@ All deadlines are at 23:59 Anywhere on Earth.
 - DLfM Challenge submission deadline: 15 April 2026
 - Poster submission deadline: 15 April 2026
 - Conference registration deadline: 25 June 2026
-- Conference: 02 July 2026, Thessaloniki, Greece
+- Conference: Thursday 02 July 2026, Thessaloniki Concert Hall, Thessaloniki, Greece
 
 **\* At least one author of accepted submissions must be registered for the conference
 before the camera-ready submission deadline to be included in the conference programme.
@@ -218,4 +218,48 @@ Please contact the Chairs with any questions via
 - **Proceedings Chair:** Jessica Grimmer, University of Maryland
 - **Local Chair:** Arsinoi Ioannidou, RISM Greek Office
 
-The full Programme Committee is listed on the [home page](/2026/).
+**Programme Committee:**
+
+- Claire Arthur, Georgia Institute of Technology
+- Margrethe Bue, National Library of Norway
+- Tim Crawford, Goldsmiths University of London
+- Elsa De Luca, Universidade Nova de Lisboa
+- Timothy Duguid, University of Glasgow
+- Raphaël Fournier S'niehotta, Sorbonne Université
+- Ichiro Fujinaga, McGill University
+- Francesca Giannetti, Rutgers University
+- Mathieu Giraud, Université de Lille
+- Werner Goebl, University of Music and Performing Arts Vienna
+- Clemens Gubsch, Austrian Academy of Sciences
+- Carlos Guedes, NYU Abu Dhabi
+- Paul Gulewycz, Austrian Center for Digital Humanities
+- Jan Hajič, Jr., Charles University
+- Zeynep Helvaci, University of Muenster
+- Olja Janjuš, Ludwig Maximilian University of Munich
+- Yaolong Ju, McGill University
+- Anna Kijas, Tufts University
+- Audrey Laplante, Université de Montréal
+- Kjell Lemström, University of Helsinki
+- Florence Leve, Université de Picardie Jules Verne
+- Cynthia Liem, Delft University of Technology
+- Ewa Łukasik, Poznan University of Technology
+- Juan Carlos Martinez-Sevilla, University of Alicante
+- Anna Matuszewska, Polish Academy of Sciences
+- Davide Andrea Mauro, Paderborn University
+- Cory McKay, Marianopolis College
+- Fabian Moss, Julius-Maximilians-Universität Würzburg
+- Terhi Nurmikko-Fuller, Australian National University
+- Kevin Page, University of Oxford
+- Anna Plaksin, Paderborn University
+- Laurent Pugin, RISM Digital Center
+- Klaus Rettinghaus, SLUB Dresden
+- Kristina Richts-Matthaei, Akademie der Wissenschaften und der Literatur \| Mainz
+- Dennis Ried, Martin Luther University Halle-Wittenberg
+- John Rink, University of Cambridge
+- David Rizo, University of Alicante
+- Mark Saccomano, Paderborn University
+- Joshua Stutter, University of Sheffield
+- Martha Thomae, CESEM, Universidade Nova de Lisboa
+- Chanda VanderHart, University for Continuing Education Krems
+- David Weigl, University of Music and Performing Arts Vienna
+

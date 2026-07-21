@@ -1,0 +1,14 @@
+# DLfM 2018 sponsors, shown in the landing hero.
+- name: "Institut de recherche en musicologie (IReMus)"
+  logo: /assets/sponsors/2018/iremus.png
+  url: https://www.iremus.cnrs.fr/
+- name: "University of Oxford e-Research Centre"
+  logo: /assets/sponsors/2018/oxford-erc.png
+  url: https://www.oerc.ox.ac.uk/
+- name: "FAST — Fusing Audio and Semantic Technologies for Intelligent Music Production and Consumption"
+  logo: /assets/sponsors/2018/fast.png
+  url: https://www.semanticaudio.ac.uk/
+- name: "TROMPA"
+  logo: /assets/sponsors/2018/trompa.png
+  url: https://trompamusic.eu/
+  wide: true

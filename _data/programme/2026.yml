@@ -29,16 +29,16 @@ sessions:
       - { type: long paper, time: "16:30", title: "A Timed Petri Net Model and Renderer for Typesetting Pre-Mensural Polyphony", authors: ["Joshua Stutter (Newcastle University, UK)"] }
       - { type: long paper, time: "17:00", title: "‘Building’ or ‘Bullshit’? AI-assisted Making and the EUYO Concert Explorer", authors: ["Chanda VanderHart (University for Continuing Education Krems, Austria)", "David Weigl (mdw – University of Music and Performing Arts Vienna, Austria)", "Werner Goebl (mdw – University of Music and Performing Arts Vienna, Austria)"] }
 
-# Poster / Challenge track. Sessions at 10:30–11:00 & 15:30–16:00.
-# Challenge-track submissions were italicised in the source programme.
-poster_sessions: "10:30 – 11:00 & 15:30 – 16:00"
+# Posters — 10:30–11:00 & 15:30–16:00. Source italicised the Challenge-track entries.
 posters:
-  - { challenge: true, title: "Computational approaches to medieval polyphony: tools and workflows developed within REIMAGE", authors: ["Antonio Constenla (Haute école de musique de Genève-Neuchâtel, HES-SO)*", "Niels Berentsen (Haute école de musique de Genève-Neuchâtel, HES-SO)"] }
-  - { challenge: true, title: "A Flexible System for Collecting and Organizing Ethnomusicological Research Metadata", authors: ["Ewa Łukasik (Poznan University of Technology)", "Arleta Nawrocka-Wysocka (Polish Academy of Sciences)", "Magdalena Chudy (Polish Academy of Sciences)*"] }
-  - { challenge: true, title: "Towards automated transcription of Hardanger fiddle performances", authors: ["Olivier Lartillot (RITMO, University of Oslo)*", "Lars Løberg Monstad (Bots for Music)"] }
-  - { challenge: true, title: "PAM: Plainchant Analyser for MEI Neumes", authors: ["Martha Thomae Elías (NOVA University of Lisbon)*", "Elsa De Luca (NOVA University of Lisbon)"] }
-  - { challenge: true, title: "Language-Augmented Soundsketcher: Semantic Enrichment of Perceptual Audio Representations", authors: ["Konstantinos Velenis (Aristotle University of Thessaloniki)*", "Asterios Zacharakis (Aristotle University of Thessaloniki)", "Emilios Cambouropoulos (Aristotle University of Thessaloniki)"] }
-  - { challenge: true, title: "Modular development. What’s new on the Joachim Raff Archive’s online portal", authors: ["Severin Kolb (Joachim-Raff-Archiv)*", "Stefan König (Max-Reger-Institut, Karlsruhe)", "Dennis Ried (Martin-Luther-Universität Halle-Wittenberg)"] }
-  - { challenge: true, title: "How Expert Users Judge Relevance in Chant Retrieval: A User-Centred Evaluation of Cantus Ultimus", authors: ["Emma Pope (McGill University)*"] }
-  - { challenge: true, title: "Musicology, librarianship and technology in the EU Context: the perspective of COST Action EarlyMuse", authors: ["Sonia Wronkowska (National Library of Poland)*"] }
-  - { challenge: true, title: "OMR in the Browser for Large-Scale Music Collections", authors: ["David Rizo (University of Alicante; ISEA CV)", "Bernhard Lutz (Bavarian State Library)", "Adrián Roselló (University of Alicante)", "Janosch Umbreit (Bavarian State Library)*", "Marina Maciá (University of Alicante)", "Silvana Schumann (Bavarian State Library)", "Jorge Calvo-Zaragoza (University of Alicante)"] }
+  note: "Posters (Challenge track in italics), 10:30 - 11 am & 3:30 - 4pm"
+  items:
+    - { title: "Computational approaches to medieval polyphony: tools and workflows developed within REIMAGE", authors: ["Antonio Constenla (Haute école de musique de Genève-Neuchâtel, HES-SO)*", "Niels Berentsen (Haute école de musique de Genève-Neuchâtel, HES-SO)"] }
+    - { title: "A Flexible System for Collecting and Organizing Ethnomusicological Research Metadata", authors: ["Ewa Łukasik (Institute of Computing Science, Poznan University of Technology)", "Arleta Nawrocka-Wysocka (Institute of Art, Polish Academy of Sciences)", "Magdalena Chudy (Institute of Art, Polish Academy of Sciences)*"] }
+    - { title: "Towards automated transcription of Hardanger fiddle performances", authors: ["Olivier Lartillot (RITMO, University of Oslo)*", "Lars Løberg Monstad (Bots for Music)"] }
+    - { title: "PAM: Plainchant Analyser for MEI Neumes", authors: ["Martha Thomae Elías (NOVA University of Lisbon)*", "Elsa De Luca (NOVA University of Lisbon)"] }
+    - { title: "Language-Augmented Soundsketcher: Semantic Enrichment of Perceptual Audio Representations", authors: ["Konstantinos Velenis (Aristotle University of Thessaloniki)*", "Asterios Zacharakis (Aristotle University of Thessaloniki)", "Emilios Cambouropoulos (Aristotle University of Thessaloniki)"] }
+    - { title: "Modular development. What’s new on the Joachim Raff Archive’s online portal", authors: ["Severin Kolb (Joachim-Raff-Archiv)*", "Stefan König (Max-Reger-Institut, Karlsruhe)", "Dennis Ried (Martin-Luther-Universität Halle-Wittenberg)"] }
+    - { title: "How Expert Users Judge Relevance in Chant Retrieval: A User-Centred Evaluation of Cantus Ultimus", authors: ["Emma Pope (McGill University)*"] }
+    - { challenge: true, title: "Musicology, librarianship and technology in the EU Context: the perspective of COST Action EarlyMuse", authors: ["Sonia Wronkowska (National Library of Poland)*"] }
+    - { title: "OMR in the Browser for Large-Scale Music Collections", authors: ["David Rizo (University of Alicante. Instituto Superior de Enseñanzas Artísrticas de la Comunidad Valenciana)", "Bernhard Lutz (Bavarian State Library)", "Adrián Roselló (University of Alicante)", "Janosch Umbreit (Bavarian State Library)*", "Marina Maciá (University of Alicante)", "Silvana Schumann (Bavarian State Library)", "Jorge Calvo-Zaragoza (University of Alicante)"] }

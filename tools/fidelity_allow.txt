@@ -37,6 +37,15 @@ a satellite event of
 2025/proceedings: seoul south korea logo
 # programme: eyebrow "DLfM <year> · <city>" + table header + section label
 2025/programme: dlfm seoul south korea time oral
+# 2026 programme: eyebrow country + table headers (Time/Presentation) + GT ": Papers"
+# caption + GT typo "Rance"->France; schedule shown in 24h vs source 12h am/pm.
+2026/programme: greece time presentation papers rance 9 pm 00 09 14 15 16 17
+# 2026 landing: our "Committee" section heading; old-CMS "Conference Website" label +
+# single-page "see TOPICS, below" nav dropped (topics now live on the CfP page).
+2026/landing: committee website see below
+# 2026 cfp: "13th" conference ordinal (shown in hero, not repeated on CfP); Overleaf
+# template link is a named link, so its URL-slug words live in the href, not page text.
+2026/call-for-papers: 13th association computing machinery bmvfhcdnxfty
 2024/proceedings: africa stellenbosch
 2024/programme: south africa
 # 2024 landing: sponsor names live in hero logos (alt); Sponsors/Organization headings removed

@@ -39,7 +39,7 @@ retrieval (MIR) to musicology.
 DLfM attendance costs for 2026 are payable to IAML. The daily rate for attending only
 DLfM is 50 €. DLfM attendees who plan to attend the full week of IAML will pay the IAML
 member rate. [Attendance registration](https://iaml2026.gr/registration) via IAML is
-available at <https://www.conftool.com/iaml2026/index.php?page=login>.
+available here: <https://www.conftool.com/iaml2026/index.php?page=login>.
 
 DLfM paper and poster presentation costs are in addition to the attendance
 registration. These costs are calculated on a per-presentation basis (only one author
@@ -57,15 +57,15 @@ In 2021, 2022, and 2024, we had successful and productive collaborations with th
 International Association of Music Libraries, Archives, and Documentation Centres
 (IAML). We are thus delighted to come back to IAML in 2026.
 
-DLfM 2026 will take place on 2 July 2026 at the Thessaloniki Concert Hall in
-Thessaloniki, Greece, within the wider IAML conference running from 28 June – 3 July
+DLfM 2026 will take place on 02 July 2026 at the Thessaloniki Concert Hall in
+Thessaloniki, Greece, within the wider IAML conference running from 28 June – 03 July
 2026.
 
 ## Call for papers and posters
 
 The full [call for papers and posters](/2026/call-for-papers/) is available.
 
-## Organisation
+## Contacts and organisation
 
 Please contact the Chairs with any questions via
 <https://cmt3.research.microsoft.com/DLfM2026/Email/Chairs>.

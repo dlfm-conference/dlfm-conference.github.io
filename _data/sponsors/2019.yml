@@ -1,5 +1,5 @@
 # DLfM 2019 sponsors, shown in the landing hero.
-- { name: "TROMPA", logo: /assets/sponsors/2019/trompa.png, url: "https://trompamusic.eu/" }
-- { name: "Instituto Universitario de Investigación Informática (IUII), Universidad de Alicante", logo: /assets/sponsors/2019/iuii.png }
-- { name: "ISEA CV", logo: /assets/sponsors/2019/isea.png }
-- { name: "Ministerio de Economía y Competitividad (MINECO)", logo: /assets/sponsors/2019/mineco.png }
+- { name: "TROMPA", logo: /assets/sponsors/2019/trompa.png, url: "https://trompamusic.eu/", wide: true }
+- { name: "Instituto Universitario de Investigación Informática (IUII), Universidad de Alicante", logo: /assets/sponsors/2019/iuii.png, url: "https://web.ua.es/es/iuii/inicio.html" }
+- { name: "ISEA CV", logo: /assets/sponsors/2019/isea.png, url: "https://iseacv.gva.es/", wide: true }
+- { name: "Ministerio de Economía y Competitividad (MINECO)", logo: /assets/sponsors/2019/mineco.png, url: "https://portal.mineco.gob.es/" }

@@ -27,7 +27,7 @@ members:
   - { name: Clemens Gubsch, affiliation: Austrian Academy of Sciences }
   - { name: Carlos Guedes, affiliation: NYU Abu Dhabi }
   - { name: Paul Gulewycz, affiliation: Austrian Center for Digital Humanities }
-  - { name: Jan Hajič, Jr., affiliation: Charles University }
+  - { name: "Jan Hajič, Jr.", affiliation: Charles University }
   - { name: Zeynep Helvaci, affiliation: University of Muenster }
   - { name: Olja Janjuš, affiliation: Ludwig Maximilian University of Munich }
   - { name: Yaolong Ju, affiliation: McGill University }

@@ -7,6 +7,9 @@
   url: https://www.software.ac.uk/
 - name: "LinkedMusic"
   logo: /assets/sponsors/2023/linkedmusic.png
+  wide: true
+  url: https://linkedmusic.ca/
 - name: "Social Sciences and Humanities Research Council (SSHRC)"
   logo: /assets/sponsors/2023/sshrc.png
+  wide: true
   url: https://www.sshrc-crsh.gc.ca/

@@ -9,6 +9,7 @@ layout: default
 <div class="wrap section">
   {%- assign prog = site.data.programme[ystr] -%}
   {% if prog %}
+    {% if prog.date %}<p class="prog-date">{{ prog.date }}</p>{% endif %}
     {% if prog.note %}<div class="prose"><p>{{ prog.note }}</p></div>{% endif %}
 
     {% assign titled = prog.sessions | where_exp: "s", "s.title" %}
@@ -59,7 +60,7 @@ layout: default
       <ul class="paper-list">
         {% for p in prog.posters.items %}
         <li>
-          <div class="title">{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+          <div class="title{% if p.challenge %} poster-challenge{% endif %}">{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
           {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ", " }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
         </li>
         {% endfor %}
