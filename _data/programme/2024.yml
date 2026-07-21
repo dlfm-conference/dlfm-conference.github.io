@@ -1,0 +1,145 @@
+# DLfM 2024 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: "The conference will be held on Thursday 27 June 2024 in Stellenbosch, as a satellite event of IAML. All sessions (papers and posters) will be at the Konservatorium of Stellenbosch University. Preliminary programme:"
+sessions:
+  - title: |-
+      Session 1: Automatic classification
+    chair: |-
+      David Lewis
+    time: "9:00"
+    items:
+      - time: "9:00"
+        type: |-
+          Short paper
+        title: |-
+          Direct labelling of form of Classical-period piano sonata movements from audio recordings
+        url: "https://doi.org/10.1145/3660570.3660577"
+        authors: |-
+          Paul Burger and J. P. Jacobs
+      - time: "9:30"
+        type: |-
+          Full paper
+        title: |-
+          Acoustic classification of guitar tunings with deep learning
+        url: "https://doi.org/10.1145/3660570.3660574"
+        authors: |-
+          Edward Hulme, David Marshall, Kirill Sidorov and Andrew Jones
+      - time: "10:00"
+        type: |-
+          Full paper
+        title: |-
+          Svara-forms and coarticulation in carnatic music: An investigation using deep clustering
+        url: "https://doi.org/10.1145/3660570.3660580"
+        authors: |-
+          Thomas Nuttall, Xavier Serra and Lara Pearson
+  - break: |-
+      Break & Posters
+    time: "10:30"
+  - title: |-
+      Session 2: Community DLs and archives
+    chair: |-
+      Anna Plaksin
+    time: "11:00"
+    items:
+      - time: "11:00"
+        type: |-
+          Full paper
+        title: |-
+          (Re-)capturing the emotional geography of lost venues: A case study of the Willow Community Digital Archive
+        url: "https://doi.org/10.1145/3660570.3660579"
+        authors: |-
+          Rachel Cowgill, David Bainbridge, Alan Dix, Victoria Hoyle, Vicki Fong and David Thomas
+      - time: "11:30"
+        type: |-
+          Full paper
+        title: |-
+          Popular musical arrangements in the nineteenth century home: A study of the Harmonicon supported by digital tools
+        url: "https://doi.org/10.1145/3660570.3660575"
+        authors: |-
+          David Lewis and Kevin Page
+      - time: "12:00"
+        title: |-
+          Poster Slam
+  - break: |-
+      Lunch break
+    time: "12:30"
+  - title: |-
+      Session 3: Sources, encodings, editions
+    chair: |-
+      Patricia García Iasci
+    time: "14:00"
+    items:
+      - time: "14:00"
+        type: |-
+          Short paper
+        title: |-
+          Open Edirom: From hybrid music edition to open data publication
+        url: "https://doi.org/10.1145/3660570.3660582"
+        authors: |-
+          Lena Frömmel, Tobias Bachmann, Anna Plaksin and Andreas Münzmay
+      - time: "14:30"
+        type: |-
+          Full paper
+        title: |-
+          A preliminary proposal for a systematic GABC encoding of Gregorian chant
+        url: "https://doi.org/10.1145/3660570.3660581"
+        authors: |-
+          Martha E. Thomae, David Rizo, Eliseo Fuentes-Martínez, Cristina Alís Raurich, Elsa De Luca and Jorge Calvo-Zaragoza
+      - time: "15:30"
+        type: |-
+          Full paper
+        title: |-
+          Navigating the RISM data with RISM Online
+        url: "https://doi.org/10.1145/3660570.3660576"
+        authors: |-
+          Andrew Hankinson and Laurent Pugin
+  - break: |-
+      Break & Posters
+    time: "15:30"
+  - title: |-
+      Session 4: Tools for digital musicology
+    chair: |-
+      Laurent Pugin
+    time: "16:00"
+    items:
+      - time: "16:00"
+        type: |-
+          Short paper
+        title: |-
+          FACETS: A tool for improved exploration of large symbolic music collections
+        url: "https://doi.org/10.1145/3660570.3660578"
+        authors: |-
+          Tiange Zhu, Raphaël Fournier-S'Niehotta and Philippe Rigaux
+      - time: "16:30"
+        type: |-
+          Short paper
+        title: |-
+          An online tool for semi-automatically annotating music scores for optical music recognition
+        url: "https://doi.org/10.1145/3660570.3660571"
+        authors: |-
+          Stanisław Graczyk, Zuzanna Piniarska, Mateusz Kałamoniak, Tomasz Łukaszewski, Ewa Łukasik
+      - time: "17:30"
+        type: |-
+          Short paper
+        title: |-
+          JazzDAP: Collaborative research tools for digital jazz archives
+        url: "https://doi.org/10.1145/3660570.3660572"
+        authors: |-
+          Kevin Allain, Tillman Weyde
+posters:
+  note: |-
+    Poster presentations (10:30-11:00 and 15:30-16:00)
+  items:
+    - title: |-
+        The Amu Score Project, Inc.
+      authors: |-
+        Felicia Sandler
+      pdf: /assets/2024/files/2024-poster-sandler.pdf
+    - title: |-
+        Development and structure of an audio-MIDI database for Iranian classical music
+      authors: |-
+        Sepideh Shafiei and Shapour Hakam
+    - title: |-
+        MEI-Basic support in MuseScore
+      authors: |-
+        Laurent Pugin, Johannes Hentschel, Yannis Rammos, Andrew Hankinson and Martin Rohrmeier

@@ -5,17 +5,15 @@ year: 2021
 title: Programme
 ---
 
-## DLfM 2021 Programme
-
 The conference will be held between Wednesday 28 and Friday 30 July  2021, in association with IAML 2021 and affiliated with the Royal Musical Association.
 
 The conference presentations will take place on Zoom, with poster sessions and social events using Gather.town. Registered participants will receive an e-mail with links and more details by July 21st.
 
-- [Wednesday, July 28 – Joint IAML/DLfM poster session](#Wednesday)
-- [Thursday, July 29 – DLfM main conference](#Thursday)
-- [Friday, July 30 – Joint IAML/DLfM paper session](#Friday)
 
-#### **Wednesday, July 28th**
+* TOC
+{:toc}
+
+## Wednesday, July 28 – Joint IAML/DLfM poster session
 
 <table>
 <colgroup>
@@ -153,9 +151,8 @@ UTC+2</th>
 </tbody>
 </table>
 
-####
 
-#### **Thursday, July 29th**
+## Thursday, July 29 – DLfM main conference
 
 <table>
 <colgroup>
@@ -303,9 +300,8 @@ UTC+2</th>
 </tbody>
 </table>
 
-####
 
-#### **Friday, July 30th**
+## Friday, July 30 – Joint IAML/DLfM paper session
 
 *\*please note times have changed*
 

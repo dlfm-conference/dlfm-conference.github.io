@@ -1,0 +1,271 @@
+# DLfM 2023 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: 'The conference will be held on Friday 10 November 2023 in Milan, as a satellite event of ISMIR. All sessions (papers and posters) will be at the <a href="https://www.consmi.it/it/conservatorio/la-biblioteca">Biblioteca del Conservatorio di Milano</a>. Preliminary programme:'
+sessions:
+  - break: |-
+      Welcome
+    time: "9:15"
+  - title: |-
+      Session 1: Music Heritage Preservation and Traditional Music
+    chair: |-
+      David M. Weigl
+    time: "9:25"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          A Multimodal Methodology for Music Field Recording and Archival
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625153"
+        authors: |-
+          Juan Sierra, Safeya Alblooshi, Beth Russell, and Carlos Guedes
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Aligning Incomplete Lyrics of Korean Folk Song Dataset using Whisper
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625154"
+        authors: |-
+          Danbinaerin Han, Daewoong Kim, and Dasaem Jeong
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          An Algorithmic Approach to Automated Symbolic Transcription of Hindustani Vocals
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625137"
+        authors: |-
+          Rhythm Jain and Claire Arthur
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Computational Similarity of Portuguese Folk Melodies Using Hierarchical Reduction
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625152"
+        authors: |-
+          Nádia Carvalho, Daniel Diogo, and Gilberto Bernardes
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Incorporating Symbolic Representations of Traditional Music into a Digital Library
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625150"
+        authors: |-
+          Magdalena Chudy, Arleta Nawrocka-Wysocka, Ewa Łukasik, Ewa Kuśmierek, and Tomasz Parkoła
+  - break: |-
+      Coffee break sponsored by the Software Sustainability Institute
+    time: "10:50"
+  - title: |-
+      Session 2: The Human Factor in Digital Music Research and Performance
+    chair: |-
+      Fabian C. Moss
+    time: "11:20"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Attitudes of Music Scholars Towards Digital Musicology
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625151"
+        authors: |-
+          Audrey Laplante and Jean-Sébastien Sauvé
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Understanding the Needs of Music Editors in a Digital World: Adding Support for Editorial Markup to the mei-friend Editor
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625149"
+        authors: |-
+          Anna Plaksin
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          The “OpenScore String Quartet” Corpus
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625155"
+        authors: |-
+          Mark Gotham, Maureen Redbond, Bruno Bower, and Peter Jonas
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Sounding Out Reconstruction Error-Based Evaluation of Generative Models of Expressive Performance
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625141"
+        authors: |-
+          Silvan David Peter, Carlos Eduardo Cancino-Chacón, Emmanouil Karystinaios, and Gerhard Widmer
+  - title: |-
+      Software Sustainability Challenge Introduction
+    by: |-
+      David Lewis and Kevin Page
+    time: "12:40"
+    items:
+  - break: |-
+      Lunch break and poster session (starting from 13:20, see below)
+    time: "12:45"
+  - title: |-
+      Session 3: Analysis Tools and Similarity Studies
+    chair: |-
+      Anna Plaksin
+    time: "14:00"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          MonodiKit: A Data Model and Toolkit for Medieval Monophonic Chant
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625145"
+        authors: |-
+          Tim Eipert and Fabian C. Moss
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Text Boundaries Do Not Provide a Better Segmentation of Gregorian Antiphons
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625143"
+        authors: |-
+          Vojtěch Lanz and Jan Hajič Jr.
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Exploring Early Vocal Music and its Lute Arrangements: Using F-TEMPO as a Musicological Tool
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625142"
+        authors: |-
+          Tim Crawford, David Lewis, and Alastair Porter
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Visual Presentation and Exploration of Musical Corpora – Case Study: Oskar Kolberg's Opera Omnia
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625148"
+        authors: |-
+          Anna M. Matuszewska
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Cross-Corpus Melodic Similarity For Enriching Archival Collections
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625139"
+        authors: |-
+          Peter van Kranenburg and Eoin Kearns
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          The ‘Measure Map’: An Inter-Operable Standard for Aligning Symbolic Music
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625136"
+        authors: |-
+          Mark Gotham, Johannes Hentschel, Louis Couturier, Nathan Dykeaylen, Martin Rohrmeier, and Mathieu Giraud
+  - break: |-
+      Coffee break and poster session (see below)
+    time: "15:30"
+  - title: |-
+      Session 4: Music Research Environments
+    chair: |-
+      David Lewis
+    time: "16:10"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Designing a Spatial Hypermedia Musical "Lab Notebook" to Support Ethnomusicology Research
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625138"
+        authors: |-
+          Sally Jo Cunningham, Daniel B. Sharp, and David Bainbridge
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Listen Here! A Web-Native Digital Musicology Environment for Machine-Assisted Close Listening
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625144"
+        authors: |-
+          David M. Weigl, Chanda VanderHart, Delilah Rammler, Matthäus Pescoller, and Werner Goebl
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Collaborative Musicology: Designing a Digital Library of Musical Events Ephemera
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625147"
+        authors: |-
+          David Bainbridge, J. Stephen Downie, Rachel Cowgill, Frankie Perry, Alan J. Dix, and Michael B. Twidale
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Connecting Online Early Music Libraries and Musicological Resources: Experiments in Ergonomics in the Biblissima+ Framework
+        url: "https://dl.acm.org/doi/10.1145/3625135.3625140"
+        authors: |-
+          David Fiala and Kévin Roger
+  - title: |-
+      Farewell
+    time: "17:30–17:40"
+    items:
+posters:
+  note: |-
+    Poster presentations (13:20-14:00 and 15:30-16:10)
+  items:
+    - title: |-
+        End-to-End Loading of New Music Libraries to F-Tempo via IIIF
+      authors: |-
+        Alastair Porter, Tim Crawford, and David Lewis
+      pdf: /assets/2023/files/porter2023_porter_ftempo.pdf
+    - title: |-
+        The DIDONE Corpus
+      authors: |-
+        Ana Llorens and Álvaro Torrente
+      pdf: /assets/2023/files/poster2023_llorens_didone.pdf
+    - title: |-
+        Online Tools for Musicology in Dariah.lab
+      authors: |-
+        E. Łukasik, T. Łukaszewski, M. Sroczan, M. Pałasz, S. Graczyk, K. Kubzdela, F. Szymński, W. Kasperski, Z. Piniarska, M. Kałamoniak, P. Poznaniak, M. Chudy, and A. Nawrocka-Wysocka
+      pdf: /assets/2023/files/poster2023_lukasik_dariah.pdf
+    - title: |-
+        The Beethoven in the House Annotator: A Linked Data Tool for Annotating Libraries of Music Editions and Images
+      authors: |-
+        Johannes Kepper, Mark Saccomano, Andrew Hankinson, David Lewis, Lisa Rosendahl, Elisabete Shibata, and Kevin Page
+      pdf: /assets/2023/files/poster2023_kepper_beethoven.pdf
+    - title: |-
+        Technology-Driven Metadata Encodings for Historical Recordings
+      authors: |-
+        Joshua Neumann and Kristina Richts-Matthaei
+      pdf: /assets/2023/files/poster2023_neumann_metadata.pdf
+    - title: |-
+        Building Symbolic Music Archives from Audio: Investigating State-of-the-Art Automatic Music Transcription Systems
+      authors: |-
+        Lele Liu and Christof Weiss
+      pdf: /assets/2023/files/poster2023_liu_building.pdf
+    - title: |-
+        Ricercar Data Lab - Early Music Database
+      authors: |-
+        Sarra Ferjani and Suzy Piat
+      pdf: /assets/2023/files/poster2023_ferjani_earlymusicdb.pdf
+    - title: |-
+        MELOS: A Musical Ontology Framework for Diverse Cultural Repositories
+      authors: |-
+        Savvas Kazazis, Vera Kriezi, Nikolaos Papazis, George Kokkonis, Evgenios Politis, Valia Vraka, Pantelis Brattis, Asterios Zacharakis, Alexandros Charkiolakis, and Emilios Cambouropoulos
+      pdf: /assets/2023/files/poster2023_kazazis_melos.pdf
+    - title: |-
+        Preservation of Non-Western Music Heritage through Digital Encoding
+      authors: |-
+        Shintaro Seki
+      pdf: /assets/2023/files/poster2023_shintaro_preservation.pdf
+    - title: |-
+        Communities in Medieval Troper Networks are Shaped by Carolingian Politics
+      authors: |-
+        Tim Eipert and Fabian C. Moss
+      pdf: /assets/2023/files/poster2023_eipert_communities.pdf
+    - title: |-
+        ECOLM and Lute Tablature
+      authors: |-
+        Chris Cannam, David Lewis, and Tim Crawford
+      pdf: /assets/2023/files/poster2023_cannam_sustainability.pdf
+    - title: |-
+        Can Music Libraries Withstand the Diversity of Music Resources?
+      authors: |-
+        Shintaro Seki
+      pdf: /assets/2023/files/poster2023_shintaro_sustainability.pdf
+    - title: |-
+        Sustainability Challenges for the MerMEId
+      authors: |-
+        Peter Stadler and Daniel Jettka
+      pdf: /assets/2023/files/poster2023_stadler_sustainability.pdf

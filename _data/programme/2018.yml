@@ -1,0 +1,172 @@
+# DLfM 2018 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: 'The conference will be held between 09:30am and 5:30pm on Friday 28th September 2018, at the Institut de Recherche et Coordination Acoustique/Musique (IRCAM), Paris, France. Address: <a href="https://www.ircam.fr/venir-a-lircam/">1, Place Igor-Stravinsky, 75004 Paris</a>.'
+sessions:
+  - break: |-
+      Welcome. Chair: Kevin Page
+    time: "9:30"
+  - title: |-
+      Technological Advances
+    chair: |-
+      J. Stephen Downie
+    time: "9:40"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Extended playing techniques: the next milestone in musical instrument recognition
+        authors: |-
+          Vincent Lostanlen, Joakim Andén and Mathieu Lagrange
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          myTune: Web Visualization Technologies for Irish Traditional Music Archives
+        authors: |-
+          Joseph Timoney, Thomas Lysaght and Corneille Tshibasu
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Publishing musicology using multimedia digital libraries: Creating interactive articles through a framework for Linked Data and MEI
+        authors: |-
+          David Lewis, David M. Weigl, Joanna Bullivant and Kevin Page
+  - break: |-
+      Coffee break and posters (Unlocking Musicology Challenge)
+    time: "11:00"
+  - title: |-
+      Digital Studies
+    chair: |-
+      Tim Crawford
+    time: "11:20"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          No Longer 'Somewhat Arbitrary': Calculating Salience in GTTM-Style Reduction
+        authors: |-
+          Alan Marsden, Satoshi Tojo and Keiji Hirata
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          On large-scale genre classification in symbolically encoded music by automatic identification of repeating patterns
+        authors: |-
+          Andres Ferraro and Kjell Lemström
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Differentiae in the Cantus Manuscript Database: Standardization and Musicological Application
+        authors: |-
+          Rebecca Shaw
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Music in newspapers: interdisciplinary opportunities and data-related challenges
+        authors: |-
+          Cynthia Liem
+  - break: |-
+      Lunch generously sponsored by the <a href="https://trompamusic.eu/">TROMPA</a> project and posters (Unlocking Musicology Challenge)
+    time: "13:00"
+  - title: |-
+      Recognition and Encoding
+    chair: |-
+      David Lewis
+    time: "14:00"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          MuRET: A music recognition, encoding, and transcription tool
+        authors: |-
+          David Rizo, Jorge Calvo-Zaragoza and José Manuel Iñesta
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          How Current Optical Music Recognition Systems Are Becoming Useful for Digital Libraries
+        authors: |-
+          Jan Hajič Jr., Marta Kolárová, Alexander Pacha and Jorge Calvo-Zaragoza
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Evaluating Symbolic Representations in Melodic Similarity
+        authors: |-
+          David Wickland, David Calvert and James Harley
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Encoding Matters
+        authors: |-
+          Nestor Napoles Lopez, Gabriel Vigliensoni and Ichiro Fujinaga
+  - break: |-
+      Coffee break and posters (Unlocking Musicology Challenge)
+    time: "15:30"
+  - title: |-
+      Collections
+    chair: |-
+      Kevin Page
+    time: "16:00"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          JazzCats: Navigating an RDF triplestore of integrated performance metadata
+        authors: |-
+          Daniel Bangert, Terhi Nurmikko-Fuller, J. Stephen Downie and Yun Hao
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          An open corpus for the computational research of Arab-Andalusian music
+        authors: |-
+          Rafael Caro Repetto, Niccolò Pretto, Amin Chaachoo, Barış Bozkurt and Xavier Serra
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Scores of Scores: An 'OpenScore' project to liberate sheet music and musical file formats
+        authors: |-
+          Mark Gotham, Peter Jonas, Bruno Bower, William Bosworth, Daniel Rootham and Leigh Vanhandel
+posters:
+  note: |-
+    Poster presentations – Unlocking Musicology Challenge
+  items:
+    - title: |-
+        Using Dezrann in Musicology and MIR Research
+      authors: |-
+        Mathieu Giraud
+      pdf: /assets/2018/files/giraud-dezrann-in-musicology-and-mir.pdf
+    - title: |-
+        (Re)Valuing Australian Jazz: Unlocking the legitimisation of a culture through digital curation, presentation and availability of the Australian Jazz Real Book
+      authors: |-
+        Tim Nikolsky
+      pdf: /assets/2018/files/nikolsky-re-valuing-australian-jazz.pdf
+    - title: |-
+        Innovative MIR Applications at the Bayerische Staatsbibliothek
+      authors: |-
+        Jürgen Diet
+      pdf: /assets/2018/files/diet-innovative-mir-bsb.pdf
+    - title: |-
+        Developing Music Digital Library based on Polish Traditional Music Archives and dLibra
+      authors: |-
+        Marcin Werla, Jacek Jackowski, Magdalena Chudy, Ewa Łukasik, Ewa Kuśmierek and Ewa Dahlig-Turek
+      pdf: /assets/2018/files/werla-et-al-polish-traditional-music-archives.pdf
+    - title: |-
+        DCMI: A Database of Chinese Musical Instruments
+      authors: |-
+        Zijin Li, Xiaojing Liang, Jingyu Liu, Wei Li, Jiaxing Zhu and Baoqiang Han
+      pdf: /assets/2018/files/zijin-et-al-dcmi.pdf
+    - title: |-
+        A Large-Scale Semantic Library of MIDI Linked Data
+      authors: |-
+        Albert Meroño-Peñuela, Anna Kent-Muller, Reinier de Valk, Marilena Daquino and Enrico Daga
+      pdf: /assets/2018/files/merono-penuela-et-al-midi-linked-data.pdf

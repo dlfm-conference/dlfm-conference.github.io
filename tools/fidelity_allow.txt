@@ -46,6 +46,18 @@ a satellite event of
 # 2026 cfp: "13th" conference ordinal (shown in hero, not repeated on CfP); Overleaf
 # template link is a named link, so its URL-slug words live in the href, not page text.
 2026/call-for-papers: 13th association computing machinery bmvfhcdnxfty
+# Data-driven programmes: "time" table header, "oral" ("Oral presentations"
+# heading dropped), and the "…is kindly supported by:" sponsor line (sponsors
+# now render in the hero, not the programme body).
+2018/programme: time oral is kindly
+2019/programme: time oral presentation
+2020/programme: time presentation
+2022/programme: time oral presentation
+2023/programme: time oral
+2024/programme: time oral presentation
+# 2021 day headings now read "…July 28 …" (carried from the removed jump links)
+# rather than the old "…July 28th"; the ordinal suffixes are the only change.
+2021/programme: 28th 29th 30th
 2024/proceedings: africa stellenbosch
 2024/programme: south africa
 # 2024 landing: sponsor names live in hero logos (alt); Sponsors/Organization headings removed

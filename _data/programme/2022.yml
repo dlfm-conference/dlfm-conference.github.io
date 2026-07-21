@@ -1,0 +1,133 @@
+# DLfM 2022 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: 'The conference will be held on Thursday 28 July 2022 in Prague association with IAML 2022 All sessions (papers and posters) will be at the <a href="https://www.iaml2022.cz/congress-venue/municipal-library-of-prague">Municipal Library</a>. Paper presentations will be given in Congress room B. Preliminary programme:'
+sessions:
+  - title: |-
+      Joint IAML - DLfM Session
+    chair: |-
+      Laurent Pugin
+    time: "9:00–10:30"
+    items:
+      - time: ""
+        title: |-
+          Segmentation, Transcription, Analysis and Visualisation of the Norwegian Folk Music Archive
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543883"
+        authors: |-
+          Olivier Lartillot, Anders Elowsson, Mats Johansson and Hans-Hinrich Thedens
+      - time: ""
+        title: |-
+          Summary Features as the Basis for Content-Based Queries of Symbolic Music Repositories [IAML Submission]
+        authors: |-
+          Cory McKay and Julie E. Cumming
+      - time: ""
+        title: |-
+          Full-Text Searching of Music Online: An update on progress in F-TEMPO [IAML Submission]
+        authors: |-
+          Tim Crawford and Alastair Porter
+  - break: |-
+      Coffee break and poster session (see below)
+    time: "10:30–11.00"
+  - title: |-
+      Session 1 – Data and models
+    chair: |-
+      Claire Arthur
+    time: "11:00–12.30"
+    items:
+      - time: ""
+        title: |-
+          A model for annotating musical versions and arrangements across multiple documents and media
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543891"
+        authors: |-
+          David Lewis, Elisabete Shibata, Mark Saccomano, Lisa Rosendahl, Johannes Kepper, Christine Siegert and Kevin Page.
+      - time: ""
+        title: |-
+          Digitization of Choirbooks in Guatemala
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543885"
+        authors: |-
+          Martha E. Thomae, Julie E. Cumming and Ichiro Fujinaga
+      - time: ""
+        title: |-
+          A Corpus Describing Orchestral Texture in First Movements of Classical and Early-Romantic Symphonies
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543884"
+        authors: |-
+          Dinh-Viet-Toan Le, Mathieu Giraud, Florence Levé and Francesco Maccarini
+  - title: |-
+      Session 2 - FAIR principles in Digital Libraries for Musicology
+    chair: |-
+      Desiree Mayer
+    time: "14:00–15.30"
+    items:
+      - time: ""
+        title: |-
+          The Vienna Philharmonic Orchestra's New Year's Concerts: Building a FAIR Data Corpus for Musicology
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543892"
+        authors: |-
+          David M. Weigl, Chanda Vanderhart, Matthäus Pescoller, Delilah Rammler, Markus Grassl, Fritz Trümpi and Werner Goebl
+      - time: ""
+        title: |-
+          FAIR but Flexible: Designing for Dynamic User Contributions in Digital Musicology Resources
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543887"
+        authors: |-
+          Alan Dix, Stephen Downie, Rachel Cowgill, Charlotte Armstrong, Rupert Ridgewell, Michael Twidale, Maureen Reagan and Kathleen McGowan
+      - time: ""
+        title: |-
+          The Alignment of Open Access with FAIR Principles in Musicological Publishing and Teaching
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543889"
+        authors: |-
+          Anne Shelley and Rachel Scott
+  - break: |-
+      Coffee break and poster session (see below)
+    time: "15:30–16:00"
+  - title: |-
+      Session 3 - Tools and visualisation
+    chair: |-
+      Martha E. Thomae
+    time: "16:00–17:30"
+    items:
+      - time: ""
+        title: |-
+          MeRIT: An interactive annotation tool for mensural rhythms
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543888"
+        authors: |-
+          Anna Plaksin and David Lewis
+      - time: ""
+        title: |-
+          Phantom Curves: Scientific Discovery through Interactive Music Visualization
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543886"
+        authors: |-
+          Fabian C. Moss, Giovanni Affatato and Daniel Harasim
+      - time: ""
+        title: |-
+          Polyrhythm Analysis Using the composite Tool
+        url: "https://dl.acm.org/doi/10.1145/3543882.3543890"
+        authors: |-
+          Ève Poudrier and Craig Stuart Sapp
+posters:
+  note: |-
+    Poster presentations (10:30-11:00 and 15:30-16:00)
+  items:
+    - title: |-
+        Preserving Intangible Cultural Heritage: Can Digital Resources of Folk Music and Dance Groups be FAIR?
+      authors: |-
+        Magdalena Chudy, Ewa Łukasik, Ewa Kuśmierek, and Tomasz Parkoła
+      pdf: https://dlfm.web.ox.ac.uk/files/chudy2022preservingpdf
+    - title: |-
+        Automatic Transcription of MIDI Drum Performances
+      authors: |-
+        Martin Digard, Florent Jacquemard, and Lydia Rodriguez-de la Nava
+      pdf: https://dlfm.web.ox.ac.uk/files/digard2022midipdf
+    - title: |-
+        Introducing the Music Instruction & Pedagogy Repository (MIPR): An Accessible, Sustainable, and Collaborative OER for Music
+      authors: |-
+        Sylvia Yang, Angela Pratesi, Allison McClanahan, and Andrea Morris
+      pdf: https://dlfm.web.ox.ac.uk/files/yang2022introducingpdf
+    - title: |-
+        AI-Assisted Annotation and Analysis of Music Performance Through Audio-to-Score Alignment
+      authors: |-
+        Yucong Jiang
+      pdf: https://dlfm.web.ox.ac.uk/files/jiang2022ai-assistedpdf
+    - title: |-
+        Creating a Search Engine for Uniform Titles of Musical Works
+      authors: |-
+        Jaska Järvilehto
+      pdf: https://dlfm.web.ox.ac.uk/files/jarvilehto2022creatingpdf

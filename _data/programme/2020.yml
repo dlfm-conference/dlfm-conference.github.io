@@ -1,0 +1,95 @@
+# DLfM 2020 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: 'The conference will be held between 9am and 3pm EDT, on Friday 16 October 2020, hosted by the Schulich School of Music, McGill University, Montréal. The conference will take place on Zoom, with supported discussion activities on <a href="http://ismir2020.slack.com">Slack</a>. Registered participants will receive an e-mail with links and more details by the end of Wednesday 14 October. Times below are all EDT.'
+sessions:
+  - break: |-
+      Welcome
+    time: "9:00"
+  - title: |-
+      Paper session: Working with images, working with notation
+    chair: |-
+      Claire Arthur
+    time: "9:15"
+    items:
+      - time: ""
+        title: |-
+          Using Optical Music Recognition to Encode 17th-Century Music Prints: The Canonic Works of Paolo Agostini (c.1583–1629) as a Test Case
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425517"
+        authors: |-
+          Jason Stoessel, Denis Collins and Scott Bolland
+      - time: ""
+        title: |-
+          Evaluating Simultaneous Recognition and Encoding for Optical Music Recognition
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425512"
+        authors: |-
+          Antonio Ríos-Vila, Jorge Calvo-Zaragoza and David Rizo
+      - time: ""
+        title: |-
+          On Local Keys, Modulations, and Tonicizations: A Dataset and Methodology for Evaluating Changes of Key
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425515"
+        authors: |-
+          Néstor Nápoles López, Laurent Feisthauer, Florence Leve and Ichiro Fujinaga
+      - time: ""
+        title: |-
+          Automatic Chord Labelling: A Figured Bass Approach
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425513"
+        authors: |-
+          Yaolong Ju, Sylvain Margot, Cory McKay and Ichiro Fujinaga
+  - break: |-
+      Break with demos and discussion
+    time: "10:15"
+  - title: |-
+      Panel discussion
+    chair: |-
+      Audrey Laplante; Panellists: Rachel Cowgill, Julie Cumming, Cynthia Liem, Houman Behzadi
+    time: "11:15"
+    items:
+      - time: ""
+        title: |-
+          Democratising Digitisation: Making History with Community Music Societies in Digitally Enabled Collaborations
+        url: "/assets/2020/files/cowgill-democratising-digitisation.pdf"
+        authors: |-
+          Rachel Cowgill, Alan Dix, Christina Bashford, Maureen Reagan, J. Stephen Downie, Mike Twidale, Simon McVeigh and Rupert Ridgwell
+      - time: ""
+        title: |-
+          The Case for Open Access Scholarly Reference in Music
+        url: "/assets/2020/files/shirts-open-access-scholarly-reference.pdf"
+        authors: |-
+          Peter Shirts
+  - break: |-
+      Break with demos and discussion
+    time: "12:00"
+  - title: |-
+      Paper session: Working with music collections
+    chair: |-
+      Francesca Giannetti
+    time: "13:30"
+    items:
+      - time: ""
+        title: |-
+          An Analysis of Musical Work Datasets and Their Current Level of Linkage
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425518"
+        authors: |-
+          Laurent Pugin and Claudio Bacciagaluppi
+      - time: ""
+        title: |-
+          Studying Large Plainchant Corpora Using chant21
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425514"
+        authors: |-
+          Bas Cornelissen, Willem Zuidema and John A. Burgoyne
+      - time: ""
+        title: |-
+          Personalized Sheet Music Search
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425516"
+        authors: |-
+          Jeremy Sawruk and Jacob Walls
+      - time: ""
+        title: |-
+          Read/Write Digital Libraries for Musicology
+        url: "https://dl.acm.org/doi/10.1145/3424911.3425519"
+        authors: |-
+          David M. Weigl, Tim Crawford, Werner Goebl, Alex Hofmann, Cynthia C. S. Liem, Alastair Porter and Federico Zubani
+  - title: |-
+      Conclusions and continuing discussions over Zoom and Slack
+    time: "14:35"
+    items:

@@ -9,6 +9,8 @@ layout: default
 <div class="wrap section">
   {%- assign prog = site.data.programme[ystr] -%}
   {% if prog %}
+    {% assign show_time = false %}
+    {% for s in prog.sessions %}{% for i in s.items %}{% if i.time and i.time != "" %}{% assign show_time = true %}{% endif %}{% endfor %}{% endfor %}
     {% if prog.date %}<p class="prog-date">{{ prog.date }}</p>{% endif %}
     {% if prog.note %}<div class="prose"><p>{{ prog.note }}</p></div>{% endif %}
 
@@ -28,18 +30,19 @@ layout: default
       {% else %}
       <section class="prog-session"{% if session.title %} aria-labelledby="s{{ forloop.index }}"{% endif %}>
         {% if session.title %}<h2 id="s{{ forloop.index }}">{{ session.title }}<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>{% endif %}
-        {% if session.time %}<p class="prog-chair">{{ session.time }}</p>{% endif %}
+        {% if session.time or session.chair or session.by %}<p class="prog-chair">{% if session.time %}{{ session.time }}{% endif %}{% if session.chair %}{% if session.time %} · {% endif %}Chair: {{ session.chair }}{% endif %}{% if session.by %}{% if session.time or session.chair %} · {% endif %}{{ session.by }}{% endif %}</p>{% endif %}
+        {% if session.items and session.items.size > 0 %}
         <div class="table-scroll">
         <table class="data-table prog-table">
           <caption class="visually-hidden">{{ session.title | default: "Programme" }}</caption>
-          <thead><tr><th scope="col">Time</th><th scope="col">Presentation</th></tr></thead>
+          <thead><tr>{% if show_time %}<th scope="col">Time</th>{% endif %}<th scope="col">Presentation</th></tr></thead>
           <tbody>
           {% for item in session.items %}
             <tr>
-              <td class="prog-time">{{ item.time }}</td>
+              {% if show_time %}<td class="prog-time">{{ item.time }}</td>{% endif %}
               <td>
                 {% if item.type %}<span class="prog-type prog-type--{{ item.type | slugify }}">{{ item.type }}</span>{% endif %}
-                {% if item.title and item.title != "" %}<span class="prog-title">{{ item.title }}</span>{% endif %}
+                {% if item.title and item.title != "" %}<span class="prog-title">{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span>{% endif %}
                 {% if item.authors %}<span class="prog-authors">{% if item.authors.first %}{{ item.authors | join: ", " }}{% else %}{{ item.authors }}{% endif %}</span>{% endif %}
                 {% if item.affiliation %}<span class="prog-authors">{{ item.affiliation }}</span>{% endif %}
                 {% if item.pdf %}<span class="prog-links"><a href="{{ item.pdf | relative_url }}">PDF</a></span>{% endif %}
@@ -49,6 +52,7 @@ layout: default
           </tbody>
         </table>
         </div>
+        {% endif %}
       </section>
       {% endif %}
     {% endfor %}

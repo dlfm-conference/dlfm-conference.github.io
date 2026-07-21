@@ -1,0 +1,158 @@
+# DLfM 2019 programme — converted from the archived page;
+# rendered by _layouts/programme.html, verified by tools/verify_fidelity.py.
+note: 'The conference will be held between 9:00am and 5:00pm on Saturday 9th November 2019, at the National Library of The Netherlands (The Hague). The compiled proceedings can be accessed via <a href="https://dl.acm.org/citation.cfm?id=3358664">ACM</a>.'
+sessions:
+  - break: |-
+      Registration (Foyer)
+    time: "9:00"
+  - break: |-
+      Welcome (Visboekzaal)
+    time: "9:30"
+  - title: |-
+      Content curation (Visboekzaal)
+    chair: |-
+      Gabriel Vigliensoni
+    time: "9:40"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Musicological observations during rehearsal and performance: a Linked Data digital library for annotations.
+        authors: |-
+          David Lewis, David Weigl and Kevin Page
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          The Mensural Scoring-up Tool
+        authors: |-
+          Martha E. Thomae, Julie E. Cumming and Ichiro Fujinaga
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          On the Adoption of Standard Encoding Formats to Ensure Interoperability of Music Digital Archives: The IEEE 1599 Format.
+        authors: |-
+          Luca Andrea Ludovico, Adriano Baratè, Federico Simonetta and Davide Andrea Mauro
+  - break: |-
+      Coffee break and TROMPA challenge posters (Foyer)
+    time: "10:55"
+  - title: |-
+      Analysis (Visboekzaal)
+    chair: |-
+      Christof Weiss
+    time: "11:20"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Don't hide in the frames: Note- and pattern-based evaluation of automated melody extraction algorithms
+        authors: |-
+          Klaus Frieler, Dogac Basaran, Frank Höger, Helene-Camille Crayencour, Geoffroy Peeters and Simon Dixon
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Key-Finding Based on a Hidden Markov Model and Key Profiles
+        authors: |-
+          Nestor Napoles Lopez, Claire Arthur and Ichiro Fujinaga
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Transposition and time-warp invariant algorithm for detecting repeated patterns in polyphonic music.
+        authors: |-
+          Antti Laaksonen and Kjell Lemström
+  - break: |-
+      Lunch (generously sponsored by <a href="https://trompamusic.eu">TROMPA</a>) and TROMPA Challenge posters (Foyer)
+    time: "12:35"
+  - title: |-
+      Analysis and applications (Visboekzaal)
+    chair: |-
+      Tom Collins
+    time: "13:35"
+    items:
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          A Trend Analysis on Concreteness of Popular Song Lyrics
+        authors: |-
+          Kahyun Choi and J. Stephen Downie
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Dastgàh Recognition in Iranian music: comparison of the effects of different features and parameters
+        authors: |-
+          Peyman Heydarian and David Bainbridge
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          A diff procedure for XML music score files
+        authors: |-
+          Francesco Foscarin, Florent Jacquemard and Raphaël Fournier-S’niehotta
+  - break: |-
+      Coffee break (generously sponsored by <a href="https://grfia.dlsi.ua.es/hispamus/">HISPAMUS</a>) and TROMPA challenge posters (Foyer)
+    time: "14:45"
+  - title: |-
+      Applications (Visboekzaal)
+    chair: |-
+      David Lewis
+    time: "15:15"
+    items:
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          MIRELA – Music Information Research Environment with dLibrA
+        authors: |-
+          Tomasz Parkoła, Jacek Jackowski, Ewa Kuśmierek, Ewa Łukasik, Ewa Dahlig-Turek and Magdalena Chudy
+      - time: ""
+        type: |-
+          Long paper
+        title: |-
+          Moments Musicaux: Towards Comprehensive Catalogues of Real Repertoire for Musical Musicianship and Statistically Sound Theory Teaching
+        authors: |-
+          Mark Gotham
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          A notation-based query language for searching in symbolic music
+        authors: |-
+          Matan Gover and Ichiro Fujinaga
+      - time: ""
+        type: |-
+          Short paper
+        title: |-
+          Interweaving and Enriching Digital Music Collections for Scholarship, Performance, and Enjoyment
+        authors: |-
+          David M. Weigl, Werner Goebl, Tim Crawford, Aggelos Gkiokas, Nicolas F. Gutierrez, Alastair Porter, Patricia Santos, Casper Karreman, Ingmar Vroomen, Cynthia C. S. Liem, Álvaro Sarasúa and Marcel van Tilburg
+posters:
+  note: |-
+    Poster presentations
+  items:
+    - title: |-
+        SIMSSA DB: Symbolic Music Discovery and Search
+      authors: |-
+        Emily Hopkins, Yaolong Ju, Gustavo Polins Pedro, Cory McKay, Julie Cumming and Ichiro Fujinaga
+      pdf: https://dlsi.ua.es/gent/drizo/dlfm2019/hopkins.pdf
+    - title: |-
+        ACMUS-MIR: A new annotated data set of Andean Colombian music
+      authors: |-
+        Fernando Mora-Angel, Gustavo Adolfo López Gil, Estefanía Cano and Sascha Grollmisch
+      pdf: https://dlsi.ua.es/gent/drizo/dlfm2019/mora.pdf
+    - title: |-
+        Mapping the Sounds of the Swahili coast and the Arab Mashriq: Music research at the intersection of computational analysis and cultural heritage preservation
+      authors: |-
+        Konstantinos Trochidis, Beth Russell, Andrew Eisenberg, Oscar Gomez, Kaustuv Kanti Ganguli, Carlos Guedes, Virginia Danielson and Christos Plachouras
+      pdf: https://dlsi.ua.es/gent/drizo/dlfm2019/trochidis.pdf
+    - title: |-
+        Universal Music Context Representation with Multi-modal Analysis for efficient Retrieval using Parallel Processing Paradigm
+      authors: |-
+        Makarand Velankar, Vaibhav Khatavkar and Parag Kulkarni
+      pdf: https://dlsi.ua.es/gent/drizo/dlfm2019/velankar.pdf
