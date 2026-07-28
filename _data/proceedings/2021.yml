@@ -1,10 +1,8 @@
 # DLfM 2021 proceedings — parsed from the frozen capture;
 # verified by tools/verify_fidelity.py.
 title: |-
-  
+  DLfM '21: 8th International Conference on Digital Libraries for Musicology
 citation_url: https://dl.acm.org/doi/proceedings/10.1145/3469013
-note: |-
-  # **DLfM '21: 8th International Conference on Digital Libraries for Musicology**
 papers:
   - title: |-
       An archive-exploration system for the Hunting Songs of the Lakeland Fell Packs

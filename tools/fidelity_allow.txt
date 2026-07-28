@@ -87,6 +87,9 @@ a satellite event of
 2019/landing: committe dlsi drizo ua es centraa l
 2019/proceedings: session hague netherlands
 2018/landing: mportant
-2018/proceedings: studies paris france
+# "session" (×4 SESSION headings) and "studies" (SESSION: Digital studies): ACM groups the
+# 2018 papers into 4 sessions; like every other year the proceedings render as a flat paper
+# list (cf. 2019/proceedings), so these organisational headings are not reproduced.
+2018/proceedings: session studies paris france
 2018/landing: kindly
 2021/landing: 2020 gathertown

@@ -1,10 +1,8 @@
 # DLfM 2018 proceedings — parsed from the frozen capture;
 # verified by tools/verify_fidelity.py.
 title: |-
-  DLfM '18- Proceedings of the 5th International Conference on Digital Libraries for Musicology
+  DLfM '18: Proceedings of the 5th International Conference on Digital Libraries for Musicology
 citation_url: https://dl.acm.org/citation.cfm?id=3273024
-note: |-
-  ## SESSION: Technological advances
 papers:
   - title: |-
       Extended playing techniques: the next milestone in musical instrument recognition
