@@ -16,7 +16,7 @@
   city: "Thessaloniki, Greece"
   dates: "Thursday 02 July 2026"
   satellite: "A satellite event of IAML 2026"
-  pages: [call-for-papers, programme]
+  pages: [call-for-papers, programme, proceedings]
 
 - year: 2025
   ordinal: "12th"
@@ -80,7 +80,7 @@
   city: "Shanghai, China"
   dates: "28th October 2017"
   satellite: "A satellite event of ISMIR 2017"
-  pages: []
+  pages: [proceedings]
 
 - year: 2016
   ordinal: "3rd"
@@ -88,7 +88,7 @@
   city: "New York, USA"
   dates: "12th August 2016"
   satellite: "A satellite event of ISMIR 2016"
-  pages: []
+  pages: [proceedings]
 
 - year: 2015
   ordinal: "2nd"
@@ -96,7 +96,7 @@
   city: "Knoxville, TN, USA"
   dates: "24th June 2015"
   satellite: "A workshop at JCDL 2015"
-  pages: []
+  pages: [proceedings]
 
 - year: 2014
   ordinal: "1st"
@@ -104,4 +104,4 @@
   city: "London, UK"
   dates: "12th September 2014"
   satellite: "A workshop at Digital Libraries 2014"
-  pages: []
+  pages: [proceedings]

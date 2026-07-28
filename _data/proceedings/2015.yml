@@ -1,0 +1,50 @@
+# DLfM 2015 proceedings — paper list + abstracts harvested verbatim from the
+# ACM Digital Library (source of truth). Authors/titles cross-checked vs Crossref.
+# Not gate-verified against a Mosaic capture; ACM is authoritative for these pages.
+title: |-
+  DLfM '15: Proceedings of the 2nd International Workshop on Digital Libraries for Musicology
+citation_url: https://doi.org/10.1145/2785527
+doi: 10.1145/2785527
+papers:
+  - title: |-
+      Expert-guided semantic linking of music-library metadata for study and reuse
+    authors: |-
+      David M. Weigl, David Lewis, Tim Crawford and Kevin R. Page
+    url: https://doi.org/10.1145/2785527.2785528
+    abstract: |-
+      The process of aligning datasets that lack mutually-shared identifiers is fraught with ambiguity and difficult to automate. Manual performance of such a process may be time-consuming and error-prone. We present the Semantic Alignment and Linking Tool (SALT) that addresses this problem by applying semantic technologies and Linked Data approaches in order to produce candidate alignment suggestions that may be confirmed or disputed by a user with domain expertise. These decisions are integrated back into the knowledge base and are available for further iterative comparison by the user; the complete RDF graph is published and can be queried through the same SPARQL endpoint that also underlies the SALT user interface. Provenance of the musicologist's judgement is captured and added to the descriptive graph, supporting further discourse and counter-proposals. We report on a use case and perform an evaluation of this tool within a musicological context, joining metadata from the British Library and other sources with programme data from BBC Radio 3 in a project focusing on early music.
+  - title: |-
+      And We Did It Our Way
+    authors: |-
+      David Bainbridge
+    url: https://doi.org/10.1145/2785527.2785529
+    abstract: |-
+      This article makes the case for a digital library based on a crowdsourcing approach for musicology. At its heart, the argument draws upon ideas present in the popular music video TV show Pop-Up Video, a format devised in the late 1990s that embellishes the shown content with info nuggets that popup as bubbles and then disappear, as the video plays. We updated and extended the concept to operate in a web environment, choosing a digital library framework as a way to organize the set of videos contained in the site, and casting the popup information collated and displayed as metadata—aspects that further progress the argument for the developed software architecture being fit-for-purpose as a tool for musicologists. The article presents a walkthrough of the developed site, and then goes on to show how the elements present—particularly the gamification elements that focus on symbolic note content entered through a range of virtual musical instruments: piano, drum-kit and guitar—can be re-purposed for use by musicology scholars.
+  - title: |-
+      Music and Science
+    authors: |-
+      David De Roure, Graham Klyne, Kevin R. Page, John P. N. Pybus and David M. Weigl
+    url: https://doi.org/10.1145/2785527.2785530
+    abstract: |-
+      The music industry has embraced digital technology, from recording and production of music through to distribution and consumption. Meanwhile scholarly communication, including academic publishing and libraries, is also undergoing transformation thanks to the affordances of the digital. We suggest that comparing and contrasting these two sociotechnical systems will provide insights of mutual benefit. We propose a preliminary framing of that comparison, introduce a notion of Digital Music Object that is analogous to the Research Object, and discuss some implications for digital libraries for musicology.
+  - title: |-
+      A Case Study in Pragmatism
+    authors: |-
+      Ben Fields, Sam Phippen and Brad Cohen
+    url: https://doi.org/10.1145/2785527.2785531
+    abstract: |-
+      For the last decade efforts have been made in building the Linked Data enabled Semantic Web. Some of the earliest efforts in publishing Linked Data included music-specific corpora, modeled using e.g. the Music Ontology. Given that, one might assume creating a Linked Data client in the music domain would be a reasonably straight-forward process. The reality of the situation is not so simple. In this paper, we present a case study in building a real-world web-service that makes use of third-party Linked Data resources: libmus. We describe the variety of difficulties in reliably linking to several external sources. These range from poor data coverage, to serialization consistency, to sporadic availability. We outline the ways in which we have coped with these problems within the libmus system. These include: local caching of third-party data to enable search, screen-scraping to expand data availability, and automatically generated regular expressions to emulate fuzzy search. Finally, we will consider how the Linked Data ecosystem can be improved to mitigate these problems in other systems and what this means for the future of the Linked Data Web.
+  - title: |-
+      On organising multimedia performance corpora for musicological study using Linked Data
+    authors: |-
+      Terhi Nurmikko-Fuller, David M. Weigl and Kevin R. Page
+    url: https://doi.org/10.1145/2785527.2785532
+    abstract: |-
+      The wide availability of digital technologies has increased the quantity and diversity of information that can be collected from and about a musical performance. Making this data easily accessible for study by musicologists requires the development of supporting methodologies and tools to assist and automate its systematic cataloguing, archiving, and investigation. We report on the curation of a rich digital multimedia dataset captured from a complete performance of Richard Wagner's Ring Cycle, supplemented by observations annotated by a musicologist during the course of the event. We describe the application of ontologies to codify the physical and temporal relationships between the events, artefacts, and their creators or annotators; and the method and tools to publish these performance corpora as Linked Data hyperstructures abiding by this schema. Finally we discuss the implications for hosting this data within a Digital Library infrastructure and how it can be used to support musicological investigation.
+  - title: |-
+      Multimedia in the Long Eighteenth Century
+    authors: |-
+      John Wallace, Scott M. Sanders and Mark Boettcher
+    url: https://doi.org/10.1145/2785527.2785533
+    abstract: |-
+      This paper describes a motivating digital humanities project for the analysis of music contained in more than 100,000 French and British works from the long eighteenth century along with the datasets, techniques and technology being developed to realize the initial goals. Additionally, the developed tools and an authoritative metadata repository will allow further analysis of paratext from other languages and time periods. Finally, a scholarly tool will be described that will provide resources for deeper study and allow for the more in-depth analysis of the evolution of published musical forms over time.

@@ -1,0 +1,85 @@
+# DLfM 2016 proceedings — paper list + abstracts harvested verbatim from the
+# ACM Digital Library (source of truth). Authors/titles cross-checked vs Crossref.
+# Not gate-verified against a Mosaic capture; ACM is authoritative for these pages.
+title: |-
+  DLfM '16: Proceedings of the 3rd International Workshop on Digital Libraries for Musicology
+citation_url: https://doi.org/10.1145/2970044
+doi: 10.1145/2970044
+papers:
+  - title: |-
+      Data Generation and Multi-Modal Analysis for Recorded Operatic Performance
+    authors: |-
+      Joshua Neumann
+    url: https://doi.org/10.1145/2970044.2970045
+    abstract: |-
+      Commercial recordings of live opera performance are only sporadically available, mostly due to various legal protections held by opera houses. The resulting onsite, archive-only access for them inhibits analysis of the creative process in "live" environments. Based on a technique I developed for generating performance data from copyright protected archival recordings, this paper presents a means of interrogating the creative practice in individual operatic performances and across the corpus of a recorded performance history. My analysis uses "In questa Reggia" from Giacomo Puccini's Turandot as performed at New York's Metropolitan Opera. The first part of my analysis builds on tempo mapping developed by the Centre for the History and Analysis of Recorded Music. Given the natural relationship in which performances of the same work exist, statistical and network analyses of the data extracted from a corpus of performances offer ways to contextualize and understand how performances create a tradition to which and through which they relate to varying degrees.
+  - title: |-
+      A standard format proposal for hierarchical analyses and representations
+    authors: |-
+      David Rizo and Alan Marsden
+    url: https://doi.org/10.1145/2970044.2970046
+    abstract: |-
+      In the realm of digital musicology, standardizations efforts to date have mostly concentrated on the representation of music. Analyses of music are increasingly being generated or communicated by digital means. We demonstrate that the same arguments for the desirability of standardization in the representation of music apply also to the representation of analyses of music: proper preservation, sharing of data, and facilitation of digital processing. We concentrate here on analyses which can be described as hierarchical and show that this covers a broad range of existing analytical formats. We propose an extension of MEI (Music Encoding Initiative) to allow the encoding of analyses unambiguously associated with and aligned to a representation of the music analysed, making use of existing mechanisms within MEI's parent TEI (Text Encoding Initiative) for the representation of trees and graphs.
+  - title: |-
+      Document Analysis for Music Scores via Machine Learning
+    authors: |-
+      Jorge Calvo-Zaragoza, Gabriel Vigliensoni and Ichiro Fujinaga
+    url: https://doi.org/10.1145/2970044.2970047
+    abstract: |-
+      Content within musical documents not only contains musical notation but can also include text, ornaments, annotations, and editorial data. Before any attempt at automatic recognition of elements in these layers, it is necessary to perform a document analysis process to detect and classify each of its constituent parts. The obstacle for this analysis is the high heterogeneity amongst collections, which makes it difficult to propose methods that can be generalizable to a broader range of sources. In this paper we propose a data-driven document analysis framework based on machine learning, which focuses on classifying regions of interest at pixel level. The main advantage of this approach is that it can be exploited regardless of the type of document provided, as long as training data is available. Our preliminary experimentation includes a set of specific tasks that can be performed on music such as the detection of staff lines, isolation of music symbols, and the layering of the document into its elemental parts.
+  - title: |-
+      Mining metadata from the web for AcousticBrainz
+    authors: |-
+      Alastair Porter, Dmitry Bogdanov and Xavier Serra
+    url: https://doi.org/10.1145/2970044.2970048
+    abstract: |-
+      Semantic annotations of music collections in digital libraries are important for organization and navigation of the collection. These annotations and their associated metadata are useful in many Music Information Retrieval tasks, and related fields in musicology. Music collections used in research are growing in size, and therefore it is useful to use semi-automatic means to obtain such annotations. We present software tools for mining metadata from the web for the purpose of annotating music collections. These tools expand on data present in the AcousticBrainz database, which contains software-generated analysis of music audio files. Using this tool we gather metadata and semantic information from a variety of sources including both community-based services such as MusicBrainz, Last.fm, and Discogs, and commercial databases including Itunes and AllMusic. The tool can be easily expanded to collect data from a new source, and is automatically updated when new items are added to AcousticBrainz. We extract genre annotations for recordings in AcousticBrainz using our tool and study the agreement between folksonomies and expert sources. We discuss the results and explore possibilities for future work.
+  - title: |-
+      In Collaboration with In Concert
+    authors: |-
+      Terhi Nurmikko-Fuller, Alan Dix, David M. Weigl and Kevin R. Page
+    url: https://doi.org/10.1145/2970044.2970049
+    abstract: |-
+      Diverse datasets in the area of Digital Musicology expose complementary information describing works, composers, performers, and wider historical and cultural contexts. Interlinking across such datasets enables new digital methods of scholarly investigation. Such bridging presents challenges when working with legacy tabular or relational datasets that do not natively facilitate linking and referencing to and from external sources. Here, we present pragmatic approaches in turning such legacy datasets into linked data. InConcert is a research collaboration exemplifying these approaches. In this paper, we describe and build on this resource, which is comprised of distinct digital libraries focusing on performance data and on concert ephemera. These datasets were merged with each other and opened up for enrichment from other sources on the Web via conversion to RDF. We outline the main features of the constituent datasets, describe conversion workflows, and perform a comparative analysis. Our findings provide practical recommendations for future efforts focused on exposing legacy datasets as linked data.
+  - title: |-
+      Exploring J-DISC
+    authors: |-
+      Yun Hao, Kahyun Choi and J. Stephen Downie
+    url: https://doi.org/10.1145/2970044.2970050
+    abstract: |-
+      J-DISC, a specialized digital library for information about jazz recording sessions that includes rich structured and searchable metadata, has the potential for supporting a wide range of studies on jazz, especially the musicological work of those interested in the social network aspects of jazz creation and production. This paper provides an overview of the entire J-DISC dataset. It also presents some exemplar analyses across this dataset to better illustrate the kinds of uses that musicologists could make of this collection. Our illustrative analyses include both informetric and network analyses of the entire J-DISC data which comprises data on 2,711 unique recording sessions associated with 3,744 distinct artists including such influential jazz figures as Dizzy Gillespie, Don Byas, Charlie Parker, John Coltrane and Kenny Dorham, etc. Our analyses also show that around 60% of the recording sessions included in J-DISC were recorded in New York City, Englewood Cliffs (NJ), Los Angeles (CA) and Paris during the year of 1923 to 2011. Furthermore, our analyses of the J-DISC data show the top venues captured in the J-DISC data include Rudy Van Gelder Studio, Birdland and Reeves Sound Studios. The potential research uses of the J-DISC data in both the DL (Digital Libraries) and MIR (Music Information Retrieval) domains are also briefly discussed.
+  - title: |-
+      Representing and Linking Music Performance Data with Score Information
+    authors: |-
+      Johanna Devaney and Hubert Léveillé Gauvin
+    url: https://doi.org/10.1145/2970044.2970052
+    abstract: |-
+      This paper argues for the need to develop a representation for music performance data that is linked with corresponding score information at the note, beat, and measure levels. Building on the results of a survey of music scholars about their music performance data encoding needs, we propose best-practices for encoding perceptually relevant descriptors of the timing, pitch, loudness, and timbral aspects of performance. We are specifically interested in using descriptors that are sufficiently generalized that multiple performances of the same piece can be directly compared with one another. This paper also proposes a specific representation for encoding performance data and presents prototypes of this representation in both Humdrum and Music Encoding Initiative (MEI) formats.
+  - title: |-
+      Approaches to handwritten conductor annotation extraction in musical scores
+    authors: |-
+      Eamonn Bell and Laurent Pugin
+    url: https://doi.org/10.1145/2970044.2970053
+    abstract: |-
+      Conductor copies of musical scores are typically rich in handwritten annotations. Ongoing archival efforts to digitize orchestral conductors' scores have made scanned copies of hundreds of these annotated scores available in digital formats. The extraction of handwritten annotations from digitized printed documents is a difficult task for computer vision, with most approaches focusing on the extraction of handwritten text. However, conductors' annotation practices provide us with at least two affordances, which make the task more tractable in the musical domain. First, many conductors opt to mark their scores using colored pencils, which contrast with the black and white print of sheet music. Consequently, we show promising results when using color separation techniques alone to recover handwritten annotations from conductors' scores. We also compare annotated scores to unannotated copies and use a printed sheet music comparison tool to recover handwritten annotations as additions to the clean copy. We then investigate the use of both of these techniques in a combined method, which improves the results of the color separation technique. These techniques are demonstrated using a sample of orchestral scores annotated by professional conductors of the New York Philharmonic. Handwritten annotation extraction in musical scores has applications to the systematic investigation of score annotation practices by performers, annotator attribution, and to the interactive presentation of annotated scores, which we briefly discuss.
+  - title: |-
+      MORTY
+    authors: |-
+      Altuğ Karakurt, Sertan Şentürk and Xavier Serra
+    url: https://doi.org/10.1145/2970044.2970054
+    abstract: |-
+      In the general sense, mode defines the melodic framework and tonic acts as the reference tuning pitch for the melody in the performances of many music cultures. The mode and tonic information of the audio recordings is essential for many music information retrieval tasks such as automatic transcription, tuning analysis and music similarity. In this paper we present MORTY, an open source toolbox for mode recognition and tonic identification. The toolbox implements generalized variants of two state-of-the-art methods based on pitch distribution analysis. The algorithms are designed in a generic manner such that they can be easily optimized according to the culture-specific aspects of the studied music tradition. We test the generalized methodology systematically on the largest mode recognition dataset curated for Ottoman-Turkish makam music so far, which is composed of 1000 recordings in 50 modes. We obtained 95.8%, 71.8% and 63.6% accuracy in tonic identification, mode recognition and joint mode and tonic estimation tasks, respectively. We additionally present recent experiments on Carnatic and Hindustani music in comparison with several methodologies recently proposed for raga/raag recognition. We prioritized the reproducibility of our work and provide all of our data, code and results publicly. Hence we hope that our toolbox would be used as a benchmark for future methodologies proposed for mode recognition and tonic identification, especially for music traditions in which these computational tasks have not been addressed yet.
+  - title: |-
+      Digitizing musical scores
+    authors: |-
+      Audrey Laplante and Ichiro Fujinaga
+    url: https://doi.org/10.1145/2970044.2970055
+    abstract: |-
+      Musical scores and manuscripts are essential resources for music theory research. Although many libraries are such documents from their collections, these online resources are dispersed and the functionalities for exploiting their content remain limited. In this paper, we present a qualitative study based on interviews with librarians on the challenges libraries of all types face when they wish to digitize musical scores. In the light of a literature review on the role libraries can play in supporting digital humanities research, we conclude by briefly discussing the opportunities new technologies for optical music recognition and computer-aided music analysis could create for libraries.
+  - title: |-
+      The Music Addressability API
+    authors: |-
+      Raffaele Viglianti
+    url: https://doi.org/10.1145/2970044.2970056
+    abstract: |-
+      This paper describes an Application Programming Interface (API) for addressing music notation on the web regardless of the format in which it is stored. This API was created as a method for addressing and extracting specific portions of music notation published in machine-readable formats on the web. Music notation, like text, can be "addressed" in new ways in a digital environment, allowing scholars to identify and name structures of various kinds, thus raising such questions as how can one virtually "circle" some music notation? How can a machine interpret this "circling" to select and retrieve the relevant music notation? The API was evaluated by: 1) creating an implementation of the API for documents in the Music Encoding Initiative (MEI) format; and by 2) remodelling a dataset of music analysis statements from the Du Chemin: Lost Voices project (Haverford College) by using the API to connect the analytical statements with the portion of notaiton they refer to. Building this corpus has demonstrated that the Music Addressability API is capable of modelling complex analytical statements containing references to music notation.

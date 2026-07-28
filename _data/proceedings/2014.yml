@@ -1,0 +1,155 @@
+# DLfM 2014 proceedings — paper list + abstracts harvested verbatim from the
+# ACM Digital Library (source of truth). Authors/titles cross-checked vs Crossref.
+# Not gate-verified against a Mosaic capture; ACM is authoritative for these pages.
+title: |-
+  DLfM '14: Proceedings of the 1st International Workshop on Digital Libraries for Musicology
+citation_url: https://doi.org/10.1145/2660168
+doi: 10.1145/2660168
+papers:
+  - title: |-
+      Telemeta
+    authors: |-
+      Thomas Fillon, Joséphine Simonnot, Marie-France Mifune, Stéphanie Khoury, Guillaume Pellerin and Maxime Le Coz
+    url: https://doi.org/10.1145/2660168.2660169
+    abstract: |-
+      The audio archives of the CNRS-Musée de l'Homme are among the most important collections of ethnomusicological recordings in Europe. As the number of collections increase and as new audio technologies arise, questions about the best approaches for preserving, archiving and providing public access to these materials have arisen. With this in mind, ethnomusicologists and engineers have joined efforts since 2007 to develop a scalable and collaborative web platform for managing and increasing access to digitized sound archives. This web platform is based on Telemeta, an open-source web audio framework dedicated to digital sound archives. Since 2011, the Telemeta framework has been deployed to hold the platform of the CNRS-Musée de l'Homme's audio archives, which are managed by the Research Center for Ethnomusicology. This framework focuses on facilitating collaboration and user access to audio items and their associated metadata. The architecture of Telemeta relies on TimeSide, an open-source audio processing framework written in Python and JavaScript languages, which provides decoding, encoding and streaming capabilities together with a smart embeddable HTML audio player. TimeSide can also produce various automatic annotation, segmentation and musicological analysis that have been developed in the interdisciplinary research project called DIADEMS. Furthermore it includes a set of audio analysis plug-ins and wraps several audio feature extraction libraries. This paper introduces the Telemeta framework and discusses how cutting-edge tools are being implemented that provide new ways to archive and analyze sound libraries.
+  - title: |-
+      A Musical Progression with Greenstone
+    authors: |-
+      David Bainbridge, Xiao Hu and J. Stephen Downie
+    url: https://doi.org/10.1145/2660168.2660170
+    abstract: |-
+      Despite the recasting of the web's technical capabilities through Web 2.0, conventional digital library software architectures—from which many of our leading Music Digital Libraries (MDLs) are formed—result in digital resources that are, surprisingly, disconnected from other online sources of information, and embody a "read-only" mindset. Leveraging from Music Information Retrieval (MIR) techniques and Linked Open Data (LOD), in this paper we demonstrate a new form of music digital library that encompasses management, discovery, delivery, and analysis of the musical content it contains. Utilizing open source tools such as Greenstone, audioDB, Meandre, and Apache Jena we present a series of transformations to a musical digital library sourced from audio files that steadily increases the level of support provided to the user for musicological study. While the seed for this work was motivated by better supporting musicologists in a digital library, the developed software architecture alters the boundaries to what is conventionally thought of as a digital library—and in doing so challenges core assumptions made in mainstream digital library software design.
+  - title: |-
+      Authority and Judgement in the Digital Archive
+    authors: |-
+      Alan Dix, Rachel Cowgill, Christina Bashford, Simon McVeigh and Rupert Ridgewell
+    url: https://doi.org/10.1145/2660168.2660171
+    abstract: |-
+      The transformative promise of the digital humanities is not without problems. This paper looks at digital archive curation using a database of 19th-century London concerts as a case study. We examine some of the barriers faced in its development, related to expertise, volume and complexity, the gap between cost and benefit, and the desire for an authoritative and complete dataset that forces a particular linear process of curation. We explore the potential for more radical approaches where curation and use are interleaved, and where digitally maintained provenance allows professional judgement to be applied to incomplete, crowdsourced, or automatically processed data.
+  - title: |-
+      Building listening experience Linked Data through crowd-sourcing and reuse of library data
+    authors: |-
+      Simon Brown, Alessandro Adamou, Helen Barlow and Mathieu d'Aquin
+    url: https://doi.org/10.1145/2660168.2660172
+    abstract: |-
+      The Listening Experience Database (LED) is a project that gathers documented evidence of listening to music across cultural and historical contexts. Its underlying information system relies on the principles and practices of Linked Data, including a knowledge base that is itself a linked dataset structured according to common vocabularies for media and bibliographies such as Bibo and the Music Ontology. The data management workflow fully supports crowd-sourced input and incorporates data reuse from various sources right from the point of data collection, including the British National Bibliography dataset. The LED system gives contributors and moderators the tools to enhance these data by modelling divisions of bibliographc entries, providing information beyond the BNB schema, or aligning with other datasets by simple data reconciliation procedures. Vocabularies for music genre and instrument classes are also crowd-sourced on top of a baseline taxonomy from the DBpedia dataset. The Web frontend uses the Drupal content management system to encapsulate listening experiences into digital objects that incorporate textual information with references to literary, musical and other classes of related entities.
+  - title: |-
+      The HathiTrust Corpus
+    authors: |-
+      J. Stephen Downie, Kirstin Dougan, Sayan Bhattacharyya and Colleen Fallaw
+    url: https://doi.org/10.1145/2660168.2660173
+    abstract: |-
+      The HathiTrust Digital Library (HTDL) consists of digitized print materials contributed from the collections of some of the foremost research libraries of the world. The HTDL contains over 11 million volumes comprising approximately 3.9 billion pages. In this paper, we describe an exploratory bibliometric study to examine and characterize music-related content in the HTDL. Our study provides an overview of the music-related content in the HTDL as seen through the lenses of format, genre, language, and chronology. We seek to determine in what ways, if any, the materials in HTDL could be considered to form a unique music digital library for use by musicology scholars and students. We also suggest ways in which the music-related content of the HTDL holdings could be made more useful to users with musicological needs and interests.
+  - title: |-
+      A Corpus for Computational Research of Turkish Makam Music
+    authors: |-
+      Burak Uyar, Hasan Sercan Atli, Sertan Şentürk, Barış Bozkurt and Xavier Serra
+    url: https://doi.org/10.1145/2660168.2660174
+    abstract: |-
+      Each music tradition has its own characteristics in terms of melodic, rhythmic and timbral properties as well as semantic understandings. To analyse, discover and explore these culture-specific characteristics, we need music collections which are representative of the studied aspects of the music tradition. For Turkish makam music, there are various resources available such as audio recordings, music scores, lyrics and editorial metadata. However, most of these resources are not typically suited for computational analysis, are hard to access, do not have sufficient quality or do not include adequate descriptive information. In this paper we present a corpus of Turkish makam music created within the scope of the CompMusic project. The corpus is intended for computational research and the primary considerations during the creation of the corpus reflect some criteria, namely, purpose, coverage, completeness, quality and re-usability. So far, we have gathered approximately 6000 audio recordings, 2200 music scores with lyrics and 27000 instances of editorial metadata related to Turkish makam music. The metadata include information about makams, recordings, scores, compositions, artists etc. as well as the interrelations between them. In this paper, we also present several test datasets of Turkish makam music. Test datasets contain manual annotations by experts and they provide ground truth for specific computational tasks to test, calibrate and improve the research tools. We hope that this research corpus and the test datasets will facilitate academic studies in several fields such as music information retrieval and computational musicology.
+  - title: |-
+      Improving OMR for Digital Music Libraries with Multiple Recognisers and Multiple Sources
+    authors: |-
+      Victor Padilla, Alan Marsden, Alex McLean and Kia Ng
+    url: https://doi.org/10.1145/2660168.2660175
+    abstract: |-
+      Large quantities of scanned music are now available in public digital music libraries. However, the information in such sources is represented as pixel data in images rather than symbolic information about the notes of a piece of music, and therefore it is opaque to musically meaningful computational processes (e.g., to search for a particular melodic pattern). Optical Music Recognition (Optical Character Recognition for music) holds out the prospect of a solution to this issue and allowing access to very large quantities of musical information in digital libraries. Despite the efforts made by the different commercial OMR developers to improve the accuracy of their systems, mistakes in the output are currently too frequent to make OMR a practical tool for bulk processing. One possibility for improving the accuracy of OMR is to use multiple recognisers and combine the results to achieve an output better than each of them individually. The general process presented here can be divided into three subtasks, S1, S2, and S3. S1 is focused in the correction of rhythmical errors at bar level, counting the errors of the different OMR outputs, establish a ranking of the results, and make a pairwise alignment to select the best measures. S2 is based on the alignment and voting of individual symbols. For this task we have implemented a conversion of the most important symbols to a simple grammar. Finally, S3 improves the output of S2 by comparing and adding symbols from S1 and detecting gaps through the alignment of wrong measures. The process described in this paper is part of our "Big Data Approach" where a large amount of data is available in music score libraries, such as the International Music Score Library Project (IMSLP), for the purpose of Music Information Retrieval (MIR).
+  - title: |-
+      Incremental Dataset Definition for Large Scale Musicological Research
+    authors: |-
+      Daniel Wolff, Dan Tidhar, Emmanouil Benetos, Edouard Dumon, Srikanth Cherla and Tillman Weyde
+    url: https://doi.org/10.1145/2660168.2660176
+    abstract: |-
+      Conducting experiments on large scale musical datasets often requires the definition of a dataset as a first step in the analysis process. This is a classification task, but metadata providing the relevant information is not always available or reliable and manual annotation can be prohibitively expensive. In this study we aim to automate the annotation process using a machine learning approach for classification. We evaluate the effectiveness and the trade-off between accuracy and required number of annotated samples. We present an interactive incremental method based on active learning with uncertainty sampling. The music is represented by features extracted from audio and textual metadata and we evaluate logistic regression, support vector machines and Bayesian classification. Labelled training examples can be iteratively produced with a web-based interface, selecting the samples with lowest classification confidence in each iteration. We apply our method to address the problem of instrumentation identification, a particular case of dataset definition, which is a critical first step in a variety of experiments and potentially also plays a significant role in the curation of digital audio collections. We have used the CHARM dataset to evaluate the effectiveness of our method and focused on a particular case of instrumentation recognition, namely on the detection of piano solo pieces. We found that uncertainty sampling led to quick improvement of the classification, which converged after ca. 100 samples to values above 98%. In our test the textual metadata yield better results than our audio features and results depend on the learning methods. The results show that effective training of a classifier is possible with our method which greatly reduces the effort of labelling where a residual error rate is acceptable.
+  - title: |-
+      Prospects for a Big Data History of Music
+    authors: |-
+      Stephen Rose and Sandra Tuppen
+    url: https://doi.org/10.1145/2660168.2660177
+    abstract: |-
+      This position paper sets out the possibility of a musicology based on the analysis of musical-bibliographical metadata as Big Data. It outlines the work underway, as part of the AHRC-funded project A Big Data History of Music, to align seven major datasets of musical-bibliographical metadata. After discussing some of the technical challenges of data alignment, it suggests how analysis and visualization of this data might transform musicological understandings of cultural transmission and canon formation.
+  - title: |-
+      The Life and Works of Thomas Whythorne (1528-96)
+    authors: |-
+      Michael Gale
+    url: https://doi.org/10.1145/2660168.2660178
+    abstract: |-
+      This paper introduces a corpus of primary sources associated with the Elizabethan composer-poet Thomas Whythorne, including musical and literary works, autobiographical and historical texts, and images. Besides their value for humanities scholars, they provide a circumscribed data-set around which the development of hypertext resources for interdisciplinary research can be explored. After outlining the ways in which these materials might be used in digital form, the design challenges they pose for computer scientists are considered, particularly regarding the representation of complex interrelated multimedia objects and the navigability of the resultant hypertext. The broad-ranging content of these sources necessitates collaboration between scholars in different sub-disciplines (including classical studies, literary studies, musicology, religious studies, social and political history, inter alia). This project thus encourages the employment of 'crowdsourcing', with scholarly commentary and metadata added by numerous contributors to form a constantly evolving hypertext. The use of digital technologies to create collectively authored and curated research materials raises additional design issues. The need to build quality-control mechanisms (e.g. peer-review of contributions) into the infrastructure of the resource is discussed, as is the necessity of creating a user-friendly front-end, enabling scholars without specialized IT skills to contribute efficiently.
+  - title: |-
+      An analysis and storage system for music research datasets
+    authors: |-
+      Alastair Porter and Xavier Serra
+    url: https://doi.org/10.1145/2660168.2660179
+    abstract: |-
+      We present a workflow processing and data storage system that has been developed to store the computational analysis of large databases of music-related documents. Documents can consist of any music-related data, for example, audio files or symbolic scores. The system can be used to run feature extraction algorithms to compute new data based on these input documents. The feature extraction process can be distributed over many networked computers to reduce calculation time. Researchers can develop and run their own algorithms on a collection of music-related documents using any programming system without needing system administrator knowledge or direct access to the files, using a web based interface. Computed features are stored in the system along with a reference to the version of the code that was used to compute it. Audio files and computed features can be accessed over the internet. This system has been developed as a supporting part of the CompMusic project, allowing collaborating researchers to develop new feature extraction algorithms and share them with other researchers. It has been released under an open-source licence.
+  - title: |-
+      Introducing the LEMC
+    authors: |-
+      Marnix van Berchum
+    url: https://doi.org/10.1145/2660168.2660180
+    abstract: |-
+      This paper outlines a Research Infrastructure for the study of Early Music. The Large Hadron Collider (LHC) of CERN serves as example for the building blocks needed. The paper discusses the elements of the proposed Large Early Music Collider (LEMC), including the requirements of encoded music, the availability of tools for music analysis, and the position of different types of libraries in the infrastructure. Where relevant initiatives in digital infrastructure and tools, in and outside of musicology, are introduced.
+  - title: |-
+      Using Digital Libraries in the Research of the Reception and Interpretation of Richard Wagner's Leitmotifs
+    authors: |-
+      Laurence Dreyfus and Carolin Rindfleisch
+    url: https://doi.org/10.1145/2660168.2660181
+    abstract: |-
+      This Paper describes a study, which is, as part of the Transforming Musicology-Project, exploring the possibilities, problems and further perspectives of the use of digital libraries (amongst other digital technologies) on a musicological investigation focusing on the reception of Richard Wagner's leitmotifs. The main research interest is to achieve a systematic overview and comparison over the large number of different leitmotif interpretations, as they present themselves e.g. in opera introductions or leitmotif threads, in order to carve out influences, cultural or historical patterns of Wagner interpretation. The paper also describes methodological ideas to integrate digital technologies such as digital libraries to pursue this research, namely on three different stages: 1. the sources are gathered by using digital libraries to assemble a digitally accessible body of material; 2. the sources are dealt with and analysed by using tools to operate on the digital data, such as building up a database containing the different leitmotif interpretations; 3. the outcome of the study is defined and presented differently, as a multidimensional digital content combining the digitally accessible sources themselves, the created or applied methods of search and analysis, as well as the presentation of the research insights gained during the study.
+  - title: |-
+      Creating Corpora for Computational Research in Arab-Andalusian Music
+    authors: |-
+      Mohamed Sordo, Amin Chaachoo and Xavier Serra
+    url: https://doi.org/10.1145/2660168.2660182
+    abstract: |-
+      Research corpora are fundamental for the computational study of music. The design criteria with which to create them is a research task in itself. These corpora need to be well suited for the specific research problems to be addressed. Since these research problems are also shaped by musical, cultural and other specific aspects of the music traditions to be studied, the research corpora should take these specificities into account. In this paper we address the problems of creating corpora for computational research on Arab-Andalusian music, considering several relevant criteria for creating such corpora. We focus on the problems raised during the annotation process of the corpora, specifically the language issues surrounding this art music tradition. Following the criteria, we created a research corpus consisting of audio recordings with their corresponding metadata, lyrics and music scores. So far we have gathered 338 recordings from 3 different Arab-Andalusian music schools of Morocco, covering most of the musical modes, rhythms and forms of this art music tradition. The Arab-Andalusian corpus is accessible to the research community from a central online repository. Moreover, the audio recordings of this corpora are freely available through the Internet Archive repository. The Arab-Andalusian corpus can be used to generate test datasets, which can be used as ground truth to test several computational research tasks.
+  - title: |-
+      Executable Music Documents
+    authors: |-
+      David De Roure
+    url: https://doi.org/10.1145/2660168.2660183
+    abstract: |-
+      While good practices are emerging with respect to publication of data alongside research outputs, we argue that computational descriptions (e.g. scripts, software and workflows) should also be included so that research can be interpreted, reconstructed and recomputed. A research article—or Research Object—should then describe all the components associated with a piece of digital research, including the descriptions of code and algorithms, effectively comprising an executable document. Furthermore we observe that such a re-executable object can be re-run automatically. The Music Information Retrieval research community has established community infrastructure and practices which are amenable to this approach, providing a glimpse of a future Music Digital Library. These ideas raise a number of issues for Digital Libraries more generally.
+  - title: |-
+      Introduction to SIMSSA (Single Interface for Music Score Searching and Analysis)
+    authors: |-
+      Ichiro Fujinaga, Andrew Hankinson and Julie E. Cumming
+    url: https://doi.org/10.1145/2660168.2660184
+    abstract: |-
+      Musical scores are the central resource for musicological research. Our project, Single Interface for Music Score Searching and Analysis (SIMSSA), targets digitized music scores to design a global infrastructure for searching and analyzing music scores. Specifically, we seek to provide researchers, musicians, and others to access the contents and metadata of a large number of scores in a searchable, digital format. During the project, we will be developing prototypes for processing and accessing the scores by consulting closely music researchers and librarians.
+  - title: |-
+      A Picture is Worth a Thousand Songs
+    authors: |-
+      Alexander Schindler
+    url: https://doi.org/10.1145/2660168.2660185
+    abstract: |-
+      The abstract nature of music makes it intrinsically hard to describe. To alleviate this problem we use well known songs or artists as a reference to describe new music. Music information research has mimicked this behavior by introducing search systems that rely on prototypical songs. Based on similarity models deducing from signal processing or collaborative filtering an according list of songs with similar properties is retrieved. Yet, music is often searched for a specific intention such as music for workout, to focus or for a comfortable dinner with friends. Modeling music similarities based on such criteria is in many cases problematic or visionary. Despite these open research challenges a more user focused question should be raised: Which interface is adequate for describing such intentions? Traditionally queries are either based on text input or seed songs. Both are in many cases inadequate or require extensive interaction or knowledge from the user. Despite the multi-sensory capabilities of humans, we primarily focus on vision. Many intentions for music searches can easily be pictorially envisioned. This paper suggests to pursue a query music by image approach. Yet, extensive research in all disciplinary fields of music research, such as music psychology, musicology and information technologies, is required to identify correlations between the acoustic and the visual domain. This paper elaborates on opportunities and obstacles and proposes ways to approach the stated problems.
+  - title: |-
+      Correcting Large-Scale OMR Data with Crowdsourcing
+    authors: |-
+      Charalampos Saitis, Andrew Hankinson and Ichiro Fujinaga
+    url: https://doi.org/10.1145/2660168.2660186
+    abstract: |-
+      This paper discusses several technical challenges in using crowdsourcing for distributed correction interfaces. The specific scenario under investigation involves the implementation of a crowd-sourced adaptive optical music recognition system (Single Interface for Music Score Searching and Analysis project). We envisage the distribution of correction tasks beyond a single workstation to potentially thousands of users around the globe. This will have the effect of producing human-checked transcriptions, as well as significant quantities of human-provided ground-truth data, which may be re-integrated into an adaptive recognition process, allowing an OMR system to "learn" from its mistakes. Drawing from existing crowdsourcing approaches and user interfaces in music (e.g., Bodleian Libraries) and non-music (e.g., CAPTCHAs) applications, this project aims to develop a scientific understanding of what makes crowdsourcing work, how to entice, engage and reward contributors, and how to evaluate their reliability. While results will be considered based on the specific needs of SIMSSA, such knowledge can be useful to a variety of musicological investigations that involve labour-intensive methods.
+  - title: |-
+      Big Data for Musicology
+    authors: |-
+      Tillman Weyde, Stephen Cottrell, Jason Dykes, Emmanouil Benetos, Daniel Wolff, Dan Tidhar, Alexander Kachkaev, Mark Plumbley, Simon Dixon, Mathieu Barthet, Nicolas Gold, Samer Abdallah, Aquiles Alancar-Brayner, Mahendra Mahey and Adam Tovell
+    url: https://doi.org/10.1145/2660168.2660187
+    abstract: |-
+      Digital music libraries and collections are growing quickly and are increasingly made available for research. We argue that the use of large data collections will enable a better understanding of music performance and music in general, which will benefit areas such as music search and recommendation, music archiving and indexing, music production and education. However, to achieve these goals it is necessary to develop new musicological research methods, to create and adapt the necessary technological infrastructure, and to find ways of working with legal limitations. Most of the necessary basic technologies exist, but they need to be brought together and applied to musicology. We aim to address these challenges in the Digital Music Lab project, and we feel that with suitable methods and technology Big Music Data can provide new opportunities to musicology.
+  - title: |-
+      Towards the creation of digital library content to study aspects of style in Irish traditional music
+    authors: |-
+      Münevver Köküer, Daithí Kearney, Islah Ali-MacLachlan, Peter Jančovič and Cham Athwal
+    url: https://doi.org/10.1145/2660168.2660188
+    abstract: |-
+      This paper presents our initial work on collection of recordings and related metadata with a view to the creation of digital library content for analysis of stylistic characteristics in Irish traditional music. We focus on ornamentation as this is a decisive stylistic determinant in Irish traditional music. The digital library contains a collection of audio recordings of prominent Irish flute players and metadata related to these recordings, such as manual annotation of onsets and offsets, identity of notes and ornaments, information related to performers and performers' style and make and type of instrument used.
+  - title: |-
+      ManUScript Italian poEtry in muSic (1500-1700) interoperable model
+    authors: |-
+      Cecilia Luzzi
+    url: https://doi.org/10.1145/2660168.2660189
+    abstract: |-
+      The most urgent challenge in the field of digital libraries is the demand for powerful and efficient systems which allow for integrated access to huge amounts of digital content. Recent initiatives have demonstrated how cultural heritage and digital libraries benefit from the use of semantic technologies which enable users to share content beyond the boundaries of individual applications and Web sites, as well as from Linked Open Data (LOD) projects which expands the way that we access cultural heritage. The FRBRoo (Functional Requirements for Bibliographic Records object-oriented) initiative offers a universally shared model for cultural heritage and performing arts and allows an exhaustive description of the intellectual content of the poetry and music repertoires. In this position paper we discuss matters about developing MUSES (ManUScript Italian poEtry in muSic) model. MUSES intends to use FRBRoo as the point of departure for defining specialised ontologies for the domain of poetry in music and developing access to optimally retrieve resources from libraries and archives made accessible on the Web.

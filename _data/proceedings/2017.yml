@@ -1,0 +1,99 @@
+# DLfM 2017 proceedings — paper list + abstracts harvested verbatim from the
+# ACM Digital Library (source of truth). Authors/titles cross-checked vs Crossref.
+# Not gate-verified against a Mosaic capture; ACM is authoritative for these pages.
+title: |-
+  DLfM '17: Proceedings of the 4th International Workshop on Digital Libraries for Musicology
+citation_url: https://doi.org/10.1145/3144749
+doi: 10.1145/3144749
+papers:
+  - title: |-
+      The Comprehensive Application of Vmus.net for Musical Performance Studies
+    authors: |-
+      Jian Yang
+    url: https://doi.org/10.1145/3144749.3144750
+    abstract: |-
+      There are two main difficulties in applying empirical approaches such as MIR (Music Information Retrieval) methods in music research. The first is the complexity of the related software and the other is the integration between empirical findings and musicological context. To solve these problems, an easy-to-use online application Vmus.net is introduced with three typical examples combining visualization methods such as IOI deviation and dynamic curve, tempo-dynamic curve, and performance worm with sensible musical and historical considerations. Compared with similar desktop software, Vmus.net is a relatively compact tool still under construction with a growing number of users and datasets. It is presumed that simplifying the analytical process and providing printer-friendly charts for direct quoting might help to persuade more researchers to deeply embed the relevant technology in their musicological investigations1.
+  - title: |-
+      PatternFinder
+    authors: |-
+      David Garfinkle, Claire Arthur, Peter Schubert, Julie Cumming and Ichiro Fujinaga
+    url: https://doi.org/10.1145/3144749.3144751
+    abstract: |-
+      Content-Based Music Retrieval (CBMR) for symbolic music aims to find all similar occurrences of a musical pattern within a larger database of symbolic music. To the best of our knowledge there does not currently exist a distributable CBMR software package integrated with a music analysis toolkit that facilitates extendability with new CBMR methods. This project presents a new MIR tool called "PatternFinder" satisfying these goals. PatternFinder is built with the computational musicology Python package music21, which provides a flexible platform capable of working with many music notation formats. To achieve polyphonic CBMR, we implement seven geometric algorithms developed at the University of Helsinki—four of which are being implemented and released publicly for the first time. The application of our MIR tool is then demonstrated through a musicological investigation of Renaissance imitation masses, which borrow melodic or contrapuntal material from a pre-existing musical work. In addition, we show Pattern-Finder's ability to find a contrapuntal pattern over a large dataset, Palestrina's 104 masses. Our investigations demonstrate the relevance of our tool for musicological research as well as its potential application for locating music within digital music libraries.
+  - title: |-
+      Human-Guided Recognition of Music Score Images
+    authors: |-
+      Liang Chen, Rong Jin and Christopher Raphael
+    url: https://doi.org/10.1145/3144749.3144752
+    abstract: |-
+      We present our ongoing work in optical music recognition in which we seek to transform printed music notation images into symbolic representations, suitable for playback, analysis, and rendering. While music notation contains a small core of symbols and primitives composed in a rule-bound way, there are a great many common exceptions to these rules, as well as a heavy tail of rarer symbols. Since our goal is to create symbolic representations with accuracy near that of published music scores, we doubt the feasibility of fully-automatic recognition, opting instead for a human-guided approach. We define a simple communication channel between the user and recognition engine, in which the user imposes pixel-level or model-level constraints.
+  - title: |-
+      Non-chord Tone Identification Using Deep Neural Networks
+    authors: |-
+      Yaolong Ju, Nathaniel Condit-Schultz, Claire Arthur and Ichiro Fujinaga
+    url: https://doi.org/10.1145/3144749.3144753
+    abstract: |-
+      This paper addresses the problem of harmonic analysis by proposing a non-chord tone identification model using deep neural network (DNN). By identifying non-chord tones, the task of harmonic analysis is much simplified. Trained and tested on a dataset of 140 Bach chorales, an initial DNN was able to identify non-chord tones with F1-measure of 57.00%, using pitch-class information alone. By adding metric information, a small size contextual window, and fine-tuning DNN, the model's accuracy increased to a F1-measure of 72.19%. These results suggest that DNNs offer an innovative and promising approach to tackling the problem of non-chord tone identification, as well as harmonic analysis.
+  - title: |-
+      Modeling the Complexity of Music Metadata in Semantic Graphs for Exploration and Discovery
+    authors: |-
+      Pasquale Lisena, Raphaël Troncy, Konstantin Todorov and Manel Achichi
+    url: https://doi.org/10.1145/3144749.3144754
+    abstract: |-
+      Representing and retrieving fine-grained information related to something as complex as music composition, recording and performance is a challenging activity. This complexity requires that the data model enables to describe different outcomes of the creative process, from the writing of the score, to its performance and publishing. In this paper, we show how we design the DOREMUS ontology as an extension of the FRBRoo model in order to represent music metadata coming from different libraries and cultural institutions and how we publish this data as RDF graphs. We designed and re-used several controlled vocabularies that provide common identifiers that overcome the differences in language and alternative forms of needed concepts. These graphs are interlinked to each other and to external resources on the Web of Data. We show how these graphs can be walked through for designing a web-based application providing an exploratory search engine for presenting complex music metadata to the end-user. Finally, we demonstrate how this model and this exploratory application is suitable for answering non-trivial questions collected from experts and is a first step towards a fully fledged recommendation engine.
+  - title: |-
+      MIRchiving
+    authors: |-
+      Reinier de Valk, Anja Volk, Andre Holzapfel, Aggelos Pikrakis, Nadine Kroher and Joren Six
+    url: https://doi.org/10.1145/3144749.3144755
+    abstract: |-
+      This study is a call for action for the music information retrieval (MIR) community to pay more attention to collaboration with digital music archives. The study, which resulted from an interdisciplinary workshop and subsequent discussion, matches the demand for MIR technologies from various archives with what is already supplied by the MIR community. We conclude that the expressed demands can only be served sustainably through closer collaborations. Whereas MIR systems are described in scientific publications, usable implementations are often absent. If there is a runnable system, user documentation is often sparse—posing a huge hurdle for archivists to employ it. This study sheds light on the current limitations and opportunities of MIR research in the context of music archives by means of examples, and highlights available tools. As a basic guideline for collaboration, we propose to interpret MIR research as part of a value chain. We identify the following benefits of collaboration between MIR researchers and music archives: new perspectives for content access in archives, more diverse evaluation data and methods, and a more application-oriented MIR research workflow.
+  - title: |-
+      The Perception of Emotion in the Singing Voice
+    authors: |-
+      Emilia Parada-Cabaleiro, Alice Baird, Anton Batliner, Nicholas Cummins, Simone Hantke and Björn W. Schuller
+    url: https://doi.org/10.1145/3144749.3144756
+    abstract: |-
+      With the increased usage of internet based services and the mass of digital content now available online, the organisation of such content has become a major topic of interest both commercially and within academic research. The addition of emotional understanding for the content is a relevant parameter not only for music classification within digital libraries but also for improving users experiences, via services including automated music recommendation. Despite the singing voice being well-known for the natural communication of emotion, it is still unclear which specific musical characteristics of this signal are involved such affective expressions. The presented study investigates which musical parameters of singing relate to the emotional content, by evaluating the perception of emotion in electronically manipulated a cappella audio samples. A group of 24 individuals participated in a perception test evaluating the emotional dimensions of arousal and valence of 104 sung instances. Key results presented indicate that the rhythmic-melodic contour is potentially related to the perception of arousal whereas musical syntax and tempo can alter the perception of valence.
+  - title: |-
+      Creating an A Cappella Singing Audio Dataset for Automatic Jingju Singing Evaluation Research
+    authors: |-
+      Rong Gong, Rafael Caro Repetto and Xavier Serra
+    url: https://doi.org/10.1145/3144749.3144757
+    abstract: |-
+      The data-driven computational research on automatic jingju (also known as Beijing or Peking opera) singing evaluation lacks a suitable and comprehensive a cappella singing audio dataset. In this work, we present an a cappella singing audio dataset which consists of 120 arias, accounting for 1265 melodic lines. This dataset is also an extension our existing CompMusic jingju corpus. Both professional and amateur singers were invited to the dataset recording sessions, and the most common jingju musical elements have been covered. This dataset is also accompanied by metadata per aria and melodic line annotated for automatic singing evaluation research purpose. All the gathered data is openly available online1.
+  - title: |-
+      Quantitative analysis of the relationship between linguistic tones and melody in jingju using music scores
+    authors: |-
+      Rafael Caro Repetto, Shuo Zhang and Xavier Serra
+    url: https://doi.org/10.1145/3144749.3144758
+    abstract: |-
+      When lyrics of tonal languages are set to music, the pitch contour of the tones has to agree to a certain extent with the melodic contour to assure intelligibility. The relationship between the linguistic tones of the complex dialectal construct used in jingju (commonly known as Beijing or Peking opera) and its melody has been largely studied, but not definite consensus has been achieved among scholars. After reviewing the related literature, we present a first approach for the quantitative analysis of the relationship between linguistic tones and melody in jingju using a collection of machine readable music scores with tone category annotations for 7,283 syllables. We describe two statistical analyses performed in this collection regarding the melodic contour for each syllable and the pitch height relationship in 5,494 pairs of consecutive syllables. We argue that the obtained results contribute to supporting claims from the literature and complementing others, although some limitations of the approach might nuance the confidence of their validity.
+  - title: |-
+      Applications of duplicate detection
+    authors: |-
+      Federica Bressan, Joren Six and Marc Leman
+    url: https://doi.org/10.1145/3144749.3144759
+    abstract: |-
+      This work focuses on applications of duplicate detection for managing digital music archives. It aims to make this mature music information retrieval (MIR) technology better known to archivists and provide clear suggestions on how this technology can be used in practice. More specifically applications are discussed to complement meta-data, to link or merge digital music archives, to improve listening experiences and to re-use segmentation data. The IPEM archive, a digitized music archive containing early electronic music, provides a case study.
+  - title: |-
+      GRAIL
+    authors: |-
+      Michael D. Barone, Kurt Dacosta, Gabriel Vigliensoni and Matthew H. Woolhouse
+    url: https://doi.org/10.1145/3144749.3144760
+    abstract: |-
+      Linking information from multiple music databases is important for MIR because it provides a means to determine consistency of metadata between resources/services, which can help facilitate innovative product development and research. However, as yet, no open access tools exist that persistently link and validate metadata resources at the three main entities of music data: artist, release, and track. This paper introduces an open access resource which attempts to address the issue of linking information from multiple music databases. The General Recorded Audio Identity Linker (GRAIL - api.digitalmusiclab.org) is a music metadata ID-linking API that: i) connects International Standard Recording Codes (ISRCs) to music metadata IDs from services such as MusicBrainz, Spotify, and Last.FM; ii) provides these ID linkages as a publicly available resource; iii) confirms linkage accuracy using continuous metadata crawling from music-service APIs; and iv) derives consistency values (CV) for linkages by means of a set of quantifiable criteria. To date, more than 35M tracks, 8M releases, and 900K artists from 16 services have been ingested into GRAIL. We discuss the challenges faced in past attempts to link music metadata, the methods and rationale which we adopted in order to construct GRAIL and to ensure it remains updated with validated information.
+  - title: |-
+      Tools for Music Bibliographic Network Analysis
+    authors: |-
+      Andrew Horwitz, Yun Fan and Richard Brown
+    url: https://doi.org/10.1145/3144749.3144761
+    abstract: |-
+      Many metadata repositories have been used to enrich music information retrieval applications, focusing on topics such as recorded music or performance catalogues. We present a database of bibliographic information that focuses on indexing writings on music, containing expert-curated subject terms from a controlled vocabulary, embedded inter-lingual equivalencies of these terms, and links that connect works and terms with canonical reference identifiers. An ontology of these terms, as well as an API to programatically access them, is under development for use in exploring and analyzing musicological bibliographic networks across domains, languages, and cultures.
+  - title: |-
+      Musicology of Digital Libraries
+    authors: |-
+      David Lewis, Yun Fan, Glenn Henshaw and Kevin Page
+    url: https://doi.org/10.1145/3144749.3144762
+    abstract: |-
+      Music Digital Libraries are traditionally viewed as holders and providers of contents for computationally assisted study into those materials. In this paper, we instead propose the musicological study of a Digital Library in its own right. We argue that the record and summary of research activity provided by bibliographic catalogues is a valuable resource for those wishing to study the history and development of scholarship - in this case musicology Using a catalogue of musicological literature, the Repertoire International de Littérature Musicale (RILM), we examine the information available and undertake preliminary investigations illustrating the kinds of insight that can be gained. A Digital Library of RILM's size requires approaches suitable for large-scale data: we apply network analysis methods over RILM's indexing terms to demonstrate the viability of our approach. We offer an initial interpretation of the analysis that accounts for the paradigms of musicological thinking embodied in the Digital Library by the authors of the literature and of the cataloguers, and reflect upon how studies such as ours are influenced by - but can also shed light upon - the shifting trends and biases found within the community structures of musicology.
