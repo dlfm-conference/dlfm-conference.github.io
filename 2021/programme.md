@@ -50,7 +50,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Henry Drummond and Nicholas Bleisch</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/1drummondposterpng">1. Low countries plainchant of the early modern era: Recovering ‘The Sound of Music’ at the KU Leuven, the Alamire Foundation, and McGill University</a></td>
+<td><a href="/assets/2021/files/1drummondposter.png">1. Low countries plainchant of the early modern era: Recovering ‘The Sound of Music’ at the KU Leuven, the Alamire Foundation, and McGill University</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -58,7 +58,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Evangelia Kopsalidou</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/2kopsalidouposterpng">2. An online catalogue of French viola da gamba music</a></td>
+<td><a href="/assets/2021/files/2kopsalidouposter.png">2. An online catalogue of French viola da gamba music</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -74,7 +74,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Antonio Madueño, Antonio Ríos and David Rizo</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/4maduenoposterjpg">4. Automatized incipit encoding at the Andalusian Music Documentation Center</a></td>
+<td><a href="/assets/2021/files/4maduenoposter.jpg">4. Automatized incipit encoding at the Andalusian Music Documentation Center</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -82,7 +82,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Julia Jaklin and Peter Provaznik</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/5jaklinposterpng">5. Telling Sounds LAMA: Annotating and connecting audio(visual) sources for musicological research and media analysis</a></td>
+<td><a href="/assets/2021/files/5jaklinposter.png">5. Telling Sounds LAMA: Annotating and connecting audio(visual) sources for musicological research and media analysis</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -98,7 +98,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Yiting Xia, Yiwei Jiang, Tianran Li and Tao Ye</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/7xiaposterjpg">7. Chronological classification of Beethoven’s piano sonatas using deep learning networks</a></td>
+<td><a href="/assets/2021/files/7xiaposter.jpg">7. Chronological classification of Beethoven’s piano sonatas using deep learning networks</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -106,7 +106,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Kevin Robb</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/8robbposterpng">8. A database of representativity in Canadian orchestra repertories</a></td>
+<td><a href="/assets/2021/files/8robbposter.png">8. A database of representativity in Canadian orchestra repertories</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -114,7 +114,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Joshua Stutter</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/9stutterposterjpg">9. To Your Rude Health! The artefact is the database using static site generators</a></td>
+<td><a href="/assets/2021/files/9stutterposter.jpg">9. To Your Rude Health! The artefact is the database using static site generators</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -122,7 +122,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Huan Zhang, Ran Zhang, Kun Zhang, Xiao-Rui Wang and Zhong-Yuan Wang</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/10zhangposterjpg">10. Key and function aware melody triad harmonization based on transformer model</a></td>
+<td><a href="/assets/2021/files/10zhangposter.jpg">10. Key and function aware melody triad harmonization based on transformer model</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -138,7 +138,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Seokjin Kim</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/12seokjin-kimposterjpg">12. Composition analysis of artificial intelligence (AI) based music software</a></td>
+<td><a href="/assets/2021/files/12seokjin-kimposter.jpg">12. Composition analysis of artificial intelligence (AI) based music software</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -146,7 +146,7 @@ UTC+2</th>
 <td> </td>
 <td> </td>
 <td>Zeljka Radovinovic</td>
-<td><a href="https://dlfm.web.ox.ac.uk/files/13radovinovicposterpng">13. The record industry in Croatia from 1927 to the end of the 1950s</a></td>
+<td><a href="/assets/2021/files/13radovinovicposter.png">13. The record industry in Croatia from 1927 to the end of the 1950s</a></td>
 </tr>
 </tbody>
 </table>
