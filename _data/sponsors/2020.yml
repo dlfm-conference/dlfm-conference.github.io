@@ -5,4 +5,3 @@
 - { name: "SIMSSA", logo: /assets/sponsors/2020/simssa.png, url: "https://simssa.ca/" , wide: true }
 - { name: "Social Sciences and Humanities Research Council (SSHRC)", logo: /assets/sponsors/2020/sshrc.png, url: "https://www.sshrc-crsh.gc.ca/" , wide: true }
 - { name: "Universidad de Alicante", logo: /assets/sponsors/2020/ualicante.png, url: "https://www.ua.es/" }
-- { name: "ACM ICPS", logo: /assets/sponsors/2020/icps.png, url: "https://www.acm.org/publications/icps-series" }

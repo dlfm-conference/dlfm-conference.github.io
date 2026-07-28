@@ -1,0 +1,17 @@
+{%- comment -%}
+ICPS proceedings-series note — a compact line inside the hero text column, visible
+on load without dominating it. Data-driven (_data/proceedings_series.yml) and
+removable: no data file, or `proceedings_series: false` on the edition, hides it.
+Links to this edition's own proceedings page when it has one, else to the series.
+{%- endcomment -%}
+{%- assign series = site.data.proceedings_series -%}
+{%- if series and edition.proceedings_series != false -%}
+{%- assign target = series.url -%}
+{%- if edition.pages contains 'proceedings' -%}
+  {%- assign target = '/' | append: edition.year | append: '/proceedings/' | relative_url -%}
+{%- endif -%}
+<a class="hero-proc" href="{{ target }}">
+  <img class="hero-proc-logo" src="{{ series.logo | relative_url }}" alt="{{ series.name }}" loading="lazy">
+  <span class="hero-proc-text">{{ series.lead }} <strong>{{ series.name }}</strong></span>
+</a>
+{%- endif -%}

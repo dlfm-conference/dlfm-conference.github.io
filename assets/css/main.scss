@@ -128,18 +128,29 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 
 /* ─── Hero (landing) ────────────────────────────────────────────────── */
 .hero { background: var(--band); border-bottom: 1px solid var(--rule); }
-.hero-inner { padding-block: clamp(2.5rem, calc(1.5rem + 4vw), 4.5rem); }
+.hero-inner { padding-block: clamp(1.25rem, calc(0.6rem + 2vw), 2.25rem); }
 /* When the edition has sponsors, split the hero: text left, sponsors right. */
 .hero--with-sponsors .hero-inner {
   display: grid; grid-template-columns: minmax(0, 1fr) clamp(15rem, 32%, 22rem);
   gap: 2.5rem 3.5rem; align-items: center;
 }
 .hero .ordinal { font-family: var(--sans); font-weight: 600; letter-spacing: 0.12em;
-  text-transform: uppercase; font-size: 0.8rem; color: var(--accent); margin: 0 0 0.8rem; }
-.hero h1 { margin: 0 0 1rem; max-width: 20ch; }
+  text-transform: uppercase; font-size: 0.8rem; color: var(--accent); margin: 0 0 0.55rem; }
+.hero h1 { margin: 0 0 0.7rem; max-width: 20ch; }
 .hero .meta { font-family: var(--serif); font-size: 1.2rem; color: var(--ink-soft); margin: 0; }
 .hero .meta strong { color: var(--ink); font-weight: 600; }
 .hero .satellite { margin-top: 0.4rem; font-size: 1rem; color: var(--ink-faint); font-family: var(--sans); }
+
+/* ICPS proceedings-series note — a compact line inside the hero text column
+   (_includes/proceedings-series.html): visible on load, but subordinate to the
+   title/date. Small logo + muted line, not a separate band. */
+.hero-proc { display: inline-flex; align-items: center; gap: 0.55rem; margin-top: 1.1rem;
+  text-decoration: none; }
+.hero-proc-logo { flex: none; height: 24px; width: auto; display: block; }
+.hero-proc-text { font-family: var(--sans); font-size: 0.82rem; line-height: 1.3;
+  color: var(--ink-soft); max-width: 44ch; }
+.hero-proc-text strong { color: var(--ink); font-weight: 600; }
+.hero-proc:hover .hero-proc-text strong { color: var(--accent-warm); }
 
 /* ─── Content ───────────────────────────────────────────────────────── */
 .site-main { padding-bottom: 4rem; }

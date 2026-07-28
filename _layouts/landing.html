@@ -10,6 +10,7 @@ layout: default
       <h1>Digital&nbsp;Libraries for&nbsp;Musicology</h1>
       <p class="meta"><strong>{{ edition.dates }}</strong>{% if edition.city %} · {{ edition.city }}{% endif %}</p>
       {% if edition.satellite %}<p class="satellite">{{ edition.satellite }}</p>{% endif %}
+      {% include proceedings-series.html %}
     </div>
     {% include sponsors.html %}
   </div>

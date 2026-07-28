@@ -6,6 +6,11 @@
 # Sponsors block label ("With the support of")
 with the support of
 
+# ICPS proceedings-series band (_includes/proceedings-series.html): "Proceedings
+# published in the ACM International Conference Proceedings Series (ICPS)". Every
+# word but "series" already appears in page content; this one token is band chrome.
+series
+
 # ACM Digital Library citation line carries a "[Digital Library logo]" image
 # whose alt survives in the legacy text; the logo itself is not reproduced.
 logo
