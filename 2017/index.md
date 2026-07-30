@@ -145,17 +145,17 @@ Chair: David LEWIS</td>
 </tr>
 <tr>
 <td> </td>
-<td colspan="2"><a href="https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/zhao-database-of-chinese-ancient-notation.pdf">Constructing the digital database of Chinese ancient notation at Shanghai Conservatory of Music</a></td>
+<td colspan="2"><a href="/assets/2017/files/zhao-database-of-chinese-ancient-notation.pdf">Constructing the digital database of Chinese ancient notation at Shanghai Conservatory of Music</a></td>
 <td>Weiping Zhao</td>
 </tr>
 <tr>
 <td> </td>
-<td colspan="2"><a href="https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/sun-providing-value-added-services-for-digital-musical-images.pdf">Providing Value-added Services for Digital Musical Images: Database of Chinese Musical Relics based on CADAL's Resource</a></td>
+<td colspan="2"><a href="/assets/2017/files/sun-providing-value-added-services-for-digital-musical-images.pdf">Providing Value-added Services for Digital Musical Images: Database of Chinese Musical Relics based on CADAL's Resource</a></td>
 <td>Hongjie Sun</td>
 </tr>
 <tr>
 <td> </td>
-<td colspan="2"><a href="https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/kent-muller-big-musicology.pdf">Big Musicology: A Framework for Transformation</a></td>
+<td colspan="2"><a href="/assets/2017/files/kent-muller-big-musicology.pdf">Big Musicology: A Framework for Transformation</a></td>
 <td>Anna Kent-Muller</td>
 </tr>
 <tr>
@@ -220,7 +220,7 @@ This, the fourth Digital Libraries for Musicology workshop, is a satellite event
 
 DLfM will focus on the implications of music on Digital Libraries and Digital Libraries research when pushing the boundaries of contemporary musicology, including the application of techniques as reported in more technologically-oriented fora such as ISMIR and ICMC.
 
-This will be the fourth edition of DLfM following very successful and well received workshops at [Digital Libraries 2014](https://dlfm.web.ox.ac.uk/dlfm2014), [JCDL 2015](https://dlfm.web.ox.ac.uk/dlfm2015), and [ISMIR 2016](https://dlfm.web.ox.ac.uk/dlfm2016), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
+This will be the fourth edition of DLfM following very successful and well received workshops at [Digital Libraries 2014](/2014/), [JCDL 2015](/2015/), and [ISMIR 2016](/2016/), giving an opportunity for the community to present and discuss recent developments that address the challenges of effectively combining technology with musicology through Digital Library systems and their application.
 
 The workshop objectives are:
 

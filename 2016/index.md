@@ -18,7 +18,7 @@ title: "DLfM 2016 — 3rd International Workshop on Digital Libraries for Musico
 
 ### A Satellite Event of [ismir 2016](https://wp.nyu.edu/ismir2016/)
 
-*The call for papers is out for [DLfM 2017](https://dlfm.web.ox.ac.uk/dlfm2017), with submissions due by 30 June 2017.*
+*The call for papers is out for [DLfM 2017](/2017/), with submissions due by 30 June 2017.*
 
 **Registration**: via [online store](http://www.oxforduniversitystores.co.uk/browse/extra_info.asp?compid=1&modid=1&deptid=172&catid=2680&prodid=12483).
 
@@ -79,7 +79,7 @@ Short paper presentations will be 15 minutes plus five minutes questions, and lo
 | An ecosystem for optical music recognition of numbered music notation                                                                                                          | Poster | Fu-Hai Frank Wu                                                         |
 | The Human History Project: Digital Prosopography of Renaissance Musicians                                                                                                      | Poster | Susan Weiss and Ichiro Fujinaga                                         |
 | GRAIL: A General Recorded Audio Identity Linker                                                                                                                                | Poster | Michael Barone, Gabriel Vigliensoni, Kurt Dacosta and Matthew Woolhouse |
-| [Application of Islandora for Interdisciplinary Musicological Research: the AIRS DL for Research in Singing](https://dlfm.web.ox.ac.uk/resources/documents/dlfm2016-moses.pdf) | Poster | Donald Moses, Tom Germaine, Karen Ludke and Annabel Cohen               |
+| Application of Islandora for Interdisciplinary Musicological Research: the AIRS DL for Research in Singing | Poster | Donald Moses, Tom Germaine, Karen Ludke and Annabel Cohen               |
 
 ## Background
 
