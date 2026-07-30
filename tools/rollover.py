@@ -9,8 +9,18 @@ once it is no longer `current_year`.
 What it does:
   1. Creates <next>/ from _templates/edition/ (landing, CFP, programme, proceedings)
   2. Creates empty _data/{committee,programme,proceedings,sponsors}/<next>.yml stubs
-  3. Prepends a _data/editions.yml entry for <next>
+  3. Prepends a _data/editions.yml entry for <next> (ICPS line off, no
+     proceedings page yet — see the two-stage activation below)
   4. Sets current_year: <next> in _config.yml
+
+Edition lifecycle after rollover (both later stages are automatable):
+  * rollover          -> ICPS line hidden (`proceedings_series: false`), no
+                         Proceedings nav link (proceedings not in `pages`)
+  * confirm ICPS      -> remove `proceedings_series: false` (line shows, links
+                         to the ACM DLfM conference page as a fallback)
+  * publish proceedings-> fill _data/proceedings/<next>.yml and add
+                         `proceedings` to `pages` (line links to the page; the
+                         Proceedings nav link appears while it is current_year)
 
 Normally run via .github/workflows/rollover.yml (which opens a PR to review);
 can also be run locally. Nothing is destructive — the previous year is untouched.
@@ -84,6 +94,10 @@ def main():
         f'  ordinal: "{ordinal}"',
         f'  city: "{args.city}"',
         f'  dates: "{args.dates}"',
+        # ICPS affiliation is uncertain until it resolves months after the
+        # announcement — start with the ACM ICPS line OFF; the "confirm-acm"
+        # step removes this once the affiliation is confirmed.
+        "  proceedings_series: false",
         "  pages: [call-for-papers, programme]",
         "",
     ]

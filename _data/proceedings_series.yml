@@ -1,13 +1,19 @@
 # The publication series in which every DLfM edition's proceedings appear.
-# Rendered as a band at the foot of each edition's landing hero
+# Rendered as a compact line inside each edition's landing hero
 # (_includes/proceedings-series.html), deliberately separate from sponsors.
+#
+# The line links to this edition's own /proceedings/ page when it has one;
+# otherwise it falls back to `url` below — the ACM DLfM conference page, which
+# lists every edition's proceedings. That fallback covers the window after the
+# ICPS affiliation is confirmed but before that year's proceedings are published.
 #
 # REMOVABLE / SWAPPABLE by design:
 #   * to change publisher: edit the fields below (name / lead / url / logo);
-#   * to drop the band site-wide: delete this file;
+#   * to drop the line site-wide: delete this file;
 #   * to hide it on one edition: set `proceedings_series: false` on that
-#     edition in _data/editions.yml.
+#     edition in _data/editions.yml. The rollover scaffolds new years with this
+#     already set — i.e. ICPS "off" until the affiliation is confirmed.
 name: "ACM International Conference Proceedings Series (ICPS)"
 lead: "Proceedings published in the"
-url: "https://www.acm.org/publications/icps-series"
+url: "https://dl.acm.org/conference/dlfm"
 logo: "/assets/logo/icps.png"
