@@ -1,0 +1,72 @@
+name: Publish proceedings
+
+# Lifecycle step 3 of 3. Once the proceedings are live on the ACM DL, this builds
+# the year's proceedings page from the ACM proceedings DOI:
+#   * generates _data/proceedings/<year>.yml from Crossref — every paper's exact
+#     title, ordered authors (with ORCID iDs where available), and DOI (policy P2:
+#     no abstracts; each paper links to its ACM DOI where the abstract lives), then
+#   * adds `proceedings` to the edition's pages (nav link + banner target switch on).
+# Opens a PR to review. Idempotent: same DOI -> same file; re-adding the page is a
+# no-op. Verbatim abstracts are a separate maintainer top-up (see the tool's docs).
+on:
+  workflow_dispatch:
+    inputs:
+      doi:
+        description: "ACM proceedings DOI, e.g. 10.1145/3469013"
+        required: true
+      year:
+        description: "Edition year (blank = current year)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  publish-proceedings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Resolve year (input or current_year)
+        id: y
+        run: |
+          Y="${{ github.event.inputs.year }}"
+          if [ -z "$Y" ]; then
+            Y=$(grep -oE 'current_year:[[:space:]]*[0-9]+' _config.yml | grep -oE '[0-9]+')
+          fi
+          echo "year=$Y" >> "$GITHUB_OUTPUT"
+
+      - name: Generate proceedings data from Crossref
+        run: python3 tools/proceedings_from_doi.py "${{ steps.y.outputs.year }}" "${{ github.event.inputs.doi }}"
+
+      - name: Add the proceedings page to this edition
+        run: python3 tools/edition_flags.py add-page "${{ steps.y.outputs.year }}" proceedings
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "publish-proceedings/${{ steps.y.outputs.year }}"
+          title: "Publish DLfM ${{ steps.y.outputs.year }} proceedings"
+          commit-message: "Publish DLfM ${{ steps.y.outputs.year }} proceedings from ${{ github.event.inputs.doi }}"
+          body: |
+            Publishes the **DLfM ${{ steps.y.outputs.year }}** proceedings from ACM DOI
+            `${{ github.event.inputs.doi }}`.
+
+            - Generated `_data/proceedings/${{ steps.y.outputs.year }}.yml` from Crossref —
+              titles, ordered authors (ORCID iDs where available) and DOIs, verbatim.
+            - Added `proceedings` to this edition's `pages` (Proceedings nav link and
+              ICPS banner now point at the page).
+
+            **Abstracts are intentionally not included** (policy P2): the verbatim text
+            lives on the ACM DL and each paper links there. To add verbatim abstracts
+            later, a maintainer runs `tools/proceedings_from_doi.py … --enrich` (or the
+            ACM harvest) — see the tool's docstring.
+
+            Please skim the generated paper list against the ACM table of contents
+            before merging (the run log notes any DOI gaps).

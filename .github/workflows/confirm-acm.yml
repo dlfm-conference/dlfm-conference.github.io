@@ -1,0 +1,56 @@
+name: Confirm ACM ICPS affiliation
+
+# Lifecycle step 2 of 3 (after rollover, before proceedings are published).
+# Turns ON the "Proceedings published in the ACM ICPS" line for an edition by
+# removing `proceedings_series: false`. Until that year has its own proceedings
+# page, the line links to the ACM DLfM conference page. Idempotent: if already
+# confirmed, no PR is opened.
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Edition year to confirm (blank = current year)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  confirm-acm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve year (input or current_year)
+        id: y
+        run: |
+          Y="${{ github.event.inputs.year }}"
+          if [ -z "$Y" ]; then
+            Y=$(grep -oE 'current_year:[[:space:]]*[0-9]+' _config.yml | grep -oE '[0-9]+')
+          fi
+          echo "year=$Y" >> "$GITHUB_OUTPUT"
+          echo "Confirming ACM ICPS for $Y"
+
+      - name: Remove proceedings_series:false
+        run: python3 tools/edition_flags.py confirm-acm "${{ steps.y.outputs.year }}"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "acm-confirm/${{ steps.y.outputs.year }}"
+          title: "Confirm ACM ICPS affiliation for DLfM ${{ steps.y.outputs.year }}"
+          commit-message: "Confirm ACM ICPS affiliation for DLfM ${{ steps.y.outputs.year }}"
+          body: |
+            Turns on the **ACM ICPS proceedings line** for **DLfM ${{ steps.y.outputs.year }}**
+            (removes `proceedings_series: false`).
+
+            Until this year's proceedings page exists, the line links to the
+            [ACM DLfM conference page](https://dl.acm.org/conference/dlfm). Once the
+            proceedings are published, run **Publish proceedings** to point it at the
+            year's own page and add the Proceedings nav link.
+
+            _If this PR is empty, the affiliation was already confirmed (idempotent)._
