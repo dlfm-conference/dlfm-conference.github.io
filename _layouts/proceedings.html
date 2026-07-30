@@ -8,7 +8,9 @@ layout: default
 </header>
 <div class="wrap section">
   {%- assign proc = site.data.proceedings[ystr] -%}
-  {% if proc %}
+  {%- assign paper_count = 0 -%}
+  {%- if proc.papers -%}{%- assign paper_count = proc.papers | size -%}{%- endif -%}
+  {% if paper_count > 0 %}
     <div class="prose">
       {% if proc.title %}<p class="proc-title">{{ proc.title }}</p>{% endif %}
       {% if proc.intro %}{{ proc.intro | markdownify }}{% endif %}
@@ -22,7 +24,16 @@ layout: default
     {% for p in proc.papers %}
       <li>
         <div class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% elsif p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
-        {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ', ' }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
+        {% if p.authors %}<div class="authors">
+          {%- if p.authors.first.name -%}
+            {%- for a in p.authors -%}
+              {%- unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless -%}
+              {%- if a.orcid %}<a class="author-orcid" href="{{ a.orcid }}" rel="noopener" title="ORCID iD for {{ a.name }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif -%}
+            {%- endfor -%}
+          {%- elsif p.authors.first -%}{{ p.authors | join: ', ' }}
+          {%- else -%}{{ p.authors }}
+          {%- endif -%}
+        </div>{% endif %}
         {% if p.corrigendum_url %}<p class="corrigendum"><a href="{{ p.corrigendum_url }}">⚠ {{ p.corrigendum_text | default: "A corrigendum has been published for this article" }}</a></p>{% endif %}
         {% if p.abstract %}<div class="abstract">{{ p.abstract | markdownify }}</div>{% endif %}
         {% if p.pages or p.pdf %}
@@ -34,6 +45,9 @@ layout: default
     {% endfor %}
     </ol>
   {% else %}
-    <div class="prose"><p>Proceedings for DLfM {{ year }} will be linked here once published.</p></div>
+    <div class="prose">
+      <p>The proceedings of DLfM {{ year }} have not been published yet. Once they are available, the full paper list will appear here.</p>
+      <p>In the meantime, you can browse the proceedings of our <a href="{{ '/previous/' | relative_url }}">previous editions</a>.</p>
+    </div>
   {% endif %}
 </div>

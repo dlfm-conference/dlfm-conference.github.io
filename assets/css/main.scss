@@ -278,6 +278,19 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .paper-list .title { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; }
 .paper-list .title.poster-challenge { font-style: italic; }
 .paper-list .authors { color: var(--ink-soft); }
+/* Author names linked to their ORCID iD: read as part of the author line
+   (soft ink), with a quiet dotted underline that only warms up on hover. */
+.paper-list .authors .author-orcid {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.15em;
+  text-decoration-color: var(--rule);
+}
+.paper-list .authors .author-orcid:hover,
+.paper-list .authors .author-orcid:focus {
+  color: var(--link, var(--ink));
+  text-decoration-color: currentColor;
+}
 .paper-list .meta { font-size: 0.9rem; color: var(--ink-faint); margin-top: 0.2rem; }
 .paper-list .meta a { margin-right: 0.9rem; }
 .paper-list .abstract { color: var(--ink-soft); font-size: 0.96rem; margin: 0.5rem 0 0; }

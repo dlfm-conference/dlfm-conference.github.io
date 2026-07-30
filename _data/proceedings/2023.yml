@@ -1,139 +1,238 @@
-# DLfM 2023 proceedings — parsed from the frozen capture;
-# verified by tools/verify_fidelity.py.
 title: |-
   DLfM '23: Proceedings of the 10th International Conference on Digital Libraries for Musicology
 citation_url: https://dl.acm.org/doi/proceedings/10.1145/3625135
 papers:
   - title: |-
       A Multimodal Methodology for Music Field Recording and Archival
-    authors: |-
-      Juan Sierra, Safeya Alblooshi, Beth Russell, Carlos Guedes
+    authors:
+      - name: "Juan Sierra"
+        orcid: https://orcid.org/0000-0002-2646-6488
+      - name: "Safeya Alblooshi"
+        orcid: https://orcid.org/0009-0004-9908-1580
+      - name: "Beth Russell"
+        orcid: https://orcid.org/0000-0002-1834-2960
+      - name: "Carlos Guedes"
+        orcid: https://orcid.org/0000-0002-1898-2183
     url: https://dl.acm.org/doi/10.1145/3625135.3625153
     abstract: |-
       We present a methodology and production workflow for the field recording of traditional music from the Arabian Gulf. The fact that this music is often performed by groups that are constantly moving in space requires that special strategies are put in place to capture the music while the performers are moving. We developed an approach that makes use of several recorders and microphones (including Ambisonic microphones) synchronized via timecode with video cameras (including 360º cameras) in order to capture the these performances. The goal for developing this methodology is to create high-quality, multi-modal digital collections of this music that can serve different purposes, ranging from the creation of perpetual archives to creating research corpora that can be used for Music Information Retrieval (MIR) tasks and multidisciplinary approaches for the analysis of this music. The production workflow establishes a path for storing and accessing all the data gathered in these sessions.
   - title: |-
       Aligning Incomplete Lyrics of Korean Folk Song Dataset using Whisper
-    authors: |-
-      Danbinaerin Han, Daewoong Kim, Dasaem Jeong
+    authors:
+      - name: "Danbinaerin Han"
+        orcid: https://orcid.org/0009-0008-1048-5466
+      - name: "Daewoong Kim"
+        orcid: https://orcid.org/0009-0004-0841-2314
+      - name: "Dasaem Jeong"
+        orcid: https://orcid.org/0009-0002-3655-1181
     url: https://dl.acm.org/doi/10.1145/3625135.3625154
     abstract: |-
       In this study, we introduce a method for time-alignment of lyrics in Korean folk song audio using a transformer encoder-decoder model specifically designed to utilize incomplete lyric data. We analyzed the characteristics of Korean folk song lyrics and found some discrepancies between the lyrics and the corresponding audio recordings. To address these challenges and maximize the use of existing transcriptions, we introduce RefWhisper. This is a variant of OpenAI’s Whisper and includes an extra encoder module and cross-attention layer, enabling the model to consult incomplete lyrics during the transcription process. The added cross-attention layer facilitates not only the alignment of the reference text with the predicted transcription but also with the audio. We make public the transcribed outcomes and timestamp data, which are aligned at both the sentence and word levels, for a corpus of 13,801 Korean folk songs.
   - title: |-
       An Algorithmic Approach to Automated Symbolic Transcription of Hindustani Vocals
-    authors: |-
-      Rhythm Jain, Claire Arthur
+    authors:
+      - name: "Rhythm Jain"
+        orcid: https://orcid.org/0009-0008-7786-5316
+      - name: "Claire Arthur"
+        orcid: https://orcid.org/0000-0002-5454-8384
     url: https://dl.acm.org/doi/10.1145/3625135.3625137
     abstract: |-
       Although a sizable body of digital music scholarship has focused on automatic transcription, it has almost exclusively been applied to Western music. In this paper, we outline an algorithm to automate the transcription of vocal performances of Hindustāni classical music (HCM) from fundamental frequency (f0) contours. The goal of our algorithm is to output a symbolic representation that reduces the performance to a high-level syntactic construct—akin to a musical score—for use in computational music analysis. In particular, our algorithm not only transcribes notes but also ornamentation, focusing on a subset of the most common ornamentation types in HCM. In order to evaluate the performance of our ornamentation detection and classification, we created a small dataset of Hindustāni ornamentation, labeled by Hindustāni music experts: Ornamentation in Hindustāni Vocals (OHV) dataset. To our knowledge, this is the first such dataset, and the first algorithm to attempt to automatically transcribe both notes and ornamentation from vocals. To evaluate our automatic music transcription algorithm we use the Saraga dataset \[39\] to evaluate stable notes (swara), and the OHV to evaluate ornamentation. Finally, we transcribe the entire aggregate output (notes and ornamentation) in humdrum format and make it available publicly. Remaining challenges for future research are discussed.
   - title: |-
       Computational Similarity of Portuguese Folk Melodies Using Hierarchical Reduction
-    authors: |-
-      Nádia Carvalho, Daniel Diogo, Gilberto Bernardes
+    authors:
+      - name: "Nádia Carvalho"
+        orcid: https://orcid.org/0000-0001-6882-5138
+      - name: "Daniel Diogo"
+        orcid: https://orcid.org/0009-0005-7255-7451
+      - name: "Gilberto Bernardes"
+        orcid: https://orcid.org/0000-0003-3884-2687
     url: https://dl.acm.org/doi/10.1145/3625135.3625152
     abstract: |-
       We propose a method for computing the similarity of symbolically-encoded Portuguese folk melodies. The main novelty of our method is the use of a preprocessing melodic reduction at multiple hierarchies to filter the surface of folk melodies according to 1) pitch stability, 2) interval salience, 3) beat strength, 4) durational accents, and 5) the linear combination of all former criteria. Based on the salience of each note event per criteria, we create three melodic reductions with three different levels of note retention. We assess the degree to which six folk music similarity measures at multiple reduction hierarchies comply with collected ground truth from experts in Portuguese folk music. The results show that SIAM combined with 75th quantile reduction using the combined or durational accents best models the similarity for a corpus of Portuguese folk melodies by capturing approximately 84-90% of the variance observed in ground truth annotations.
   - title: |-
       Incorporating symbolic representations of traditional music into a digital library
-    authors: |-
-      Magdalena Chudy, Arleta Nawrocka-Wysocka, Ewa Łukasik, Ewa Kuśmierek, Tomasz Parkoła
+    authors:
+      - name: "Magdalena Chudy"
+        orcid: https://orcid.org/0000-0003-2395-3886
+      - name: "Arleta Nawrocka-Wysocka"
+        orcid: https://orcid.org/0000-0002-7819-5165
+      - name: "Ewa Łukasik"
+        orcid: https://orcid.org/0000-0003-3948-1406
+      - name: "Ewa Kuśmierek"
+        orcid: https://orcid.org/0000-0003-2559-8291
+      - name: "Tomasz Parkoła"
+        orcid: https://orcid.org/0000-0003-4282-131X
     url: https://dl.acm.org/doi/10.1145/3625135.3625150
     abstract: |-
       This paper presents the outcomes of the recent development of the existing digital library dedicated to Polish traditional music, aimed at improving the discovery of musical heritage objects at the level of national and European digital content aggregators. Music transcriptions of over 4,000 traditional songs and melodies in symbolic formats (MIDI, MusicXML and MEI) were added to the library together with rich metadata adapted to Dublin Core standard. Both transcriptions and metadata were created by expert musicologists based on a published anthology book series on Polish traditional music. Subsequent library integration with the Polish metadata aggregator (Digital Libraries Federation) enabled improved folk tunes discovery thanks to implemented melodic-content search.
   - title: |-
       Attitudes of Music Scholars Towards Digital Musicology
-    authors: |-
-      Audrey Laplante, Jean-Sébastien Sauvé
+    authors:
+      - name: "Audrey Laplante"
+        orcid: https://orcid.org/0000-0002-0480-0182
+      - name: "Jean-Sébastien Sauvé"
+        orcid: https://orcid.org/0000-0002-9472-2965
     url: https://dl.acm.org/doi/10.1145/3625135.3625151
     abstract: |-
       Music research appears to lag behind other fields in adopting methods coming from the digital humanities (DH). Researchers have hypothesized that this might be due to the gulf that exists between music scholars who use computational approaches and those who do not, which makes it more difficult for the former group to publish their research and gain recognition for their research from their peers. If we are to invest efforts and resources in the development of tools for music analysis, it seems crucial to understand what could impede their adoption. In this paper, we present the preliminary results of an ongoing qualitative study based on five in-depth interviews with music scholars from Canadian universities. We focus more specifically on 1) how music scholars perceive and value digital musicology, and 2) how they think doing digital musicology could affect the career progression of a scholar. We found that the participants who did not do DH research expressed skepticism towards the validity and relevance of DH research in music, valued traditional approaches, and, to some extent, feared that DH methods could displace traditional methods. Participants from both sides of the gulf noted that doing DH research in music could sometimes constitute an advantage in the career progression of music scholars (e.g., for getting funding), but that it could also be detrimental in other circumstances (e.g., for getting published in renowned journals).
   - title: |-
       Understanding the needs of music editors in a digital world. Adding support for editorial markup to the mei-friend editor
-    authors: |-
-      Anna Plaksin
+    authors:
+      - name: "Anna Plaksin"
+        orcid: https://orcid.org/0000-0002-9969-0608
     url: https://dl.acm.org/doi/10.1145/3625135.3625149
     abstract: |-
       The mei-friend editor aims to address the challenges faced in the "last mile" of preparing MEI encodings, specifically the conversion and correction of the encodings through a user-friendly interface that allows users to manipulate the MEI encoding through an interactive rendering display. To complement these functions, various tools for enriching encodings with annotations and markup are currently under further development, allowing for the creation of high-quality digital resources and digital music editions. The goal is to increase the users’ abilities to manipulate the encoding based on selections within the visual rendering of the score. However, the complexity of adding support for editorial markup in MEI requires careful consideration of technical possibilities and project needs. This paper explores the needs of music editors based on user-centred approaches to understand the challenges of UI design and bridge the gap between user goals and technological systems. By considering the people, activities, contexts, and technologies involved in digital music editing, the aim is to develop a tool that enhances the creation of digital music editions while accommodating the complexities and requirements of the musicological research community. Interviews conducted with music editors as prospective users provided valuable insights into their work, informing the development process.
   - title: |-
       The “OpenScore String Quartet” Corpus
-    authors: |-
-      Mark Gotham, Maureen Redbond, Bruno Bower, Peter Jonas
+    authors:
+      - name: "Mark Gotham"
+        orcid: https://orcid.org/0000-0003-0722-3074
+      - name: "Maureen Redbond"
+        orcid: https://orcid.org/0009-0007-9134-0156
+      - name: "Bruno Bower"
+        orcid: https://orcid.org/0000-0002-3359-6520
+      - name: "Peter Jonas"
+        orcid: https://orcid.org/0000-0001-8428-3965
     url: https://dl.acm.org/doi/10.1145/3625135.3625155
     abstract: |-
       The “OpenScore String Quartet” Corpus is a new dataset of historic works for string quartets, encoded by a dedicated team of volunteers, and released freely for all use cases (CC0). In creating this corpus, we built on the experience amassed during the ‘OpenScore Lieder Corpus’ (Gotham and Jonas, MEC 2021), however, the quartets presented some additional challenges including the need for more significant editorial intervention. Here we report on the size and contents of the corpus (more than 100 full quartets by over 40 composers), we discuss the editorial-musicological aspects of producing modern playing scores from ambiguous or incomplete source material, and we suggest some prospective use cases for this dataset in music information retrieval (MIR).
   - title: |-
       Sounding Out Reconstruction Error-Based Evaluation of Generative Models of Expressive Performance
-    authors: |-
-      Silvan David Peter, Carlos Eduardo Cancino-Chacón, Emmanouil Karystinaios, Gerhard Widmer
+    authors:
+      - name: "Silvan David Peter"
+        orcid: https://orcid.org/0009-0000-8328-291X
+      - name: "Carlos Eduardo Cancino-Chacón"
+        orcid: https://orcid.org/0000-0001-5770-7005
+      - name: "Emmanouil Karystinaios"
+        orcid: https://orcid.org/0000-0001-9354-8953
+      - name: "Gerhard Widmer"
+        orcid: https://orcid.org/0000-0003-3531-1282
     url: https://dl.acm.org/doi/10.1145/3625135.3625141
     abstract: |-
       Generative models of expressive piano performance are usually assessed by comparing their predictions to a reference human performance. A generative algorithm is taken to be better than competing ones if it produces performances that are closer to a human reference performance. However, expert human performers can (and do) interpret music in different ways, making for different possible references, and quantitative closeness is not necessarily aligned with perceptual similarity, raising concerns about the validity of this evaluation approach. In this work, we present a number of experiments that shed light on this problem. Using precisely measured high-quality performances of classical piano music, we carry out a listening test indicating that listeners can sometimes perceive subtle performance difference that go unnoticed under quantitative evaluation. We further present tests that indicate that such evaluation frameworks show a lot of variability in reliability and validity across different reference performances and pieces. We discuss these results and their implications for quantitative evaluation, and hope to foster a critical appreciation of the uncertainties involved in quantitative assessments of such performances within the wider music information retrieval (MIR) community.
   - title: |-
       MonodiKit: A data model and toolkit for medieval monophonic chant
-    authors: |-
-      Tim Eipert, Fabian C. Moss
+    authors:
+      - name: "Tim Eipert"
+        orcid: https://orcid.org/0009-0000-3967-0827
+      - name: "Fabian C. Moss"
+        orcid: https://orcid.org/0000-0001-9377-2066
     url: https://dl.acm.org/doi/10.1145/3625135.3625145
     abstract: |-
       We present MonodiKit, a Python library for the analysis and processing of medieval chant documents. While MonodiKit was designed specifically for working with data in the monodi+ data format as edited by the Corpus Monodicum project, its comprehensive set of tools and classes offers a wide range of functionalities, such as parsing and processing of chant documents, exploring their hierarchical structure, managing metadata, generating musical notation, and extracting relevant information. The library thus enables researchers and scholars to conduct in-depth computational analyses of the chants, in particular by providing a basic interface to the more common MEI format. This paper introduces the key features of MonodiKit, presents its design and implementation, and presents a case study demonstrating its capabilities as an interface for corpus studies of medieval chant.
   - title: |-
       Text boundaries do not provide a better segmentation of Gregorian antiphons
-    authors: |-
-      Vojtěch Lanz, Jan Hajič
+    authors:
+      - name: "Vojtěch Lanz"
+        orcid: https://orcid.org/0009-0001-5742-0984
+      - name: "Jan Hajič"
+        orcid: https://orcid.org/0000-0002-9207-567X
     url: https://dl.acm.org/doi/10.1145/3625135.3625143
     abstract: |-
       It has been previously proposed that syllable and word boundaries in Gregorian chant texts can be used to segment chant melodies in a more meaningful way than segmentation methods that do not take textual information into account, based on how accurately the mode of a melody can be determined from the presence of such melodic segments. This was evidenced by empirical measurements on antiphons and responsories with fully transcribed melodies available from the Cantus database. We show that for antiphons, however, this result does not hold, as in these experiments, differentiae were not removed from the transcribed melodies. With appropriate data cleaning, the modality of a melody can be determined from segments that ignore textual boundaries just as accurately, and the resulting classification scores are not significantly better than those obtained from pitch profiles. Thus, while the idea is clearly attractive, there is currently no reason to suspect that textual boundaries lead to a more meaningful segmentation of chant melodies.
   - title: |-
       Exploring early vocal music and its lute arrangements: Using F-TEMPO as a musicological tool
-    authors: |-
-      Tim Crawford, David Lewis, Alastair Porter
+    authors:
+      - name: "Tim Crawford"
+        orcid: https://orcid.org/0000-0003-3906-9251
+      - name: "David Lewis"
+        orcid: https://orcid.org/0000-0003-4151-0499
+      - name: "Alastair Porter"
+        orcid: https://orcid.org/0000-0001-8259-6028
     url: https://dl.acm.org/doi/10.1145/3625135.3625142
     abstract: |-
       In its earliest state, F-TEMPO (Full-Text searching of Early Music Prints Online) enabled searching in the musical content of about 30,000 page-images of early printed music from the British Library’s Early Music Online collection (GB-Lbl). The images were processed using the Optical Music Recognition (OMR) program, Aruspix, whose output is saved in the MEI (Music Encoding Initiative) format. To enable fast searches of the MEI, we adopted an indexing strategy that is both scalable and substantially robust to the inevitable errors in the process. In this paper we show how searches using these indexes may be used as a first step in two useful musicological tasks without exhaustively processing the full encodings. The F-TEMPO resource has subsequently been augmented to about 500,000 images including a large number from the Bavarian State Library in Munich (D-Mbs), and other libraries (D-Bsb, PL-Wn and F-Pn). Most recently, a new and more robust system architecture is in development, together with a new interface conforming better to modern web standards. The simple, yet robust, indexing method we use can be applied to scores encoded in any format from which strings of pitches each corresponding to a voice or instrument in the score can be derived. In addition to page-images, in its current form F-TEMPO now includes a collection of over 10,000 scores encoded in MusicXML, largely of early music, from the online Choral Public Domain Library (CPDL). To show the potential for F-TEMPO as a tool for musicologists to explore the full-text content of the collections, we look at two simple tasks: (a) finding pages which contain similar music to a given query page; and (b), given a query representing an approximation to the highest-sounding voice from a lute arrangement of a popular vocal item from the 16th century, finding a likely vocal model within the F-TEMPO index.
   - title: |-
       Visual presentation and exploration of musical corpora: Case Study: Oskar Kolberg's Opera Omnia
-    authors: |-
-      Anna Maria Matuszewska
+    authors:
+      - name: "Anna Maria Matuszewska"
+        orcid: https://orcid.org/0000-0002-3832-855X
     url: https://dl.acm.org/doi/10.1145/3625135.3625148
     abstract: |-
       Extensive musical collections are growing with increasing momentum, and there are progressively more digital tools for analysing musical corpora. These tools visualize statistical information in diagrams, simplifying the analysis. This kind of data presentation is effective both for analysing single pieces of music and looking for trends for an entire collection. Increasingly, authors of digital collections, are also developing interfaces that allow viewing individual works in user-friendly analytical interfaces. However, interfaces that allow intuitive browsing of musical collections and comparison of its subsets are still rare. Accordingly, this paper proposes a methodology for working with musical data that is inspired by diagrammatic reasoning elaborated by Charles Sanders Peirce. The goal of the project is to develop a method that would enable researchers, especially those not associated with the creation of the selected corpus, to explore its characteristics quickly and without requiring theoretical preparation, classify its subsets, and detail the characteristics of individual compositions. The proposed interactive diagrammatic method for viewing and analysing musical data has been implemented on analytical dashboards in Tableau Public. Each dashboard contains a collection of diagrams presenting the results of computer-based music analysis of rhythm or melody of tunes from different perspectives.
   - title: |-
       Cross-Corpus Melodic Similarity For Enriching Archival Collections
-    authors: |-
-      Peter Van Kranenburg, Eoin Kearns
+    authors:
+      - name: "Peter Van Kranenburg"
+        orcid: https://orcid.org/0000-0002-9760-2424
+      - name: "Eoin Kearns"
+        orcid: https://orcid.org/0009-0003-7472-700X
     url: https://dl.acm.org/doi/10.1145/3625135.3625139
     abstract: |-
       We present initial results of interlinking several large tune collections. This is achieved through the use of a similarity measure algorithm to create ranked lists and to find highly similar pairs between collections. These pairs can reveal previously unknown links between melodies, allowing for archival enrichment and metadata correction. They can also establish connections between culturally distinct music collections, and allow for a broader understanding of musical heritage. We provide examples of how this algorithm has resulted in corrections and additions to the Dutch Song Database.
   - title: |-
       The ‘Measure Map’: an inter-operable standard for aligning symbolic music
-    authors: |-
-      Mark Gotham, Johannes Hentschel, Louis Couturier, Nathan Dykeaylen, Martin Rohrmeier, Mathieu Giraud
+    authors:
+      - name: "Mark Gotham"
+        orcid: https://orcid.org/0000-0003-0722-3074
+      - name: "Johannes Hentschel"
+        orcid: https://orcid.org/0000-0002-1986-9545
+      - name: "Louis Couturier"
+        orcid: https://orcid.org/0009-0000-5226-9157
+      - name: "Nathan Dykeaylen"
+        orcid: https://orcid.org/0009-0008-9521-7558
+      - name: "Martin Rohrmeier"
+        orcid: https://orcid.org/0000-0002-4323-7257
+      - name: "Mathieu Giraud"
+        orcid: https://orcid.org/0000-0003-2741-8047
     url: https://dl.acm.org/doi/10.1145/3625135.3625136
     abstract: |-
       Aligning versions of the same source material has been a persistent challenge in the field of digital libraries for musicology, and a barrier to progress. The growing number of publicly accessible symbolic datasets (of scores, analyses, and more) now increasingly cover multiple versions of the same works. As creators/curators/representatives of many such datasets and encoding standards, we came together in this project to coordinate platform-neutral interoperabilility for combining and comparing different sources, reliably and automatically. Here, we outline the main challenges and propose solutions centred on the ‘measure map’: a lightweight format for representing symbolic bar information alone. We offer new code for producing this representation from various formats, diagnosing differences, and even solving for those differences by modifying sources in-place. While we cannot solve for every possible discrepancy, we do provide corpus-scale demonstration; and while we focus on symbolic data, we consider the measure map also a useful basis for aligning audio, manuscripts and any source for which bar-relative location data provides a useful point of reference.
   - title: |-
       Designing a Spatial Hypermedia Musical “Lab Notebook” to Support Ethnomusicology Research
-    authors: |-
-      Sally Jo Cunningham, Daniel B. Sharp, David Bainbridge
+    authors:
+      - name: "Sally Jo Cunningham"
+        orcid: https://orcid.org/0000-0002-8784-8957
+      - name: "Daniel B. Sharp"
+        orcid: https://orcid.org/0009-0007-9346-8639
+      - name: "David Bainbridge"
+        orcid: https://orcid.org/0000-0002-0603-5728
     url: https://dl.acm.org/doi/10.1145/3625135.3625138
     abstract: |-
       Digital technology most commonly used in ethnomusicology research consists of: audio/video files, as typically the only available representations of the music; audio players of varying levels of sophistication to explore nuances in the captured soundscape; and word/text processors to refine the insights gained and to communicate the research. However, these are poorly connected, and it is up to the individual researcher to manage these disparate tools and digital artifacts in their research process. Through a collaborative design process (co-design), two computer scientists and one ethnomusicologist are working together to design a “lab notebook” for ethnomusicology research that utilizes a spatial hypermedia framework to provide a unified work research environment. This paper focuses specifically on how this framework can support a workflow for a close listening of an audio file, which used over time has the potential to grow, we posit, into a personal digital library of content.
   - title: |-
       Listen Here! A Web-native digital musicology environment for machine-assisted close listening
-    authors: |-
-      David M. Weigl, Chanda VanderHart, Delilah Rammler, Matthäus Pescoller, Werner Goebl
+    authors:
+      - name: "David M. Weigl"
+        orcid: https://orcid.org/0000-0003-1502-1528
+      - name: "Chanda VanderHart"
+        orcid: https://orcid.org/0000-0002-2055-273X
+      - name: "Delilah Rammler"
+        orcid: https://orcid.org/0009-0004-4719-4612
+      - name: "Matthäus Pescoller"
+        orcid: https://orcid.org/0009-0002-3075-309X
+      - name: "Werner Goebl"
+        orcid: https://orcid.org/0000-0002-1722-0718
     url: https://dl.acm.org/doi/10.1145/3625135.3625144
     abstract: |-
       Close listening is a mainstay of the musicological study of performance recordings, but paying focused, critical attention carries high cognitive overhead, making the application of this approach difficult when dealing with large corpora. In Signature Sound Vienna, a project investigating the Vienna Philharmonic Orchestra’s New Year’s Concert series by means of collected concert recordings and associated information, we have developed a Web-native digital musicology environment to help address this issue. We apply the Music Annotation Ontology, recently proposed in the literature, to capture linked data annotations on abstracted representations of music objects. For the first time, this approach is applied to information in both encoded score and recorded audio modalities, using an extended version of the mei-friend music encoding editor, and the Listen Here close-listening tool newly developed for this purpose. Together, this environment enables scholars to annotate digital music scores and immediately access the corresponding playback positions in collections of performance recordings. All tools are semantic Web applications, applying the Web-native Solid platform for social linked data for authentication and user-controlled data storage. The architecture integrates the different tools on the data level, permitting the future addition of further externally-developed tooling. Here, we motivate the developed environment within our research context, detail its implementation, and report on experiences applying the tooling within our music scholarship.
   - title: |-
       Collaborative Musicology: Designing a Digital Library of Musical Events Ephemera
-    authors: |-
-      David Bainbridge, Rachel Cowgill, Frankie Perry, John Stephen Downie, Alan J. Dix, Michael B. Twidale
+    authors:
+      - name: "David Bainbridge"
+        orcid: https://orcid.org/0000-0002-0603-5728
+      - name: "Rachel Cowgill"
+        orcid: https://orcid.org/0000-0002-9835-4039
+      - name: "Frankie Perry"
+        orcid: https://orcid.org/0000-0001-6119-9189
+      - name: "John Stephen Downie"
+        orcid: https://orcid.org/0000-0001-9784-5090
+      - name: "Alan J. Dix"
+        orcid: https://orcid.org/0000-0002-5242-7693
+      - name: "Michael B. Twidale"
+        orcid: https://orcid.org/0000-0002-1486-7364
     url: https://dl.acm.org/doi/10.1145/3625135.3625147
     abstract: |-
       We explore the challenges and potential for collaborative musicological research in creating a Digital Library centred on musical ephemera relating to historical performances. Runs of concert programmes and season brochures, constituting a metadata-rich collection of highly formulaic homogeneous documents, are combined with related but extremely heterogeneous groups of documents (such as a contemporary musical dictionary, music society journal, composer directory, congress schedules) as well as scores, audio, and other archival materials located on external websites. We give an overview of the prototype, explain how we fused general-purpose open-source software toolkits and libraries to develop an image-based Digital Library with editable annotations and backing store enhanced with linked data, and conclude by observing how well engaging with these code-bases worked out in practice.
   - title: |-
       Connecting online early music libraries and musicological resources: Experiments in ergonomics in the Biblissima+ framework
-    authors: |-
-      David Fiala, Kevin Roger
+    authors:
+      - name: "David Fiala"
+        orcid: https://orcid.org/0000-0001-5497-1468
+      - name: "Kevin Roger"
+        orcid: https://orcid.org/0000-0003-1013-7978
     url: https://dl.acm.org/doi/10.1145/3625135.3625140
     abstract: |-
       The French research infrastructure for written heritage Biblissima started in 2012. It included in its second phase, from 2021 onwards, a subgroup focused on musical written heritage, which aims at enhancing the use and accessibility of music data in Biblissima's ecosystem and, more specifically, in its updated central web portal. This paper presents first results of this research group. It offers an overview of available online complementary resources pertaining to pre-1600 music and music books, an assessment of their technological and scientific possible interactions, and first experiments on ways of merging them into interconnected user interfaces based on the IIIF standards. An alignment algorithm has been developed for combining data on musical works and manuscripts available in DIAMM and online digitizations of the BnF. Methods for collecting more metadata on music manuscripts’ contents through the use of an AI classifier are then discussed.
