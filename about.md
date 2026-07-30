@@ -34,8 +34,8 @@ Since submission of full and short papers requires a significant investment of r
 
 DLfM is a conference of modest size, run each year by a core triumvirate of General Chair, Programme Chair, and Local Chair. DLfM operates a relatively unusual two-year period of service, where each year a new Programme Chair is appointed and guided by a General Chair, who was themself Programme Chair in the previous year. This arrangement is intended to provide reassurance to the new Programme Chair that institutional knowledge and experience is available and will be passed on; and to allow DLfM to support early career researchers as Programme Chairs.
 
-DLfM has a website, hosted at the University of Oxford, and available at: <https://dlfm.web.ox.ac.uk/>  
-The website includes an archive of past editions, including the CfPs and programmes. Editing access to this site is given to the Programme Chair and Proceedings Chair; it is expected this website will continue to host future editions of DLfM.
+<!-- DRAFT hosting statement, subject to committee approval — see docs/decisions-brief.md -->
+From 2014 to 2026, the DLfM website was hosted by the University of Oxford, at <https://dlfm.web.ox.ac.uk/>. It is now hosted by [RISM Digital](https://rism.digital/) at <https://dlfm.rism.digital/>, following a redesign contributed in kind by the Let's Encode! project. The site maintains an archive of past editions — their calls for papers, programmes, and proceedings — and is expected to continue hosting future editions of DLfM. Editing access is given to the Programme Chair and Proceedings Chair.
 
 ### General Chair
 

@@ -99,7 +99,6 @@ DLfM conforms to the usual conventions for publication ethics. For instance, we 
 
 ## Submission Link and Contact Email
 
-Conference website: [https://dlfm.web.ox.ac.uk/](https://dlfm.web.ox.ac.uk/)
 Submission link: [https://easychair.org/my/conference?conf=dlfm2025](https://easychair.org/my/conference?conf=dlfm2025)
 Contact email: [dlfm2025@easychair.org ](mailto:dlfm2025@easychair.org)
 
