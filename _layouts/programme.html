@@ -8,7 +8,10 @@ layout: default
 </header>
 <div class="wrap section">
   {%- assign prog = site.data.programme[ystr] -%}
-  {% if prog %}
+  {%- assign has_programme = false -%}
+  {%- if prog.sessions and prog.sessions.size > 0 -%}{%- assign has_programme = true -%}{%- endif -%}
+  {%- if prog.posters -%}{%- assign has_programme = true -%}{%- endif -%}
+  {% if has_programme %}
     {% assign show_time = false %}
     {% for s in prog.sessions %}{% for i in s.items %}{% if i.time and i.time != "" %}{% assign show_time = true %}{% endif %}{% endfor %}{% endfor %}
     {% if prog.date %}<p class="prog-date">{{ prog.date }}</p>{% endif %}
