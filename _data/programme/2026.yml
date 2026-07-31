@@ -29,9 +29,11 @@ sessions:
       - { type: long paper, time: "16:30", title: "A Timed Petri Net Model and Renderer for Typesetting Pre-Mensural Polyphony", authors: ["Joshua Stutter (Newcastle University, UK)"] }
       - { type: long paper, time: "17:00", title: "‘Building’ or ‘Bullshit’? AI-assisted Making and the EUYO Concert Explorer", authors: ["Chanda VanderHart (University for Continuing Education Krems, Austria)", "David Weigl (mdw – University of Music and Performing Arts Vienna, Austria)", "Werner Goebl (mdw – University of Music and Performing Arts Vienna, Austria)"] }
 
-# Posters — 10:30–11:00 & 15:30–16:00. Source italicised the Challenge-track entries.
+# Posters — 10:30–11:00 & 15:30–16:00. Challenge-track entries carry a chip
+# (the archived page italicised them instead).
 posters:
-  note: "Posters (Challenge track in italics), 10:30 - 11 am & 3:30 - 4pm"
+  note: "Posters, 10:30 - 11 am & 3:30 - 4pm"
+  challenge_label: Challenge track
   items:
     - { title: "Computational approaches to medieval polyphony: tools and workflows developed within REIMAGE", authors: ["Antonio Constenla (Haute école de musique de Genève-Neuchâtel, HES-SO)*", "Niels Berentsen (Haute école de musique de Genève-Neuchâtel, HES-SO)"] }
     - { title: "A Flexible System for Collecting and Organizing Ethnomusicological Research Metadata", authors: ["Ewa Łukasik (Institute of Computing Science, Poznan University of Technology)", "Arleta Nawrocka-Wysocka (Institute of Art, Polish Academy of Sciences)", "Magdalena Chudy (Institute of Art, Polish Academy of Sciences)*"] }

@@ -330,15 +330,30 @@ Two steps: upload the image, then list it.
       time: "10:30"
   posters:
     note: "Poster session:"                 # optional
+    challenge_label: "Sustainability challenge"   # optional; see below
     items:
       - title: "An online catalogue of French viola da gamba music"
         authors: "A. N. Other"
         pdf: /assets/2027/files/other-poster.pdf   # optional; upload the PDF first
+      - challenge: true                            # a challenge-track poster
+        title: "Keeping the lights on: sustaining a music encoding tool"
+        authors: "B. Ewe Tiful"
   ```
 
 - The `|-` after a label lets the text sit indented on the next line; keep that style
   for titles and names. Poster/paper PDFs are uploaded to `assets/<year>/files/`
   first (same "Upload files" method as logos).
+
+- **Marking "challenge" posters.** Some years run a themed *challenge track*
+  alongside the regular call (past examples: the *Unlocking Musicology*,
+  *TROMPA*, and *Software-sustainability* challenges). When only **some** posters
+  in a session belong to that track, add `challenge: true` to each of those
+  poster entries — they'll get a small coloured chip so readers can tell them
+  apart. Set `challenge_label:` once, on the `posters:` block, to name the track
+  (e.g. `"Software-sustainability challenge"`); if you leave it out, the chip
+  just reads "Challenge". You only need this when a session is **mixed** — if
+  *every* poster that year is a challenge poster, don't tag them individually;
+  just say so in the `note:` (e.g. `"Poster presentations — TROMPA Challenge"`).
 
 ### 5g. Add an extra page (Venue, Registration, Accommodation…)
 

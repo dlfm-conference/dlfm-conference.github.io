@@ -276,7 +276,12 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .paper-list { list-style: none; padding: 0; max-width: var(--measure); }
 .paper-list li { padding: 1rem 0; border-bottom: 1px solid var(--rule); }
 .paper-list .title { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; }
-.paper-list .title.poster-challenge { font-style: italic; }
+/* Challenge posters carry a visible chip (reusing the .prog-type--challenge
+   colours) instead of italics, so the distinction survives for screen readers
+   and isn't lost at a glance. Case is left as-authored — challenge names can be
+   long — and the chip wraps onto its own line on narrow screens. */
+.paper-list .title .poster-badge { text-transform: none; letter-spacing: 0.01em;
+  font-size: 0.62rem; margin-left: 0.15rem; margin-right: 0; white-space: nowrap; }
 .paper-list .authors { color: var(--ink-soft); }
 /* Author names linked to their ORCID iD: read as part of the author line
    (soft ink), with a quiet dotted underline that only warms up on hover. */

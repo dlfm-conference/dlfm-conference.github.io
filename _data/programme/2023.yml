@@ -203,6 +203,10 @@ sessions:
 posters:
   note: |-
     Poster presentations (13:20-14:00 and 15:30-16:10)
+  # Badge text for posters flagged `challenge: true` below. This year the
+  # challenge submissions formed a "Software-sustainability challenge" track,
+  # shown as a chip on the three posters concerned (as in the archived page).
+  challenge_label: Software-sustainability challenge
   items:
     - title: |-
         End-to-End Loading of New Music Libraries to F-Tempo via IIIF
@@ -254,17 +258,20 @@ posters:
       authors: |-
         Tim Eipert and Fabian C. Moss
       pdf: /assets/2023/files/poster2023_eipert_communities.pdf
-    - title: |-
+    - challenge: true
+      title: |-
         ECOLM and Lute Tablature
       authors: |-
         Chris Cannam, David Lewis, and Tim Crawford
       pdf: /assets/2023/files/poster2023_cannam_sustainability.pdf
-    - title: |-
+    - challenge: true
+      title: |-
         Can Music Libraries Withstand the Diversity of Music Resources?
       authors: |-
         Shintaro Seki
       pdf: /assets/2023/files/poster2023_shintaro_sustainability.pdf
-    - title: |-
+    - challenge: true
+      title: |-
         Sustainability Challenges for the MerMEId
       authors: |-
         Peter Stadler and Daniel Jettka

@@ -64,10 +64,11 @@ layout: default
     <section class="prog-session" aria-labelledby="posters">
       <h2 id="posters">Posters<a class="to-top" href="#programme-top" aria-label="Back to top" title="Back to top">↑</a></h2>
       {% if prog.posters.note %}<p class="prog-chair">{{ prog.posters.note }}</p>{% endif %}
+      {% assign challenge_label = prog.posters.challenge_label | default: "Challenge" %}
       <ul class="paper-list">
         {% for p in prog.posters.items %}
         <li>
-          <div class="title{% if p.challenge %} poster-challenge{% endif %}">{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+          <div class="title">{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}{% if p.challenge %} <span class="prog-type prog-type--challenge poster-badge">{{ challenge_label }}</span>{% endif %}</div>
           {% if p.authors %}<div class="authors">{% if p.authors.first %}{{ p.authors | join: ", " }}{% else %}{{ p.authors }}{% endif %}</div>{% endif %}
         </li>
         {% endfor %}
