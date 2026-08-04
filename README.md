@@ -477,6 +477,9 @@ chair task.
   the file, compare against the templates above, and fix the indentation.
 - **A word disappeared** → if it looked like `<a tag>`, wrap it in backticks
   (`` `<a tag>` ``) and it'll come back.
+- **Something has gone wrong and you're not sure what changed** → If you are unable to fix the problem using the above hints, stop and contact the Steering Committee / site maintainer. Normally, the git history can be used to restore the site to any previous state. Even if the history as somehow been rewritten (very unlikely but not impossible to achieve accidentally), a known-good **checkpoint** is saved automatically after each rollover, ACM-confirm,
+  and proceedings-publish, so a maintainer can restore the site to its last complete,
+  correct state. 
 
 **Who to ask.** For anything that needs the "machinery" — adding a brand-new menu
 item, harvesting the verbatim abstracts from ACM, making the fidelity check go green

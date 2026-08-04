@@ -1,0 +1,59 @@
+name: Checkpoint release
+
+# Cuts a named, restorable checkpoint (git tag + GitHub Release) whenever a
+# LIFECYCLE pull request is merged — rollover, confirm-ACM, or publish-proceedings.
+# Each is a known-good "year boundary": at rollover the outgoing year is complete,
+# and confirm-ACM / publish-proceedings mark the current year's later milestones.
+# If an edit later goes wrong, a maintainer can restore the site to the last
+# checkpoint. Fully automatic — nobody runs anything; ordinary content-edit PRs are
+# ignored (the job only fires for the three lifecycle branch names).
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  checkpoint:
+    # Only for MERGED lifecycle PRs (branch names are fixed by the lifecycle Actions).
+    if: >
+      github.event.pull_request.merged == true &&
+      (startsWith(github.event.pull_request.head.ref, 'rollover/') ||
+       startsWith(github.event.pull_request.head.ref, 'acm-confirm/') ||
+       startsWith(github.event.pull_request.head.ref, 'publish-proceedings/'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Derive checkpoint name from the merged branch
+        id: name
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          stage="${HEAD_REF%%/*}"      # e.g. "rollover"
+          year="${HEAD_REF##*/}"       # e.g. "2027"
+          case "$stage" in
+            rollover)            label="rollover";      desc="rollover to DLfM $year";;
+            acm-confirm)         label="acm-confirmed"; desc="ACM ICPS affiliation confirmed for DLfM $year";;
+            publish-proceedings) label="proceedings";   desc="DLfM $year proceedings published";;
+            *)                   echo "unexpected stage: $stage"; exit 1;;
+          esac
+          echo "tag=${year}-${label}" >> "$GITHUB_OUTPUT"
+          echo "desc=$desc" >> "$GITHUB_OUTPUT"
+
+      - name: Create the checkpoint release (idempotent)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ steps.name.outputs.tag }}
+          DESC: ${{ steps.name.outputs.desc }}
+          SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists — skipping (idempotent)."
+            exit 0
+          fi
+          gh release create "$TAG" \
+            --target "$SHA" \
+            --title "$TAG" \
+            --notes "Automatic checkpoint after $DESC (PR #$PR). A known-good restore point; recovery is a maintainer task."
