@@ -1,8 +1,7 @@
 # The DLfM conference website
 
-This repository **is** the website for the International Conference on Digital
-Libraries for Musicology (DLfM) — every edition from 2014 onward, plus the current
-year. The site is published automatically by GitHub: whatever is approved here
+This repository houses the website for the International Conference on Digital
+Libraries for Musicology (DLfM). The site is published automatically by GitHub: whatever you save here
 appears at the live address a minute or two later. You do **not** need to install
 anything, and you do **not** need to know how to program. Everything below is done
 through the GitHub website in your browser.
@@ -11,10 +10,6 @@ The rest of this page is a **guide for the conference chairs** who look after th
 site from year to year — the General, Programme, Proceedings, and Local chairs. It
 assumes no technical background. If you have never used GitHub before, start at
 [How this works](#2-how-this-works-a-five-minute-mental-model) and read in order.
-
-> **The one golden rule:** nothing you do here goes live until you **review and
-> "Merge"** it. You can always look before you leap, and you can always undo. It is
-> very hard to break anything permanently.
 
 ---
 
@@ -43,8 +38,6 @@ You need two things:
    (edit) icon** on files, you have the access you need. If not, ask the Steering
    Committee to add you.
 
-That's it. You never install anything, never use a "command line", and never work
-on your own computer's copy of the files.
 
 ---
 
@@ -71,24 +64,34 @@ You only ever do **two kinds of task**:
 |---|---|
 | **Repository** ("repo") | This whole project — all the files that make up the website. |
 | **Commit** | One saved change (GitHub records who changed what, and when). |
-| **Branch** | A private draft copy of the files where a change is prepared, so the live site is untouched until you're ready. |
+| **Branch** | A draft copy of the files where a change is prepared, so the live site is untouched until you're ready. |
 | **Pull Request** ("PR") | A proposed change, shown as a tidy before/after, waiting for you to **review** and **Merge**. Think "change waiting for the green light." |
 | **Merge** | Clicking the button that says "yes, apply this change." **This is the moment it goes live.** |
 | **Action / workflow** | An automation you can run from the **Actions** tab. |
 
-### The shape of every change
+### How a change reaches the site
 
-Whether you run an Action or edit a file, the pattern is the same:
+There are two paths, depending on what you're doing:
 
-1. A **Pull Request** is created — a proposed change on its own branch. The live
-   site is **not** affected yet.
-2. You **review** it — GitHub shows you exactly what would change ("Files changed").
-3. An automatic **check** runs (the "Content fidelity" check — see [Section 7](#7-the-automatic-content-fidelity-check)).
-4. You click **"Merge pull request"** → the change goes live within a minute or two.
-5. You click **"Delete branch"** to tidy up (optional; safe).
+**A. Editing a file for your current edition — the everyday case.** You edit in the
+browser and **save ("commit") straight to the live site**; your change appears a
+minute or two later. There is no separate review step, so re-read your edit before
+saving. Made a mistake? Edit the file again — that's the fix.
 
-If you decide a proposed change is wrong, you simply **don't merge it** — click
-**"Close pull request"** instead and nothing happens to the live site.
+**B. Running an Action (or any change you want reviewed first).** The change is
+prepared as a **Pull Request** — a proposed change on its own branch, with the live
+site untouched — and you:
+
+1. **review** it — GitHub shows exactly what would change ("Files changed");
+2. see the automatic **check** run (the "Content fidelity" check — see [Section 7](#7-the-automatic-content-fidelity-check));
+3. click **"Merge pull request"** → it goes live within a minute or two;
+4. click **"Delete branch"** to tidy up (optional; safe).
+
+If a proposed change is wrong, don't merge it — click **"Close pull request"** and
+nothing happens to the live site.
+
+You almost never need to touch a **past** edition. If you spot a problem
+in one, flag it to the Steering Committee rather than editing it ([Section 8](#8-if-something-goes-wrong-and-who-to-ask)).
 
 ---
 
@@ -197,11 +200,13 @@ the ACM Digital Library**.
 2. Click the file to open it, then click the **pencil ✏️ icon** ("Edit this file")
    near the top right.
 3. Make your change in the text box.
-4. Scroll down to **"Commit changes…"**. Choose **"Create a new branch… and start a
-   pull request"** (recommended — it lets the safety check run and lets you review),
-   then **"Propose changes"**.
-5. On the next screen click **"Create pull request"**, review, and **Merge** — exactly
-   like [Section 4](#4-running-an-automation-action), steps 7–9.
+4. Scroll down to the **"Commit changes…"** box. For your **current edition**, leave it
+   on **"Commit directly to the `main` branch"** and click **"Commit changes"** — your
+   edit is live a minute or two later.
+5. *(Optional — for a change you'd like reviewed first)* instead pick **"Create a new
+   branch… and start a pull request"** → **"Propose changes"** → **"Create pull
+   request"**, then review and **Merge** as in [Section 4](#4-running-an-automation-action) (steps 7–9). This is
+   the safer route whenever you're unsure, because it allows you to check over your changes *before* they go live.
 
 > **Two formatting rules that matter.** In `.yml` (data) files, **indent with spaces,
 > never tabs**, and keep the existing indentation exactly. In both `.md` and `.yml`,
@@ -213,13 +218,17 @@ the ACM Digital Library**.
 > `_includes/`, `tools/`, `.github/`, or `_import/` folders. Those run the site. If a
 > task seems to require it, that's a job for the site maintainer (see [Section 8](#8-if-something-goes-wrong-and-who-to-ask)).
 
+> **Stick to your own year.** You look after the **current** edition. You should not
+> edit earlier years — if something there needs fixing, flag it to the
+> Steering Committee ([Section 8](#8-if-something-goes-wrong-and-who-to-ask)) rather than changing it yourself.
+
 Throughout, replace `<year>` with the real year, e.g. `2027`.
 
 ### 5a. Edit the landing page text or news
 
 - **File:** `<year>/index.md`
-- The part below the `---` block at the top is ordinary Markdown: headings (`##`),
-  **bold**, [links](#), and bullet lists. The "news" items near the top are just a
+- The part below the `---` block at the top is [Markdown](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/): headings (`##`),
+  `**bold**` for **bold** text, `[link-text](https://example.org)` to place links, and bullet lists using `-`. The "news" items near the top are just a
   bullet list — add a new line to announce something.
 
 ### 5b. Add or edit the Call for Papers
@@ -236,9 +245,9 @@ Throughout, replace `<year>` with the real year, e.g. `2027`.
   ```yaml
   - year: 2027
     ordinal: "14th"
-    city: "Vienna, Austria"
-    dates: "Thursday 01 July 2027"
-    satellite: "A satellite event of IAML 2027"   # optional; delete the line if not applicable
+    city: "London, United Kingdom"
+    dates: "Thursday 17 September 2027"
+    satellite: "A satellite event of ISMIR 2027"   # optional; delete the line if not applicable
     pages: [call-for-papers, programme]
   ```
 
@@ -337,7 +346,7 @@ Two steps: upload the image, then list it.
         pdf: /assets/2027/files/other-poster.pdf   # optional; upload the PDF first
       - challenge: true                            # a challenge-track poster
         title: "Keeping the lights on: sustaining a music encoding tool"
-        authors: "B. Ewe Tiful"
+        authors: "D. L. Effem"
   ```
 
 - The `|-` after a label lets the text sit indented on the next line; keep that style
@@ -379,13 +388,13 @@ These appear in the top navigation automatically once activated. Two steps:
    …your content here…
    ```
 
-2. **Activate it.** Edit `_data/editions.yml` and add the slug to that year's `pages:`
+2. **Activate it.** Edit `_data/editions.yml` and add  to that year's `pages:`
    list — e.g. change `pages: [call-for-papers, programme]` to
    `pages: [call-for-papers, programme, venue]`. The **Venue** link now shows in the menu.
 
 **Category B — any other page (e.g. Accommodation & Transport).**
 The page works fine, but it will **not** get a top-menu link (the menu is fixed). Do
-steps 1–2 above using your own slug (e.g. `local` with `title: Accommodation and
+steps 1–2 above using your own label (e.g. `local` with `title: Accommodation and
 Transportation`), then **link to it from your landing page** (`<year>/index.md`) so
 visitors can find it, for example:
 
@@ -419,12 +428,10 @@ inline is a faithful, deliberate choice, not an error.
 
 **How the abstracts get added (the second step).** By the time proceedings publish,
 they are also live on the ACM DL, so the verbatim abstracts become available there.
-Adding them is a small **technical** task (it needs a signed-in browser session to
-read ACM). **It is not a chair task:** ask the **Steering Committee** to arrange the
-abstract harvest. A gap of a day or two between the page going live and the abstracts
-appearing is completely normal — the page is faithful and citable in the meantime.
+Adding them is a small **technical** task. **It is not a chair task:** ask the **site maintainer** to arrange the
+abstract harvest. 
 
-**The "ACM ICPS" line through the year.** After a rollover it's off. *Confirm ACM
+**The "ACM ICPS" line through the year.** When a new year is started through the rollover action, the ACM ICPS line is not shown at first. *Confirm ACM
 ICPS* ([4b](#4b-confirm-acm-icps-affiliation)) switches it on (linking to the general
 ACM DLfM page). *Publish proceedings* ([4c](#4c-publish-proceedings)) then repoints it
 at the year's own proceedings page and adds the "Proceedings" menu link. You don't
@@ -434,27 +441,24 @@ manage this line by hand — the two Actions handle it.
 
 ## 7. The automatic "Content fidelity" check
 
-Every Pull Request runs a check called **"Content fidelity"**. Its job is to protect
-the **historical record**: the pages for the migrated editions **2014–2026** are
-compared, word for word, against a frozen copy of the original conference site, so an
-*accidental* change to history is caught. (Editions from 2027 onward were written
-fresh here and have no "original" to compare against, so the check simply doesn't
-apply to them — this is expected, not a gap.)
+A check called **"Content fidelity"** guards the **historical record** from when the site was hosted on Oxford's Mosaic platform: the pages for
+the migrated editions **2014–2026** are compared, word for word, against a frozen copy
+of the original conference site, so an *accidental* change to a past page is caught.
+(Editions from 2027 onward were written fresh here and have no "original" to compare
+against, so the check doesn't apply to them — expected, not a gap.) It runs both on
+proposed changes (Pull Requests) and on anything committed directly.
 
-Two things to know:
+- **A green tick ✓** — the migrated pages still match the record. Nothing to do.
+- **A red ✗** — some wording on a 2014–2026 page changed. Since you should be working
+  only on the **current** edition, a red ✗ almost always means an edit *accidentally*
+  touched an old page. Look at "Files changed": if it was a proposed change, don't
+  merge it; if you committed it directly, undo it ([Section 8](#8-if-something-goes-wrong-and-who-to-ask)) — then flag the
+  old-year issue to the Steering Committee.
 
-- **A green tick ✓** means the migrated pages still match the record. Good.
-- **A red ✗** means some wording on a 2014–2026 page changed. **This check is advisory
-  — it does not block you from merging.** So:
-  - If you **didn't mean** to change an old year's wording, stop and look at "Files
-    changed" — you may have edited the wrong file. This is the check doing its job.
-  - If you **did mean** to change an old year's wording (say, to correct an error), it
-    is perfectly fine to **Merge anyway**. The red ✗ is just flagging that a historical
-    page changed. (If you want the check to go green again afterwards, that's a small
-    maintainer task — see [Section 8](#8-if-something-goes-wrong-and-who-to-ask).)
-
-The check never runs on future years, and it never stops you from doing legitimate
-work on the current edition.
+The check is **advisory** — it warns, it doesn't block — so it never gets in the way
+of legitimate work on the current edition (which it doesn't check anyway). Deliberate
+corrections to a past edition are a Steering-Committee / maintainer matter, not a
+chair task.
 
 ---
 
@@ -462,8 +466,12 @@ work on the current edition.
 
 - **A Pull Request looks wrong** → don't merge it. Click **"Close pull request"**.
   Nothing goes live. You can always start again.
-- **You merged something by mistake** → open the merged Pull Request, click
-  **"Revert"**, and merge the revert. That puts the site back. (Or ask the maintainer.)
+- **You made a bad direct edit (the everyday case)** → the simplest fix is to **edit
+  the file again** and correct it (or paste the previous text back). To undo a whole
+  change cleanly, open the file, click **"History"**, click the commit you want to
+  reverse, and use the **"Revert"** option — then commit that. (Or ask the maintainer.)
+- **You merged an Action or Pull Request by mistake** → open the merged Pull Request,
+  click **"Revert"**, and merge the revert. That puts the site back.
 - **A page looks broken after an edit** → it's almost always a YAML indentation slip
   (a tab instead of spaces, or a mis-aligned line) or a missing quotation mark. Re-open
   the file, compare against the templates above, and fix the indentation.
@@ -493,7 +501,7 @@ with the **site maintainer**.
 | Add an Accommodation (or other) page | Create the page + link it from the landing ([5g](#5g-add-an-extra-page-venue-registration-accommodation)) |
 | Turn on the "ACM ICPS" line | Action: **Confirm ACM ICPS affiliation** ([4b](#4b-confirm-acm-icps-affiliation)) |
 | Publish the proceedings list | Action: **Publish proceedings** (needs the ACM volume DOI) ([4c](#4c-publish-proceedings)) |
-| Get abstracts onto the proceedings page | Ask the Steering Committee ([6](#6-proceedings-and-abstracts)) |
+| Get abstracts onto the proceedings page | Ask the site maintainer ([6](#6-proceedings-and-abstracts)) |
 | Undo a merged change | Open the PR → **Revert** ([8](#8-if-something-goes-wrong-and-who-to-ask)) |
 
 ---
@@ -519,7 +527,5 @@ pins Jekyll 3.9).
   compares built page text against frozen captures in `_import/text/` for 2014–2026.
   It is intentionally **advisory** (branch `main` is unprotected) so intentional edits
   to historical pages are never blocked.
-- **Verbatim ACM abstracts** are added with `tools/proceedings_from_doi.py … --enrich`
-  (or a direct ACM fetch), which needs an authenticated browser session and so cannot
-  run in CI. Deeper technical and provenance notes are kept in the maintainers' local
-  working documents (not committed to this public repo).
+- **Verbatim ACM abstracts** are added with `tools/proceedings_from_doi.py … --enrich`, which needs an authenticated browser session and so cannot
+  run in CI. 
