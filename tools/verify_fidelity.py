@@ -25,6 +25,7 @@ Usage:
 Exit status is non-zero if any page fails (unless --report-only).
 """
 import argparse
+import html as html_entities
 import re
 import sys
 from collections import Counter
@@ -39,8 +40,12 @@ VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input",
 SLUG_ALIAS = {"accommodation-and-transportation": "local"}
 
 WORD_RE = re.compile(r"\w+", re.UNICODE)
-DOI_RE = re.compile(r"10\.\d{4,9}/[^\s)>\"']+")
-URL_RE = re.compile(r"https?://[^\s)>\"'\]]+")
+# Exclude "<" as well as ">": the legacy captures contain raw HTML, so a URL
+# written as link TEXT runs straight into its own closing tag
+# (…/bmvfhcdnxfty</a>). Without this the match keeps the "</a" and the link is
+# reported MISSING even though the built page has it.
+DOI_RE = re.compile(r"10\.\d{4,9}/[^\s)>\"'<]+")
+URL_RE = re.compile(r"https?://[^\s)>\"'\]<]+")
 WAYBACK_RE = re.compile(r"https?://web\.archive\.org/web/\d+/")
 
 
@@ -181,7 +186,10 @@ def check_page(year, slug, site, allow, strict_links):
         # compare scheme-insensitively (https vs http is not a fidelity issue)
         def noscheme(s):
             return s.replace("https://", "//").replace("http://", "//")
-        built_ns = noscheme(built_html)
+        # Unescape entities first: the built page renders "&" in a query string
+        # as "&amp;", so any URL with a parameter separator would otherwise never
+        # match and be reported MISSING even when it is present verbatim.
+        built_ns = noscheme(html_entities.unescape(built_html))
         missing_links = sorted(u for u in want if noscheme(u) not in built_ns)
         if missing_links:
             msg = "MISSING links/DOIs: " + ", ".join(missing_links)

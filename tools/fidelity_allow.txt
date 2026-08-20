@@ -44,7 +44,11 @@ a satellite event of
 2025/programme: dlfm seoul south korea time oral
 # 2026 programme: eyebrow country + table headers (Time/Presentation) + GT ": Papers"
 # caption + GT typo "Rance"->France; schedule shown in 24h vs source 12h am/pm.
-2026/programme: greece time presentation papers rance 9 pm 00 09 14 15 16 17
+# "italics": the archived page marked challenge-track posters by italicising them
+# ("Challenge track in italics"); we show a visible chip instead, so the word has
+# no counterpart in the built page. Latent until 2026 stops being current_year —
+# the gate exempts the current year, so this only surfaces after a rollover.
+2026/programme: greece time presentation papers rance 9 pm 00 09 14 15 16 17 italics
 # 2026 landing: our "Committee" section heading; old-CMS "Conference Website" label +
 # single-page "see TOPICS, below" nav dropped (topics now live on the CfP page).
 2026/landing: committee website see below
