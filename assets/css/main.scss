@@ -16,6 +16,8 @@
   --accent:       #1c5a63;   /* deep teal */
   --accent-warm:  #227a85;   /* brighter teal (hover) */
   --gold:         #b0842f;   /* sparing warm highlight */
+  --gold-deep:    #8a6420;   /* AA partner for --gold where gold is a GROUND:
+                                white on --gold is only 3.39:1, on this 5.35:1 */
   --footer-bg:    #2b2620;   /* grounding warm brown */
   --footer-ink:   #e9e2d3;
 
@@ -23,6 +25,12 @@
   --measure:   44rem;        /* comfortable reading column */
   --radius:    6px;
   --shadow:    0 6px 24px rgba(40, 32, 20, 0.12);
+
+  /* Height of the sticky .site-top unit, used by every scroll-margin-top
+     below. 76px = the bare header (.header-inner min-height). On archived
+     pages the archive bar sits under the header inside the same sticky unit,
+     so the fallback grows; nav.js then replaces both with a measured value. */
+  --sticky-h:  76px;
   --serif: "Spectral", Georgia, "Times New Roman", serif;
   --sans:  "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -70,8 +78,11 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 }
 
 /* ─── Header & navigation ───────────────────────────────────────────── */
+.site-top { position: sticky; top: 0; z-index: 40; }
+.is-archived { --sticky-h: 124px; }   /* header + archive bar (JS refines it) */
+
 .site-header {
-  position: sticky; top: 0; z-index: 40;
+  position: relative;
   background: color-mix(in srgb, var(--paper-card) 92%, transparent);
   backdrop-filter: saturate(1.1) blur(6px);
   border-bottom: 1px solid var(--rule);
@@ -113,6 +124,56 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .dropdown-city { display: block; margin-top: 0.2rem; font-size: 0.8rem; font-weight: 400; color: var(--ink-faint); }
 .dropdown-all { margin-top: 0.35rem; padding: 0.5rem 0.55rem 0.25rem; border-top: 1px solid var(--rule); }
 .dropdown-all a { font-weight: 600; color: var(--accent); }
+
+/* ─── Archive chrome (past-edition pages only) ──────────────────────── */
+/* Two presentations of one fact, chosen by width:
+     · wide  — the band below, inside the sticky unit, so it stays beside the
+               nav while reading and carries an explicit way back;
+     · small — the band would cost too much of the screen, so the header shows
+               a compact pill instead and the logo is the route out.
+   Both are rendered outside <main>, keeping tools/verify_fidelity.py clean. */
+.archive-bar { background: var(--gold-deep); color: #fff; }
+.archive-bar-inner {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.15rem 1.25rem;
+  padding-block: 0.5rem;
+  font-family: var(--sans); font-size: 0.86rem; line-height: 1.45;
+}
+.archive-bar-label { font-weight: 700; font-size: 0.72rem;
+  letter-spacing: 0.1em; text-transform: uppercase; }
+.archive-bar-what { margin: 0; }
+.archive-bar-what strong { font-weight: 600; }
+.archive-bar-exit {
+  margin-left: auto; white-space: nowrap;
+  background: #fff; color: var(--gold-deep); text-decoration: none;
+  font-weight: 600; border-radius: 999px; padding: 0.24rem 0.85rem;
+}
+/* Hover lifts the pill into the page's own colours — --band is the ground the
+   dropdown rows already use on hover, and --ink on --band is the hero's own
+   text pairing. Lightening (not darkening) is what keeps the pill legible as a
+   pill: a dark hover state sits only 3:1 from the brown band behind it, and the
+   accent teal only 1.46:1, which would make it dissolve into the bar. */
+.archive-bar-exit:hover, .archive-bar-exit:focus-visible {
+  background: var(--band); color: var(--ink); }
+
+/* Compact edition pill: sits between the logo and the burger, small screens
+   only. Shrinks with an ellipsis under pressure so the burger never wraps. */
+.nav-edition {
+  display: none;
+  flex: 0 1 auto; min-width: 0; margin-left: auto; align-self: center;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--sans); font-size: 0.68rem; font-weight: 600;
+  letter-spacing: 0.04em; line-height: 1.6;
+  color: var(--gold-deep);
+  background: color-mix(in srgb, var(--gold) 12%, var(--paper-card));
+  border: 1px solid var(--gold-deep);
+  border-radius: 999px; padding: 0.15rem 0.55rem;
+}
+.nav-edition-sep { opacity: 0.55; }
+
+/* Way out of the archive, as the first entry in the small-screen menu. Set off
+   from the rule below so it reads as a step OUT of the menu, not one of the
+   archived edition's own pages. Hidden on wide screens, where the band has it. */
+.nav-exit { display: none; }
 
 /* ─── Previous events archive page ──────────────────────────────────── */
 .edition-archive { list-style: none; padding: 0; margin: 0; max-width: var(--measure); }
@@ -160,11 +221,11 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .prose ul, .prose ol { padding-left: 1.3rem; }
 .prose li { margin-bottom: 0.35rem; }
 .prose li::marker { color: var(--accent); }
-.prose :is(h2, h3) { scroll-margin-top: 92px; }
+.prose :is(h2, h3) { scroll-margin-top: calc(var(--sticky-h) + 16px); }
 /* kramdown {:toc} rendered as a one-line jump bar (About page) */
 .prose #markdown-toc { list-style: none; margin: 0 0 2.5rem; padding: 0 0 1rem;
   border-bottom: 1px solid var(--rule); display: flex; flex-wrap: wrap; row-gap: 0.4rem;
-  font-family: var(--sans); font-size: 0.92rem; scroll-margin-top: 84px; }
+  font-family: var(--sans); font-size: 0.92rem; scroll-margin-top: calc(var(--sticky-h) + 8px); }
 .prose #markdown-toc li { margin: 0; }
 .prose #markdown-toc li::marker { content: ""; }
 .prose #markdown-toc a { color: var(--accent); text-decoration: none; font-weight: 500; }
@@ -236,8 +297,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .table-scroll { overflow-x: auto; }
 
 .prog-session { margin-bottom: 2.5rem; }
-.prog-session h2 { margin-bottom: 0.3rem; scroll-margin-top: 92px; }
-#programme-top { scroll-margin-top: 80px; }
+.prog-session h2 { margin-bottom: 0.3rem; scroll-margin-top: calc(var(--sticky-h) + 16px); }
+#programme-top { scroll-margin-top: calc(var(--sticky-h) + 4px); }
 .to-top { margin-left: 0.55rem; font-size: 0.62em; font-weight: 400; line-height: 1;
   color: var(--ink-faint); text-decoration: none; vertical-align: 0.18em;
   border: 1px solid var(--rule); border-radius: 999px; padding: 0.22em 0.42em; transition: color 0.15s, border-color 0.15s; }
@@ -308,7 +369,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .corrigendum a:hover { background: color-mix(in srgb, var(--gold) 28%, var(--paper-card)); }
 
 /* ─── Committee ─────────────────────────────────────────────────────── */
-.committee { border-top: 1px solid var(--rule); background: var(--paper-card); scroll-margin-top: 80px; }
+.committee { border-top: 1px solid var(--rule); background: var(--paper-card); scroll-margin-top: calc(var(--sticky-h) + 4px); }
 .chair-list { list-style: none; padding: 0; margin: 0 0 2rem;
   display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.25rem 2rem; }
 .chair-role { display: block; font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase;
@@ -347,6 +408,31 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 
 /* ─── Responsive ────────────────────────────────────────────────────── */
 @media (max-width: 820px) {
+  /* The band gives way to the header pill; the sticky unit is the header alone. */
+  .archive-bar { display: none; }
+  .is-archived { --sticky-h: 76px; }
+  .nav-edition { display: inline-block; }
+  /* Same treatment as the wide-screen archive band: solid brown, white text,
+     square corners — plus a hairline under it, so the break from the edition's
+     own pages is carried by both colour and rule. */
+  .nav-exit { display: block; margin-bottom: 0.7rem;
+    padding-bottom: 0.7rem; border-bottom: 1px solid var(--rule); }
+  .nav-exit a {
+    display: flex; align-items: center; gap: 0.4rem;
+    background: var(--gold-deep); color: #fff;
+    font-weight: 600; border: 0; padding: 0.55rem 0.9rem;
+  }
+  .nav-exit a:hover, .nav-exit a:focus-visible {
+    background: var(--ink); color: #fff; }
+  /* Logo + pill + burger on ONE line. A wrapping flex container splits lines
+     using the items' UNSHRUNK widths, so it drops the burger to a second row
+     rather than shrinking the pill — the pill's ellipsis never gets a chance.
+     nowrap leaves the pill as the only flexible item, so it absorbs the
+     pressure and truncates below ~375px instead of the header gaining a row. */
+  .header-inner { gap: 0.6rem; flex-wrap: nowrap; }
+  .nav-toggle { flex: none; }            /* never squash the tap target */
+  .nav-edition + .nav-toggle { margin-left: 0; }
+
   .nav-toggle {
     display: inline-flex; margin-left: auto; flex-direction: column; justify-content: center;
     width: 44px; height: 40px; background: none; border: 1px solid var(--rule); border-radius: var(--radius); cursor: pointer;

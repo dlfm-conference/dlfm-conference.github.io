@@ -1,0 +1,24 @@
+# ─── Registry of the optional per-edition pages ─────────────────────────────
+# `key` matches the entries in each edition's `pages:` list in editions.yml;
+# `label` is how that page is named in the UI.
+#
+# The ORDER here is the order the links appear, both in the header nav and on
+# /previous/. Keeping one list means a year's nav can be built from whatever
+# pages that edition actually has — 2014–2017 have proceedings only and simply
+# get no Programme link, while 2025 also offers Registration, Venue and Local
+# arrangements — without the two places drifting apart.
+#
+# Follows the shape of an edition's lifecycle: call for papers → programme →
+# proceedings, then the practical pages for attending.
+- key: call-for-papers
+  label: Call for Papers
+- key: programme
+  label: Programme
+- key: proceedings
+  label: Proceedings
+- key: registration
+  label: Registration
+- key: venue
+  label: Venue
+- key: local
+  label: Local arrangements

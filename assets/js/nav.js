@@ -47,6 +47,21 @@
     });
   }
 
+  // Publish the sticky header (+ archive bar) height as --sticky-h, so anchor
+  // targets clear it exactly instead of relying on a hard-coded guess. The CSS
+  // fallbacks are correct without this; measuring just keeps them honest when
+  // the bar wraps or the header grows.
+  var siteTop = document.querySelector('.site-top');
+  if (siteTop) {
+    var publishHeight = function () {
+      document.documentElement.style.setProperty(
+        '--sticky-h', Math.round(siteTop.getBoundingClientRect().height) + 'px');
+    };
+    publishHeight();
+    window.addEventListener('resize', publishHeight);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(publishHeight);
+  }
+
   document.addEventListener('click', function (e) {
     var inHeader = e.target.closest('.site-header');
     // close open submenu dropdowns on any outside click

@@ -19,3 +19,7 @@ __pycache__/
 
 # Local working notes (kept out of the public repo by convention)
 docs/
+
+# Design-review scratch pages: kept locally (they can be served via bin/serve
+# for reference) but deliberately not published. See docs/decisions-brief.md.
+review/

@@ -1,9 +1,18 @@
+{%- include edition-context.html -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}">
 {% include head.html %}
-<body>
+<body{% if is_archived %} class="is-archived"{% endif %}>
   <a class="skip-link" href="#content">Skip to content</a>
-  {% include site-header.html %}
+  {%- comment -%}
+    Header and archive bar stick together as one unit, so the bar stays beside
+    the nav rather than needing a magic offset matched to the header's height.
+    nav.js measures the unit and publishes it as --sticky-h for anchor offsets.
+  {%- endcomment -%}
+  <div class="site-top">
+    {% include site-header.html %}
+    {% include archive-bar.html %}
+  </div>
   <main id="content" class="site-main">
     {{ content }}
   </main>

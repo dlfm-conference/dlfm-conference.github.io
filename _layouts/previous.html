@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{%- assign labels = "programme:Programme,proceedings:Proceedings,call-for-papers:Call for Papers,registration:Registration,venue:Venue,local:Local arrangements" | split: "," -%}
 <header class="page-header wrap">
   <p class="eyebrow">Digital Libraries for Musicology</p>
   <h1>{{ page.title }}</h1>
@@ -16,13 +15,12 @@ layout: default
         <span class="edition-meta">{{ e.ordinal }} International {{ e.kind | default: "Conference" }}{% if e.city %} · {{ e.city }}{% endif %}{% if e.dates %} · {{ e.dates }}{% endif %}</span>
       </div>
       <ul class="edition-links">
-        {%- for pg in e.pages -%}
-        {%- assign lbl = pg -%}
-        {%- for pair in labels -%}
-          {%- assign kv = pair | split: ":" -%}
-          {%- if kv[0] == pg %}{% assign lbl = kv[1] %}{% endif -%}
-        {%- endfor -%}
-        <li><a href="{{ '/' | append: e.year | append: '/' | append: pg | append: '/' | relative_url }}">{{ lbl }}</a></li>
+        {%- comment -%}Labels and order come from _data/page_labels.yml, the same
+        registry the header nav uses, so the two can never disagree.{%- endcomment -%}
+        {%- for pg in site.data.page_labels -%}
+        {%- if e.pages contains pg.key %}
+        <li><a href="{{ '/' | append: e.year | append: '/' | append: pg.key | append: '/' | relative_url }}">{{ pg.label }}</a></li>
+        {%- endif -%}
         {%- endfor -%}
       </ul>
     </li>

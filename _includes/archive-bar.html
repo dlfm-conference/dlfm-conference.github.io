@@ -1,0 +1,24 @@
+{%- comment -%}
+  Archive context band — shown only on pages belonging to a PAST edition.
+
+  Rendered by _layouts/default.html between the header and <main>, inside the
+  sticky .site-top wrapper so it stays visible beside the nav while reading.
+  It must stay OUTSIDE <main>: tools/verify_fidelity.py compares the words
+  inside <main> against the frozen legacy capture and fails on anything added,
+  so chrome placed in the content flow would need allow-list entries on every
+  archived page (including the year token, which changes at each rollover).
+
+  Hidden below 820px, where the header carries a compact edition pill instead
+  (a sticky band would cost too much of a small screen). On those widths the
+  route to the current edition is the logo, which always points at "/".
+{%- endcomment -%}
+{%- include edition-context.html -%}
+{%- if is_archived %}
+<div class="archive-bar">
+  <div class="wrap archive-bar-inner">
+    <span class="archive-bar-label">Archive</span>
+    <p class="archive-bar-what">You are reading <strong>DLfM {{ archive_edition.year }}</strong>{% if archive_edition.city %} · {{ archive_edition.city }}{% endif %}{% if archive_edition.dates %} · {{ archive_edition.dates }}{% endif %}</p>
+    <a class="archive-bar-exit" href="{{ '/' | relative_url }}">Go to DLfM {{ site.current_year }} <span aria-hidden="true">→</span></a>
+  </div>
+</div>
+{%- endif -%}

@@ -1,0 +1,22 @@
+{%- comment -%}
+  Resolves the EDITION CONTEXT of the current page, for site chrome (header,
+  archive bar, body class). Content pages use resolve-edition.html instead —
+  that one also resolves the source page, and needs `role`.
+
+  Sets:
+    is_archived      — true when this page belongs to a past edition
+    archive_edition  — that edition's _data/editions.yml entry (only when archived)
+
+  A page belongs to a past edition when it declares a `year` in front matter
+  EARLIER than site.current_year. Root stubs (/proceedings/ etc.) declare no
+  year and co-render the current edition, so they are never archived; nor are
+  year-less pages such as /about/ and /previous/.
+
+  Strictly `<`, not `!=`: a chair may hand-create next year's pages before the
+  rollover Action flips current_year, and a future edition is not an archive.
+{%- endcomment -%}
+{%- assign is_archived = false -%}
+{%- if page.year and page.year < site.current_year -%}
+  {%- assign is_archived = true -%}
+  {%- assign archive_edition = site.data.editions | where: "year", page.year | first -%}
+{%- endif -%}
