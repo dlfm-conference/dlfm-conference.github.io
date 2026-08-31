@@ -531,4 +531,13 @@ pins Jekyll 3.9).
   It is intentionally **advisory** (branch `main` is unprotected) so intentional edits
   to historical pages are never blocked.
 - **Verbatim ACM abstracts** are added with `tools/proceedings_from_doi.py … --enrich`, which needs an authenticated browser session and so cannot
-  run in CI. 
+  run in CI.
+- **The error page** (`404.html`) is what GitHub Pages serves for any address it
+  cannot resolve. Besides the usual routes it offers a suggestion read from the
+  address itself (`assets/js/notfound.js`): `/2019/keynote/`, or the old Oxford-style
+  `/2025-programme`, names an edition, so the page names it back. That part is
+  progressive enhancement over the static list, and it reads `_data/editions.yml`
+  rather than a second copy of it, so a rollover cannot leave it out of date. The
+  motif (`_includes/tacet-bar.html`) is a bar of music marked *tacet*, whose bass clef
+  was traced out of the logo by `tools/trace_clef.py` — re-run that if the logo
+  is ever redrawn. 

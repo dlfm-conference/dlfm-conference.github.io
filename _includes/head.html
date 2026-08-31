@@ -2,6 +2,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  {%- comment -%}Opt-in for pages that must not be indexed (e.g. /404.html).{%- endcomment -%}
+  {%- if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
   <link rel="icon" type="image/png" href="{{ '/assets/logo/favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/logo/favicon.png' | relative_url }}">
   <link rel="preload" as="font" type="font/woff2" crossorigin

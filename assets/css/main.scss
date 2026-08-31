@@ -264,8 +264,9 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   text-transform: uppercase; font-size: 0.78rem; color: var(--accent); margin: 0 0 0.5rem; }
 .eyebrow-brand { text-transform: none; }   /* keep "DLfM" cased, not "DLFM" */
 
-/* News callout */
-.news { max-width: var(--measure); background: var(--paper-card); border: 1px solid var(--rule);
+/* News callout — shared with the 404 page's suggestion card, so the two read
+   as one kind of object: an aside lifted off the page ground. */
+.news, .notfound-hint { max-width: var(--measure); background: var(--paper-card); border: 1px solid var(--rule);
   border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-bottom: 2rem; }
 .news h2 { margin-top: 0; font-size: 1.25rem; }
 
@@ -381,6 +382,54 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .m-name { display: block; font-weight: 500; }
 .m-aff { display: block; color: var(--ink-soft); font-size: 0.9rem; }
 @media (max-width: 620px) { .member-list { columns: 1; } }
+
+/* ─── 404 ───────────────────────────────────────────────────────────── */
+/* Note there is no rule for .notfound itself: it is also a .wrap, which centres
+   itself with margin-inline:auto, so giving it a max-width here would centre the
+   whole block rather than left-align it. Each block inside carries its own
+   measure instead, matching the left column every other page reads in.
+
+   The tacet bar (_includes/tacet-bar.html) renders at 1.2× its staff units, so
+   a staff space lands near 12px — close to the logo's own, which its clef is
+   traced from — with the marking centred over the bar as an engraver sets it. */
+.tacet { width: min(18rem, 100%); margin: 0 0 2rem; }
+.tacet-mark { display: block; text-align: center; font-family: var(--serif);
+  font-style: italic; font-size: 1.05rem; letter-spacing: 0.06em;
+  color: var(--ink-faint); margin-bottom: 0.5rem; }
+.tacet-staff { display: block; width: 100%; height: auto; }
+/* Staff in soft ink, as engraved; the rest takes the accent, which is what
+   makes the figure read as designed rather than as a stray rule. */
+.tacet-staff .staff { fill: color-mix(in srgb, var(--ink-soft) 85%, transparent); }
+.tacet-staff .rest { fill: var(--accent); }
+
+.notfound-lede { font-family: var(--serif); font-size: 1.15rem; line-height: 1.55;
+  color: var(--ink-soft); max-width: 40ch; }
+.notfound-asked { font-family: var(--sans); font-size: 0.92rem; color: var(--ink-faint); }
+.notfound-asked code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em; color: var(--ink-soft); background: var(--band);
+  border: 1px solid var(--rule); border-radius: 4px; padding: 0.1rem 0.4rem;
+  overflow-wrap: anywhere; }
+
+.notfound-hint { margin-top: 2rem; }
+.notfound-hint-label { font-family: var(--sans); font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; font-size: 0.72rem; color: var(--accent); margin: 0 0 0.5rem; }
+.notfound-hint-note { margin: 0.55rem 0 0; color: var(--ink-soft); font-size: 0.95rem; }
+.notfound-hint .edition-links { margin-top: 0.7rem; }
+
+.notfound-h { font-size: 1.35rem; max-width: var(--measure); margin: 2.5rem 0 0.25rem;
+  padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule); }
+
+/* Years as gold pills: the same colour the archive band and the edition pill
+   use, so "gold" means "a past edition" wherever it appears. */
+.year-chips { gap: 0.4rem 0.45rem; }
+.year-chips a { display: inline-block; font-family: var(--sans); font-size: 0.82rem;
+  font-weight: 600; text-decoration: none; color: var(--gold-deep);
+  background: color-mix(in srgb, var(--gold) 12%, var(--paper-card));
+  border: 1px solid color-mix(in srgb, var(--gold-deep) 45%, transparent);
+  border-radius: 999px; padding: 0.1rem 0.6rem; line-height: 1.6; }
+.year-chips a:hover, .year-chips a:focus-visible {
+  background: color-mix(in srgb, var(--gold) 26%, var(--paper-card));
+  border-color: var(--gold-deep); }
 
 /* ─── Footer ────────────────────────────────────────────────────────── */
 .site-footer { background: var(--footer-bg); color: var(--footer-ink); margin-top: 3rem; }

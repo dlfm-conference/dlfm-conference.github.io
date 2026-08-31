@@ -1,0 +1,98 @@
+---
+# ─── 404 ────────────────────────────────────────────────────────────────────
+# GitHub Pages serves /404.html for any address it cannot resolve, at whatever
+# depth the visitor asked for (/2019/keynote/). Nothing here may rely on a
+# relative path: every link goes through `relative_url`, which is root-absolute.
+#
+# The page carries no `year`, so the chrome resolves to the CURRENT edition —
+# a miss under /2019/ is still navigated as "you are at DLfM 2026", which is
+# the honest reading: the archived page asked for does not exist.
+layout: default
+permalink: /404.html
+title: Page not found
+sitemap: false        # jekyll-sitemap: keep the error page out of the sitemap
+noindex: true         # _includes/head.html: and out of the index
+scripts: [/assets/js/notfound.js]
+---
+{%- assign current = site.data.editions | where: "year", site.current_year | first -%}
+{%- assign past = site.data.editions | where_exp: "e", "e.year != site.current_year" -%}
+{%- comment -%}
+  Sorted, rather than simply taking the list's final entry: the registry is
+  newest-first by convention (and tools/rollover.py prepends, so a rollover keeps
+  it that way), but a hand-added entry appended at the end would otherwise make
+  this line claim the archive reaches "back to" the NEWEST year.
+{%- endcomment -%}
+{%- assign oldest = past | sort: "year" | first -%}
+
+<header class="page-header wrap">
+  <p class="eyebrow">Error 404</p>
+  <h1>Page not found</h1>
+</header>
+
+<div class="wrap section notfound">
+  {% include tacet-bar.html %}
+
+  <p class="notfound-lede">There is no page at this address. The link that
+    brought you here may be mistyped, or may point at a page that has moved.</p>
+
+  <p class="notfound-asked" id="notfound-asked" hidden>You asked for
+    <code id="notfound-asked-path"></code></p>
+
+  {%- comment -%}
+    Filled by assets/js/notfound.js when the address names an edition or one of
+    its pages — most misses here are one year away from being right. Enhancement
+    only: the list below is the route out for everyone.
+  {%- endcomment -%}
+  <div class="notfound-hint" id="notfound-hint" hidden></div>
+
+  <h2 class="notfound-h">Where to go instead</h2>
+  <ul class="edition-archive">
+    <li class="edition">
+      <div class="edition-head">
+        <a class="edition-year" href="{{ '/' | relative_url }}">DLfM {{ site.current_year }}</a>
+        <span class="edition-meta">{{ current.ordinal }} International {{ current.kind | default: "Conference" }}{% if current.city %} · {{ current.city }}{% endif %}{% if current.dates %} · {{ current.dates }}{% endif %}</span>
+      </div>
+      <ul class="edition-links">
+        {%- for pg in site.data.page_labels -%}
+        {%- if current.pages contains pg.key %}
+        <li><a href="{{ '/' | append: pg.key | append: '/' | relative_url }}">{{ pg.label }}</a></li>
+        {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </li>
+
+    {%- if past.size > 0 %}
+    <li class="edition">
+      <div class="edition-head">
+        <a class="edition-year" href="{{ '/previous/' | relative_url }}">Previous events</a>
+        <span class="edition-meta">All {{ past.size }} earlier editions, back to {{ oldest.year }}</span>
+      </div>
+      {%- comment -%}Gold pills, the same colour the site uses everywhere else to
+      mean "you are in the archive".{%- endcomment -%}
+      <ul class="edition-links year-chips">
+        {%- for e in past %}
+        <li><a href="{{ '/' | append: e.year | append: '/' | relative_url }}"{% if e.city %} title="DLfM {{ e.year }} · {{ e.city }}"{% endif %}>{{ e.year }}</a></li>
+        {%- endfor %}
+      </ul>
+    </li>
+    {%- endif %}
+
+    <li class="edition">
+      <div class="edition-head">
+        <a class="edition-year" href="{{ '/about/' | relative_url }}">About DLfM</a>
+        <span class="edition-meta">The conference series, its committees and its history</span>
+      </div>
+    </li>
+  </ul>
+
+  {%- comment -%}
+    The wayfinding script reads the edition registry rather than a second copy
+    of it, so a rollover cannot leave the 404 page describing last year's site.
+  {%- endcomment -%}
+  <script type="application/json" id="notfound-data">{
+    "base": {{ site.baseurl | jsonify }},
+    "current": {{ site.current_year }},
+    "labels": {{ site.data.page_labels | jsonify }},
+    "editions": {{ site.data.editions | jsonify }}
+  }</script>
+</div>
