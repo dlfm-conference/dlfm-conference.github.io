@@ -452,8 +452,28 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .footer-partners a { display: inline-flex; opacity: 0.85; transition: opacity 0.18s; }
 .footer-partners a:hover { opacity: 1; }
 .footer-partners img { width: auto; }
-.partner-rism img { height: 28px; }
-.partner-le img { height: 34px; }
+/* Sized so the "DIGITAL CENTER" line in the RISM mark reads at the same size as
+   the copyright note beside it: that line is 29px of the 142px-tall artwork
+   (0.204), the note is 0.85rem with a cap height of 0.728em, so the mark needs
+   0.85 × 0.728 / 0.204 ≈ 3rem. Kept in rem, not px, so the two stay matched if
+   the root size ever changes. Let's Encode! is scaled by the same factor. */
+.partner-rism img { height: 3rem; }
+/* 2.5rem, not 3.65rem: lets-encode-cream.png used to carry a lot of transparent
+   padding (its artwork filled 275 of 400px, offset towards the top), so its box
+   height overstated its size and centre-aligning the box left the logo sitting
+   ~7px high next to RISM. The file is now trimmed to its artwork, so box height
+   IS visible height. 2.5rem keeps the size relationship the two logos had
+   before (Let's Encode reads a shade smaller, being the busier mark).
+
+   Then aligned by BASELINE rather than by box, because matching the boxes reads
+   as misaligned: RISM's oval hangs below its lettering, so centring its box
+   lifts the text, while Let's Encode's raised hands sit above its lettering, so
+   centring pushes the text down — the two errors compound. Measured from the
+   artwork: RISM's letters sit on y 99.5 of 142 (70% down its box), Let's
+   Encode's on y 270.5 of 275 (98% down its own), which at 3rem and 2.5rem puts
+   the baselines 9.7px apart. Hence the 0.6rem lift. A transform, not a margin,
+   so the nudge is purely optical and the row's height is unaffected. */
+.partner-le img { height: 2.5rem; transform: translateY(-0.6rem); }
 
 /* ─── Responsive ────────────────────────────────────────────────────── */
 @media (max-width: 820px) {
