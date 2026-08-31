@@ -393,9 +393,14 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
    a staff space lands near 12px — close to the logo's own, which its clef is
    traced from — with the marking centred over the bar as an engraver sets it. */
 .tacet { width: min(18rem, 100%); margin: 0 0 2rem; }
-.tacet-mark { display: block; text-align: center; font-family: var(--serif);
-  font-style: italic; font-size: 1.05rem; letter-spacing: 0.06em;
-  color: var(--ink-faint); margin-bottom: 0.5rem; }
+/* Centred on the MEASURE, not on the whole figure: the clef occupies the left of
+   the staff, so the bar of rest runs x 52–216 of the 240-unit viewBox and centres
+   at 55.8%. With text-align:center, a left pad of P centres the text at
+   (100+P)/2, so P = 11.7% puts the marking over the bar — where an engraver
+   writes it — instead of 17px to its left. */
+.tacet-mark { display: block; text-align: center; padding-left: 11.7%;
+  font-family: var(--serif); font-style: italic; font-size: 1.05rem;
+  letter-spacing: 0.06em; color: var(--ink-faint); margin-bottom: 0.5rem; }
 .tacet-staff { display: block; width: 100%; height: auto; }
 /* Staff in soft ink, as engraved; the rest takes the accent, which is what
    makes the figure read as designed rather than as a stray rule. */

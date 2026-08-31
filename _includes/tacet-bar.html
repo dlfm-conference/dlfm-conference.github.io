@@ -9,8 +9,9 @@
   Geometry, in staff units — 10 to a staff space, lines at y = 3, 13, 23, 33, 43:
     · no opening barline, because a system does not start with one; it starts
       with the clef, which is what makes the figure read as music at a glance;
-    · the whole rest hangs BELOW the fourth line from the bottom (y = 13),
-      filling the space under it, and is centred in the bar after the clef;
+    · the whole rest hangs FROM the fourth line from the bottom and is half a
+      space deep, reaching the middle of the space below it, centred on the
+      measure after the clef;
     · the final barline is the engraver's thin-then-thick pair.
 
   Everything is a filled rect or path, never a stroke: a stroked line straddles
@@ -81,6 +82,18 @@
         34.7 18.2 34.9 18.2 C 35 18.2 35 18.2 35 17.4 C 35 16.7 35 16.6 34.9 16.7 C 34.8 16.7 34.6
         16.6 34.5 16.4 C 34.4 16.1 33.8 15.7 33.4 15.7 C 33.1 15.6 33 15.6 32.6 15.7 Z"/>
     </g>
-    <rect class="rest" x="127" y="14" width="16" height="9"/>
+    {%- comment -%}
+      Whole rest, to the proportions an engraver uses: it HANGS FROM the fourth
+      line from the bottom and is half a staff space deep, reaching only to the
+      middle of the space below — it does not fill it (that would read as a half
+      rest stacked on a whole one). With the line's notional centre at y = 13.5
+      and the next at 23.5, half a space is 5 units, so the rest spans 13.5–18.5:
+      its top merges into the line it hangs from, its bottom lands on the space's
+      midpoint. 11 units wide, i.e. 1.1 spaces, near Bravura's 1.13.
+
+      Centred on the MEASURE (x 35 to the barline at 233 — centre 134), not on
+      the system, which is also where .tacet-mark centres the marking.
+    {%- endcomment -%}
+    <rect class="rest" x="128.5" y="13.5" width="11" height="5"/>
   </svg>
 </div>
