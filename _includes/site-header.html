@@ -58,7 +58,7 @@
         {%- if past.size > 0 %}
         <li class="has-dropdown">
           <a href="{{ '/previous/' | relative_url }}">Previous events</a>
-          <button class="dropdown-caret" aria-expanded="false" aria-controls="prev-events" aria-label="Show previous events"><span class="caret" aria-hidden="true">▾</span></button>
+          <button class="dropdown-caret" aria-expanded="false" aria-controls="prev-events" aria-label="Show previous events"><span class="caret" aria-hidden="true">▼</span></button>
           <ul id="prev-events" class="dropdown">
             {%- for e in past limit: 5 %}
             <li class="dropdown-year">

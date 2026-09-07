@@ -100,10 +100,19 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 }
 .nav-list a:hover, .nav-list a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
 .dropdown-caret { background: none; border: 0; cursor: pointer; color: var(--ink-faint);
+  font-family: inherit; font-size: 0.95rem; /* buttons don't inherit type: match the nav links */
   padding: 0.4rem 0.35rem; line-height: 1; display: inline-flex; align-items: center; }
 .dropdown-caret:hover { color: var(--ink); }
-.caret { font-size: 0.72em; display: inline-block; transition: transform 0.16s; }
-.has-dropdown:hover .caret, .dropdown-caret[aria-expanded="true"] .caret { transform: rotate(180deg); }
+.has-dropdown:hover .dropdown-caret, .dropdown-caret[aria-expanded="true"] { color: var(--ink-soft); }
+/* The arrow points at the list rather than flipping: aside while it is closed,
+   down at the fold-out once it is open. Flipping it up would point at nothing,
+   and a x would promise a click that hovering away already does. */
+.caret { font-size: 0.8em; display: inline-block; transform: rotate(-90deg); transition: transform 0.16s; }
+.has-dropdown:hover .caret, .dropdown-caret[aria-expanded="true"] .caret { transform: rotate(0deg); }
+/* While the fold-out is showing, the label holds the accent underline it takes
+   on hover - hovering the panel counts, so it does not blink out mid-reach. */
+.has-dropdown:hover > a, .has-dropdown:focus-within > a,
+.has-dropdown:has(.dropdown.open) > a { color: var(--ink); border-bottom-color: var(--accent); }
 
 .has-dropdown { position: relative; display: inline-flex; align-items: center; }
 .dropdown {
@@ -532,8 +541,10 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   /* "Previous events" label links to /previous/; the caret toggles the submenu.
      Collapsed by default; expands inline when the caret is tapped. */
   .has-dropdown { display: flex; flex-wrap: wrap; align-items: center; }
-  .dropdown-caret { margin-left: 0.5rem; padding: 0.3rem 0.7rem; font-size: 1.1rem; color: var(--accent);
-    border: 1px solid var(--rule); border-radius: var(--radius); }
+  /* the pill keeps its accent in both states: the arrow's direction carries the
+     state here, so the desktop rule that darkens it open must not reach in */
+  .nav-list .dropdown-caret { margin-left: 0.5rem; padding: 0.3rem 0.7rem; font-size: 1.1rem;
+    color: var(--accent); border: 1px solid var(--rule); border-radius: var(--radius); }
   .dropdown { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none;
     border: 0; border-left: 2px solid var(--rule); border-radius: 0; margin: 0.5rem 0 0.5rem;
     min-width: 0; flex-basis: 100%; display: none; }
