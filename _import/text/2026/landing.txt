@@ -2,31 +2,33 @@
 
 News
 
--   Programme is now available
+- Proceedings Published in ACM Digital Library
 
--   Attendance registration for DLfM is now available via IAML 
+- ~~Programme is now available~~
 
--   Poster notification: ~~April 21~~
+- ~~Attendance registration for DLfM is now available via IAML ~~
 
--   Poster submission deadline: ~~April 15, AOE~~
+- ~~Poster notification: April 21~~
 
--   Presentation registration is open
-    -   ~~One author per paper must register by 15 April~~
-    -   ~~One author per poster must register by 01 May~~
+- ~~Poster submission deadline: April 15, AOE~~
 
--   Camera-Ready Submission enabled in CMT: ~~April 15 deadline~~
+- ~~Presentation registration is open~~
+  - ~~One author per paper must register by 15 April~~
+  - ~~One author per poster must register by 01 May~~
 
--   ~~(Small) Extension!~~
-    -   ~~Abstracts, Subject Areas, and Keywords submission by 11:59pm, 23 January, AoE~~
-    -   ~~Final paper upload submission deadline of 11:59pm 27 January, AoE~~
+- Camera-Ready Submission enabled in CMT: ~~April 15 deadline~~
 
--   ~~DLfM 2026 submissions now open! (Deadline 23 January, AoE)~~
+- ~~(Small) Extension!~~
+  - ~~Abstracts, Subject Areas, and Keywords submission by 11:59pm, 23 January, AoE~~
+  - ~~Final paper upload submission deadline of 11:59pm 27 January, AoE~~
 
--   DLfM 2026 Proceedings will be published as Open Access publications in the ACM Digital Library through ICPS
+- ~~DLfM 2026 submissions now open! (Deadline 23 January, AoE)~~
 
--   Follow DLfM on Bluesky
+- DLfM 2026 Proceedings will be published as Open Access publications in the ACM Digital Library through ICPS
 
--   The call for papers has been published (~~deadline for submissions is 23 January 2026~~)
+- Follow DLfM on Bluesky
+
+- The call for papers has been published (~~deadline for submissions is 23 January 2026~~)
 
  
 
@@ -36,7 +38,8 @@ Thessaloniki Concert Hall, Thessaloniki, Greece
 A satellite event of IAML 2026
 Conference Website https://dlfm.web.ox.ac.uk/  
 
-The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations, computational musicology, or the application of music  information retrieval (MIR) to musicology (see TOPICS, below).
+The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations,
+computational musicology, or the application of music  information retrieval (MIR) to musicology (see TOPICS, below).
 
 REGISTRATION
 

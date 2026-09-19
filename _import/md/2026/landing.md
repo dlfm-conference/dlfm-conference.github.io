@@ -56,15 +56,17 @@
 
 <div class="field-item private-show even">
 
-- #### **<span class="highlight1">[Programme](https://dlfm.web.ox.ac.uk/2026-programme) </span>is now available**
+- ### [Proceedings Published in ACM Digital Library](https://dl.acm.org/doi/proceedings/10.1145/3815723)
 
-- [Attendance registration for DLfM is now available via IAML](https://www.conftool.com/iaml2026/index.php?page=login) 
+- ~~<span class="highlight1">[Programme](https://dlfm.web.ox.ac.uk/2026-programme) </span>is now available~~
 
-- Poster notification: ~~**April 21**~~
+- ~~[Attendance registration for DLfM is now available via IAML](https://www.conftool.com/iaml2026/index.php?page=login) ~~
 
-- [Poster submission](https://cmt3.research.microsoft.com/DLfM2026/Track/2/Submission/Create) deadline: ~~**April 15, AOE**~~
+- ~~Poster notification: **April 21**~~
 
-- [Presentation registration](https://events.adwmainz.de/DLfM-2026/) is open
+- ~~[Poster submission](https://cmt3.research.microsoft.com/DLfM2026/Track/2/Submission/Create) deadline: **April 15, AOE**~~
+
+- ~~[Presentation registration](https://events.adwmainz.de/DLfM-2026/) is open~~
   - ~~One author per paper must register by 15 April~~
   - ~~One author per poster must register by 01 May~~
 
@@ -144,10 +146,10 @@
 
 <div class="field-item private-show even">
 
-<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">13th International Conference on Digital Libraries for Musicology (DLfM 2026)</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>  
-<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Thursday 02 July 2026</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>  
-<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Thessaloniki Concert Hall, Thessaloniki, Greece</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>  
-<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">A satellite event of IAML 2026</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>  
+<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">13th International Conference on Digital Libraries for Musicology (DLfM 2026)</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>\
+<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Thursday 02 July 2026</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>\
+<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Thessaloniki Concert Hall, Thessaloniki, Greece</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>\
+<span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">A satellite event of IAML 2026</span> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"></span>\
 <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Conference Website </span> <a href="https://dlfm.web.ox.ac.uk/" style="text-decoration:none;"><span style="font-size:11pt;font-family:&#39;Libre Caslon Text&#39;,serif;color:#1155cc;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">https://dlfm.web.ox.ac.uk/</span></a> <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> </span>
 
 <span style="font-size:11pt;font-family:'Libre Caslon Text',serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Digital Libraries for Musicology (DLfM) conference presents a venue specifically for those working on, and with, Digital Library systems and content in the domain of music and musicology. DLfM welcomes contributions related to any aspect of digital libraries and musicology, including topics related to musical archiving and retrieval, cataloguing and classification, musical databases, special collections, music encodings and representations, computational musicology, or the application of music  information retrieval (MIR) to musicology (see TOPICS, below).</span>
@@ -190,56 +192,56 @@ DLfM 2026 will take place on July 02, 2026, at the Thessaloniki Concert Hall in 
 
 <div class="table-wrapper">
 
-|                              |                                                        |
-|------------------------------|--------------------------------------------------------|
-| Claire Arthur                | Georgia Institute of Technology                        |
-| Margrethe Bue                | National Library of Norway                             |
-| Tim Crawford                 | Goldsmiths University of London                        |
-| Elsa De Luca                 | Universidade Nova de Lisboa                            |
-| Timothy Duguid               | University of Glasgow                                  |
-| Raphaël Fournier S'niehotta  | Sorbonne Université                                    |
-| Ichiro Fujinaga              | McGill University                                      |
-| Francesca Giannetti          | Rutgers University                                     |
-| Mathieu Giraud               | Université de Lille                                    |
-| Werner Goebl                 | University of Music and Performing Arts Vienna         |
-| Clemens Gubsch               | Austrian Academy of Sciences                           |
-| Carlos Guedes                | NYU Abu Dhabi                                          |
-| Paul Gulewycz                | Austrian Center for Digital Humanities                 |
-| Jan Hajič, Jr.               | Charles University                                     |
-| Zeynep Helvaci               | University of Muenster                                 |
-| Olja Janjuš                  | Ludwig Maximilian University of Munich                 |
-| Yaolong Ju                   | McGill University                                      |
-| Anna Kijas                   | Tufts University                                       |
-| Audrey Laplante              | Université de Montréal                                 |
-| Kjell Lemström               | University of Helsinki                                 |
-| Florence Leve                | Université de Picardie Jules Verne                     |
-| Cynthia Liem                 | Delft University of Technology                         |
-| Ewa Łukasik                  | Poznan University of Technology                        |
-| Juan Carlos Martinez-Sevilla | University of Alicante                                 |
-| Anna Matuszewska             | Polish Academy of Sciences                             |
-| Davide Andrea Mauro          | Paderborn University                                   |
-| Cory McKay                   | Marianopolis College                                   |
-| Fabian Moss                  | Julius-Maximilians-Universität Würzburg                |
-| Terhi Nurmikko-Fuller        | Australian National University                         |
-| Kevin Page                   | University of Oxford                                   |
-| Anna Plaksin                 | Paderborn University                                   |
-| Laurent Pugin                | RISM Digital Center                                    |
-| Klaus Rettinghaus            | SLUB Dresden                                           |
-| Kristina Richts-Matthaei     | Akademie der Wissenschaften und der Literatur \| Mainz |
-| Dennis Ried                  | Martin Luther University Halle-Wittenberg              |
-| John Rink                    | University of Cambridge                                |
-| David Rizo                   | University of Alicante                                 |
-| Mark Saccomano               | Paderborn University                                   |
-| Joshua Stutter               | University of Sheffield                                |
-| Martha Thomae                | CESEM, Universidade Nova de Lisboa                     |
-| Chanda VanderHart            | University for Continuing Education Krems              |
-| David Weigl                  | University of Music and Performing Arts Vienna         |
+|  |  |
+|----|----|
+| Claire Arthur | Georgia Institute of Technology |
+| Margrethe Bue | National Library of Norway |
+| Tim Crawford | Goldsmiths University of London |
+| Elsa De Luca | Universidade Nova de Lisboa |
+| Timothy Duguid | University of Glasgow |
+| Raphaël Fournier S'niehotta | Sorbonne Université |
+| Ichiro Fujinaga | McGill University |
+| Francesca Giannetti | Rutgers University |
+| Mathieu Giraud | Université de Lille |
+| Werner Goebl | University of Music and Performing Arts Vienna |
+| Clemens Gubsch | Austrian Academy of Sciences |
+| Carlos Guedes | NYU Abu Dhabi |
+| Paul Gulewycz | Austrian Center for Digital Humanities |
+| Jan Hajič, Jr. | Charles University |
+| Zeynep Helvaci | University of Muenster |
+| Olja Janjuš | Ludwig Maximilian University of Munich |
+| Yaolong Ju | McGill University |
+| Anna Kijas | Tufts University |
+| Audrey Laplante | Université de Montréal |
+| Kjell Lemström | University of Helsinki |
+| Florence Leve | Université de Picardie Jules Verne |
+| Cynthia Liem | Delft University of Technology |
+| Ewa Łukasik | Poznan University of Technology |
+| Juan Carlos Martinez-Sevilla | University of Alicante |
+| Anna Matuszewska | Polish Academy of Sciences |
+| Davide Andrea Mauro | Paderborn University |
+| Cory McKay | Marianopolis College |
+| Fabian Moss | Julius-Maximilians-Universität Würzburg |
+| Terhi Nurmikko-Fuller | Australian National University |
+| Kevin Page | University of Oxford |
+| Anna Plaksin | Paderborn University |
+| Laurent Pugin | RISM Digital Center |
+| Klaus Rettinghaus | SLUB Dresden |
+| Kristina Richts-Matthaei | Akademie der Wissenschaften und der Literatur \| Mainz |
+| Dennis Ried | Martin Luther University Halle-Wittenberg |
+| John Rink | University of Cambridge |
+| David Rizo | University of Alicante |
+| Mark Saccomano | Paderborn University |
+| Joshua Stutter | University of Sheffield |
+| Martha Thomae | CESEM, Universidade Nova de Lisboa |
+| Chanda VanderHart | University for Continuing Education Krems |
+| David Weigl | University of Music and Performing Arts Vienna |
 
 </div>
 
-  
+\
 
-  
+\
 
 </div>
 
@@ -299,35 +301,35 @@ DLfM 2026 will take place on July 02, 2026, at the Thessaloniki Concert Hall in 
 
 <div class="file file-image file-image-jpeg embed-image medium">
 
-[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/da_logo_0.jpg?itok=Mag70upv" title="Da logo" class="img-responsive" alt="da logo" />  
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/da_logo_0.jpg?itok=Mag70upv" title="Da logo" class="img-responsive" alt="da logo" />\
 ](https://www.adwmainz.de/forschung/digitale-akademie.html)
 
 </div>
 
 <div class="file file-image file-image-png embed-image medium">
 
-[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/cdmd_logo_grand_black.png?itok=yLUToAHl" title="Cdmd logo grand black" class="img-responsive" alt="cdmd logo grand black" />  
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/cdmd_logo_grand_black.png?itok=yLUToAHl" title="Cdmd logo grand black" class="img-responsive" alt="cdmd logo grand black" />\
 ](https://www.adwmainz.de/forschung/centre-for-digital-music-documentation.html)
 
 </div>
 
 <div class="file file-image file-image-png embed-image medium">
 
-[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/logo-schwarzschrift_freigestellt.png?itok=aqijyVzu" title="Logo schwarzschrift freigestellt" class="img-responsive" alt="logo schwarzschrift freigestellt" />  
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/logo-schwarzschrift_freigestellt.png?itok=aqijyVzu" title="Logo schwarzschrift freigestellt" class="img-responsive" alt="logo schwarzschrift freigestellt" />\
 ](https://www.adwmainz.de/startseite.html)
 
 </div>
 
 <div class="file file-image file-image-jpeg embed-image small">
 
-[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/icps-logo-plain.jpg?itok=_CZyIHKX" title="ICPS" class="img-responsive" alt="ICPS" />  
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_small/public/dlfm/images/media/icps-logo-plain.jpg?itok=_CZyIHKX" title="ICPS" class="img-responsive" alt="ICPS" />\
 ](https://dl.acm.org/conference/dlfm)
 
 </div>
 
 <div class="file file-image file-image-webp embed-image medium">
 
-[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/iaml_logo_20206.png.webp?itok=n1On0PcA" title="Iaml logo 20206 png" class="img-responsive" alt="iaml logo 20206 png" />  
+[<img src="https://dlfm.web.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/dlfm/images/media/iaml_logo_20206.png.webp?itok=n1On0PcA" title="Iaml logo 20206 png" class="img-responsive" alt="iaml logo 20206 png" />\
 ](https://www.iaml.info/)
 
 </div>

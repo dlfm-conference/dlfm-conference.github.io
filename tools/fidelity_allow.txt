@@ -49,6 +49,12 @@ a satellite event of
 # no counterpart in the built page. Latent until 2026 stops being current_year —
 # the gate exempts the current year, so this only surfaces after a rollover.
 2026/programme: greece time presentation papers rance 9 pm 00 09 14 15 16 17 italics
+# The Mosaic programme page gained a "Proceedings available here: <ACM DOI>"
+# line once the 2026 proceedings were published (capture re-frozen 19 Sep 2026).
+# The redesign carries the proceedings at /2026/proceedings/ — the full paper
+# list with per-paper DOIs — rather than a bare link on the schedule, so these
+# tokens (and the DOI itself) have no counterpart in the built programme page.
+2026/programme: proceedings available here https dl acm org doi 10 1145 3815723
 # 2026 landing: our "Committee" section heading; old-CMS "Conference Website" label +
 # single-page "see TOPICS, below" nav dropped (topics now live on the CfP page).
 2026/landing: committee website see below
