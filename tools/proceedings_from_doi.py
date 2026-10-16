@@ -45,7 +45,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MAILTO = "weigl@mdw.ac.at"
-UA = "dlfm-website-proceedings/1.0 (+https://dlfm.rism.digital)"
+UA = "dlfm-website-proceedings/1.0 (+https://dlfm.info)"
 CROSSREF = "https://api.crossref.org"
 DOI_RE = re.compile(r"^10\.\d{4,9}/\S+$")
 DOI_IN_URL = re.compile(r"10\.\d{4,9}/[^\s\"'<>]+")

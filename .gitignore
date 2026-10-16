@@ -4,9 +4,14 @@ _site/
 .jekyll-metadata
 .sass-cache/
 
-# Local bundler install
+# Local bundler install. Gemfile.lock is deliberately untracked: GitHub Pages
+# builds with its own pinned `github-pages` gem and never reads ours, so the
+# lock only ever describes one contributor's local resolution — and it pins a
+# bundler version, which is what makes a machine with an older bundler fail
+# outright rather than just resolve afresh.
 vendor/
 .bundle/
+Gemfile.lock
 
 # OS cruft
 .DS_Store

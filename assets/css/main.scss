@@ -392,6 +392,35 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .m-aff { display: block; color: var(--ink-soft); font-size: 0.9rem; }
 @media (max-width: 620px) { .member-list { columns: 1; } }
 
+/* ─── Past organising committees (/about) ───────────────────────────── */
+/* An edition's own page gets the full .committee section; this is the
+   retrospective roll-call, so it carries names only and borrows the role
+   label's type from .chair-role. It lives inside .prose, which is capped at
+   --measure, so the roles run as rows rather than the wide auto-fit grid. */
+.past-committees { margin: 0 0 2.5rem; }
+.pc-edition + .pc-edition { border-top: 1px solid var(--rule); padding-top: 1rem; }
+.pc-edition { margin-bottom: 1rem; }
+.pc-head { font-size: 1.05rem; margin: 0 0 0.5rem;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 0.6rem; }
+.pc-head a { text-decoration: none; }
+.pc-place { font-family: var(--sans); font-weight: 400; font-size: 0.82rem;
+  color: var(--ink-faint); }
+.pc-roles { list-style: none; padding: 0; margin: 0; }
+/* Fixed label column so the names align down the whole roll-call, not just
+   within one edition; "Publicity and Proceedings Chair" wraps inside it. */
+.pc-roles li { display: grid; grid-template-columns: 11rem 1fr; gap: 0 1rem;
+  align-items: baseline; margin: 0 0 0.3rem; }
+.pc-role { font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--accent); font-weight: 600; line-height: 1.5; }
+.pc-names { font-weight: 500; }
+/* Narrow: the label column no longer fits beside the names, so the two stack —
+   which needs .pc-role to become a block as well, or the label runs straight
+   into the name on one line. */
+@media (max-width: 520px) {
+  .pc-roles li { display: block; margin-bottom: 0.55rem; }
+  .pc-role { display: block; }
+}
+
 /* ─── 404 ───────────────────────────────────────────────────────────── */
 /* Note there is no rule for .notfound itself: it is also a .wrap, which centres
    itself with margin-inline:auto, so giving it a max-width here would centre the

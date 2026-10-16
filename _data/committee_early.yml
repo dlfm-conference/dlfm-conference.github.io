@@ -1,0 +1,47 @@
+# Organising chairs for the 2014–2017 editions, which predate `_data/committee/`.
+#
+# These four years are archived prose pages: their chairs and programme
+# committees are written out in `20NN/index.md`, captured from the old Oxford
+# site. They deliberately do NOT get a file in `_data/committee/`, because
+# `_layouts/landing.html` includes `committee.html` for every edition — adding
+# one would render a second, duplicate Committee section on those pages.
+#
+# Used only by the "Past Organising Committees" section of /about/, which lists
+# names and links out to the edition page for affiliations and the full
+# programme committee. Role labels follow the headings used at the time
+# ("Chairs" before the General/Programme split in 2017), normalised to the
+# "… Chair" form and to Western name order.
+
+"2017":
+  chairs:
+    - role: Programme Chair
+      name: Kevin Page
+    - role: Local Chair
+      name: Yandi Yang
+    - role: Publicity and Proceedings Chair
+      name: David Lewis
+
+"2016":
+  chairs:
+    - role: Chairs
+      name: Kevin Page
+    - role: Chairs
+      name: Ben Fields
+    - role: Publicity and Proceedings Chair
+      name: Richard Lewis
+
+"2015":
+  chairs:
+    - role: Chairs
+      name: Kevin Page
+    - role: Chairs
+      name: Ben Fields
+    - role: Publicity and Proceedings Chair
+      name: Richard Lewis
+
+"2014":
+  chairs:
+    - role: Chairs
+      name: Kevin Page
+    - role: Chairs
+      name: Ben Fields

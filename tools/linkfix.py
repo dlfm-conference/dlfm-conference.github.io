@@ -8,7 +8,7 @@ Used by make_landing.py and make_prose_page.py so every page is consistent.
 import re
 
 WAYBACK = re.compile(r"https?://web\.archive\.org/web/\d+/")
-SITE = "https://dlfm.rism.digital"
+SITE = "https://dlfm.info"
 
 
 def _subpage(slug):

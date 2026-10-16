@@ -14,7 +14,7 @@ The Digital Libraries for Musicology (DLfM) conference presents a venue for thos
 
 ## Programme
 
-The DLfM preliminary schedule can now be found here: [https://dlfm.rism.digital/2021/programme/](/2021/programme/)
+The DLfM preliminary schedule can now be found here: [https://dlfm.info/2021/programme/](/2021/programme/)
 
 ## Registration
 
@@ -22,7 +22,7 @@ This year, there is **no fee for registration**, however registration remains ma
 
 ## Gather.Town
 
-We will be using the online platform Gather.Town for our joint DLfM-IAML poster session. Please visit here for instructions: [https://dlfm.rism.digital/2020/gathertown-user-instructions/](/2020/gathertown-user-instructions/)
+We will be using the online platform Gather.Town for our joint DLfM-IAML poster session. Please visit here for instructions: [https://dlfm.info/2020/gathertown-user-instructions/](/2020/gathertown-user-instructions/)
 
 ## Call for Papers and Posters
 

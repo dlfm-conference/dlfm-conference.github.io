@@ -147,12 +147,14 @@ def check_page(year, slug, site, allow, strict_links):
     # Scrub both sides identically before diffing:
     #  - old-CMS / Wayback URLs (intentionally repointed, and sometimes kept as
     #    historical text) — their host tokens (ox, ac, uk, archive…) aren't content
-    #  - our own canonical host (dlfm.rism.digital): self-links are site chrome, not
-    #    content, same as the old Oxford host — its tokens (rism, digital) aren't content
+    #  - our own canonical host (dlfm.info; dlfm.rism.digital before the move):
+    #    self-links are site chrome, not content, same as the old Oxford host —
+    #    their host tokens (info, rism, digital) aren't content
     #  - bracketed spans: pandoc renders images as "[alt]" (logos relocated to the
     #    hero) and citation refs like "[39]" are bracketed in both
     def scrub(t):
-        t = re.sub(r"https?://(?:dlfm\.web\.ox\.ac\.uk|dlfm\.rism\.digital|web\.archive\.org)\S*", " ", t)
+        t = re.sub(r"https?://(?:dlfm\.web\.ox\.ac\.uk|dlfm\.info|dlfm\.rism\.digital"
+                   r"|web\.archive\.org)\S*", " ", t)
         return re.sub(r"\[[^\]]*\]", " ", t)
 
     built = set(tokens(scrub(parser.text())))

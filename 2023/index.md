@@ -14,7 +14,7 @@ The Digital Libraries for Musicology (DLfM) conference is the premiere venue for
 
 ## Programme
 
-The DLfM 2023 schedule can now be found here: [https://dlfm.rism.digital/2023/programme/](/2023/programme/)
+The DLfM 2023 schedule can now be found here: [https://dlfm.info/2023/programme/](/2023/programme/)
 
 ## Location, Collaboration
 
