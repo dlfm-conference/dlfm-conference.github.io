@@ -18,6 +18,14 @@ title: "DLfM 2017 — 4th International Workshop on Digital Libraries for Musico
 
 A satellite event of [ISMIR 2017](https://ismir2017.smcnus.org)
 
+## Thank you for joining us in Shanghai!
+{:.no_toc data-fidelity="added"}
+
+<figure class="group-photo" data-fidelity="added">
+  <a href="/assets/2017/files/2017-group-photo.jpg"><img src="/assets/2017/files/2017-group-photo-web.jpg" width="1600" height="1066" alt="Group photo of the DLfM 2017 participants on the steps of the Shanghai Conservatory of Music"></a>
+  <figcaption>DLfM 2017 participants at the Shanghai Conservatory of Music, 28 October 2017. <a href="/assets/2017/files/2017-group-photo.jpg">Full-resolution photo</a> (3.7&nbsp;MB).</figcaption>
+</figure>
+
 ## News
 
 - **2 August 2017**: We are pleased to open a *Call for Posters* for DLfM 2017, on topics listed in the main CfP below. To submit a poster proposal, please send your title, author list, and a 200 word abstract to [dlfm2017@easychair.org](mailto:dlfm@easychair.org). The deadline for poster proposal submissions is **1st September 2017**. Notification of acceptance will be in two rounds, on 10th August and then on 8th September. The registration deadline for accepted posters will be 15th September 2017. Constraints regarding poster size will be confirmed on acceptance. Posters will be listed in the workshop programme, but not included in the workshop proceedings.

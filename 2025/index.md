@@ -10,6 +10,14 @@ title: "DLfM 2025 — 12th International Conference on Digital Libraries for Mus
 
 [Programme](/2025/programme/) \| [Proceedings](/2025/proceedings/) \| [Venue](/2025/venue/) \| [Accommodation and Transportation](/2025/local/) \| [Registration](/2025/registration/)
 
+## Thank you for joining us in Seoul!
+{:.no_toc data-fidelity="added"}
+
+<figure class="group-photo" data-fidelity="added">
+  <a href="/assets/2025/files/2025-group-photo.jpg"><img src="/assets/2025/files/2025-group-photo-web.jpg" width="1600" height="1066" alt="Group photo of the DLfM 2025 participants on outdoor steps at Sogang University"></a>
+  <figcaption>DLfM 2025 participants at Sogang University, Seoul, 26 September 2025. <a href="/assets/2025/files/2025-group-photo.jpg">Full-resolution photo</a> (8.7&nbsp;MB).</figcaption>
+</figure>
+
 **Note for ISMIR attendees:** It is still possible to register for DLfM during the ISMIR conference!
 
 The Digital Libraries for Musicology (DLfM) conference is the premiere venue for scholars engaging with digital libraries in the domain of music and musicology. It provides a forum for musicians, musicologists, librarians, and technologists to share findings and expertise.

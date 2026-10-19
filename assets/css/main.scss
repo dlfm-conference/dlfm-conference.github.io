@@ -241,6 +241,12 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .prose #markdown-toc a:hover { text-decoration: underline; }
 .prose #markdown-toc li:not(:last-child)::after { content: "·"; margin: 0 0.7rem; color: var(--ink-faint); }
 
+/* Post-conference group photo near the top of a past edition's landing page:
+   the full reading column, linked to the full-resolution original. */
+.group-photo { margin: 1.25rem 0 2.5rem; }
+.group-photo img { display: block; width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
+.group-photo figcaption { margin-top: 0.7rem; font-family: var(--sans); font-size: 0.85rem; color: var(--ink-soft); }
+
 .prose blockquote {
   margin: 1.5rem 0; padding: 0.4rem 1.2rem; border-left: 3px solid var(--gold);
   color: var(--ink-soft); font-style: italic;

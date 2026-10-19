@@ -10,7 +10,9 @@ the rendered site.
 For each `_import/text/<year>/<slug>.txt`:
   1. Locate the built page in `_site` (landing -> /<year>/, else /<year>/<slug>/).
   2. Extract the visible text of its <main>, excluding the jump bar and
-     back-to-top arrows (navigational duplication, not content).
+     back-to-top arrows (navigational duplication, not content), and any
+     element marked data-fidelity="added" (content deliberately added after
+     migration, such as a post-conference group photo).
   3. Compare word multisets (Unicode-aware, lowercased):
        - DROPPED  (ground truth − built): content lost or altered  -> FAIL
        - ADDED    (built − ground truth − allowlist): invented text -> FAIL
@@ -64,7 +66,11 @@ class MainText(HTMLParser):
         return (tag in ("script", "style")
                 or a.get("id") == "markdown-toc"
                 or "prog-jump" in cls
-                or "to-top" in cls)
+                or "to-top" in cls
+                # Deliberate post-migration additions (e.g. a group photo after
+                # the conference), marked in the Markdown with an IAL
+                # {: data-fidelity="added"} — new content, not legacy text.
+                or a.get("data-fidelity") == "added")
 
     def handle_starttag(self, tag, attrs):
         if tag == "main":
